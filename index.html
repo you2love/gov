@@ -1,0 +1,1242 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>中国政府机关单位介绍</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- 左侧树形导航侧边栏 -->
+    <aside class="sidebar">
+        <div class="sidebar-header">
+            <h2>政府机关</h2>
+            <p>按地域层级浏览</p>
+        </div>
+        <nav class="tree-nav">
+            <ul class="tree-root">
+                <!-- 省级 -->
+                <li class="tree-node">
+                    <div class="tree-node-header" data-level="province">
+                        <span class="tree-toggle">▶</span>
+                        <span class="tree-label">北京市</span>
+                    </div>
+                    <ul class="tree-children">
+                        <!-- 市级 -->
+                        <li class="tree-node">
+                            <div class="tree-node-header" data-level="city">
+                                <span class="tree-toggle">▶</span>
+                                <span class="tree-label">北京市</span>
+                            </div>
+                            <ul class="tree-children">
+                                <!-- 区县级 -->
+                                <li class="tree-node">
+                                    <div class="tree-node-header" data-level="district">
+                                        <span class="tree-toggle">▶</span>
+                                        <span class="tree-label">海淀区</span>
+                                    </div>
+                                    <ul class="tree-children">
+                                        <!-- 乡级 -->
+                                        <li class="tree-node">
+                                            <div class="tree-node-header" data-level="township">
+                                                <span class="tree-label">中关村街道</span>
+                                            </div>
+                                        </li>
+                                        <li class="tree-node">
+                                            <div class="tree-node-header" data-level="township">
+                                                <span class="tree-label">清华园街道</span>
+                                            </div>
+                                        </li>
+                                        <li class="tree-node">
+                                            <div class="tree-node-header" data-level="township">
+                                                <span class="tree-label">燕园街道</span>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="tree-node">
+                                    <div class="tree-node-header" data-level="district">
+                                        <span class="tree-toggle">▶</span>
+                                        <span class="tree-label">朝阳区</span>
+                                    </div>
+                                    <ul class="tree-children">
+                                        <li class="tree-node">
+                                            <div class="tree-node-header" data-level="township">
+                                                <span class="tree-label">建国门外街道</span>
+                                            </div>
+                                        </li>
+                                        <li class="tree-node">
+                                            <div class="tree-node-header" data-level="township">
+                                                <span class="tree-label">朝外街道</span>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="tree-node">
+                                    <div class="tree-node-header" data-level="district">
+                                        <span class="tree-toggle">▶</span>
+                                        <span class="tree-label">东城区</span>
+                                    </div>
+                                    <ul class="tree-children">
+                                        <li class="tree-node">
+                                            <div class="tree-node-header" data-level="township">
+                                                <span class="tree-label">东华门街道</span>
+                                            </div>
+                                        </li>
+                                        <li class="tree-node">
+                                            <div class="tree-node-header" data-level="township">
+                                                <span class="tree-label">景山街道</span>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+
+                <!-- 省级 -->
+                <li class="tree-node">
+                    <div class="tree-node-header" data-level="province">
+                        <span class="tree-toggle">▶</span>
+                        <span class="tree-label">上海市</span>
+                    </div>
+                    <ul class="tree-children">
+                        <!-- 市级 -->
+                        <li class="tree-node">
+                            <div class="tree-node-header" data-level="city">
+                                <span class="tree-toggle">▶</span>
+                                <span class="tree-label">上海市</span>
+                            </div>
+                            <ul class="tree-children">
+                                <!-- 区县级 -->
+                                <li class="tree-node">
+                                    <div class="tree-node-header" data-level="district">
+                                        <span class="tree-toggle">▶</span>
+                                        <span class="tree-label">浦东新区</span>
+                                    </div>
+                                    <ul class="tree-children">
+                                        <!-- 乡级 -->
+                                        <li class="tree-node">
+                                            <div class="tree-node-header" data-level="township">
+                                                <span class="tree-label">陆家嘴街道</span>
+                                            </div>
+                                        </li>
+                                        <li class="tree-node">
+                                            <div class="tree-node-header" data-level="township">
+                                                <span class="tree-label">潍坊新村街道</span>
+                                            </div>
+                                        </li>
+                                        <li class="tree-node">
+                                            <div class="tree-node-header" data-level="township">
+                                                <span class="tree-label">塘桥街道</span>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="tree-node">
+                                    <div class="tree-node-header" data-level="district">
+                                        <span class="tree-toggle">▶</span>
+                                        <span class="tree-label">黄浦区</span>
+                                    </div>
+                                    <ul class="tree-children">
+                                        <li class="tree-node">
+                                            <div class="tree-node-header" data-level="township">
+                                                <span class="tree-label">外滩街道</span>
+                                            </div>
+                                        </li>
+                                        <li class="tree-node">
+                                            <div class="tree-node-header" data-level="township">
+                                                <span class="tree-label">南京东路街道</span>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="tree-node">
+                                    <div class="tree-node-header" data-level="district">
+                                        <span class="tree-toggle">▶</span>
+                                        <span class="tree-label">静安区</span>
+                                    </div>
+                                    <ul class="tree-children">
+                                        <li class="tree-node">
+                                            <div class="tree-node-header" data-level="township">
+                                                <span class="tree-label">静安寺街道</span>
+                                            </div>
+                                        </li>
+                                        <li class="tree-node">
+                                            <div class="tree-node-header" data-level="township">
+                                                <span class="tree-label">江宁路街道</span>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+
+                <!-- 省级 -->
+                <li class="tree-node">
+                    <div class="tree-node-header" data-level="province">
+                        <span class="tree-toggle">▶</span>
+                        <span class="tree-label">广东省</span>
+                    </div>
+                    <ul class="tree-children">
+                        <!-- 市级 -->
+                        <li class="tree-node">
+                            <div class="tree-node-header" data-level="city">
+                                <span class="tree-toggle">▶</span>
+                                <span class="tree-label">深圳市</span>
+                            </div>
+                            <ul class="tree-children">
+                                <!-- 区县级 -->
+                                <li class="tree-node">
+                                    <div class="tree-node-header" data-level="district">
+                                        <span class="tree-toggle">▶</span>
+                                        <span class="tree-label">南山区</span>
+                                    </div>
+                                    <ul class="tree-children">
+                                        <!-- 乡级 -->
+                                        <li class="tree-node">
+                                            <div class="tree-node-header" data-level="township">
+                                                <span class="tree-label">粤海街道</span>
+                                            </div>
+                                        </li>
+                                        <li class="tree-node">
+                                            <div class="tree-node-header" data-level="township">
+                                                <span class="tree-label">南山街道</span>
+                                            </div>
+                                        </li>
+                                        <li class="tree-node">
+                                            <div class="tree-node-header" data-level="township">
+                                                <span class="tree-label">西丽街道</span>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="tree-node">
+                                    <div class="tree-node-header" data-level="district">
+                                        <span class="tree-toggle">▶</span>
+                                        <span class="tree-label">福田区</span>
+                                    </div>
+                                    <ul class="tree-children">
+                                        <li class="tree-node">
+                                            <div class="tree-node-header" data-level="township">
+                                                <span class="tree-label">华强北街道</span>
+                                            </div>
+                                        </li>
+                                        <li class="tree-node">
+                                            <div class="tree-node-header" data-level="township">
+                                                <span class="tree-label">沙头街道</span>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="tree-node">
+                                    <div class="tree-node-header" data-level="district">
+                                        <span class="tree-toggle">▶</span>
+                                        <span class="tree-label">罗湖区</span>
+                                    </div>
+                                    <ul class="tree-children">
+                                        <li class="tree-node">
+                                            <div class="tree-node-header" data-level="township">
+                                                <span class="tree-label">桂园街道</span>
+                                            </div>
+                                        </li>
+                                        <li class="tree-node">
+                                            <div class="tree-node-header" data-level="township">
+                                                <span class="tree-label">东门街道</span>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="tree-node">
+                            <div class="tree-node-header" data-level="city">
+                                <span class="tree-toggle">▶</span>
+                                <span class="tree-label">广州市</span>
+                            </div>
+                            <ul class="tree-children">
+                                <!-- 区县级 -->
+                                <li class="tree-node">
+                                    <div class="tree-node-header" data-level="district">
+                                        <span class="tree-toggle">▶</span>
+                                        <span class="tree-label">天河区</span>
+                                    </div>
+                                    <ul class="tree-children">
+                                        <!-- 乡级 -->
+                                        <li class="tree-node">
+                                            <div class="tree-node-header" data-level="township">
+                                                <span class="tree-label">天园街道</span>
+                                            </div>
+                                        </li>
+                                        <li class="tree-node">
+                                            <div class="tree-node-header" data-level="township">
+                                                <span class="tree-label">林和街道</span>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="tree-node">
+                                    <div class="tree-node-header" data-level="district">
+                                        <span class="tree-toggle">▶</span>
+                                        <span class="tree-label">越秀区</span>
+                                    </div>
+                                    <ul class="tree-children">
+                                        <li class="tree-node">
+                                            <div class="tree-node-header" data-level="township">
+                                                <span class="tree-label">北京街道</span>
+                                            </div>
+                                        </li>
+                                        <li class="tree-node">
+                                            <div class="tree-node-header" data-level="township">
+                                                <span class="tree-label">东风街道</span>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+
+                <!-- 省级 -->
+                <li class="tree-node">
+                    <div class="tree-node-header" data-level="province">
+                        <span class="tree-toggle">▶</span>
+                        <span class="tree-label">浙江省</span>
+                    </div>
+                    <ul class="tree-children">
+                        <!-- 市级 -->
+                        <li class="tree-node">
+                            <div class="tree-node-header" data-level="city">
+                                <span class="tree-toggle">▶</span>
+                                <span class="tree-label">杭州市</span>
+                            </div>
+                            <ul class="tree-children">
+                                <!-- 区县级 -->
+                                <li class="tree-node">
+                                    <div class="tree-node-header" data-level="district">
+                                        <span class="tree-toggle">▶</span>
+                                        <span class="tree-label">西湖区</span>
+                                    </div>
+                                    <ul class="tree-children">
+                                        <!-- 乡级 -->
+                                        <li class="tree-node">
+                                            <div class="tree-node-header" data-level="township">
+                                                <span class="tree-label">北山街道</span>
+                                            </div>
+                                        </li>
+                                        <li class="tree-node">
+                                            <div class="tree-node-header" data-level="township">
+                                                <span class="tree-label">西溪街道</span>
+                                            </div>
+                                        </li>
+                                        <li class="tree-node">
+                                            <div class="tree-node-header" data-level="township">
+                                                <span class="tree-label">翠苑街道</span>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="tree-node">
+                                    <div class="tree-node-header" data-level="district">
+                                        <span class="tree-toggle">▶</span>
+                                        <span class="tree-label">滨江区</span>
+                                    </div>
+                                    <ul class="tree-children">
+                                        <li class="tree-node">
+                                            <div class="tree-node-header" data-level="township">
+                                                <span class="tree-label">西兴街道</span>
+                                            </div>
+                                        </li>
+                                        <li class="tree-node">
+                                            <div class="tree-node-header" data-level="township">
+                                                <span class="tree-label">长河街道</span>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="tree-node">
+                                    <div class="tree-node-header" data-level="district">
+                                        <span class="tree-toggle">▶</span>
+                                        <span class="tree-label">余杭区</span>
+                                    </div>
+                                    <ul class="tree-children">
+                                        <li class="tree-node">
+                                            <div class="tree-node-header" data-level="township">
+                                                <span class="tree-label">仓前街道</span>
+                                            </div>
+                                        </li>
+                                        <li class="tree-node">
+                                            <div class="tree-node-header" data-level="township">
+                                                <span class="tree-label">五常街道</span>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+    </aside>
+
+    <!-- 头部横幅 -->
+    <header class="hero-section">
+        <div class="container text-center">
+            <h1>中国政府机关单位介绍</h1>
+            <p>全面了解中国政府体系、机构职能、人员管理与公众服务</p>
+        </div>
+    </header>
+
+    <!-- 主要内容 -->
+    <main class="main-content">
+        <div class="content-wrapper">
+        <!-- 介绍部分 -->
+        <section class="intro-section">
+            <h2>网站介绍</h2>
+            <p>本网站旨在为公众提供全面、准确的中国政府机关单位信息，帮助社会各界更好地理解政府体系运作。每个政府单位的介绍都包含以下关键信息：</p>
+            <ul>
+                <li><strong>人员来源</strong> - 公务员招录渠道和选拔机制</li>
+                <li><strong>人员升迁</strong> - 晋升路径和考核机制</li>
+                <li><strong>资金来源</strong> - 经费来源和预算管理</li>
+                <li><strong>成立时间</strong> - 机构历史沿革</li>
+                <li><strong>负责内容</strong> - 主要职能和职责范围</li>
+                <li><strong>公众理解</strong> - 与民众关系和服务内容</li>
+            </ul>
+        </section>
+
+        <!-- 国家级机关 -->
+        <section id="national" class="gov-section">
+            <h2>国家级机关</h2>
+
+            <!-- 国务院 -->
+            <div class="org-detail">
+                <div class="org-header">
+                    <h3>中华人民共和国国务院</h3>
+                    <span class="badge">国家级</span>
+                    <span class="badge">中央行政机关</span>
+                    <span class="date">成立于 1949年10月1日</span>
+                </div>
+                <div class="org-info">
+                    <h4>人员来源</h4>
+                    <p>国务院组成人员由全国人民代表大会选举或决定任命，包括总理、副总理、国务委员、各部部长、各委员会主任、中国人民银行行长、审计长等。工作人员通过国家公务员考试招录，2026年新增人工智能、大数据、碳中和等专项人才引进计划。</p>
+                    
+                    <h4>人员升迁</h4>
+                    <p>实行公务员职务与职级并行制度，晋升需满足任职年限、考核优秀等条件。2026年推行数字化能力考核，从科员、副科、正科、副处、正处、副局、正局、副部、正部逐级晋升。</p>
+                    
+                    <h4>资金来源</h4>
+                    <p>由国家财政预算拨款，属于中央财政支出。经费来源包括税收收入、非税收入等。2026年新增绿色金融、数字经济发展专项资金。</p>
+                    
+                    <h4>下属机构（28个）</h4>
+                    <p>国务院下属28个部门和机构，涵盖外交、国防、经济、教育、科技、文化、卫生、安全等各个领域：</p>
+                    <ul>
+                        <li><strong>外交部</strong> - 主管国家外交工作，负责执行国家对外政策和处理对外事务</li>
+                        <li><strong>国防部</strong> - 管理国防建设事业，领导武装力量建设</li>
+                        <li><strong>国家发展和改革委员会</strong> - 负责国民经济和社会发展的宏观调控和综合管理</li>
+                        <li><strong>教育部</strong> - 主管全国教育事业，统筹教育发展和改革</li>
+                        <li><strong>科学技术部</strong> - 管理国家科学技术工作，推动科技创新和成果转化</li>
+                        <li><strong>工业和信息化部</strong> - 管理工业和信息化发展，推进信息化和工业化融合</li>
+                        <li><strong>国家民族事务委员会</strong> - 管理民族事务，保障少数民族合法权益</li>
+                        <li><strong>公安部</strong> - 主管全国公安工作，维护社会治安和社会稳定</li>
+                        <li><strong>国家安全部</strong> - 负责国家安全工作，防范和打击危害国家安全的行为</li>
+                        <li><strong>民政部</strong> - 管理社会行政事务，负责社会组织管理、社会救助等工作</li>
+                        <li><strong>司法部</strong> - 管理司法行政工作，负责监狱管理、律师公证等工作</li>
+                        <li><strong>财政部</strong> - 负责国家财政管理工作，编制和执行国家预算</li>
+                        <li><strong>人力资源和社会保障部</strong> - 管理人力资源和社会保障工作，负责就业、社保等</li>
+                        <li><strong>自然资源部</strong> - 管理自然资源和国土空间规划，负责土地、矿产等资源管理</li>
+                        <li><strong>生态环境部</strong> - 负责生态环境保护工作，推进生态文明建设</li>
+                        <li><strong>住房和城乡建设部</strong> - 管理住房和城乡建设工作，负责城乡建设和住房保障</li>
+                        <li><strong>交通运输部</strong> - 管理交通运输工作，负责公路、水路、民航等运输行业管理</li>
+                        <li><strong>水利部</strong> - 管理水利工作，负责水资源管理、防汛抗旱等</li>
+                        <li><strong>农业农村部</strong> - 管理农业农村工作，负责农业、农村经济发展</li>
+                        <li><strong>商务部</strong> - 管理国内外贸易和国际经济合作，负责对外贸易和投资</li>
+                        <li><strong>文化和旅游部</strong> - 管理文化和旅游事业，负责文化产业发展和旅游管理</li>
+                        <li><strong>国家卫生健康委员会</strong> - 管理卫生健康工作，负责医疗卫生服务和公共卫生</li>
+                        <li><strong>退役军人事务部</strong> - 管理退役军人事务，负责退役军人服务和保障</li>
+                        <li><strong>应急管理部</strong> - 管理应急管理工作，负责安全生产和应急救援</li>
+                        <li><strong>中国人民银行</strong> - 中央银行，负责货币政策和金融监管</li>
+                        <li><strong>审计署</strong> - 负责审计工作，对国家财政收支进行审计监督</li>
+                        <li><strong>国家数据局</strong> - 负责数据资源管理和数字中国建设，统筹数据要素发展</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- 外交部 -->
+            <div class="org-detail">
+                <div class="org-header">
+                    <h3>外交部</h3>
+                    <span class="badge">国家级</span>
+                    <span class="badge">国务院组成部门</span>
+                    <span class="date">成立于 1949年10月1日</span>
+                </div>
+                <div class="org-info">
+                    <h4>人员来源</h4>
+                    <p>通过国家公务员考试招录外交官，主要面向高校毕业生。2026年新增网络外交、数字传播、国际规则制定等专业人才。外交官选拔严格，要求外语能力强、综合素质高。</p>
+                    
+                    <h4>人员升迁</h4>
+                    <p>外交官职级分为随员、三等秘书、二等秘书、一等秘书、参赞、公使、大使等。晋升需通过外语考试、业务考核、人工智能应用能力测试，具有丰富的外交工作经验。</p>
+                    
+                    <h4>资金来源</h4>
+                    <p>中央财政预算拨款，外交经费列入中央财政预算。2026年增加数字外交平台建设和网络安全预算。</p>
+                    
+                    <h4>下属机构（25个）</h4>
+                    <p>外交部下设25个司局级单位，按地区、职能和业务划分：</p>
+                    <ul>
+                        <li><strong>亚洲司</strong> - 负责与亚洲各国的双边关系事务</li>
+                        <li><strong>西亚北非司</strong> - 负责与西亚、北非各国的双边关系事务</li>
+                        <li><strong>非洲司</strong> - 负责与非洲各国的双边关系事务</li>
+                        <li><strong>欧亚司</strong> - 负责与欧洲、中亚各国的双边关系事务</li>
+                        <li><strong>欧洲司</strong> - 负责与欧洲各国的双边关系事务</li>
+                        <li><strong>北美大洋洲司</strong> - 负责与北美、大洋洲各国的双边关系事务</li>
+                        <li><strong>拉丁美洲和加勒比司</strong> - 负责与拉美及加勒比各国的双边关系事务</li>
+                        <li><strong>国际组织和国际会议司</strong> - 负责联合国等国际组织和国际会议事务</li>
+                        <li><strong>国际经济司</strong> - 负责国际经济合作和全球发展议题</li>
+                        <li><strong>军控司</strong> - 负责国际军控、裁军和防扩散事务</li>
+                        <li><strong>涉外安全事务司</strong> - 负责涉外安全事务和危机管理</li>
+                        <li><strong>条约法律司</strong> - 负责国际条约、法律的制定和解释</li>
+                        <li><strong>边界与海洋事务司</strong> - 负责边界和海洋事务管理</li>
+                        <li><strong>新闻司</strong> - 负责新闻发布和公共外交</li>
+                        <li><strong>领事司</strong> - 负责领事保护和领事服务</li>
+                        <li><strong>礼宾司</strong> - 负责国家礼宾和外事接待</li>
+                        <li><strong>港澳台司</strong> - 负责涉港澳台外交事务</li>
+                        <li><strong>翻译室</strong> - 负责外交翻译和口译工作</li>
+                        <li><strong>干部司</strong> - 负责外交官人事管理</li>
+                        <li><strong>财务司</strong> - 负责外交部财务管理</li>
+                        <li><strong>机关党委</strong> - 负责机关党务工作</li>
+                        <li><strong>离退休干部局</strong> - 负责离退休干部服务管理</li>
+                        <li><strong>数字外交司</strong> - 负责数字外交和网络外交事务（2026年新增）</li>
+                        <li><strong>网络事务办公室</strong> - 负责网络空间国际事务（2026年新增）</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- 教育部 -->
+            <div class="org-detail">
+                <div class="org-header">
+                    <h3>教育部</h3>
+                    <span class="badge">国家级</span>
+                    <span class="badge">国务院组成部门</span>
+                    <span class="date">成立于 1949年10月</span>
+                </div>
+                <div class="org-info">
+                    <h4>人员来源</h4>
+                    <p>通过国家公务员考试招录工作人员，也面向教育系统选拔优秀人才。2026年重点引进人工智能教育、在线教育、教育大数据等专业人才。部分领导岗位从高校、教育科研机构选拔。</p>
+                    
+                    <h4>人员升迁</h4>
+                    <p>按照公务员职级体系晋升，从科员到处长、司长、部长。2026年推行教育数字化转型考核指标。教育系统专业技术职务（教授、研究员）可转任行政职务。</p>
+                    
+                    <h4>资金来源</h4>
+                    <p>中央财政预算拨款，教育经费列入中央财政预算。2026年增加教育数字化转型专项资金，智慧教育建设投入占比提升至15%。</p>
+                    
+                    <h4>下属机构（24个）</h4>
+                    <p>教育部下设24个司局级单位，涵盖教育管理各个领域：</p>
+                    <ul>
+                        <li><strong>办公厅</strong> - 负责机关日常运转和综合协调</li>
+                        <li><strong>政策法规司</strong> - 负责教育政策研究和法律法规制定</li>
+                        <li><strong>发展规划司</strong> - 负责教育事业发展规划和计划管理</li>
+                        <li><strong>人事司</strong> - 负责教育系统人事管理</li>
+                        <li><strong>财务司</strong> - 负责教育经费财务管理</li>
+                        <li><strong>基础教育司</strong> - 负责中小学教育管理</li>
+                        <li><strong>职业教育与成人教育司</strong> - 负责职业教育和成人教育管理</li>
+                        <li><strong>高等教育司</strong> - 负责高等教育管理</li>
+                        <li><strong>民族教育司</strong> - 负责少数民族教育管理</li>
+                        <li><strong>师范教育司</strong> - 负责师范教育和教师培养</li>
+                        <li><strong>教育督导局</strong> - 负责教育督导评估</li>
+                        <li><strong>思想政治工作司</strong> - 负责教育系统思想政治工作</li>
+                        <li><strong>社会科学司</strong> - 负责高校社会科学研究和学科建设</li>
+                        <li><strong>科学技术司</strong> - 负责高校科学技术研究</li>
+                        <li><strong>高校学生司</strong> - 负责高校学生管理</li>
+                        <li><strong>研究生司</strong> - 负责研究生教育管理</li>
+                        <li><strong>国际合作与交流司</strong> - 负责教育国际交流与合作</li>
+                        <li><strong>体育卫生与艺术教育司</strong> - 负责学校体育、卫生和艺术教育</li>
+                        <li><strong>语言文字应用管理司</strong> - 负责国家语言文字工作</li>
+                        <li><strong>离退休干部局</strong> - 负责离退休干部服务管理</li>
+                        <li><strong>机关党委</strong> - 负责机关党务工作</li>
+                        <li><strong>教育数字化办公室</strong> - 负责教育数字化战略实施（2026年新增）</li>
+                        <li><strong>人工智能教育司</strong> - 负责人工智能教育推广（2026年新增）</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- 公安部 -->
+            <div class="org-detail">
+                <div class="org-header">
+                    <h3>公安部</h3>
+                    <span class="badge">国家级</span>
+                    <span class="badge">国务院组成部门</span>
+                    <span class="date">成立于 1949年10月</span>
+                </div>
+                <div class="org-info">
+                    <h4>人员来源</h4>
+                    <p>人民警察通过公安院校招录、公务员考试招录、退役军人安置等方式进入公安系统。2026年新增网络安全、人工智能犯罪侦查、数据安全等专业岗位。警官学院、警察大学毕业生是主要来源。</p>
+                    
+                    <h4>人员升迁</h4>
+                    <p>警察职级分为警员、警司、警督、警监、警督等，从三级警员到一级警监。晋升需满足年限、考核优秀、培训要求等条件。2026年增加数字化执法能力考核。</p>
+                    
+                    <h4>资金来源</h4>
+                    <p>中央财政预算拨款，公安经费列入中央财政预算，地方公安经费由地方财政承担。2026年智慧公安建设投入占比达到30%。</p>
+                    
+                    <h4>下属机构（24个）</h4>
+                    <p>公安部下设24个局级单位，负责不同领域的公安工作：</p>
+                    <ul>
+                        <li><strong>办公厅</strong> - 负责机关日常运转和综合协调</li>
+                        <li><strong>警务督察局</strong> - 负责警务督察和执法监督</li>
+                        <li><strong>人事训练局</strong> - 负责公安人事管理和训练</li>
+                        <li><strong>财务局</strong> - 负责公安部财务管理</li>
+                        <li><strong>装备财务局</strong> - 负责警用装备和后勤保障</li>
+                        <li><strong>禁毒局</strong> - 负责禁毒工作和毒品犯罪侦查</li>
+                        <li><strong>交通管理局</strong> - 负责交通管理和交通安全</li>
+                        <li><strong>治安管理局</strong> - 负责社会治安管理</li>
+                        <li><strong>刑事侦查局</strong> - 负责刑事犯罪侦查</li>
+                        <li><strong>经济犯罪侦查局</strong> - 负责经济犯罪侦查</li>
+                        <li><strong>反恐怖局</strong> - 负责反恐怖工作</li>
+                        <li><strong>网络安全保卫局</strong> - 负责网络安全保卫</li>
+                        <li><strong>技侦局</strong> - 负责技术侦察工作</li>
+                        <li><strong>监所管理局</strong> - 负责看守所和监狱管理</li>
+                        <li><strong>法制局</strong> - 负责公安法制建设</li>
+                        <li><strong>国际合作局</strong> - 负责国际警务合作</li>
+                        <li><strong>信息通信局</strong> - 负责公安信息通信建设</li>
+                        <li><strong>宣传局</strong> - 负责公安宣传和舆论引导</li>
+                        <li><strong>食品药品犯罪侦查局</strong> - 负责食品药品犯罪侦查</li>
+                        <li><strong>机关党委</strong> - 负责机关党务工作</li>
+                        <li><strong>离退休干部局</strong> - 负责离退休干部服务管理</li>
+                        <li><strong>网络安全保卫总队</strong> - 负责网络安全执法（2026年新增）</li>
+                        <li><strong>人工智能犯罪侦查局</strong> - 负责AI犯罪侦查（2026年新增）</li>
+                        <li><strong>智慧警务建设办公室</strong> - 负责智慧警务建设（2026年新增）</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- 财政部 -->
+            <div class="org-detail">
+                <div class="org-header">
+                    <h3>财政部</h3>
+                    <span class="badge">国家级</span>
+                    <span class="badge">国务院组成部门</span>
+                    <span class="date">成立于 1949年10月</span>
+                </div>
+                <div class="org-info">
+                    <h4>人员来源</h4>
+                    <p>通过国家公务员考试招录工作人员，优先录用财经类专业毕业生。2026年重点引进金融科技、财政大数据、数字货币等专业人才。部分人员从会计师事务所、金融机构等选拔。</p>
+                    
+                    <h4>人员升迁</h4>
+                    <p>按照公务员职级体系晋升。财务、会计专业技术职称可与行政职级并行。需要通过注册会计师等职业资格考试者优先晋升。2026年增加财政数字化管理能力考核。</p>
+                    
+                    <h4>资金来源</h4>
+                    <p>中央财政预算拨款，财政部经费列入中央财政预算。2026年财政数字化转型专项预算增长50%，数字人民币试点扩围资金保障到位。</p>
+                    
+                    <h4>下属机构（21个）</h4>
+                    <p>财政部下设21个司局级单位，负责财政管理各个方面：</p>
+                    <ul>
+                        <li><strong>办公厅</strong> - 负责机关日常运转和综合协调</li>
+                        <li><strong>政策研究室</strong> - 负责财政政策研究和制定</li>
+                        <li><strong>综合司</strong> - 负责财政综合管理</li>
+                        <li><strong>税政司</strong> - 负责税收政策制定</li>
+                        <li><strong>关税司</strong> - 负责关税政策管理</li>
+                        <li><strong>预算司</strong> - 负责中央预算管理</li>
+                        <li><strong>国库司</strong> - 负责国库管理和资金拨付</li>
+                        <li><strong>经济建设司</strong> - 负责经济建设财政管理</li>
+                        <li><strong>农业农村司</strong> - 负责农业农村财政管理</li>
+                        <li><strong>社会保障司</strong> - 负责社会保障财政管理</li>
+                        <li><strong>自然资源和生态环境司</strong> - 负责自然资源和生态环境财政管理</li>
+                        <li><strong>金融司</strong> - 负责金融财政管理</li>
+                        <li><strong>国际经济合作司</strong> - 负责国际经济合作财政管理</li>
+                        <li><strong>会计司</strong> - 负责会计管理</li>
+                        <li><strong>监督评价局</strong> - 负责财政监督和绩效评价</li>
+                        <li><strong>人事教育司</strong> - 负责财政系统人事管理</li>
+                        <li><strong>机关党委</strong> - 负责机关党务工作</li>
+                        <li><strong>离退休干部局</strong> - 负责离退休干部服务管理</li>
+                        <li><strong>财政数字化建设办公室</strong> - 负责财政数字化建设（2026年新增）</li>
+                        <li><strong>数字货币管理司</strong> - 负责数字人民币管理（2026年新增）</li>
+                        <li><strong>财政大数据中心</strong> - 负责财政大数据管理（2026年新增）</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- 自然资源部 -->
+            <div class="org-detail">
+                <div class="org-header">
+                    <h3>自然资源部</h3>
+                    <span class="badge">国家级</span>
+                    <span class="badge">国务院组成部门</span>
+                    <span class="date">成立于 2018年3月</span>
+                </div>
+                <div class="org-info">
+                    <h4>人员来源</h4>
+                    <p>通过国家公务员考试招录工作人员，重点招录地理、测绘、地质、规划、法律等专业人才。2026年新增自然资源大数据、碳中和规划、生态修复工程等专业岗位。从国土、规划、海洋等部门整合人员。</p>
+                    
+                    <h4>人员升迁</h4>
+                    <p>按照公务员职级体系晋升。测绘、地质、规划等专业技术职务可与行政职级并行。2026年增加自然资源数字化管理能力考核。</p>
+                    
+                    <h4>资金来源</h4>
+                    <p>中央财政预算拨款，自然资源管理经费列入中央财政预算。2026年生态修复和碳中和相关预算增长40%，智慧国土建设投入占比达25%。</p>
+                    
+                    <h4>下属机构（24个）</h4>
+                    <p>自然资源部下设24个司局级单位，涵盖自然资源管理各个领域：</p>
+                    <ul>
+                        <li><strong>办公厅</strong> - 负责机关日常运转和综合协调</li>
+                        <li><strong>综合司</strong> - 负责自然资源综合管理</li>
+                        <li><strong>法规司</strong> - 负责自然资源法律法规制定</li>
+                        <li><strong>自然资源调查监测司</strong> - 负责自然资源调查监测</li>
+                        <li><strong>自然资源确权登记局</strong> - 负责自然资源确权登记</li>
+                        <li><strong>自然资源所有者权益司</strong> - 负责自然资源所有者权益管理</li>
+                        <li><strong>自然资源开发利用司</strong> - 负责自然资源开发利用管理</li>
+                        <li><strong>国土空间规划局</strong> - 负责国土空间规划</li>
+                        <li><strong>国土空间用途管制司</strong> - 负责国土空间用途管制</li>
+                        <li><strong>国土空间生态修复司</strong> - 负责国土空间生态修复</li>
+                        <li><strong>耕地保护监督司</strong> - 负责耕地保护监督</li>
+                        <li><strong>地质勘查管理司</strong> - 负责地质勘查管理</li>
+                        <li><strong>矿业权管理司</strong> - 负责矿业权管理</li>
+                        <li><strong>矿产资源保护监督司</strong> - 负责矿产资源保护监督</li>
+                        <li><strong>海域海岛管理司</strong> - 负责海域海岛管理</li>
+                        <li><strong>海洋战略规划与经济司</strong> - 负责海洋战略规划和经济管理</li>
+                        <li><strong>海洋预警监测司</strong> - 负责海洋预警监测</li>
+                        <li><strong>国际合作司</strong> - 负责自然资源国际交流合作</li>
+                        <li><strong>人事司</strong> - 负责人事管理</li>
+                        <li><strong>财务司</strong> - 负责财务管理</li>
+                        <li><strong>机关党委</strong> - 负责机关党务工作</li>
+                        <li><strong>离退休干部局</strong> - 负责离退休干部服务管理</li>
+                        <li><strong>自然资源大数据中心</strong> - 负责自然资源大数据（2026年新增）</li>
+                        <li><strong>碳汇资源管理司</strong> - 负责碳汇资源管理（2026年新增）</li>
+                        <li><strong>智慧国土建设办公室</strong> - 负责智慧国土建设（2026年新增）</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- 生态环境部 -->
+            <div class="org-detail">
+                <div class="org-header">
+                    <h3>生态环境部</h3>
+                    <span class="badge">国家级</span>
+                    <span class="badge">国务院组成部门</span>
+                    <span class="date">成立于 2018年3月</span>
+                </div>
+                <div class="org-info">
+                    <h4>人员来源</h4>
+                    <p>通过国家公务员考试招录工作人员，重点招录环境工程、化学、生物、法律等专业人才。2026年新增碳中和、新能源环境、环境大数据等专业岗位。从环保、发改等部门整合人员。</p>
+                    
+                    <h4>人员升迁</h4>
+                    <p>按照公务员职级体系晋升。环境工程等专业技术职务可与行政职级并行。2026年增加碳中和和环境治理数字化能力考核。</p>
+                    
+                    <h4>资金来源</h4>
+                    <p>中央财政预算拨款，生态环境保护经费列入中央财政预算。2026年碳中和相关预算翻倍，生态环境监测网络实现全国覆盖。</p>
+                    
+                    <h4>下属机构（24个）</h4>
+                    <p>生态环境部下设24个司局级单位，负责生态环境保护各个方面：</p>
+                    <ul>
+                        <li><strong>办公厅</strong> - 负责机关日常运转和综合协调</li>
+                        <li><strong>中央生态环境保护督察办公室</strong> - 负责中央生态环境保护督察</li>
+                        <li><strong>综合司</strong> - 负责生态环境综合管理</li>
+                        <li><strong>法规与标准司</strong> - 负责生态环境法律法规和标准</li>
+                        <li><strong>行政体制与人事司</strong> - 负责行政体制和人事管理</li>
+                        <li><strong>科技与财务司</strong> - 负责科技和财务管理</li>
+                        <li><strong>自然生态保护司</strong> - 负责自然生态保护</li>
+                        <li><strong>水生态环境司</strong> - 负责水生态环境管理</li>
+                        <li><strong>海洋生态环境司</strong> - 负责海洋生态环境管理</li>
+                        <li><strong>大气环境司</strong> - 负责大气环境管理</li>
+                        <li><strong>应对气候变化司</strong> - 负责应对气候变化工作</li>
+                        <li><strong>土壤生态环境司</strong> - 负责土壤生态环境管理</li>
+                        <li><strong>固体废物与化学品司</strong> - 负责固体废物和化学品管理</li>
+                        <li><strong>核设施安全监管司</strong> - 负责核设施安全监管</li>
+                        <li><strong>核电安全监管司</strong> - 负责核电安全监管</li>
+                        <li><strong>辐射环境监测与应急司</strong> - 负责辐射环境监测与应急</li>
+                        <li><strong>环境影响评价与排放管理司</strong> - 负责环境影响评价和排放管理</li>
+                        <li><strong>生态环境监测司</strong> - 负责生态环境监测</li>
+                        <li><strong>生态环境执法局</strong> - 负责生态环境执法</li>
+                        <li><strong>国际合作司</strong> - 负责生态环境国际合作</li>
+                        <li><strong>宣传教育司</strong> - 负责生态环境宣传教育</li>
+                        <li><strong>机关党委</strong> - 负责机关党务工作</li>
+                        <li><strong>离退休干部办公室</strong> - 负责离退休干部服务管理</li>
+                        <li><strong>碳中和办公室</strong> - 负责碳中和工作（2026年新增）</li>
+                        <li><strong>环境大数据中心</strong> - 负责环境大数据（2026年新增）</li>
+                        <li><strong>美丽中国建设办公室</strong> - 负责美丽中国建设（2026年新增）</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- 国家数据局 -->
+            <div class="org-detail">
+                <div class="org-header">
+                    <h3>国家数据局</h3>
+                    <span class="badge">国家级</span>
+                    <span class="badge">国务院直属机构</span>
+                    <span class="date">成立于 2023年</span>
+                </div>
+                <div class="org-info">
+                    <h4>人员来源</h4>
+                    <p>通过国家公务员考试招录工作人员，重点招录数据科学、人工智能、网络安全、法律等专业人才。从网信办、发改委、工信部等部门选拔优秀人才。</p>
+                    
+                    <h4>人员升迁</h4>
+                    <p>按照公务员职级体系晋升。数据科学、人工智能等专业技术职务可与行政职级并行。作为新成立部门，晋升机会多，发展空间大。</p>
+                    
+                    <h4>资金来源</h4>
+                    <p>中央财政预算拨款，数据基础设施建设经费列入中央财政预算。2026年数字中国建设专项预算大幅增长。</p>
+                    
+                    <h4>下属机构（15个）</h4>
+                    <p>国家数据局下设15个司局级单位，负责数据资源和数字中国建设：</p>
+                    <ul>
+                        <li><strong>综合司</strong> - 负责机关日常运转和综合协调</li>
+                        <li><strong>政策法规司</strong> - 负责数据政策法规制定</li>
+                        <li><strong>数据资源司</strong> - 负责数据资源管理</li>
+                        <li><strong>数字经济司</strong> - 负责数字经济发展</li>
+                        <li><strong>数字社会司</strong> - 负责数字社会建设</li>
+                        <li><strong>数字基础设施司</strong> - 负责数字基础设施建设</li>
+                        <li><strong>数据安全司</strong> - 负责数据安全管理</li>
+                        <li><strong>数据治理司</strong> - 负责数据治理</li>
+                        <li><strong>人工智能发展司</strong> - 负责人工智能发展应用</li>
+                        <li><strong>国际合作司</strong> - 负责数据领域国际合作</li>
+                        <li><strong>人事司</strong> - 负责人事管理</li>
+                        <li><strong>财务司</strong> - 负责财务管理</li>
+                        <li><strong>机关党委</strong> - 负责机关党务工作</li>
+                        <li><strong>国家大数据中心</strong> - 负责国家大数据管理</li>
+                        <li><strong>数据要素市场管理中心</strong> - 负责数据要素市场管理</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- 省级政府 -->
+        <section id="provincial" class="gov-section">
+            <h2>省级政府</h2>
+
+            <!-- 北京市政府 -->
+            <div class="org-detail">
+                <div class="org-header">
+                    <h3>北京市人民政府</h3>
+                    <span class="badge">省级</span>
+                    <span class="badge">地方行政机关</span>
+                    <span class="date">成立于 1949年10月</span>
+                </div>
+                <div class="org-info">
+                    <h4>人员来源</h4>
+                    <p>北京市公务员通过北京市公务员考试招录。工作人员面向全国高校毕业生、社会在职人员。2026年重点引进人工智能、量子计算、生物医药等前沿领域人才。部分岗位从中央单位、区县选拔。</p>
+                    
+                    <h4>人员升迁</h4>
+                    <p>实行公务员职级并行制度。从科员到处长、局长、副市长、市长、市委书记逐级晋升。2026年增加数字化治理能力考核。北京公务员待遇较高，竞争激烈。</p>
+                    
+                    <h4>资金来源</h4>
+                    <p>北京市财政预算拨款，经费来源包括税收、非税收入等。作为直辖市，财政自主权较大。2026年数字经济和智慧城市建设投入占比达35%。</p>
+                    
+                    <h4>下属机构（35个）</h4>
+                    <p>北京市政府下设35个组成部门和直属机构：</p>
+                    <ul>
+                        <li><strong>办公厅</strong> - 负责政府日常运转和综合协调</li>
+                        <li><strong>发展和改革委员会</strong> - 负责发展和改革综合管理</li>
+                        <li><strong>教育委员会</strong> - 负责教育管理</li>
+                        <li><strong>科学技术委员会</strong> - 负责科学技术管理</li>
+                        <li><strong>经济和信息化局</strong> - 负责经济和信息化管理</li>
+                        <li><strong>民族宗教事务委员会</strong> - 负责民族宗教事务管理</li>
+                        <li><strong>公安局</strong> - 负责公安工作</li>
+                        <li><strong>民政局</strong> - 负责民政工作</li>
+                        <li><strong>司法局</strong> - 负责司法行政工作</li>
+                        <li><strong>财政局</strong> - 负责财政管理</li>
+                        <li><strong>人力资源和社会保障局</strong> - 负责人力资源和社会保障管理</li>
+                        <li><strong>规划和自然资源委员会</strong> - 负责规划和自然资源管理</li>
+                        <li><strong>生态环境局</strong> - 负责生态环境管理</li>
+                        <li><strong>住房和城乡建设委员会</strong> - 负责住房和城乡建设管理</li>
+                        <li><strong>城市管理委员会</strong> - 负责城市管理</li>
+                        <li><strong>交通委员会</strong> - 负责交通管理</li>
+                        <li><strong>水务局</strong> - 负责水务管理</li>
+                        <li><strong>农业农村局</strong> - 负责农业农村管理</li>
+                        <li><strong>商务局</strong> - 负责商务管理</li>
+                        <li><strong>文化和旅游局</strong> - 负责文化旅游管理</li>
+                        <li><strong>卫生健康委员会</strong> - 负责卫生健康管理</li>
+                        <li><strong>退役军人事务局</strong> - 负责退役军人事务管理</li>
+                        <li><strong>应急管理局</strong> - 负责应急管理</li>
+                        <li><strong>审计局</strong> - 负责审计工作</li>
+                        <li><strong>市场监督管理局</strong> - 负责市场监督管理</li>
+                        <li><strong>广播电视局</strong> - 负责广播电视管理</li>
+                        <li><strong>体育局</strong> - 负责体育管理</li>
+                        <li><strong>统计局</strong> - 负责统计工作</li>
+                        <li><strong>园林绿化局</strong> - 负责园林绿化管理</li>
+                        <li><strong>信访办公室</strong> - 负责信访工作</li>
+                        <li><strong>金融服务局</strong> - 负责金融服务管理</li>
+                        <li><strong>知识产权局</strong> - 负责知识产权管理</li>
+                        <li><strong>地方金融监督管理局</strong> - 负责地方金融监管</li>
+                        <li><strong>数据局</strong> - 负责数据管理（2026年新增）</li>
+                        <li><strong>智慧城市建设办公室</strong> - 负责智慧城市建设（2026年新增）</li>
+                        <li><strong>碳中和办公室</strong> - 负责碳中和工作（2026年新增）</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- 上海市政府 -->
+            <div class="org-detail">
+                <div class="org-header">
+                    <h3>上海市人民政府</h3>
+                    <span class="badge">省级</span>
+                    <span class="badge">地方行政机关</span>
+                    <span class="date">成立于 1949年10月</span>
+                </div>
+                <div class="org-info">
+                    <h4>人员来源</h4>
+                    <p>上海市公务员通过上海市公务员考试招录。重点招录金融、贸易、法律、管理类专业人才。2026年大力引进国际金融科技、数字贸易、人工智能等领域人才。国际人才引进力度大。</p>
+                    
+                    <h4>人员升迁</h4>
+                    <p>实行公务员职级并行制度。晋升竞争激烈，要求高。2026年增加国际化能力和数字化管理考核。国际化人才晋升通道畅通。</p>
+                    
+                    <h4>资金来源</h4>
+                    <p>上海市财政预算拨款。作为国际金融中心，财政收入规模大，财力雄厚。2026年数字化转型和自贸区建设投入占比达40%。</p>
+                    
+                    <h4>下属机构（32个）</h4>
+                    <p>上海市政府下设32个组成部门和直属机构：</p>
+                    <ul>
+                        <li><strong>办公厅</strong> - 负责政府日常运转和综合协调</li>
+                        <li><strong>发展和改革委员会</strong> - 负责发展和改革综合管理</li>
+                        <li><strong>经济和信息化委员会</strong> - 负责经济和信息化管理</li>
+                        <li><strong>商务委员会</strong> - 负责商务管理</li>
+                        <li><strong>教育委员会</strong> - 负责教育管理</li>
+                        <li><strong>科学技术委员会</strong> - 负责科学技术管理</li>
+                        <li><strong>公安局</strong> - 负责公安工作</li>
+                        <li><strong>民政局</strong> - 负责民政工作</li>
+                        <li><strong>司法局</strong> - 负责司法行政工作</li>
+                        <li><strong>财政局</strong> - 负责财政管理</li>
+                        <li><strong>人力资源和社会保障局</strong> - 负责人力资源和社会保障管理</li>
+                        <li><strong>规划和自然资源局</strong> - 负责规划和自然资源管理</li>
+                        <li><strong>生态环境局</strong> - 负责生态环境管理</li>
+                        <li><strong>住房和城乡建设管理委员会</strong> - 负责住房和城乡建设管理</li>
+                        <li><strong>交通委员会</strong> - 负责交通管理</li>
+                        <li><strong>农业农村委员会</strong> - 负责农业农村管理</li>
+                        <li><strong>水务局</strong> - 负责水务管理</li>
+                        <li><strong>文化旅游局</strong> - 负责文化旅游管理</li>
+                        <li><strong>卫生健康委员会</strong> - 负责卫生健康管理</li>
+                        <li><strong>退役军人事务局</strong> - 负责退役军人事务管理</li>
+                        <li><strong>应急管理局</strong> - 负责应急管理</li>
+                        <li><strong>审计局</strong> - 负责审计工作</li>
+                        <li><strong>市场监督管理局</strong> - 负责市场监督管理</li>
+                        <li><strong>体育局</strong> - 负责体育管理</li>
+                        <li><strong>统计局</strong> - 负责统计工作</li>
+                        <li><strong>绿化和市容管理局</strong> - 负责绿化和市容管理</li>
+                        <li><strong>房屋管理局</strong> - 负责房屋管理</li>
+                        <li><strong>地方金融监督管理局</strong> - 负责地方金融监管</li>
+                        <li><strong>医疗保障局</strong> - 负责医疗保障管理</li>
+                        <li><strong>数据局</strong> - 负责数据管理（2026年新增）</li>
+                        <li><strong>城市数字化转型办公室</strong> - 负责城市数字化转型（2026年新增）</li>
+                        <li><strong>国际金融中心建设办公室</strong> - 负责国际金融中心建设（2026年新增）</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- 广东省政府 -->
+            <div class="org-detail">
+                <div class="org-header">
+                    <h3>广东省人民政府</h3>
+                    <span class="badge">省级</span>
+                    <span class="badge">地方行政机关</span>
+                    <span class="date">成立于 1949年10月</span>
+                </div>
+                <div class="org-info">
+                    <h4>人员来源</h4>
+                    <p>广东省公务员通过广东省公务员考试招录。面向全国招录，特别是经济发达地区。2026年重点引进港澳台人才、海外人才以及数字经济、人工智能等领域人才。港澳台人才、海外人才引进政策优惠。</p>
+                    
+                    <h4>人员升迁</h4>
+                    <p>实行公务员职级并行制度。经济发达地区晋升机会多，待遇好。2026年增加粤港澳合作和数字化管理考核。珠三角地区竞争激烈。</p>
+                    
+                    <h4>资金来源</h4>
+                    <p>广东省财政预算拨款。作为经济第一大省，财政收入规模全国领先。2026年粤港澳大湾区建设和数字化转型投入占比达45%。</p>
+                    
+                    <h4>下属机构（33个）</h4>
+                    <p>广东省政府下设33个组成部门和直属机构：</p>
+                    <ul>
+                        <li><strong>办公厅</strong> - 负责政府日常运转和综合协调</li>
+                        <li><strong>发展和改革委员会</strong> - 负责发展和改革综合管理</li>
+                        <li><strong>教育厅</strong> - 负责教育管理</li>
+                        <li><strong>科学技术厅</strong> - 负责科学技术管理</li>
+                        <li><strong>工业和信息化厅</strong> - 负责工业和信息化管理</li>
+                        <li><strong>民族宗教事务委员会</strong> - 负责民族宗教事务管理</li>
+                        <li><strong>公安厅</strong> - 负责公安工作</li>
+                        <li><strong>民政厅</strong> - 负责民政工作</li>
+                        <li><strong>司法厅</strong> - 负责司法行政工作</li>
+                        <li><strong>财政厅</strong> - 负责财政管理</li>
+                        <li><strong>人力资源和社会保障厅</strong> - 负责人力资源和社会保障管理</li>
+                        <li><strong>自然资源厅</strong> - 负责自然资源管理</li>
+                        <li><strong>生态环境厅</strong> - 负责生态环境管理</li>
+                        <li><strong>住房和城乡建设厅</strong> - 负责住房和城乡建设管理</li>
+                        <li><strong>交通运输厅</strong> - 负责交通运输管理</li>
+                        <li><strong>水利厅</strong> - 负责水利管理</li>
+                        <li><strong>农业农村厅</strong> - 负责农业农村管理</li>
+                        <li><strong>商务厅</strong> - 负责商务管理</li>
+                        <li><strong>文化和旅游厅</strong> - 负责文化旅游管理</li>
+                        <li><strong>卫生健康委员会</strong> - 负责卫生健康管理</li>
+                        <li><strong>退役军人事务厅</strong> - 负责退役军人事务管理</li>
+                        <li><strong>应急管理厅</strong> - 负责应急管理</li>
+                        <li><strong>审计厅</strong> - 负责审计工作</li>
+                        <li><strong>国有资产监督管理委员会</strong> - 负责国有资产监管</li>
+                        <li><strong>市场监督管理局</strong> - 负责市场监督管理</li>
+                        <li><strong>广播电视局</strong> - 负责广播电视管理</li>
+                        <li><strong>体育局</strong> - 负责体育管理</li>
+                        <li><strong>统计局</strong> - 负责统计工作</li>
+                        <li><strong>医疗保障局</strong> - 负责医疗保障管理</li>
+                        <li><strong>地方金融监督管理局</strong> - 负责地方金融监管</li>
+                        <li><strong>政务服务数据管理局</strong> - 负责政务服务数据管理</li>
+                        <li><strong>信访局</strong> - 负责信访工作</li>
+                        <li><strong>粤港澳大湾区建设办公室</strong> - 负责粤港澳大湾区建设（2026年新增）</li>
+                        <li><strong>数字湾区建设办公室</strong> - 负责数字湾区建设（2026年新增）</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- 市级政府 -->
+        <section id="municipal" class="gov-section">
+            <h2>市级政府</h2>
+
+            <!-- 深圳市政府 -->
+            <div class="org-detail">
+                <div class="org-header">
+                    <h3>深圳市人民政府</h3>
+                    <span class="badge">副省级</span>
+                    <span class="badge">地方行政机关</span>
+                    <span class="date">成立于 1979年3月</span>
+                </div>
+                <div class="org-info">
+                    <h4>人员来源</h4>
+                    <p>深圳市公务员通过深圳市公务员考试招录。面向全国招录优秀人才，特别是科技、金融、法律等领域。2026年大力引进人工智能、区块链、量子科技等前沿领域人才。海外人才引进政策优惠。</p>
+                    
+                    <h4>人员升迁</h4>
+                    <p>实行公务员职级并行制度。作为经济特区，创新能力强，晋升机制灵活。2026年推行创新能力和数字化成果考核。国际化人才晋升通道畅通。</p>
+                    
+                    <h4>资金来源</h4>
+                    <p>深圳市财政预算拨款。深圳财政实力雄厚，人均财政收入全国领先。2026年科技创新和智慧城市建设投入占比达50%。</p>
+                    
+                    <h4>下属机构（33个）</h4>
+                    <p>深圳市政府下设33个组成部门和直属机构：</p>
+                    <ul>
+                        <li><strong>办公厅</strong> - 负责政府日常运转和综合协调</li>
+                        <li><strong>发展和改革委员会</strong> - 负责发展和改革综合管理</li>
+                        <li><strong>教育局</strong> - 负责教育管理</li>
+                        <li><strong>科技创新委员会</strong> - 负责科技创新管理</li>
+                        <li><strong>工业和信息化局</strong> - 负责工业和信息化管理</li>
+                        <li><strong>民族宗教事务局</strong> - 负责民族宗教事务管理</li>
+                        <li><strong>公安局</strong> - 负责公安工作</li>
+                        <li><strong>民政局</strong> - 负责民政工作</li>
+                        <li><strong>司法局</strong> - 负责司法行政工作</li>
+                        <li><strong>财政局</strong> - 负责财政管理</li>
+                        <li><strong>人力资源和社会保障局</strong> - 负责人力资源和社会保障管理</li>
+                        <li><strong>规划和自然资源局</strong> - 负责规划和自然资源管理</li>
+                        <li><strong>生态环境局</strong> - 负责生态环境管理</li>
+                        <li><strong>住房和建设局</strong> - 负责住房和建设管理</li>
+                        <li><strong>交通运输局</strong> - 负责交通运输管理</li>
+                        <li><strong>水务局</strong> - 负责水务管理</li>
+                        <li><strong>农业农村局</strong> - 负责农业农村管理</li>
+                        <li><strong>商务局</strong> - 负责商务管理</li>
+                        <li><strong>文化广电旅游体育局</strong> - 负责文化旅游体育管理</li>
+                        <li><strong>卫生健康委员会</strong> - 负责卫生健康管理</li>
+                        <li><strong>退役军人事务局</strong> - 负责退役军人事务管理</li>
+                        <li><strong>应急管理局</strong> - 负责应急管理</li>
+                        <li><strong>审计局</strong> - 负责审计工作</li>
+                        <li><strong>国有资产监督管理委员会</strong> - 负责国有资产监管</li>
+                        <li><strong>市场监督管理局</strong> - 负责市场监督管理</li>
+                        <li><strong>统计局</strong> - 负责统计工作</li>
+                        <li><strong>医疗保障局</strong> - 负责医疗保障管理</li>
+                        <li><strong>地方金融监督管理局</strong> - 负责地方金融监管</li>
+                        <li><strong>城市管理和综合执法局</strong> - 负责城市管理和综合执法</li>
+                        <li><strong>政务服务数据管理局</strong> - 负责政务服务数据管理</li>
+                        <li><strong>信访局</strong> - 负责信访工作</li>
+                        <li><strong>智慧城市和数字政府建设办公室</strong> - 负责智慧城市建设（2026年新增）</li>
+                        <li><strong>前海深港现代服务业合作区管理局</strong> - 负责前海合作区管理</li>
+                        <li><strong>科技创新委员会</strong> - 负责科技创新工作</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- 杭州市政府 -->
+            <div class="org-detail">
+                <div class="org-header">
+                    <h3>杭州市人民政府</h3>
+                    <span class="badge">副省级</span>
+                    <span class="badge">地方行政机关</span>
+                    <span class="date">成立于 1949年5月</span>
+                </div>
+                <div class="org-info">
+                    <h4>人员来源</h4>
+                    <p>杭州市公务员通过杭州市公务员考试招录。重点招录数字经济、互联网、金融等领域人才。2026年大力引进人工智能、云计算、大数据等专业技术人才。高校毕业生就业首选城市之一。</p>
+                    
+                    <h4>人员升迁</h4>
+                    <p>实行公务员职级并行制度。数字经济相关岗位晋升机会多。2026年增加数字化创新能力和城市大脑应用考核。创新能力强，晋升机制灵活。</p>
+                    
+                    <h4>资金来源</h4>
+                    <p>杭州市财政预算拨款。数字经济发达，财政收入增长快。2026年城市大脑和数字经济建设投入占比达45%。</p>
+                    
+                    <h4>下属机构（33个）</h4>
+                    <p>杭州市政府下设33个组成部门和直属机构：</p>
+                    <ul>
+                        <li><strong>办公厅</strong> - 负责政府日常运转和综合协调</li>
+                        <li><strong>发展和改革委员会</strong> - 负责发展和改革综合管理</li>
+                        <li><strong>教育局</strong> - 负责教育管理</li>
+                        <li><strong>科学技术局</strong> - 负责科学技术管理</li>
+                        <li><strong>经济和信息化局</strong> - 负责经济和信息化管理</li>
+                        <li><strong>民族宗教事务局</strong> - 负责民族宗教事务管理</li>
+                        <li><strong>公安局</strong> - 负责公安工作</li>
+                        <li><strong>民政局</strong> - 负责民政工作</li>
+                        <li><strong>司法局</strong> - 负责司法行政工作</li>
+                        <li><strong>财政局</strong> - 负责财政管理</li>
+                        <li><strong>人力资源和社会保障局</strong> - 负责人力资源和社会保障管理</li>
+                        <li><strong>规划和自然资源局</strong> - 负责规划和自然资源管理</li>
+                        <li><strong>生态环境局</strong> - 负责生态环境管理</li>
+                        <li><strong>住房保障和房产管理局</strong> - 负责住房保障和房产管理</li>
+                        <li><strong>城乡建设委员会</strong> - 负责城乡建设管理</li>
+                        <li><strong>交通运输局</strong> - 负责交通运输管理</li>
+                        <li><strong>林业水利局</strong> - 负责林业和水利管理</li>
+                        <li><strong>农业农村局</strong> - 负责农业农村管理</li>
+                        <li><strong>商务局</strong> - 负责商务管理</li>
+                        <li><strong>文化广电旅游局</strong> - 负责文化旅游管理</li>
+                        <li><strong>卫生健康委员会</strong> - 负责卫生健康管理</li>
+                        <li><strong>退役军人事务局</strong> - 负责退役军人事务管理</li>
+                        <li><strong>应急管理局</strong> - 负责应急管理</li>
+                        <li><strong>审计局</strong> - 负责审计工作</li>
+                        <li><strong>国有资产监督管理委员会</strong> - 负责国有资产监管</li>
+                        <li><strong>市场监督管理局</strong> - 负责市场监督管理</li>
+                        <li><strong>体育局</strong> - 负责体育管理</li>
+                        <li><strong>统计局</strong> - 负责统计工作</li>
+                        <li><strong>医疗保障局</strong> - 负责医疗保障管理</li>
+                        <li><strong>地方金融监督管理局</strong> - 负责地方金融监管</li>
+                        <li><strong>城市管理局</strong> - 负责城市管理</li>
+                        <li><strong>数据资源管理局</strong> - 负责数据资源管理</li>
+                        <li><strong>信访局</strong> - 负责信访工作</li>
+                        <li><strong>城市大脑建设办公室</strong> - 负责城市大脑建设（2026年新增）</li>
+                        <li><strong>数字经济发展办公室</strong> - 负责数字经济发展（2026年新增）</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- 区县级政府 -->
+        <section id="district" class="gov-section">
+            <h2>区县级政府</h2>
+
+            <!-- 海淀区政府 -->
+            <div class="org-detail">
+                <div class="org-header">
+                    <h3>北京市海淀区</h3>
+                    <span class="badge">区县级</span>
+                    <span class="badge">地方行政机关</span>
+                    <span class="date">成立于 1949年</span>
+                </div>
+                <div class="org-info">
+                    <h4>人员来源</h4>
+                    <p>海淀区公务员通过北京市公务员考试招录。面向全国招录，特别是高学历人才。2026年重点引进人工智能、量子科技、生物医药等前沿领域博士、博士后。高校毕业生就业首选区之一。</p>
+                    
+                    <h4>人员升迁</h4>
+                    <p>实行公务员职级并行制度。教育、科技相关岗位晋升机会多。2026年增加科技创新和产学研合作考核。高学历人才晋升优势明显。</p>
+                    
+                    <h4>资金来源</h4>
+                    <p>海淀区财政预算拨款。作为教育科技中心，财政收入稳定增长。2026年科技创新和人工智能产业投入占比达55%。</p>
+                    
+                    <h4>下属机构（34个）</h4>
+                    <p>海淀区政府下设34个组成部门和直属机构：</p>
+                    <ul>
+                        <li><strong>办公室</strong> - 负责政府日常运转和综合协调</li>
+                        <li><strong>发展和改革委员会</strong> - 负责发展和改革综合管理</li>
+                        <li><strong>教育委员会</strong> - 负责教育管理</li>
+                        <li><strong>科学技术和经济信息化局</strong> - 负责科技和经济信息化管理</li>
+                        <li><strong>民族宗教事务办公室</strong> - 负责民族宗教事务管理</li>
+                        <li><strong>公安海淀分局</strong> - 负责公安工作</li>
+                        <li><strong>民政局</strong> - 负责民政工作</li>
+                        <li><strong>司法局</strong> - 负责司法行政工作</li>
+                        <li><strong>财政局</strong> - 负责财政管理</li>
+                        <li><strong>人力资源和社会保障局</strong> - 负责人力资源和社会保障管理</li>
+                        <li><strong>规划和自然资源委员会海淀分局</strong> - 负责规划和自然资源管理</li>
+                        <li><strong>生态环境局海淀分局</strong> - 负责生态环境管理</li>
+                        <li><strong>住房和城乡建设委员会</strong> - 负责住房和城乡建设管理</li>
+                        <li><strong>城市管理委员会</strong> - 负责城市管理</li>
+                        <li><strong>交通委员会海淀交通支队</strong> - 负责交通管理</li>
+                        <li><strong>农业农村局</strong> - 负责农业农村管理</li>
+                        <li><strong>商务局</strong> - 负责商务管理</li>
+                        <li><strong>文化和旅游局</strong> - 负责文化旅游管理</li>
+                        <li><strong>卫生健康委员会</strong> - 负责卫生健康管理</li>
+                        <li><strong>退役军人事务局</strong> - 负责退役军人事务管理</li>
+                        <li><strong>应急管理局</strong> - 负责应急管理</li>
+                        <li><strong>审计局</strong> - 负责审计工作</li>
+                        <li><strong>市场监督管理局海淀分局</strong> - 负责市场监督管理</li>
+                        <li><strong>体育局</strong> - 负责体育管理</li>
+                        <li><strong>统计局</strong> - 负责统计工作</li>
+                        <li><strong>医疗保障局</strong> - 负责医疗保障管理</li>
+                        <li><strong>金融服务办公室</strong> - 负责金融服务管理</li>
+                        <li><strong>政务服务管理局</strong> - 负责政务服务管理</li>
+                        <li><strong>信访办公室</strong> - 负责信访工作</li>
+                        <li><strong>中关村科技园区管理委员会</strong> - 负责中关村科技园区管理</li>
+                        <li><strong>人工智能产业发展办公室</strong> - 负责人工智能产业发展（2026年新增）</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- 浦东新区政府 -->
+            <div class="org-detail">
+                <div class="org-header">
+                    <h3>上海市浦东新区</h3>
+                    <span class="badge">区县级</span>
+                    <span class="badge">地方行政机关</span>
+                    <span class="date">成立于 1992年10月</span>
+                </div>
+                <div class="org-info">
+                    <h4>人员来源</h4>
+                    <p>浦东新区公务员通过上海市公务员考试招录。面向全国招录优秀人才，特别是金融、贸易、法律等领域。2026年大力引进国际金融、国际贸易、人工智能等领域国际化人才。国际化人才引进力度大。</p>
+                    
+                    <h4>人员升迁</h4>
+                    <p>实行公务员职级并行制度。作为改革开放前沿，创新能力强，晋升机制灵活。2026年增加改革开放创新和国际化能力考核。国际化人才晋升通道畅通。</p>
+                    
+                    <h4>资金来源</h4>
+                    <p>浦东新区财政预算拨款。金融贸易发达，财政收入规模大。2026年引领区建设和改革创新投入占比达60%。</p>
+                    
+                    <h4>下属机构（33个）</h4>
+                    <p>浦东新区政府下设33个组成部门和直属机构：</p>
+                    <ul>
+                        <li><strong>办公室</strong> - 负责政府日常运转和综合协调</li>
+                        <li><strong>发展和改革委员会</strong> - 负责发展和改革综合管理</li>
+                        <li><strong>教育局</strong> - 负责教育管理</li>
+                        <li><strong>科学技术委员会</strong> - 负责科学技术管理</li>
+                        <li><strong>经济和信息化委员会</strong> - 负责经济和信息化管理</li>
+                        <li><strong>商务委员会</strong> - 负责商务管理</li>
+                        <li><strong>公安分局</strong> - 负责公安工作</li>
+                        <li><strong>民政局</strong> - 负责民政工作</li>
+                        <li><strong>司法局</strong> - 负责司法行政工作</li>
+                        <li><strong>财政局</strong> - 负责财政管理</li>
+                        <li><strong>人力资源和社会保障局</strong> - 负责人力资源和社会保障管理</li>
+                        <li><strong>规划和自然资源局</strong> - 负责规划和自然资源管理</li>
+                        <li><strong>生态环境局</strong> - 负责生态环境管理</li>
+                        <li><strong>建设和管理委员会</strong> - 负责建设和管理</li>
+                        <li><strong>交通委员会</strong> - 负责交通管理</li>
+                        <li><strong>农业农村委员会</strong> - 负责农业农村管理</li>
+                        <li><strong>文化和旅游局</strong> - 负责文化旅游管理</li>
+                        <li><strong>卫生健康委员会</strong> - 负责卫生健康管理</li>
+                        <li><strong>退役军人事务局</strong> - 负责退役军人事务管理</li>
+                        <li><strong>应急管理局</strong> - 负责应急管理</li>
+                        <li><strong>审计局</strong> - 负责审计工作</li>
+                        <li><strong>国有资产监督管理委员会</strong> - 负责国有资产监管</li>
+                        <li><strong>市场监督管理局</strong> - 负责市场监督管理</li>
+                        <li><strong>统计局</strong> - 负责统计工作</li>
+                        <li><strong>医疗保障局</strong> - 负责医疗保障管理</li>
+                        <li><strong>金融工作局</strong> - 负责金融工作</li>
+                        <li><strong>大数据中心</strong> - 负责大数据管理</li>
+                        <li><strong>信访办公室</strong> - 负责信访工作</li>
+                        <li><strong>上海自由贸易试验区管理委员会</strong> - 负责自贸区管理</li>
+                        <li><strong>社会主义现代化建设引领区办公室</strong> - 负责引领区建设（2026年新增）</li>
+                        <li><strong>张江科学城建设管理办公室</strong> - 负责张江科学城建设管理（2026年新增）</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        </div>
+    </main>
+
+    <!-- 页脚 -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h5>中国政府机关单位介绍</h5>
+                    <p>提供权威、全面的中国政府机构信息</p>
+                </div>
+                <div class="footer-section">
+                    <p>© 2026 中国政府机关单位介绍 | 仅供学习参考</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
