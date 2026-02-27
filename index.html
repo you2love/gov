@@ -17,31 +17,73 @@
             <ul class="tree-root">
                 <!-- 省级 -->
                 <li class="tree-node">
-                    <a href="gov-pages/beijing.html" class="tree-node-header" data-level="province">
+                    <a href="#provincial" class="tree-node-header" data-level="province">
                         <span class="tree-toggle">▶</span>
-                        <span class="tree-label">北京市</span>
+                        <span class="tree-label">省级政府</span>
                     </a>
                     <ul class="tree-children">
-                        <!-- 市级 -->
                         <li class="tree-node">
-                            <a href="gov-pages/beijing.html" class="tree-node-header" data-level="city">
-                                <span class="tree-toggle">▶</span>
+                            <a href="#provincial" class="tree-node-header" data-level="province">
                                 <span class="tree-label">北京市</span>
                             </a>
-                            <ul class="tree-children">
-                                <!-- 区县级 -->
-                                <li class="tree-node">
-                                    <a href="gov-pages/beijing-haidian.html" class="tree-node-header" data-level="district">
-                                        <span class="tree-toggle">▶</span>
-                                        <span class="tree-label">海淀区</span>
-                                    </a>
-                                    <ul class="tree-children">
-                                        <!-- 乡级 -->
-                                        <li class="tree-node">
-                                            <a href="gov-pages/beijing-haidian-zhongguancun.html" class="tree-node-header" data-level="township">
-                                                <span class="tree-label">中关村街道</span>
-                                            </a>
-                                        </li>
+                        </li>
+                        <li class="tree-node">
+                            <a href="#provincial" class="tree-node-header" data-level="province">
+                                <span class="tree-label">上海市</span>
+                            </a>
+                        </li>
+                        <li class="tree-node">
+                            <a href="#provincial" class="tree-node-header" data-level="province">
+                                <span class="tree-label">广东省</span>
+                            </a>
+                        </li>
+                        <li class="tree-node">
+                            <a href="#provincial" class="tree-node-header" data-level="province">
+                                <span class="tree-label">浙江省</span>
+                            </a>
+                        </li>
+                        <li class="tree-node">
+                            <a href="#provincial" class="tree-node-header" data-level="province">
+                                <span class="tree-label">江苏省</span>
+                            </a>
+                        </li>
+                        <li class="tree-node">
+                            <a href="#provincial" class="tree-node-header" data-level="province">
+                                <span class="tree-label">山东省</span>
+                            </a>
+                        </li>
+                        <li class="tree-node">
+                            <a href="#provincial" class="tree-node-header" data-level="province">
+                                <span class="tree-label">四川省</span>
+                            </a>
+                        </li>
+                        <li class="tree-node">
+                            <a href="#provincial" class="tree-node-header" data-level="province">
+                                <span class="tree-label">湖北省</span>
+                            </a>
+                        </li>
+                        <li class="tree-node">
+                            <a href="#provincial" class="tree-node-header" data-level="province">
+                                <span class="tree-label">湖南省</span>
+                            </a>
+                        </li>
+                        <li class="tree-node">
+                            <a href="#provincial" class="tree-node-header" data-level="province">
+                                <span class="tree-label">河南省</span>
+                            </a>
+                        </li>
+                        <li class="tree-node">
+                            <a href="#provincial" class="tree-node-header" data-level="province">
+                                <span class="tree-label">河北省</span>
+                            </a>
+                        </li>
+                        <li class="tree-node">
+                            <a href="#provincial" class="tree-node-header" data-level="province">
+                                <span class="tree-label">福建省</span>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
                                         <li class="tree-node">
                                             <a href="gov-pages/beijing-haidian-qinghuayuan.html" class="tree-node-header" data-level="township">
                                                 <span class="tree-label">清华园街道</span>
@@ -367,10 +409,75 @@
 
                 <!-- 省级 -->
                 <li class="tree-node">
-                    <a href="gov-pages/fujian.html" class="tree-node-header" data-level="province">
+                    <a href="fujian.html" class="tree-node-header" data-level="province">
                         <span class="tree-toggle">▶</span>
                         <span class="tree-label">福建省</span>
                     </a>
+                </li>
+
+                <!-- 中央直属机关 -->
+                <li class="tree-node">
+                    <a href="#central-organs" class="tree-node-header" data-level="national">
+                        <span class="tree-toggle">▶</span>
+                        <span class="tree-label">中央直属机关</span>
+                    </a>
+                    <ul class="tree-children">
+                        <li class="tree-node">
+                            <a href="#central-organs" class="tree-node-header" data-level="national">
+                                <span class="tree-label">全国人大常委会</span>
+                            </a>
+                        </li>
+                        <li class="tree-node">
+                            <a href="#central-organs" class="tree-node-header" data-level="national">
+                                <span class="tree-label">全国政协</span>
+                            </a>
+                        </li>
+                        <li class="tree-node">
+                            <a href="#central-organs" class="tree-node-header" data-level="national">
+                                <span class="tree-label">最高人民法院</span>
+                            </a>
+                        </li>
+                        <li class="tree-node">
+                            <a href="#central-organs" class="tree-node-header" data-level="national">
+                                <span class="tree-label">最高人民检察院</span>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+
+                <!-- 党的机关 -->
+                <li class="tree-node">
+                    <a href="#party-organs" class="tree-node-header" data-level="national">
+                        <span class="tree-toggle">▶</span>
+                        <span class="tree-label">党的机关</span>
+                    </a>
+                    <ul class="tree-children">
+                        <li class="tree-node">
+                            <a href="#party-organs" class="tree-node-header" data-level="national">
+                                <span class="tree-label">中共中央办公厅</span>
+                            </a>
+                        </li>
+                        <li class="tree-node">
+                            <a href="#party-organs" class="tree-node-header" data-level="national">
+                                <span class="tree-label">中共中央组织部</span>
+                            </a>
+                        </li>
+                        <li class="tree-node">
+                            <a href="#party-organs" class="tree-node-header" data-level="national">
+                                <span class="tree-label">中共中央宣传部</span>
+                            </a>
+                        </li>
+                        <li class="tree-node">
+                            <a href="#party-organs" class="tree-node-header" data-level="national">
+                                <span class="tree-label">中共中央统战部</span>
+                            </a>
+                        </li>
+                        <li class="tree-node">
+                            <a href="#party-organs" class="tree-node-header" data-level="national">
+                                <span class="tree-label">中央纪委国家监委</span>
+                            </a>
+                        </li>
+                    </ul>
                 </li>
             </ul>
         </nav>
@@ -791,6 +898,349 @@
                         <li><strong>国家大数据中心</strong> - 负责国家大数据管理</li>
                         <li><strong>数据要素市场管理中心</strong> - 负责数据要素市场管理</li>
                         <li><strong>高质量数据集建设办公室</strong> - 负责高质量数据集建设（2026年新增）</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- 中央直属机关 -->
+        <section id="central-organs" class="gov-section">
+            <h2>中央直属机关</h2>
+
+            <!-- 全国人民代表大会常务委员会 -->
+            <div class="org-detail">
+                <div class="org-header">
+                    <h3>全国人民代表大会常务委员会</h3>
+                    <span class="badge">国家级</span>
+                    <span class="badge">中央直属机关</span>
+                    <span class="date">成立于 1954年9月</span>
+                </div>
+                <div class="org-info">
+                    <h4>人员来源</h4>
+                    <p>全国人大常委会组成人员由全国人民代表大会选举产生，包括委员长、副委员长、秘书长、委员等。工作人员通过公务员考试招录和遴选。2026年重点引进立法研究、数字法治、人工智能立法等专业人才。法学博士、博士后是重要来源。</p>
+                    
+                    <h4>人员升迁</h4>
+                    <p>实行公务员职级并行制度。从科员到副处、正处、副局、正局逐级晋升。2026年全面升级数字化立法能力考核，法治信息化建设能力成为重要指标。</p>
+                    
+                    <h4>资金来源</h4>
+                    <p>由国家财政预算拨款，属于中央财政支出。2026年立法工作和法治建设投入增加，重点保障数字立法、涉外法治等领域。</p>
+                    
+                    <h4>下属机构</h4>
+                    <p>全国人大常委会下设多个工作机构和办事机构：</p>
+                    <ul>
+                        <li><strong>办公厅</strong> - 负责机关日常运转和综合协调</li>
+                        <li><strong>法制工作委员会</strong> - 负责立法规划和草案起草</li>
+                        <li><strong>预算工作委员会</strong> - 负责预算审查监督</li>
+                        <li><strong>代表资格审查委员会</strong> - 负责代表资格审查</li>
+                        <li><strong>香港特别行政区基本法委员会</strong> - 负责基本法相关事务</li>
+                        <li><strong>澳门特别行政区基本法委员会</strong> - 负责基本法相关事务</li>
+                        <li><strong>法案室</strong> - 负责法案研究</li>
+                        <li><strong>研究室</strong> - 负责调查研究</li>
+                        <li><strong>联络局</strong> - 负责与代表联络</li>
+                        <li><strong>信访局</strong> - 负责信访工作</li>
+                        <li><strong>机关党委</strong> - 负责机关党务工作</li>
+                        <li><strong>数字法治工作室</strong> - 负责数字法治建设（2026年新增）</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- 中国人民政治协商会议全国委员会 -->
+            <div class="org-detail">
+                <div class="org-header">
+                    <h3>中国人民政治协商会议全国委员会</h3>
+                    <span class="badge">国家级</span>
+                    <span class="badge">中央直属机关</span>
+                    <span class="date">成立于 1949年9月</span>
+                </div>
+                <div class="org-info">
+                    <h4>人员来源</h4>
+                    <p>全国政协委员由各民主党派、人民团体、各族各界人士协商产生。工作人员通过公务员考试招录。2026年重点引进协商议政、数字化政协等专业人才。统战理论研究人才需求增加。</p>
+                    
+                    <h4>人员升迁</h4>
+                    <p>实行公务员职级并行制度。2026年全面升级协商议政数字化能力考核。</p>
+                    
+                    <h4>资金来源</h4>
+                    <p>由国家财政预算拨款。2026年政协信息化建设和协商议政平台投入增加。</p>
+                    
+                    <h4>下属机构</h4>
+                    <ul>
+                        <li><strong>办公厅</strong> - 负责机关日常运转和综合协调</li>
+                        <li><strong>提案委员会</strong> - 负责提案工作</li>
+                        <li><strong>经济委员会</strong> - 负责经济领域调研</li>
+                        <li><strong>农业和农村委员会</strong> - 负责农业农村领域调研</li>
+                        <li><strong>人口资源环境委员会</strong> - 负责人口资源环境调研</li>
+                        <li><strong>教科卫体委员会</strong> - 负责教科文卫体调研</li>
+                        <li><strong>社会和法制委员会</strong> - 负责社会法制调研</li>
+                        <li><strong>民族和宗教委员会</strong> - 负责民族宗教调研</li>
+                        <li><strong>港澳台侨委员会</strong> - 负责港澳台侨调研</li>
+                        <li><strong>外事委员会</strong> - 负责外事工作</li>
+                        <li><strong>文史和学习委员会</strong> - 负责文史资料工作</li>
+                        <li><strong>研究室</strong> - 负责调查研究</li>
+                        <li><strong>信息化管理办公室</strong> - 负责信息化建设（2026年新增）</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- 最高人民法院 -->
+            <div class="org-detail">
+                <div class="org-header">
+                    <h3>最高人民法院</h3>
+                    <span class="badge">国家级</span>
+                    <span class="badge">中央直属机关</span>
+                    <span class="date">成立于 1949年10月</span>
+                </div>
+                <div class="org-info">
+                    <h4>人员来源</h4>
+                    <p>法官通过国家统一法律职业资格考试和公务员考试招录。从优秀律师、法学教授、检察官中选拔法官。2026年重点引进互联网法院、知识产权法院、金融法院等专业化审判人才。人工智能司法应用人才需求增加。</p>
+                    
+                    <h4>人员升迁</h4>
+                    <p>法官等级分为首席大法官、大法官、高级法官、法官。从副科到正部逐级晋升。2026年全面升级智慧法院建设和数字化审判能力考核。</p>
+                    
+                    <h4>资金来源</h4>
+                    <p>由国家财政预算拨款。2026年智慧法院建设和司法大数据投入大幅增长。</p>
+                    
+                    <h4>下属机构</h4>
+                    <ul>
+                        <li><strong>办公厅</strong> - 负责机关日常运转和综合协调</li>
+                        <li><strong>政治部</strong> - 负责人事管理</li>
+                        <li><strong>立案庭</strong> - 负责立案工作</li>
+                        <li><strong>刑事审判第一庭</strong> - 负责刑事审判</li>
+                        <li><strong>民事审判第一庭</strong> - 负责民事审判</li>
+                        <li><strong>行政审判庭</strong> - 负责行政审判</li>
+                        <li><strong>审判监督庭</strong> - 负责审判监督</li>
+                        <li><strong>执行局</strong> - 负责执行工作</li>
+                        <li><strong>赔偿委员会办公室</strong> - 负责国家赔偿</li>
+                        <li><strong>司法改革办公室</strong> - 负责司法改革</li>
+                        <li><strong>司法行政装备管理局</strong> - 负责司法行政</li>
+                        <li><strong>新闻局</strong> - 负责新闻宣传</li>
+                        <li><strong>智慧法院建设办公室</strong> - 负责智慧法院建设（2026年新增）</li>
+                        <li><strong>司法大数据中心</strong> - 负责司法大数据（2026年新增）</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- 最高人民检察院 -->
+            <div class="org-detail">
+                <div class="org-header">
+                    <h3>最高人民检察院</h3>
+                    <span class="badge">国家级</span>
+                    <span class="badge">中央直属机关</span>
+                    <span class="date">成立于 1949年10月</span>
+                </div>
+                <div class="org-info">
+                    <h4>人员来源</h4>
+                    <p>检察官通过国家统一法律职业资格考试和公务员考试招录。从优秀律师、法学教授中选拔检察官。2026年重点引进数字检察、公益诉讼、未成年人检察等专业人才。人工智能检察应用人才需求增加。</p>
+                    
+                    <h4>人员升迁</h4>
+                    <p>检察官等级分为首席大检察官、大检察官、高级检察官、检察官。从副科到正部逐级晋升。2026年全面升级数字检察和智慧检务能力考核。</p>
+                    
+                    <h4>资金来源</h4>
+                    <p>由国家财政预算拨款。2026年智慧检务建设和检察大数据投入大幅增长。</p>
+                    
+                    <h4>下属机构</h4>
+                    <ul>
+                        <li><strong>办公厅</strong> - 负责机关日常运转和综合协调</li>
+                        <li><strong>政治部</strong> - 负责人事管理</li>
+                        <li><strong>第一检察厅</strong> - 负责普通刑事犯罪检察</li>
+                        <li><strong>第二检察厅</strong> - 负责重大刑事犯罪检察</li>
+                        <li><strong>第三检察厅</strong> - 负责职务犯罪检察</li>
+                        <li><strong>第四检察厅</strong> - 负责经济犯罪检察</li>
+                        <li><strong>第五检察厅</strong> - 负责刑事执行检察</li>
+                        <li><strong>第六检察厅</strong> - 负责民事检察</li>
+                        <li><strong>第七检察厅</strong> - 负责行政检察</li>
+                        <li><strong>第八检察厅</strong> - 负责公益诉讼检察</li>
+                        <li><strong>第九检察厅</strong> - 负责未成年人检察</li>
+                        <li><strong>案件管理办公室</strong> - 负责案件管理</li>
+                        <li><strong>法律政策研究室</strong> - 负责政策研究</li>
+                        <li><strong>数字检察办公室</strong> - 负责数字检察建设（2026年新增）</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- 党的机关 -->
+        <section id="party-organs" class="gov-section">
+            <h2>党的机关</h2>
+
+            <!-- 中共中央办公厅 -->
+            <div class="org-detail">
+                <div class="org-header">
+                    <h3>中共中央办公厅</h3>
+                    <span class="badge">国家级</span>
+                    <span class="badge">党的机关</span>
+                    <span class="date">成立于 1949年10月</span>
+                </div>
+                <div class="org-info">
+                    <h4>人员来源</h4>
+                    <p>中共中央办公厅工作人员主要通过公务员考试招录和军队转业干部安置。2026年重点引进数字化办公、智慧党建、人工智能等领域专业人才。党建研究和政策分析人才需求增加。</p>
+                    
+                    <h4>人员升迁</h4>
+                    <p>实行公务员职级并行制度。从科员到正部逐级晋升。2026年全面升级数字化办公和智慧党建能力考核。</p>
+                    
+                    <h4>资金来源</h4>
+                    <p>由中央财政预算拨款。2026年信息化建设投入大幅增长。</p>
+                    
+                    <h4>下属机构</h4>
+                    <ul>
+                        <li><strong>秘书局</strong> - 负责公文处理和档案管理</li>
+                        <li><strong>机要局</strong> - 负责密码通信和机要工作</li>
+                        <li><strong>警卫局</strong> - 负责安全警卫</li>
+                        <li><strong>调研局</strong> - 负责调查研究</li>
+                        <li><strong>法规局</strong> - 负责法规工作</li>
+                        <li><strong>督查室</strong> - 负责督促检查</li>
+                        <li><strong>信息室</strong> - 负责信息工作</li>
+                        <li><strong>信访室</strong> - 负责信访工作</li>
+                        <li><strong>老干部局</strong> - 负责老干部服务</li>
+                        <li><strong>机关党委</strong> - 负责机关党务</li>
+                        <li><strong>信息化建设办公室</strong> - 负责信息化建设（2026年新增）</li>
+                        <li><strong>智慧党建办公室</strong> - 负责智慧党建（2026年新增）</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- 中共中央组织部 -->
+            <div class="org-detail">
+                <div class="org-header">
+                    <h3>中共中央组织部</h3>
+                    <span class="badge">国家级</span>
+                    <span class="badge">党的机关</span>
+                    <span class="date">成立于 1921年7月</span>
+                </div>
+                <div class="org-info">
+                    <h4>人员来源</h4>
+                    <p>中共中央组织部工作人员通过公务员考试招录和遴选。主要从高校、组织部门、党政机关选拔。2026年重点引进人才工作数字化、干部管理智能化等领域专业人才。人才强国战略实施急需各类人才。</p>
+                    
+                    <h4>人员升迁</h4>
+                    <p>实行公务员职级并行制度。从科员到正部逐级晋升。2026年全面升级干部管理数字化和人才工作信息化能力考核。</p>
+                    
+                    <h4>资金来源</h4>
+                    <p>由中央财政预算拨款。2026年人才工作和信息化建设投入大幅增长。</p>
+                    
+                    <h4>下属机构</h4>
+                    <ul>
+                        <li><strong>办公厅</strong> - 负责机关日常运转</li>
+                        <li><strong>干部一局</strong> - 负责中央管理的干部工作</li>
+                        <li><strong>干部二局</strong> - 负责干部调配</li>
+                        <li><strong>干部三局</strong> - 负责干部监督</li>
+                        <li><strong>干部四局</strong> - 负责干部教育培训</li>
+                        <li><strong>人才工作局</strong> - 负责人才工作</li>
+                        <li><strong>组织一局</strong> - 负责党的组织建设</li>
+                        <li><strong>组织二局</strong> - 负责党员管理</li>
+                        <li><strong>公务员一局</strong> - 负责公务员管理</li>
+                        <li><strong>公务员二局</strong> - 负责参照公务员法管理</li>
+                        <li><strong>党建研究所</strong> - 负责党建研究</li>
+                        <li><strong>人才大数据中心</strong> - 负责人才大数据（2026年新增）</li>
+                        <li><strong>干部管理信息化办公室</strong> - 负责干部管理信息化（2026年新增）</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- 中共中央宣传部 -->
+            <div class="org-detail">
+                <div class="org-header">
+                    <h3>中共中央宣传部</h3>
+                    <span class="badge">国家级</span>
+                    <span class="badge">党的机关</span>
+                    <span class="date">成立于 1921年7月</span>
+                </div>
+                <div class="org-info">
+                    <h4>人员来源</h4>
+                    <p>中共中央宣传部工作人员通过公务员考试招录和遴选。主要从高校、媒体、宣传部门选拔。2026年重点引进网络意识形态、人工智能舆情分析、数字文化等领域专业人才。国际传播能力建设急需人才。</p>
+                    
+                    <h4>人员升迁</h4>
+                    <p>实行公务员职级并行制度。从科员到正部逐级晋升。2026年全面升级数字宣传和舆情引导能力考核。</p>
+                    
+                    <h4>资金来源</h4>
+                    <p>由中央财政预算拨款。2026年意识形态工作和融媒体建设投入大幅增长。</p>
+                    
+                    <h4>下属机构</h4>
+                    <ul>
+                        <li><strong>办公厅</strong> - 负责机关日常运转</li>
+                        <li><strong>理论局</strong> - 负责理论宣传</li>
+                        <li><strong>宣传教育局</strong> - 负责宣传教育</li>
+                        <li><strong>文艺局</strong> - 负责文艺工作</li>
+                        <li><strong>新闻局</strong> - 负责新闻工作</li>
+                        <li><strong>出版局</strong> - 负责出版工作</li>
+                        <li><strong>网络舆情管理局</strong> - 负责网络舆情</li>
+                        <li><strong>对外宣传局</strong> - 负责对外宣传</li>
+                        <li><strong>文化建设司</strong> - 负责文化建设</li>
+                        <li><strong>文明办</strong> - 负责精神文明建设</li>
+                        <li><strong>传媒监管局</strong> - 负责传媒监管</li>
+                        <li><strong>融媒体中心</strong> - 负责融媒体建设（2026年新增）</li>
+                        <li><strong>人工智能宣传办公室</strong> - 负责AI宣传（2026年新增）</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- 中共中央统战部 -->
+            <div class="org-detail">
+                <div class="org-header">
+                    <h3>中共中央统战部</h3>
+                    <span class="badge">国家级</span>
+                    <span class="badge">党的机关</span>
+                    <span class="date">成立于 1921年7月</span>
+                </div>
+                <div class="org-info">
+                    <h4>人员来源</h4>
+                    <p>中共中央统战部工作人员通过公务员考试招录和遴选。主要从高校、统战部门、党政机关选拔。2026年重点引进数字统战、港澳台工作、新的社会阶层等领域专业人才。港澳台和海外统战工作急需人才。</p>
+                    
+                    <h4>人员升迁</h4>
+                    <p>实行公务员职级并行制度。从科员到正部逐级晋升。2026年全面升级数字统线和海外统战能力考核。</p>
+                    
+                    <h4>资金来源</h4>
+                    <p>由中央财政预算拨款。2026年港澳台工作和海外统战投入增加。</p>
+                    
+                    <h4>下属机构</h4>
+                    <ul>
+                        <li><strong>办公厅</strong> - 负责机关日常运转</li>
+                        <li><strong>民主党派工作局</strong> - 负责民主党派工作</li>
+                        <li><strong>民族工作局</strong> - 负责民族工作</li>
+                        <li><strong>宗教工作局</strong> - 负责宗教工作</li>
+                        <li><strong>非公有制经济工作局</strong> - 负责非公经济统战</li>
+                        <li><strong>无党派人士和党外知识分子工作局</strong> - 负责无党派人士工作</li>
+                        <li><strong>新的社会阶层人士工作局</strong> - 负责新阶层人士工作</li>
+                        <li><strong>港澳台工作局</strong> - 负责港澳台工作</li>
+                        <li><strong>海外联络工作局</strong> - 负责海外联络</li>
+                        <li><strong>信息中心</strong> - 负责信息化建设</li>
+                        <li><strong>数字统战办公室</strong> - 负责数字统战（2026年新增）</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- 中共中央纪律检查委员会 -->
+            <div class="org-detail">
+                <div class="org-header">
+                    <h3>中共中央纪律检查委员会</h3>
+                    <span class="badge">国家级</span>
+                    <span class="badge">党的机关</span>
+                    <span class="date">成立于 1921年7月</span>
+                </div>
+                <div class="org-info">
+                    <h4>人员来源</h4>
+                    <p>纪检监察干部通过公务员考试招录、遴选和军队转业干部安置。主要从党政机关、检察院、法院选拔。2026年重点引进大数据监督、人工智能审查调查、金融反腐等专业人才。数字纪检监察人才需求增加。</p>
+                    
+                    <h4>人员升迁</h4>
+                    <p>实行公务员职级并行制度。从科员到正部逐级晋升。2026年全面升级智慧纪检监察和大数据分析能力考核。</p>
+                    
+                    <h4>资金来源</h4>
+                    <p>由中央财政预算拨款。2026年信息化建设和大数据监督投入大幅增长。</p>
+                    
+                    <h4>下属机构</h4>
+                    <ul>
+                        <li><strong>办公厅</strong> - 负责机关日常运转</li>
+                        <li><strong>组织部</strong> - 负责组织建设</li>
+                        <li><strong>宣传部</strong> - 负责宣传教育</li>
+                        <li><strong>研究室</strong> - 负责调查研究</li>
+                        <li><strong>信访室</strong> - 负责信访工作</li>
+                        <li><strong>案件监督管理室</strong> - 负责案件管理</li>
+                        <li><strong>第一监督检查室</strong> - 负责日常监督</li>
+                        <li><strong>第二监督检查室</strong> - 负责专项监督</li>
+                        <li><strong>审查调查室</strong> - 负责审查调查</li>
+                        <li><strong>案件审理室</strong> - 负责案件审理</li>
+                        <li><strong>纪检监察干部监督室</strong> - 负责干部监督</li>
+                        <li><strong>信息技术室</strong> - 负责信息化建设</li>
+                        <li><strong>大数据监督中心</strong> - 负责大数据监督（2026年新增）</li>
+                        <li><strong>智慧纪检监察办公室</strong> - 负责智慧纪检监察（2026年新增）</li>
                     </ul>
                 </div>
             </div>
