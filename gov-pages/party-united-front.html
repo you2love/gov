@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>中共中央统战部 - 中国政府机关介绍</title>
+    <link rel="stylesheet" href="../styles.css">
+    <style>
+        .circle-process {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            padding: 40px;
+            background: linear-gradient(135deg, #834d9b 0%, #d04ed6 100%);
+            border-radius: 12px;
+            margin: 20px 0;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        .process-step {
+            text-align: center;
+            color: white;
+        }
+        .process-circle {
+            width: 100px;
+            height: 100px;
+            background: white;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto 10px;
+            font-size: 32px;
+        }
+        .process-arrow {
+            font-size: 32px;
+            color: white;
+        }
+        .group-list {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+            margin: 20px 0;
+        }
+        .group-card {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+            border-top: 4px solid #834d9b;
+        }
+        .group-card h4 { color: #834d9b; margin-bottom: 10px; }
+    </style>
+</head>
+<body>
+    <aside class="sidebar">
+        <div class="sidebar-header">
+            <h2>党的机关</h2>
+            <p>按机构类型浏览</p>
+        </div>
+        <nav class="tree-nav">
+            <ul class="tree-root">
+                <li class="tree-node">
+                    <a href="central-npc.html" class="tree-node-header" data-level="central">
+                        <span class="tree-toggle">▶</span>
+                        <span class="tree-label">中央直属机关</span>
+                    </a>
+                </li>
+                <li class="tree-node">
+                    <a href="party-ccao.html" class="tree-node-header" data-level="party">
+                        <span class="tree-toggle">▶</span>
+                        <span class="tree-label">中共中央办公厅</span>
+                    </a>
+                </li>
+                <li class="tree-node">
+                    <a href="party-org.html" class="tree-node-header" data-level="party">
+                        <span class="tree-toggle">▶</span>
+                        <span class="tree-label">中共中央组织部</span>
+                    </a>
+                </li>
+                <li class="tree-node">
+                    <a href="party-propaganda.html" class="tree-node-header" data-level="party">
+                        <span class="tree-toggle">▶</span>
+                        <span class="tree-label">中共中央宣传部</span>
+                    </a>
+                </li>
+                <li class="tree-node">
+                    <a href="party-united-front.html" class="tree-node-header active" data-level="party">
+                        <span class="tree-toggle rotated">▶</span>
+                        <span class="tree-label">中共中央统战部</span>
+                    </a>
+                    <ul class="tree-children expanded">
+                        <li class="tree-node">
+                            <a href="#scope" class="tree-node-header">
+                                <span class="tree-label">工作范围</span>
+                            </a>
+                        </li>
+                        <li class="tree-node">
+                            <a href="#democratic" class="tree-node-header">
+                                <span class="tree-label">民主党派</span>
+                            </a>
+                        </li>
+                        <li class="tree-node">
+                            <a href="#overseas" class="tree-node-header">
+                                <span class="tree-label">港澳台海外</span>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="tree-node">
+                    <a href="party-discipline.html" class="tree-node-header" data-level="party">
+                        <span class="tree-toggle">▶</span>
+                        <span class="tree-label">中央纪委国家监委</span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </aside>
+
+    <main class="main-content">
+        <div class="content-wrapper">
+            <header class="hero-section">
+                <h1>中共中央统战部</h1>
+                <p>党中央主管统一战线工作的职能部门</p>
+            </header>
+
+            <section class="gov-section">
+                <div class="org-detail">
+                    <div class="org-header">
+                        <h3>机构概况</h3>
+                        <span class="badge">国家级</span>
+                        <span class="badge">党的机关</span>
+                        <span class="date">成立于 1921年7月</span>
+                    </div>
+                </div>
+            </section>
+
+            <!-- 统一战线工作范围 -->
+            <section id="scope" class="gov-section">
+                <h2>🔄 统一战线工作流程</h2>
+                <div class="circle-process">
+                    <div class="process-step">
+                        <div class="process-circle">🤝</div>
+                        <div>团结联合</div>
+                    </div>
+                    <div class="process-arrow">→</div>
+                    <div class="process-step">
+                        <div class="process-circle">💬</div>
+                        <div>政治协商</div>
+                    </div>
+                    <div class="process-arrow">→</div>
+                    <div class="process-step">
+                        <div class="process-circle">📋</div>
+                        <div>参政议政</div>
+                    </div>
+                    <div class="process-arrow">→</div>
+                    <div class="process-step">
+                        <div class="process-circle">🎯</div>
+                        <div>凝聚共识</div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- 统一战线构成 -->
+            <section id="democratic" class="gov-section">
+                <h2>🏛️ 统一战线构成</h2>
+                <div class="group-list">
+                    <div class="group-card">
+                        <h4>中国共产党</h4>
+                        <p>领导核心</p>
+                    </div>
+                    <div class="group-card">
+                        <h4>八大民主党派</h4>
+                        <p>参政党</p>
+                    </div>
+                    <div class="group-card">
+                        <h4>无党派人士</h4>
+                        <p>重要力量</p>
+                    </div>
+                    <div class="group-card">
+                        <h4>工商联</h4>
+                        <p>非公经济</p>
+                    </div>
+                    <div class="group-card">
+                        <h4>民族宗教</h4>
+                        <p>56个民族</p>
+                    </div>
+                    <div class="group-card">
+                        <h4>新的社会阶层</h4>
+                        <p>自由职业者等</p>
+                    </div>
+                    <div class="group-card">
+                        <h4>港澳台同胞</h4>
+                        <p>血脉亲情</p>
+                    </div>
+                    <div class="group-card">
+                        <h4>海外侨胞</h4>
+                        <p>爱国力量</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- 2026年重点工作 -->
+            <section id="overseas" class="gov-section">
+                <h2>🌏 2026年重点工作</h2>
+                <div class="group-list">
+                    <div class="group-card">
+                        <h4>💼 港澳工作</h4>
+                        <p>一国两制实践</p>
+                        <p>爱国力量培养</p>
+                    </div>
+                    <div class="group-card">
+                        <h4>🤝 对台工作</h4>
+                        <p>两岸融合发展</p>
+                        <p>青年交流</p>
+                    </div>
+                    <div class="group-card">
+                        <h4>🌍 海外统战</h4>
+                        <p>侨胞联络</p>
+                        <p>华裔新生代工作</p>
+                    </div>
+                    <div class="group-card">
+                        <h4>💻 数字统战</h4>
+                        <p>网上统战平台</p>
+                        <p>云端协商</p>
+                    </div>
+                </div>
+            </section>
+
+            <div class="back-to-home">
+                <a href="../index.html" class="btn-back">← 返回首页</a>
+            </div>
+        </div>
+    </main>
+
+    <script src="../app.js"></script>
+</body>
+</html>

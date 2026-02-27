@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>最高人民检察院 - 中国政府机关介绍</title>
+    <link rel="stylesheet" href="../styles.css">
+    <style>
+        .org-matrix {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 15px;
+            margin: 20px 0;
+        }
+        .matrix-card {
+            background: white;
+            border-radius: 10px;
+            padding: 20px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+            border-left: 5px solid #4b6cb7;
+        }
+        .matrix-card h4 {
+            color: #4b6cb7;
+            margin-bottom: 15px;
+            padding-bottom: 10px;
+            border-bottom: 2px solid #e8e8e8;
+        }
+        .matrix-item {
+            display: flex;
+            justify-content: space-between;
+            padding: 8px 0;
+            border-bottom: 1px dashed #eee;
+        }
+        .matrix-item:last-child {
+            border-bottom: none;
+        }
+        .badge-tag {
+            display: inline-block;
+            background: linear-gradient(135deg, #4b6cb7 0%, #182848 100%);
+            color: white;
+            padding: 5px 15px;
+            border-radius: 20px;
+            font-size: 12px;
+            margin: 5px;
+        }
+        .progress-bar {
+            width: 100%;
+            height: 30px;
+            background: #e8e8e8;
+            border-radius: 15px;
+            overflow: hidden;
+            margin: 10px 0;
+        }
+        .progress-fill {
+            height: 100%;
+            background: linear-gradient(90deg, #4b6cb7, #182848);
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
+            padding-right: 10px;
+            color: white;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <aside class="sidebar">
+        <div class="sidebar-header">
+            <h2>中央直属机关</h2>
+            <p>按机构类型浏览</p>
+        </div>
+        <nav class="tree-nav">
+            <ul class="tree-root">
+                <li class="tree-node">
+                    <a href="central-npc.html" class="tree-node-header" data-level="central">
+                        <span class="tree-toggle">▶</span>
+                        <span class="tree-label">全国人大常委会</span>
+                    </a>
+                </li>
+                <li class="tree-node">
+                    <a href="central-cppcc.html" class="tree-node-header" data-level="central">
+                        <span class="tree-toggle">▶</span>
+                        <span class="tree-label">全国政协</span>
+                    </a>
+                </li>
+                <li class="tree-node">
+                    <a href="central-supreme-court.html" class="tree-node-header" data-level="central">
+                        <span class="tree-toggle">▶</span>
+                        <span class="tree-label">最高人民法院</span>
+                    </a>
+                </li>
+                <li class="tree-node">
+                    <a href="central-supreme-prosecutor.html" class="tree-node-header active" data-level="central">
+                        <span class="tree-toggle rotated">▶</span>
+                        <span class="tree-label">最高人民检察院</span>
+                    </a>
+                    <ul class="tree-children expanded">
+                        <li class="tree-node">
+                            <a href="#departments" class="tree-node-header">
+                                <span class="tree-label">部门职能</span>
+                            </a>
+                        </li>
+                        <li class="tree-node">
+                            <a href="#cases" class="tree-node-header">
+                                <span class="tree-label">检察业务</span>
+                            </a>
+                        </li>
+                        <li class="tree-node">
+                            <a href="#digital" class="tree-node-header">
+                                <span class="tree-label">数字检察</span>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="tree-node">
+                    <a href="party-ccao.html" class="tree-node-header" data-level="party">
+                        <span class="tree-toggle">▶</span>
+                        <span class="tree-label">中共中央办公厅</span>
+                    </a>
+                </li>
+                <li class="tree-node">
+                    <a href="party-org.html" class="tree-node-header" data-level="party">
+                        <span class="tree-toggle">▶</span>
+                        <span class="tree-label">中共中央组织部</span>
+                    </a>
+                </li>
+                <li class="tree-node">
+                    <a href="party-propaganda.html" class="tree-node-header" data-level="party">
+                        <span class="tree-toggle">▶</span>
+                        <span class="tree-label">中共中央宣传部</span>
+                    </a>
+                </li>
+                <li class="tree-node">
+                    <a href="party-united-front.html" class="tree-node-header" data-level="party">
+                        <span class="tree-toggle">▶</span>
+                        <span class="tree-label">中共中央统战部</span>
+                    </a>
+                </li>
+                <li class="tree-node">
+                    <a href="party-discipline.html" class="tree-node-header" data-level="party">
+                        <span class="tree-toggle">▶</span>
+                        <span class="tree-label">中央纪委国家监委</span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </aside>
+
+    <main class="main-content">
+        <div class="content-wrapper">
+            <header class="hero-section">
+                <h1>最高人民检察院</h1>
+                <p>国家检察机关 · 法律监督机关</p>
+            </header>
+
+            <section class="gov-section">
+                <div class="org-detail">
+                    <div class="org-header">
+                        <h3>机构概况</h3>
+                        <span class="badge">国家级</span>
+                        <span class="badge">中央直属机关</span>
+                        <span class="date">成立于 1949年10月</span>
+                    </div>
+                </div>
+            </section>
+
+            <!-- 部门职能矩阵 -->
+            <section id="departments" class="gov-section">
+                <h2>🏢 部门职能矩阵</h2>
+                <div class="org-matrix">
+                    <div class="matrix-card">
+                        <h4>第一检察厅</h4>
+                        <div class="matrix-item">
+                            <span>普通刑事犯罪</span>
+                            <span class="badge-tag">批捕</span>
+                        </div>
+                        <div class="matrix-item">
+                            <span>盗窃、诈骗等</span>
+                            <span class="badge-tag">起诉</span>
+                        </div>
+                    </div>
+                    <div class="matrix-card">
+                        <h4>第二检察厅</h4>
+                        <div class="matrix-item">
+                            <span>重大刑事犯罪</span>
+                            <span class="badge-tag">重案</span>
+                        </div>
+                        <div class="matrix-item">
+                            <span>危害国家安全</span>
+                            <span class="badge-tag">专案</span>
+                        </div>
+                    </div>
+                    <div class="matrix-card">
+                        <h4>第三检察厅</h4>
+                        <div class="matrix-item">
+                            <span>职务犯罪</span>
+                            <span class="badge-tag">监察</span>
+                        </div>
+                        <div class="matrix-item">
+                            <span>贪污贿赂</span>
+                            <span class="badge-tag">起诉</span>
+                        </div>
+                    </div>
+                    <div class="matrix-card">
+                        <h4>第四检察厅</h4>
+                        <div class="matrix-item">
+                            <span>经济犯罪</span>
+                            <span class="badge-tag">金融</span>
+                        </div>
+                        <div class="matrix-item">
+                            <span>网络犯罪</span>
+                            <span class="badge-tag">打击</span>
+                        </div>
+                    </div>
+                    <div class="matrix-card">
+                        <h4>第五检察厅</h4>
+                        <div class="matrix-item">
+                            <span>刑事执行</span>
+                            <span class="badge-tag">监督</span>
+                        </div>
+                        <div class="matrix-item">
+                            <span>监狱、看守所</span>
+                            <span class="badge-tag">检察</span>
+                        </div>
+                    </div>
+                    <div class="matrix-card">
+                        <h4>第八检察厅</h4>
+                        <div class="matrix-item">
+                            <span>公益诉讼</span>
+                            <span class="badge-tag">民事</span>
+                        </div>
+                        <div class="matrix-item">
+                            <span>行政公益诉讼</span>
+                            <span class="badge-tag">提起</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- 业务数据 -->
+            <section id="cases" class="gov-section">
+                <h2>📈 2025年检察业务数据</h2>
+                <div class="matrix-card">
+                    <h4>案件办理情况</h4>
+                    <div class="matrix-item">
+                        <span>批准逮捕</span>
+                        <span>80万件</span>
+                    </div>
+                    <div class="progress-bar">
+                        <div class="progress-fill" style="width: 80%;">80%</div>
+                    </div>
+                    <div class="matrix-item">
+                        <span>提起公诉</span>
+                        <span>120万件</span>
+                    </div>
+                    <div class="progress-bar">
+                        <div class="progress-fill" style="width: 95%;">95%</div>
+                    </div>
+                    <div class="matrix-item">
+                        <span>公益诉讼</span>
+                        <span>15万件</span>
+                    </div>
+                    <div class="progress-bar">
+                        <div class="progress-fill" style="width: 65%;">65%</div>
+                    </div>
+                    <div class="matrix-item">
+                        <span>未成年人保护</span>
+                        <span>8万件</span>
+                    </div>
+                    <div class="progress-bar">
+                        <div class="progress-fill" style="width: 50%;">50%</div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- 数字检察 -->
+            <section id="digital" class="gov-section">
+                <h2>💻 数字检察建设 (2026)</h2>
+                <div class="matrix-card">
+                    <h4>重点建设项目</h4>
+                    <div class="matrix-item">
+                        <span>检察大数据平台</span>
+                        <span class="badge-tag">建设中</span>
+                    </div>
+                    <div class="matrix-item">
+                        <span>智慧案管系统</span>
+                        <span class="badge-tag">上线</span>
+                    </div>
+                    <div class="matrix-item">
+                        <span>公益诉讼线索平台</span>
+                        <span class="badge-tag">完善中</span>
+                    </div>
+                    <div class="matrix-item">
+                        <span>未成年人保护平台</span>
+                        <span class="badge-tag">2026新增</span>
+                    </div>
+                </div>
+            </section>
+
+            <div class="back-to-home">
+                <a href="../index.html" class="btn-back">← 返回首页</a>
+            </div>
+        </div>
+    </main>
+
+    <script src="../app.js"></script>
+</body>
+</html>

@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>中国人民政治协商会议全国委员会 - 中国政府机关介绍</title>
+    <link rel="stylesheet" href="../styles.css">
+    <style>
+        .flowchart {
+            padding: 30px;
+            background: linear-gradient(135deg, #11998e 0%, #38ef7d 100%);
+            border-radius: 12px;
+            margin: 20px 0;
+        }
+        .flow-step {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 15px 0;
+            flex-wrap: wrap;
+            gap: 15px;
+        }
+        .flow-box {
+            background: white;
+            padding: 15px 30px;
+            border-radius: 8px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+            text-align: center;
+            min-width: 180px;
+            position: relative;
+        }
+        .flow-arrow {
+            font-size: 24px;
+            color: white;
+        }
+        .flow-box::after {
+            content: '↓';
+            position: absolute;
+            bottom: -25px;
+            left: 50%;
+            transform: translateX(-50%);
+            font-size: 20px;
+            color: #11998e;
+        }
+        .flow-step:last-child .flow-box::after {
+            display: none;
+        }
+        .circle-chart {
+            display: flex;
+            justify-content: center;
+            gap: 40px;
+            flex-wrap: wrap;
+            margin: 30px 0;
+        }
+        .circle-item {
+            text-align: center;
+        }
+        .circle {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            background: conic-gradient(#11998e 0deg 144deg, #ddd 144deg 360deg);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto 10px;
+            position: relative;
+        }
+        .circle::before {
+            content: '';
+            width: 90px;
+            height: 90px;
+            background: white;
+            border-radius: 50%;
+            position: absolute;
+        }
+        .circle span {
+            position: relative;
+            z-index: 1;
+            font-weight: bold;
+            font-size: 18px;
+        }
+        .comparison-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+        .comparison-table th, .comparison-table td {
+            border: 1px solid #ddd;
+            padding: 15px;
+            text-align: center;
+        }
+        .comparison-table th {
+            background: linear-gradient(135deg, #11998e 0%, #38ef7d 100%);
+            color: white;
+        }
+        .comparison-table tr:nth-child(even) {
+            background: #f8f9fa;
+        }
+        .highlight-box {
+            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+            padding: 20px;
+            border-radius: 10px;
+            margin: 20px 0;
+            border-left: 5px solid #11998e;
+        }
+    </style>
+</head>
+<body>
+    <aside class="sidebar">
+        <div class="sidebar-header">
+            <h2>中央直属机关</h2>
+            <p>按机构类型浏览</p>
+        </div>
+        <nav class="tree-nav">
+            <ul class="tree-root">
+                <li class="tree-node">
+                    <a href="central-npc.html" class="tree-node-header" data-level="central">
+                        <span class="tree-toggle">▶</span>
+                        <span class="tree-label">全国人大常委会</span>
+                    </a>
+                </li>
+                <li class="tree-node">
+                    <a href="central-cppcc.html" class="tree-node-header active" data-level="central">
+                        <span class="tree-toggle rotated">▶</span>
+                        <span class="tree-label">全国政协</span>
+                    </a>
+                    <ul class="tree-children expanded">
+                        <li class="tree-node">
+                            <a href="#process" class="tree-node-header">
+                                <span class="tree-label">协商流程</span>
+                            </a>
+                        </li>
+                        <li class="tree-node">
+                            <a href="#composition" class="tree-node-header">
+                                <span class="tree-label">组成结构</span>
+                            </a>
+                        </li>
+                        <li class="tree-node">
+                            <a href="#function" class="tree-node-header">
+                                <span class="tree-label">职能作用</span>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="tree-node">
+                    <a href="central-supreme-court.html" class="tree-node-header" data-level="central">
+                        <span class="tree-toggle">▶</span>
+                        <span class="tree-label">最高人民法院</span>
+                    </a>
+                </li>
+                <li class="tree-node">
+                    <a href="central-supreme-prosecutor.html" class="tree-node-header" data-level="central">
+                        <span class="tree-toggle">▶</span>
+                        <span class="tree-label">最高人民检察院</span>
+                    </a>
+                </li>
+                <li class="tree-node">
+                    <a href="party-ccao.html" class="tree-node-header" data-level="party">
+                        <span class="tree-toggle">▶</span>
+                        <span class="tree-label">中共中央办公厅</span>
+                    </a>
+                </li>
+                <li class="tree-node">
+                    <a href="party-org.html" class="tree-node-header" data-level="party">
+                        <span class="tree-toggle">▶</span>
+                        <span class="tree-label">中共中央组织部</span>
+                    </a>
+                </li>
+                <li class="tree-node">
+                    <a href="party-propaganda.html" class="tree-node-header" data-level="party">
+                        <span class="tree-toggle">▶</span>
+                        <span class="tree-label">中共中央宣传部</span>
+                    </a>
+                </li>
+                <li class="tree-node">
+                    <a href="party-united-front.html" class="tree-node-header" data-level="party">
+                        <span class="tree-toggle">▶</span>
+                        <span class="tree-label">中共中央统战部</span>
+                    </a>
+                </li>
+                <li class="tree-node">
+                    <a href="party-discipline.html" class="tree-node-header" data-level="party">
+                        <span class="tree-toggle">▶</span>
+                        <span class="tree-label">中央纪委国家监委</span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </aside>
+
+    <main class="main-content">
+        <div class="content-wrapper">
+            <header class="hero-section">
+                <h1>中国人民政治协商会议全国委员会</h1>
+                <p>爱国统一战线组织 · 多党合作和政治协商机构</p>
+            </header>
+
+            <section class="gov-section">
+                <div class="org-detail">
+                    <div class="org-header">
+                        <h3>机构概况</h3>
+                        <span class="badge">国家级</span>
+                        <span class="badge">中央直属机关</span>
+                        <span class="date">成立于 1949年9月</span>
+                    </div>
+                </div>
+            </section>
+
+            <!-- 协商流程图 -->
+            <section id="process" class="gov-section">
+                <h2>🔄 政协协商流程图</h2>
+                <div class="flowchart">
+                    <div class="flow-step">
+                        <div class="flow-box">
+                            <strong>议题提出</strong>
+                            <div>党委、政府、政协</div>
+                        </div>
+                    </div>
+                    <div class="flow-step">
+                        <div class="flow-arrow">↓</div>
+                    </div>
+                    <div class="flow-step">
+                        <div class="flow-box">
+                            <strong>调研论证</strong>
+                            <div>专委会、民主党派</div>
+                        </div>
+                    </div>
+                    <div class="flow-step">
+                        <div class="flow-arrow">↓</div>
+                    </div>
+                    <div class="flow-step">
+                        <div class="flow-box">
+                            <strong>协商座谈</strong>
+                            <div>政协全体会议、常委会议</div>
+                        </div>
+                    </div>
+                    <div class="flow-step">
+                        <div class="flow-arrow">↓</div>
+                    </div>
+                    <div class="flow-step">
+                        <div class="flow-box">
+                            <strong>意见报送</strong>
+                            <div>政协建议案、提案</div>
+                        </div>
+                    </div>
+                    <div class="flow-step">
+                        <div class="flow-arrow">↓</div>
+                    </div>
+                    <div class="flow-step">
+                        <div class="flow-box">
+                            <strong>办理反馈</strong>
+                            <div>党委政府答复</div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- 组成结构饼图 -->
+            <section id="composition" class="gov-section">
+                <h2>📊 政协组成结构</h2>
+                <div class="circle-chart">
+                    <div class="circle-item">
+                        <div class="circle"><span>40%</span></div>
+                        <p>中国共产党</p>
+                    </div>
+                    <div class="circle-item">
+                        <div class="circle" style="background: conic-gradient(#38ef7d 0deg 108deg, #ddd 108deg 360deg);"><span>30%</span></div>
+                        <p>民主党派</p>
+                    </div>
+                    <div class="circle-item">
+                        <div class="circle" style="background: conic-gradient(#11998e 0deg 72deg, #ddd 72deg 360deg);"><span>20%</span></div>
+                        <p>无党派人士</p>
+                    </div>
+                    <div class="circle-item">
+                        <div class="circle" style="background: conic-gradient(#f093fb 0deg 36deg, #ddd 36deg 360deg);"><span>10%</span></div>
+                        <p>人民团体</p>
+                    </div>
+                </div>
+                <div class="highlight-box">
+                    <h4>💡 2026年新变化</h4>
+                    <ul>
+                        <li>新增数字经济、碳中和等新兴领域代表</li>
+                        <li>扩大新就业形态群体代表比例</li>
+                        <li>增加青年代表名额</li>
+                    </ul>
+                </div>
+            </section>
+
+            <!-- 职能对比表 -->
+            <section id="function" class="gov-section">
+                <h2>📋 主要职能对比</h2>
+                <table class="comparison-table">
+                    <thead>
+                        <tr>
+                            <th>职能</th>
+                            <th>内容</th>
+                            <th>2026年重点</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>政治协商</strong></td>
+                            <td>对国家和地方重大问题进行协商</td>
+                            <td>数字中国建设</td>
+                        </tr>
+                        <tr>
+                            <td><strong>民主监督</strong></td>
+                            <td>对国家机关及其工作人员进行监督</td>
+                            <td>基层治理</td>
+                        </tr>
+                        <tr>
+                            <td><strong>参政议政</strong></td>
+                            <td>围绕经济社会发展献策</td>
+                            <td>人工智能产业</td>
+                        </tr>
+                        <tr>
+                            <td><strong>凝聚共识</strong></td>
+                            <td>汇聚力量、促进团结</td>
+                            <td>民族复兴</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+
+            <div class="back-to-home">
+                <a href="../index.html" class="btn-back">← 返回首页</a>
+            </div>
+        </div>
+    </main>
+
+    <script src="../app.js"></script>
+</body>
+</html>

@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>中共中央办公厅 - 中国政府机关介绍</title>
+    <link rel="stylesheet" href="../styles.css">
+    <style>
+        .funnel {
+            padding: 30px;
+            background: linear-gradient(135deg, #c21500 0%, #ffc500 100%);
+            border-radius: 12px;
+            margin: 20px 0;
+        }
+        .funnel-level {
+            display: flex;
+            justify-content: center;
+            margin: 5px 0;
+        }
+        .funnel-box {
+            background: white;
+            padding: 12px 20px;
+            border-radius: 5px;
+            text-align: center;
+            box-shadow: 0 3px 10px rgba(0,0,0,0.2);
+        }
+        .funnel-1 { width: 20%; }
+        .funnel-2 { width: 40%; }
+        .funnel-3 { width: 60%; }
+        .funnel-4 { width: 80%; }
+        .network-diagram {
+            padding: 20px;
+            background: #fff8f0;
+            border-radius: 12px;
+            margin: 20px 0;
+        }
+        .network-node {
+            display: inline-block;
+            background: white;
+            padding: 15px 25px;
+            border-radius: 50px;
+            margin: 10px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+            border: 2px solid #c21500;
+        }
+        .network-line {
+            text-align: center;
+            color: #c21500;
+            font-size: 24px;
+            margin: 5px 0;
+        }
+        .duty-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+        .duty-table th, .duty-table td {
+            border: 1px solid #ddd;
+            padding: 12px;
+            text-align: left;
+        }
+        .duty-table th {
+            background: linear-gradient(135deg, #c21500 0%, #ffc500 100%);
+            color: white;
+        }
+        .duty-table tr:nth-child(even) {
+            background: #fafafa;
+        }
+    </style>
+</head>
+<body>
+    <aside class="sidebar">
+        <div class="sidebar-header">
+            <h2>党的机关</h2>
+            <p>按机构类型浏览</p>
+        </div>
+        <nav class="tree-nav">
+            <ul class="tree-root">
+                <li class="tree-node">
+                    <a href="central-npc.html" class="tree-node-header" data-level="central">
+                        <span class="tree-toggle">▶</span>
+                        <span class="tree-label">中央直属机关</span>
+                    </a>
+                </li>
+                <li class="tree-node">
+                    <a href="party-ccao.html" class="tree-node-header active" data-level="party">
+                        <span class="tree-toggle rotated">▶</span>
+                        <span class="tree-label">中共中央办公厅</span>
+                    </a>
+                    <ul class="tree-children expanded">
+                        <li class="tree-node">
+                            <a href="#functions" class="tree-node-header">
+                                <span class="tree-label">职能体系</span>
+                            </a>
+                        </li>
+                        <li class="tree-node">
+                            <a href="#departments" class="tree-node-header">
+                                <span class="tree-label">工作部门</span>
+                            </a>
+                        </li>
+                        <li class="tree-node">
+                            <a href="#it" class="tree-node-header">
+                                <span class="tree-label">信息化建设</span>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="tree-node">
+                    <a href="party-org.html" class="tree-node-header" data-level="party">
+                        <span class="tree-toggle">▶</span>
+                        <span class="tree-label">中共中央组织部</span>
+                    </a>
+                </li>
+                <li class="tree-node">
+                    <a href="party-propaganda.html" class="tree-node-header" data-level="party">
+                        <span class="tree-toggle">▶</span>
+                        <span class="tree-label">中共中央宣传部</span>
+                    </a>
+                </li>
+                <li class="tree-node">
+                    <a href="party-united-front.html" class="tree-node-header" data-level="party">
+                        <span class="tree-toggle">▶</span>
+                        <span class="tree-label">中共中央统战部</span>
+                    </a>
+                </li>
+                <li class="tree-node">
+                    <a href="party-discipline.html" class="tree-node-header" data-level="party">
+                        <span class="tree-toggle">▶</span>
+                        <span class="tree-label">中央纪委国家监委</span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </aside>
+
+    <main class="main-content">
+        <div class="content-wrapper">
+            <header class="hero-section">
+                <h1>中共中央办公厅</h1>
+                <p>党中央综合办事机构 · 党的机关</p>
+            </header>
+
+            <section class="gov-section">
+                <div class="org-detail">
+                    <div class="org-header">
+                        <h3>机构概况</h3>
+                        <span class="badge">国家级</span>
+                        <span class="badge">党的机关</span>
+                        <span class="date">成立于 1949年10月</span>
+                    </div>
+                </div>
+            </section>
+
+            <!-- 职能体系漏斗图 -->
+            <section id="functions" class="gov-section">
+                <h2>🔻 职能体系漏斗图</h2>
+                <div class="funnel">
+                    <div class="funnel-level">
+                        <div class="funnel-box funnel-1">
+                            <strong>中央决策</strong>
+                        </div>
+                    </div>
+                    <div class="funnel-level">
+                        <div class="funnel-box funnel-2">
+                            <strong>传达贯彻</strong>
+                        </div>
+                    </div>
+                    <div class="funnel-level">
+                        <div class="funnel-box funnel-3">
+                            <strong>综合协调</strong>
+                        </div>
+                    </div>
+                    <div class="funnel-level">
+                        <div class="funnel-box funnel-4">
+                            <strong>督促落实</strong>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- 工作部门网络图 -->
+            <section id="departments" class="gov-section">
+                <h2>🕸️ 工作部门网络图</h2>
+                <div class="network-diagram" style="text-align: center;">
+                    <div class="network-node" style="background: #c21500; color: white;">
+                        中办主任
+                    </div>
+                    <div class="network-line">↓</div>
+                    <div>
+                        <div class="network-node">秘书局</div>
+                        <div class="network-node">机要局</div>
+                        <div class="network-node">警卫局</div>
+                    </div>
+                    <div class="network-line">↓</div>
+                    <div>
+                        <div class="network-node">调研局</div>
+                        <div class="network-node">法规局</div>
+                        <div class="network-node">督查室</div>
+                        <div class="network-node">信息室</div>
+                    </div>
+                    <div class="network-line">↓</div>
+                    <div>
+                        <div class="network-node">信访室</div>
+                        <div class="network-node">老干部局</div>
+                        <div class="network-node">机关党委</div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- 职责表格 -->
+            <section id="it" class="gov-section">
+                <h2>📋 主要职责</h2>
+                <table class="duty-table">
+                    <thead>
+                        <tr>
+                            <th>部门</th>
+                            <th>职责</th>
+                            <th>2026年重点</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>秘书局</td>
+                            <td>公文处理、档案管理、会议组织</td>
+                            <td>无纸化办公</td>
+                        </tr>
+                        <tr>
+                            <td>机要局</td>
+                            <td>密码通信、机要传输</td>
+                            <td>量子加密</td>
+                        </tr>
+                        <tr>
+                            <td>警卫局</td>
+                            <td>安全警卫</td>
+                            <td>智慧安防</td>
+                        </tr>
+                        <tr>
+                            <td>调研局</td>
+                            <td>调查研究、决策参考</td>
+                            <td>大数据分析</td>
+                        </tr>
+                        <tr>
+                            <td>督查室</td>
+                            <td>督促检查、落实反馈</td>
+                            <td>在线督查</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+
+            <div class="back-to-home">
+                <a href="../index.html" class="btn-back">← 返回首页</a>
+            </div>
+        </div>
+    </main>
+
+    <script src="../app.js"></script>
+</body>
+</html>

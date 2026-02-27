@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>中共中央组织部 - 中国政府机关介绍</title>
+    <link rel="stylesheet" href="../styles.css">
+    <style>
+        .cycle-diagram {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 40px;
+            background: linear-gradient(135deg, #00c6ff 0%, #0072ff 100%);
+            border-radius: 12px;
+            margin: 20px 0;
+        }
+        .cycle-center {
+            width: 150px;
+            height: 150px;
+            background: white;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            font-weight: bold;
+            box-shadow: 0 0 30px rgba(0,0,0,0.3);
+        }
+        .cycle-ring {
+            position: absolute;
+            width: 350px;
+            height: 350px;
+            border: 3px dashed rgba(255,255,255,0.5);
+            border-radius: 50%;
+        }
+        .cycle-item {
+            position: absolute;
+            background: white;
+            padding: 10px 15px;
+            border-radius: 8px;
+            font-size: 14px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+        }
+        .card-stack {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+            margin: 20px 0;
+        }
+        .stack-card {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .stack-card:nth-child(1) { border-left: 5px solid #00c6ff; }
+        .stack-card:nth-child(2) { border-left: 5px solid #0072ff; }
+        .stack-card:nth-child(3) { border-left: 5px solid #00c6ff; }
+        .stack-card:nth-child(4) { border-left: 5px solid #0072ff; }
+    </style>
+</head>
+<body>
+    <aside class="sidebar">
+        <div class="sidebar-header">
+            <h2>党的机关</h2>
+            <p>按机构类型浏览</p>
+        </div>
+        <nav class="tree-nav">
+            <ul class="tree-root">
+                <li class="tree-node">
+                    <a href="central-npc.html" class="tree-node-header" data-level="central">
+                        <span class="tree-toggle">▶</span>
+                        <span class="tree-label">中央直属机关</span>
+                    </a>
+                </li>
+                <li class="tree-node">
+                    <a href="party-ccao.html" class="tree-node-header" data-level="party">
+                        <span class="tree-toggle">▶</span>
+                        <span class="tree-label">中共中央办公厅</span>
+                    </a>
+                </li>
+                <li class="tree-node">
+                    <a href="party-org.html" class="tree-node-header active" data-level="party">
+                        <span class="tree-toggle rotated">▶</span>
+                        <span class="tree-label">中共中央组织部</span>
+                    </a>
+                    <ul class="tree-children expanded">
+                        <li class="tree-node">
+                            <a href="#mission" class="tree-node-header">
+                                <span class="tree-label">核心职能</span>
+                            </a>
+                        </li>
+                        <li class="tree-node">
+                            <a href="#cadres" class="tree-node-header">
+                                <span class="tree-label">干部管理</span>
+                            </a>
+                        </li>
+                        <li class="tree-node">
+                            <a href="#talent" class="tree-node-header">
+                                <span class="tree-label">人才工作</span>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="tree-node">
+                    <a href="party-propaganda.html" class="tree-node-header" data-level="party">
+                        <span class="tree-toggle">▶</span>
+                        <span class="tree-label">中共中央宣传部</span>
+                    </a>
+                </li>
+                <li class="tree-node">
+                    <a href="party-united-front.html" class="tree-node-header" data-level="party">
+                        <span class="tree-toggle">▶</span>
+                        <span class="tree-label">中共中央统战部</span>
+                    </a>
+                </li>
+                <li class="tree-node">
+                    <a href="party-discipline.html" class="tree-node-header" data-level="party">
+                        <span class="tree-toggle">▶</span>
+                        <span class="tree-label">中央纪委国家监委</span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </aside>
+
+    <main class="main-content">
+        <div class="content-wrapper">
+            <header class="hero-section">
+                <h1>中共中央组织部</h1>
+                <p>党中央主管组织工作和干部工作的职能部门</p>
+            </header>
+
+            <section class="gov-section">
+                <div class="org-detail">
+                    <div class="org-header">
+                        <h3>机构概况</h3>
+                        <span class="badge">国家级</span>
+                        <span class="badge">党的机关</span>
+                        <span class="date">成立于 1921年7月</span>
+                    </div>
+                </div>
+            </section>
+
+            <!-- 组织工作循环图 -->
+            <section id="mission" class="gov-section">
+                <h2>🔄 组织工作循环图</h2>
+                <div class="cycle-diagram" style="position: relative;">
+                    <div class="cycle-center">
+                        <div>
+                            <div style="font-size: 24px;">🏛️</div>
+                            <div>中组部</div>
+                        </div>
+                    </div>
+                    <div class="cycle-ring"></div>
+                    <div class="cycle-item" style="top: 10%; left: 50%; transform: translateX(-50%);">
+                        干部工作
+                    </div>
+                    <div class="cycle-item" style="top: 30%; right: 5%;">
+                        组织建设
+                    </div>
+                    <div class="cycle-item" style="bottom: 30%; right: 5%;">
+                        人才工作
+                    </div>
+                    <div class="cycle-item" style="bottom: 10%; left: 50%; transform: translateX(-50%);">
+                        党员管理
+                    </div>
+                    <div class="cycle-item" style="bottom: 30%; left: 5%;">
+                        公务员管理
+                    </div>
+                    <div class="cycle-item" style="top: 30%; left: 5%;">
+                        教育培训
+                    </div>
+                </div>
+            </section>
+
+            <!-- 干部管理体系 -->
+            <section id="cadres" class="gov-section">
+                <h2>👥 干部管理体系</h2>
+                <div class="card-stack">
+                    <div class="stack-card">
+                        <div>
+                            <strong>干部选拔任用</strong>
+                            <p style="margin: 5px 0 0; color: #666; font-size: 14px;">民主推荐、组织考察、讨论决定</p>
+                        </div>
+                        <span style="background: #00c6ff; color: white; padding: 5px 15px; border-radius: 20px;">核心职能</span>
+                    </div>
+                    <div class="stack-card">
+                        <div>
+                            <strong>干部教育培训</strong>
+                            <p style="margin: 5px 0 0; color: #666; font-size: 14px;">党校培训、理论学习、实践锻炼</p>
+                        </div>
+                        <span style="background: #0072ff; color: white; padding: 5px 15px; border-radius: 20px;">重要任务</span>
+                    </div>
+                    <div class="stack-card">
+                        <div>
+                            <strong>干部监督管理</strong>
+                            <p style="margin: 5px 0 0; color: #666; font-size: 14px;">日常监督、巡视检查、个人事项报告</p>
+                        </div>
+                        <span style="background: #00c6ff; color: white; padding: 5px 15px; border-radius: 20px;">重要任务</span>
+                    </div>
+                    <div class="stack-card">
+                        <div>
+                            <strong>人才强国战略</strong>
+                            <p style="margin: 5px 0 0; color: #666; font-size: 14px;">高层次人才引进、人才培养、评价激励</p>
+                        </div>
+                        <span style="background: #0072ff; color: white; padding: 5px 15px; border-radius: 20px;">2026重点</span>
+                    </div>
+                </div>
+            </section>
+
+            <!-- 人才工作数据 -->
+            <section id="talent" class="gov-section">
+                <h2>🎯 人才工作数据 (2026)</h2>
+                <div class="card-stack">
+                    <div class="stack-card">
+                        <div>
+                            <strong>国家级人才计划</strong>
+                            <p style="margin: 5px 0 0; color: #666; font-size: 14px;">万人计划、千人计划、万人计划</p>
+                        </div>
+                        <span style="font-weight: bold; color: #00c6ff;">累计3.5万+</span>
+                    </div>
+                    <div class="stack-card">
+                        <div>
+                            <strong>博士后科研工作站</strong>
+                            <p style="margin: 5px 0 0; color: #666; font-size: 14px;">企业博士后、科研院所博士后</p>
+                        </div>
+                        <span style="font-weight: bold; color: #0072ff;">4000+</span>
+                    </div>
+                    <div class="stack-card">
+                        <div>
+                            <strong>人才大数据平台</strong>
+                            <p style="margin: 5px 0 0; color: #666; font-size: 14px;">人才信息库、人才服务云</p>
+                        </div>
+                        <span style="font-weight: bold; color: #00c6ff;">建设中</span>
+                    </div>
+                </div>
+            </section>
+
+            <div class="back-to-home">
+                <a href="../index.html" class="btn-back">← 返回首页</a>
+            </div>
+        </div>
+    </main>
+
+    <script src="../app.js"></script>
+</body>
+</html>

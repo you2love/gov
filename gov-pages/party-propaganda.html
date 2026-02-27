@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>中共中央宣传部 - 中国政府机关介绍</title>
+    <link rel="stylesheet" href="../styles.css">
+    <style>
+        .radar-chart {
+            padding: 30px;
+            background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+            border-radius: 12px;
+            margin: 20px 0;
+        }
+        .radar-item {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background: white;
+            padding: 15px 20px;
+            margin: 10px 0;
+            border-radius: 8px;
+        }
+        .radar-title { font-weight: bold; }
+        .radar-bar {
+            width: 200px;
+            height: 10px;
+            background: #eee;
+            border-radius: 5px;
+            overflow: hidden;
+        }
+        .radar-fill {
+            height: 100%;
+            background: linear-gradient(90deg, #f093fb, #f5576c);
+            border-radius: 5px;
+        }
+        .media-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+        .media-table th, .media-table td {
+            border: 1px solid #ddd;
+            padding: 12px;
+            text-align: center;
+        }
+        .media-table th {
+            background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+            color: white;
+        }
+        .media-table tr:hover { background: #fafafa; }
+    </style>
+</head>
+<body>
+    <aside class="sidebar">
+        <div class="sidebar-header">
+            <h2>党的机关</h2>
+            <p>按机构类型浏览</p>
+        </div>
+        <nav class="tree-nav">
+            <ul class="tree-root">
+                <li class="tree-node">
+                    <a href="central-npc.html" class="tree-node-header" data-level="central">
+                        <span class="tree-toggle">▶</span>
+                        <span class="tree-label">中央直属机关</span>
+                    </a>
+                </li>
+                <li class="tree-node">
+                    <a href="party-ccao.html" class="tree-node-header" data-level="party">
+                        <span class="tree-toggle">▶</span>
+                        <span class="tree-label">中共中央办公厅</span>
+                    </a>
+                </li>
+                <li class="tree-node">
+                    <a href="party-org.html" class="tree-node-header" data-level="party">
+                        <span class="tree-toggle">▶</span>
+                        <span class="tree-label">中共中央组织部</span>
+                    </a>
+                </li>
+                <li class="tree-node">
+                    <a href="party-propaganda.html" class="tree-node-header active" data-level="party">
+                        <span class="tree-toggle rotated">▶</span>
+                        <span class="tree-label">中共中央宣传部</span>
+                    </a>
+                    <ul class="tree-children expanded">
+                        <li class="tree-node">
+                            <a href="#work" class="tree-node-header">
+                                <span class="tree-label">宣传工作</span>
+                            </a>
+                        </li>
+                        <li class="tree-node">
+                            <a href="#media" class="tree-node-header">
+                                <span class="tree-label">媒体矩阵</span>
+                            </a>
+                        </li>
+                        <li class="tree-node">
+                            <a href="#culture" class="tree-node-header">
+                                <span class="tree-label">文化建设</span>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="tree-node">
+                    <a href="party-united-front.html" class="tree-node-header" data-level="party">
+                        <span class="tree-toggle">▶</span>
+                        <span class="tree-label">中共中央统战部</span>
+                    </a>
+                </li>
+                <li class="tree-node">
+                    <a href="party-discipline.html" class="tree-node-header" data-level="party">
+                        <span class="tree-toggle">▶</span>
+                        <span class="tree-label">中央纪委国家监委</span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </aside>
+
+    <main class="main-content">
+        <div class="content-wrapper">
+            <header class="hero-section">
+                <h1>中共中央宣传部</h1>
+                <p>党中央主管意识形态工作和宣传思想文化工作的职能部门</p>
+            </header>
+
+            <section class="gov-section">
+                <div class="org-detail">
+                    <div class="org-header">
+                        <h3>机构概况</h3>
+                        <span class="badge">国家级</span>
+                        <span class="badge">党的机关</span>
+                        <span class="date">成立于 1921年7月</span>
+                    </div>
+                </div>
+            </section>
+
+            <!-- 重点工作雷达图 -->
+            <section id="work" class="gov-section">
+                <h2>📡 重点工作领域</h2>
+                <div class="radar-chart">
+                    <div class="radar-item">
+                        <span class="radar-title">理论宣传</span>
+                        <div class="radar-bar"><div class="radar-fill" style="width: 95%;"></div></div>
+                    </div>
+                    <div class="radar-item">
+                        <span class="radar-title">新闻舆论</span>
+                        <div class="radar-bar"><div class="radar-fill" style="width: 90%;"></div></div>
+                    </div>
+                    <div class="radar-item">
+                        <span class="radar-title">文艺工作</span>
+                        <div class="radar-bar"><div class="radar-fill" style="width: 85%;"></div></div>
+                    </div>
+                    <div class="radar-item">
+                        <span class="radar-title">网络意识形态</span>
+                        <div class="radar-bar"><div class="radar-fill" style="width: 92%;"></div></div>
+                    </div>
+                    <div class="radar-item">
+                        <span class="radar-title">精神文明建设</span>
+                        <div class="radar-bar"><div class="radar-fill" style="width: 88%;"></div></div>
+                    </div>
+                    <div class="radar-item">
+                        <span class="radar-title">国际传播能力</span>
+                        <div class="radar-bar"><div class="radar-fill" style="width: 80%;"></div></div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- 媒体矩阵表格 -->
+            <section id="media" class="gov-section">
+                <h2>📺 主流媒体矩阵</h2>
+                <table class="media-table">
+                    <thead>
+                        <tr>
+                            <th>媒体类型</th>
+                            <th>代表媒体</th>
+                            <th>影响力</th>
+                            <th>2026重点</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>中央媒体</td>
+                            <td>人民日报、新华社、中央广电总台</td>
+                            <td>⭐⭐⭐⭐⭐</td>
+                            <td>融合转型</td>
+                        </tr>
+                        <tr>
+                            <td>门户网站</td>
+                            <td>人民网、新华网、央视网</td>
+                            <td>⭐⭐⭐⭐</td>
+                            <td>智能化</td>
+                        </tr>
+                        <tr>
+                            <td>新媒体</td>
+                            <td>学习强国、央视频、人民日报客户端</td>
+                            <td>⭐⭐⭐⭐⭐</td>
+                            <td>用户增长</td>
+                        </tr>
+                        <tr>
+                            <td>社交媒体</td>
+                            <td>微博、抖音、B站官方账号</td>
+                            <td>⭐⭐⭐⭐</td>
+                            <td>青年引领</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+
+            <!-- 文化建设 -->
+            <section id="culture" class="gov-section">
+                <h2>🎨 文化建设重点</h2>
+                <div class="radar-chart" style="background: linear-gradient(135deg, #a8edea 0%, #fed6e3 100%);">
+                    <div class="radar-item">
+                        <span class="radar-title">中华优秀传统文化传承</span>
+                        <div style="color: #666;">非物质文化遗产保护</div>
+                    </div>
+                    <div class="radar-item">
+                        <span class="radar-title">公共文化服务体系建设</span>
+                        <div style="color: #666;">基层文化设施完善</div>
+                    </div>
+                    <div class="radar-item">
+                        <span class="radar-title">文化产业发展</span>
+                        <div style="color: #666;">数字文化产业</div>
+                    </div>
+                    <div class="radar-item">
+                        <span class="radar-title">精神文明创建</span>
+                        <div style="color: #666;">文明城市、文明村镇</div>
+                    </div>
+                </div>
+            </section>
+
+            <div class="back-to-home">
+                <a href="../index.html" class="btn-back">← 返回首页</a>
+            </div>
+        </div>
+    </main>
+
+    <script src="../app.js"></script>
+</body>
+</html>
