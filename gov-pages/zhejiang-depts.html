@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>浙江省政府下属机构 - 中国政府机关介绍</title>
+    <link rel="stylesheet" href="../styles.css">
+    <style>
+        .dept-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px; margin: 20px 0; }
+        .dept-card { background: white; padding: 20px; border-radius: 10px; box-shadow: 0 4px 15px rgba(0,0,0,0.1); border-left: 5px solid #e67e22; }
+        .dept-card h4 { color: #e67e22; margin-bottom: 15px; padding-bottom: 10px; border-bottom: 2px solid #eee; }
+        .dept-item { display: flex; justify-content: space-between; padding: 8px 0; border-bottom: 1px dashed #eee; font-size: 14px; }
+        .stat-row { display: flex; gap: 15px; margin: 20px 0; flex-wrap: wrap; }
+        .stat-box { flex: 1; min-width: 150px; background: linear-gradient(135deg, #e67e22, #d35400); color: white; padding: 20px; border-radius: 10px; text-align: center; }
+        .stat-number { font-size: 28px; font-weight: bold; }
+    </style>
+</head>
+<body>
+    <aside class="sidebar">
+        <div class="sidebar-header">
+            <h2>省级政府</h2>
+            <p>按省份浏览</p>
+        </div>
+        <nav class="tree-nav">
+            <ul class="tree-root">
+                <li class="tree-node">
+                    <a href="beijing-depts.html" class="tree-node-header">北京市</a>
+                </li>
+                <li class="tree-node">
+                    <a href="shanghai-depts.html" class="tree-node-header">上海市</a>
+                </li>
+                <li class="tree-node">
+                    <a href="guangdong-depts.html" class="tree-node-header">广东省</a>
+                </li>
+                <li class="tree-node">
+                    <a href="zhejiang-depts.html" class="tree-node-header active">
+                        <span class="tree-toggle rotated">▶</span>
+                        <span class="tree-label">浙江省</span>
+                    </a>
+                    <ul class="tree-children expanded">
+                        <li class="tree-node"><a href="#overview">机构概览</a></li>
+                        <li class="tree-node"><a href="#economy">数字经济</a></li>
+                        <li class="tree-node"><a href="#reform">改革创新</a></li>
+                        <li class="tree-node"><a href="#common">共同富裕</a></li>
+                    </ul>
+                </li>
+                <li class="tree-node">
+                    <a href="jiangsu-depts.html" class="tree-node-header">江苏省</a>
+                </li>
+            </ul>
+        </nav>
+    </aside>
+
+    <main class="main-content">
+        <div class="content-wrapper">
+            <header class="hero-section">
+                <h1>浙江省人民政府下属机构</h1>
+                <p>省级政府 · 省政府组成部门</p>
+            </header>
+
+            <section id="overview" class="gov-section">
+                <h2>📊 浙江省基本情况</h2>
+                <div class="stat-row">
+                    <div class="stat-box">
+                        <div class="stat-number">6,577万</div>
+                        <div>常住人口</div>
+                    </div>
+                    <div class="stat-box">
+                        <div class="stat-number">8.0万亿+</div>
+                        <div>GDP(元)</div>
+                    </div>
+                    <div class="stat-box">
+                        <div class="stat-number">34个</div>
+                        <div>组成部门</div>
+                    </div>
+                    <div class="stat-box">
+                        <div class="stat-number">11市</div>
+                        <div>行政区划</div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="economy" class="gov-section">
+                <h2>💻 数字经济部门</h2>
+                <div class="dept-grid">
+                    <div class="dept-card">
+                        <h4>💻 经济和信息化厅</h4>
+                        <div class="dept-item"><span>主要职责</span><span>数字经济发展</span></div>
+                        <div class="dept-item"><span>2026重点</span><span>数字产业化</span></div>
+                        <div class="dept-item"><span>人员编制</span><span>180人</span></div>
+                    </div>
+                    <div class="dept-card">
+                        <h4>🔬 科学技术厅</h4>
+                        <div class="dept-item"><span>主要职责</span><span>科技创新</span></div>
+                        <div class="dept-item"><span>2026重点</span><span>互联网+</span></div>
+                        <div class="dept-item"><span>人员编制</span><span>150人</span></div>
+                    </div>
+                    <div class="dept-card">
+                        <h4>📡 数据管理局</h4>
+                        <div class="dept-item"><span>主要职责</span><span>数据资源管理</span></div>
+                        <div class="dept-item"><span>2026重点</span><span>公共数据授权</span></div>
+                        <div class="dept-item"><span>人员编制</span><span>80人</span></div>
+                    </div>
+                    <div class="dept-card">
+                        <h4>📦 商务厅</h4>
+                        <div class="dept-item"><span>主要职责</span><span>电子商务</span></div>
+                        <div class="dept-item"><span>2026重点</span><span>跨境电商</span></div>
+                        <div class="dept-item"><span>人员编制</span><span>150人</span></div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="reform" class="gov-section">
+                <h2>🔧 改革创新部门</h2>
+                <div class="dept-grid">
+                    <div class="dept-card">
+                        <h4>🏛️ 发展和改革委员会</h4>
+                        <div class="dept-item"><span>主要职责</span><span>改革统筹</span></div>
+                        <div class="dept-item"><span>2026重点</span><span>数字化改革</span></div>
+                        <div class="dept-item"><span>人员编制</span><span>180人</span></div>
+                    </div>
+                    <div class="dept-card">
+                        <h4>📊 统计局</h4>
+                        <div class="dept-item"><span>主要职责</span><span>统计监测</span></div>
+                        <div class="dept-item"><span>2026重点</span><span>高质量发展</span></div>
+                        <div class="dept-item"><span>人员编制</span><span>80人</span></div>
+                    </div>
+                    <div class="dept-card">
+                        <h4>💵 财政厅</h4>
+                        <div class="dept-item"><span>主要职责</span><span>财政管理</span></div>
+                        <div class="dept-item"><span>2026重点</span><span>零基预算</span></div>
+                        <div class="dept-item"><span>人员编制</span><span>140人</span></div>
+                    </div>
+                    <div class="dept-card">
+                        <h4>🏭 市场监督管理局</h4>
+                        <div class="dept-item"><span>主要职责</span><span>市场监管</span></div>
+                        <div class="dept-item"><span>2026重点</span><span>营商环境</span></div>
+                        <div class="dept-item"><span>人员编制</span><span>200人</span></div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="common" class="gov-section">
+                <h2>🤝 共同富裕示范区</h2>
+                <div class="dept-grid">
+                    <div class="dept-card">
+                        <h4>🏛️ 共同富裕示范区建设办公室</h4>
+                        <div class="dept-item"><span>主要职责</span><span>示范区统筹</span></div>
+                        <div class="dept-item"><span>2026重点</span><span>扩中提低</span></div>
+                        <div class="dept-item"><span>人员编制</span><span>60人</span></div>
+                    </div>
+                    <div class="dept-card">
+                        <h4>👥 人力资源和社会保障厅</h4>
+                        <div class="dept-item"><span>主要职责</span><span>就业社保</span></div>
+                        <div class="dept-item"><span>2026重点</span><span>高质量就业</span></div>
+                        <div class="dept-item"><span>人员编制</span><span>160人</span></div>
+                    </div>
+                    <div class="dept-card">
+                        <h4>🏠 住房和城乡建设厅</h4>
+                        <div class="dept-item"><span>主要职责</span><span>住房保障</span></div>
+                        <div class="dept-item"><span>2026重点</span><span>保障性住房</span></div>
+                        <div class="dept-item"><span>人员编制</span><span>180人</span></div>
+                    </div>
+                    <div class="dept-card">
+                        <h4>🌾 农业农村厅</h4>
+                        <div class="dept-item"><span>主要职责</span><span>乡村振兴</span></div>
+                        <div class="dept-item"><span>2026重点</span><span>共同富裕</span></div>
+                        <div class="dept-item"><span>人员编制</span><span>150人</span></div>
+                    </div>
+                </div>
+            </section>
+
+            <div class="back-to-home">
+                <a href="../index.html" class="btn-back">← 返回首页</a>
+            </div>
+        </div>
+    </main>
+
+    <script src="../app.js"></script>
+</body>
+</html>
