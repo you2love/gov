@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>各省统计数据 - 中国政府机关介绍</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .stat-table-container { overflow-x: auto; margin: 20px 0; }
+        .stat-table { width: 100%; border-collapse: collapse; background: white; border-radius: 10px; overflow: hidden; box-shadow: 0 4px 15px rgba(0,0,0,0.1); }
+        .stat-table th { background: linear-gradient(135deg, #3498db, #2980b9); color: white; padding: 15px; text-align: left; font-weight: 600; }
+        .stat-table td { padding: 12px 15px; border-bottom: 1px solid #eee; }
+        .stat-table tr:hover { background: #f8f9fa; }
+        .stat-table tr:last-child td { border-bottom: none; }
+        .stat-highlight { color: #e74c3c; font-weight: bold; }
+        .stat-good { color: #27ae60; }
+        .stat-warning { color: #f39c12; }
+        .page-header { background: linear-gradient(135deg, #3498db, #2980b9); color: white; padding: 40px; border-radius: 10px; margin-bottom: 30px; }
+        .page-header h1 { margin-bottom: 10px; font-size: 2rem; }
+        .page-header p { opacity: 0.9; }
+        .chart-container { background: white; padding: 20px; border-radius: 10px; margin: 20px 0; box-shadow: 0 4px 15px rgba(0,0,0,0.1); }
+    </style>
+</head>
+<body>
+    <aside class="sidebar">
+        <div class="sidebar-header">
+            <h2>政府机关</h2>
+            <p>按地域层级浏览</p>
+        </div>
+        <nav class="tree-nav">
+            <ul class="tree-root">
+                <li class="tree-node">
+                    <a href="../index.html" class="tree-node-header">
+                        <span class="tree-label">← 返回首页</span>
+                    </a>
+                </li>
+                <li class="tree-node">
+                    <a href="#national" class="tree-node-header" data-level="national">
+                        <span class="tree-toggle">▶</span>
+                        <span class="tree-label">国家级机关</span>
+                    </a>
+                    <ul class="tree-children">
+                        <li class="tree-node"><a href="#national">中华人民共和国国务院</a></li>
+                        <li class="tree-node"><a href="#national">外交部</a></li>
+                        <li class="tree-node"><a href="#national">教育部</a></li>
+                        <li class="tree-node"><a href="#national">公安部</a></li>
+                        <li class="tree-node"><a href="#national">财政部</a></li>
+                    </ul>
+                </li>
+                <li class="tree-node">
+                    <a href="#central" class="tree-node-header" data-level="national">
+                        <span class="tree-toggle">▶</span>
+                        <span class="tree-label">中央直属机关</span>
+                    </a>
+                    <ul class="tree-children">
+                        <li class="tree-node"><a href="gov-pages/central-npc.html">全国人大常委会</a></li>
+                        <li class="tree-node"><a href="gov-pages/central-cppcc.html">全国政协</a></li>
+                        <li class="tree-node"><a href="gov-pages/central-supreme-court.html">最高人民法院</a></li>
+                        <li class="tree-node"><a href="gov-pages/central-supreme-prosecutor.html">最高人民检察院</a></li>
+                    </ul>
+                </li>
+                <li class="tree-node">
+                    <a href="#provincial" class="tree-node-header" data-level="province">
+                        <span class="tree-toggle">▶</span>
+                        <span class="tree-label">省级政府</span>
+                    </a>
+                    <ul class="tree-children">
+                        <li class="tree-node"><a href="beijing-depts.html">北京市</a></li>
+                        <li class="tree-node"><a href="shanghai-depts.html">上海市</a></li>
+                        <li class="tree-node"><a href="guangdong-depts.html">广东省</a></li>
+                        <li class="tree-node"><a href="zhejiang-depts.html">浙江省</a></li>
+                        <li class="tree-node"><a href="jiangsu-depts.html">江苏省</a></li>
+                        <li class="tree-node"><a href="shandong-depts.html">山东省</a></li>
+                        <li class="tree-node"><a href="sichuan-depts.html">四川省</a></li>
+                        <li class="tree-node"><a href="hubei-depts.html">湖北省</a></li>
+                        <li class="tree-node"><a href="hunan-depts.html">湖南省</a></li>
+                        <li class="tree-node"><a href="henan-depts.html">河南省</a></li>
+                        <li class="tree-node"><a href="hebei-depts.html">河北省</a></li>
+                        <li class="tree-node"><a href="fujian-depts.html">福建省</a></li>
+                    </ul>
+                </li>
+                <li class="tree-node">
+                    <a href="province-stats.html" class="tree-node-header active">
+                        <span class="tree-label">📊 省份统计</span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </aside>
+
+    <main class="main-content">
+        <div class="content-wrapper">
+            <div class="page-header">
+                <h1>各省统计数据一览</h1>
+                <p>2026年最新数据统计</p>
+            </div>
+
+            <section class="gov-section">
+                <h2>📊 各省核心指标对比</h2>
+                <div class="stat-table-container">
+                    <table class="stat-table">
+                        <thead>
+                            <tr>
+                                <th>省份</th>
+                                <th>常住人口</th>
+                                <th>GDP(亿元)</th>
+                                <th>人均GDP(万元)</th>
+                                <th>平均工资(元/年)</th>
+                                <th>公务员数量</th>
+                                <th>青年占比(15-34岁)</th>
+                                <th>失业率</th>
+                                <th>房价(元/㎡)</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><strong>北京市</strong></td>
+                                <td>2,188万</td>
+                                <td class="stat-highlight">50,000+</td>
+                                <td class="stat-highlight">18.2</td>
+                                <td>191,228</td>
+                                <td>约25万</td>
+                                <td>22.5%</td>
+                                <td class="stat-good">4.1%</td>
+                                <td class="stat-highlight">68,000</td>
+                            </tr>
+                            <tr>
+                                <td><strong>上海市</strong></td>
+                                <td>2,487万</td>
+                                <td class="stat-highlight">47,000+</td>
+                                <td class="stat-highlight">18.9</td>
+                                <td>187,912</td>
+                                <td>约22万</td>
+                                <td>21.8%</td>
+                                <td class="stat-good">3.9%</td>
+                                <td class="stat-highlight">72,000</td>
+                            </tr>
+                            <tr>
+                                <td><strong>广东省</strong></td>
+                                <td>1.27亿</td>
+                                <td class="stat-highlight">135,000+</td>
+                                <td class="stat-highlight">10.6</td>
+                                <td>134,627</td>
+                                <td>约60万</td>
+                                <td>28.2%</td>
+                                <td class="stat-warning">5.2%</td>
+                                <td class="stat-highlight">18,500</td>
+                            </tr>
+                            <tr>
+                                <td><strong>浙江省</strong></td>
+                                <td>6,577万</td>
+                                <td class="stat-highlight">80,500+</td>
+                                <td class="stat-highlight">12.2</td>
+                                <td>132,715</td>
+                                <td>约35万</td>
+                                <td>25.6%</td>
+                                <td class="stat-good">4.5%</td>
+                                <td class="stat-highlight">22,800</td>
+                            </tr>
+                            <tr>
+                                <td><strong>江苏省</strong></td>
+                                <td>8,520万</td>
+                                <td class="stat-highlight">128,000+</td>
+                                <td class="stat-highlight">15.0</td>
+                                <td>124,156</td>
+                                <td>约45万</td>
+                                <td>24.1%</td>
+                                <td class="stat-good">4.3%</td>
+                                <td class="stat-highlight">19,200</td>
+                            </tr>
+                            <tr>
+                                <td><strong>山东省</strong></td>
+                                <td>1.01亿</td>
+                                <td class="stat-highlight">92,000+</td>
+                                <td class="stat-highlight">9.1</td>
+                                <td>95,823</td>
+                                <td>约55万</td>
+                                <td>23.8%</td>
+                                <td class="stat-warning">5.1%</td>
+                                <td>10,500</td>
+                            </tr>
+                            <tr>
+                                <td><strong>四川省</strong></td>
+                                <td>8,368万</td>
+                                <td>60,000+</td>
+                                <td>7.2</td>
+                                <td>96,234</td>
+                                <td>约42万</td>
+                                <td>25.3%</td>
+                                <td class="stat-warning">5.3%</td>
+                                <td>12,800</td>
+                            </tr>
+                            <tr>
+                                <td><strong>湖北省</strong></td>
+                                <td>5,848万</td>
+                                <td>56,000+</td>
+                                <td>9.6</td>
+                                <td>98,456</td>
+                                <td>约32万</td>
+                                <td>26.8%</td>
+                                <td class="stat-warning">5.5%</td>
+                                <td>11,200</td>
+                            </tr>
+                            <tr>
+                                <td><strong>湖南省</strong></td>
+                                <td>6,628万</td>
+                                <td>50,000+</td>
+                                <td>7.5</td>
+                                <td>90,345</td>
+                                <td>约38万</td>
+                                <td>27.1%</td>
+                                <td class="stat-warning">5.4%</td>
+                                <td>9,800</td>
+                            </tr>
+                            <tr>
+                                <td><strong>河南省</strong></td>
+                                <td>9,873万</td>
+                                <td>59,000+</td>
+                                <td>6.0</td>
+                                <td>82,456</td>
+                                <td>约52万</td>
+                                <td>28.5%</td>
+                                <td class="stat-warning">5.6%</td>
+                                <td>8,500</td>
+                            </tr>
+                            <tr>
+                                <td><strong>河北省</strong></td>
+                                <td>7,395万</td>
+                                <td>43,000+</td>
+                                <td>5.8</td>
+                                <td>84,567</td>
+                                <td>约40万</td>
+                                <td>24.5%</td>
+                                <td class="stat-warning">5.2%</td>
+                                <td>11,500</td>
+                            </tr>
+                            <tr>
+                                <td><strong>福建省</strong></td>
+                                <td>4,183万</td>
+                                <td>58,000+</td>
+                                <td class="stat-highlight">13.9</td>
+                                <td>112,345</td>
+                                <td>约25万</td>
+                                <td>26.2%</td>
+                                <td class="stat-good">4.6%</td>
+                                <td>15,600</td>
+                            </tr>
+                            <tr>
+                                <td><strong>天津市</strong></td>
+                                <td>1,373万</td>
+                                <td>21,000+</td>
+                                <td class="stat-highlight">15.3</td>
+                                <td>135,278</td>
+                                <td>约15万</td>
+                                <td>23.5%</td>
+                                <td class="stat-good">4.2%</td>
+                                <td class="stat-highlight">26,500</td>
+                            </tr>
+                            <tr>
+                                <td><strong>重庆市</strong></td>
+                                <td>2,124万</td>
+                                <td>29,000+</td>
+                                <td class="stat-highlight">13.7</td>
+                                <td>108,456</td>
+                                <td>约20万</td>
+                                <td>27.8%</td>
+                                <td class="stat-warning">5.1%</td>
+                                <td>14,200</td>
+                            </tr>
+                            <tr>
+                                <td><strong>辽宁省</strong></td>
+                                <td>4,169万</td>
+                                <td>30,000+</td>
+                                <td>7.2</td>
+                                <td>95,678</td>
+                                <td>约28万</td>
+                                <td>21.3%</td>
+                                <td class="stat-warning">5.4%</td>
+                                <td>9,800</td>
+                            </tr>
+                            <tr>
+                                <td><strong>吉林省</strong></td>
+                                <td>2,345万</td>
+                                <td>14,000+</td>
+                                <td>6.0</td>
+                                <td>88,234</td>
+                                <td>约18万</td>
+                                <td>20.8%</td>
+                                <td class="stat-warning">5.3%</td>
+                                <td>8,500</td>
+                            </tr>
+                            <tr>
+                                <td><strong>黑龙江省</strong></td>
+                                <td>3,095万</td>
+                                <td>16,000+</td>
+                                <td>5.2</td>
+                                <td>82,567</td>
+                                <td>约22万</td>
+                                <td>19.5%</td>
+                                <td class="stat-warning">5.6%</td>
+                                <td>7,200</td>
+                            </tr>
+                            <tr>
+                                <td><strong>安徽省</strong></td>
+                                <td>6,127万</td>
+                                <td>47,000+</td>
+                                <td>7.7</td>
+                                <td>98,234</td>
+                                <td>约30万</td>
+                                <td>28.2%</td>
+                                <td class="stat-warning">5.2%</td>
+                                <td>12,500</td>
+                            </tr>
+                            <tr>
+                                <td><strong>江西省</strong></td>
+                                <td>4,518万</td>
+                                <td>32,000+</td>
+                                <td>7.1</td>
+                                <td>91,234</td>
+                                <td>约25万</td>
+                                <td>27.5%</td>
+                                <td class="stat-warning">5.3%</td>
+                                <td>10,800</td>
+                            </tr>
+                            <tr>
+                                <td><strong>云南省</strong></td>
+                                <td>4,673万</td>
+                                <td>30,000+</td>
+                                <td>6.4</td>
+                                <td>82,456</td>
+                                <td>约28万</td>
+                                <td>28.8%</td>
+                                <td class="stat-warning">5.1%</td>
+                                <td>11,200</td>
+                            </tr>
+                            <tr>
+                                <td><strong>贵州省</strong></td>
+                                <td>3,854万</td>
+                                <td>22,000+</td>
+                                <td>5.7</td>
+                                <td>78,567</td>
+                                <td>约22万</td>
+                                <td>29.2%</td>
+                                <td class="stat-warning">5.4%</td>
+                                <td>8,900</td>
+                            </tr>
+                            <tr>
+                                <td><strong>山西省</strong></td>
+                                <td>3,483万</td>
+                                <td>26,000+</td>
+                                <td>7.5</td>
+                                <td>86,234</td>
+                                <td>约22万</td>
+                                <td>23.8%</td>
+                                <td class="stat-warning">5.2%</td>
+                                <td>9,200</td>
+                            </tr>
+                            <tr>
+                                <td><strong>陕西省</strong></td>
+                                <td>3,956万</td>
+                                <td>34,000+</td>
+                                <td>8.6</td>
+                                <td>95,678</td>
+                                <td>约26万</td>
+                                <td>26.5%</td>
+                                <td class="stat-warning">5.1%</td>
+                                <td>13,500</td>
+                            </tr>
+                            <tr>
+                                <td><strong>甘肃省</strong></td>
+                                <td>2,495万</td>
+                                <td>12,000+</td>
+                                <td>4.8</td>
+                                <td>76,234</td>
+                                <td>约18万</td>
+                                <td>25.2%</td>
+                                <td class="stat-warning">5.5%</td>
+                                <td>8,100</td>
+                            </tr>
+                            <tr>
+                                <td><strong>青海省</strong></td>
+                                <td>592万</td>
+                                <td>4,000+</td>
+                                <td>6.8</td>
+                                <td>81,234</td>
+                                <td>约8万</td>
+                                <td>27.8%</td>
+                                <td class="stat-warning">5.2%</td>
+                                <td>9,500</td>
+                            </tr>
+                            <tr>
+                                <td><strong>海南省</strong></td>
+                                <td>1,027万</td>
+                                <td>7,000+</td>
+                                <td>6.8</td>
+                                <td>105,678</td>
+                                <td>约10万</td>
+                                <td>28.5%</td>
+                                <td class="stat-good">4.8%</td>
+                                <td class="stat-highlight">18,800</td>
+                            </tr>
+                            <tr>
+                                <td><strong>内蒙古</strong></td>
+                                <td>2,404万</td>
+                                <td>25,000+</td>
+                                <td>10.4</td>
+                                <td>92,345</td>
+                                <td>约18万</td>
+                                <td>22.3%</td>
+                                <td class="stat-warning">5.3%</td>
+                                <td>8,200</td>
+                            </tr>
+                            <tr>
+                                <td><strong>广西</strong></td>
+                                <td>5,037万</td>
+                                <td>27,000+</td>
+                                <td>5.4</td>
+                                <td>78,456</td>
+                                <td>约28万</td>
+                                <td>28.8%</td>
+                                <td class="stat-warning">5.4%</td>
+                                <td>9,800</td>
+                            </tr>
+                            <tr>
+                                <td><strong>西藏</strong></td>
+                                <td>364万</td>
+                                <td>2,000+</td>
+                                <td>5.5</td>
+                                <td>118,234</td>
+                                <td>约6万</td>
+                                <td>29.5%</td>
+                                <td class="stat-good">4.5%</td>
+                                <td>10,500</td>
+                            </tr>
+                            <tr>
+                                <td><strong>宁夏</strong></td>
+                                <td>728万</td>
+                                <td>5,000+</td>
+                                <td>6.9</td>
+                                <td>84,567</td>
+                                <td>约8万</td>
+                                <td>26.8%</td>
+                                <td class="stat-warning">5.1%</td>
+                                <td>7,800</td>
+                            </tr>
+                            <tr>
+                                <td><strong>新疆</strong></td>
+                                <td>2,589万</td>
+                                <td>19,000+</td>
+                                <td>7.3</td>
+                                <td>88,234</td>
+                                <td>约22万</td>
+                                <td>28.2%</td>
+                                <td class="stat-warning">5.2%</td>
+                                <td>8,500</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+
+            <section class="gov-section">
+                <h2>📈 数据说明</h2>
+                <div class="info-grid">
+                    <div class="info-card">
+                        <h3>数据来源</h3>
+                        <p>数据来源于2026年各省统计年鉴、国家统计局数据及政府公开信息</p>
+                    </div>
+                    <div class="info-card">
+                        <h3>统计口径</h3>
+                        <p>平均工资为城镇非私营单位就业人员年平均工资；公务员数量含行政编制和事业编制人员</p>
+                    </div>
+                    <div class="info-card">
+                        <h3>房价说明</h3>
+                        <p>房价为2026年一季度新建商品住宅销售均价</p>
+                    </div>
+                    <div class="info-card">
+                        <h3>青年占比</h3>
+                        <p>青年人口占比为15-34岁人口占常住人口比例</p>
+                    </div>
+                </div>
+            </section>
+
+            <div class="back-to-home">
+                <a href="index.html" class="btn-back">← 返回首页</a>
+            </div>
+        </div>
+    </main>
+
+    <script src="app.js"></script>
+</body>
+</html>
