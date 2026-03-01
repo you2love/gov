@@ -3517,5 +3517,2211 @@
         "事故对策处"
       ]
     }
+  ],
+  "party_organization": [
+    {
+      "id": "party-001",
+      "name": "中共中央办公厅",
+      "shortName": "中办",
+      "level": "国家级",
+      "category": "党中央机构",
+      "established": "1949年",
+      "website": "www.cqdx.gov.cn",
+      "description": "中共中央办公厅是党中央的办事机构，负责党中央的日常工作。",
+      "personnelSource": "通过公务员考试或选调。",
+      "personnelPromotion": "实行公务员职务与职级并行制度。",
+      "fundingSource": "中央财政拨款。",
+      "responsibilities": [
+        "党中央文电处理",
+        "会议组织",
+        "督促检查",
+        "协调工作"
+      ],
+      "publicUnderstanding": "中办负责党中央日常工作。",
+      "subordinates": [
+        "秘书局",
+        "督查室"
+      ]
+    },
+    {
+      "id": "party-002",
+      "name": "中共中央组织部",
+      "shortName": "中组部",
+      "level": "国家级",
+      "category": "党中央机构",
+      "established": "1921年",
+      "website": "www.zuzhibu.gov.cn",
+      "description": "中共中央组织部是党中央主管组织工作的部门。",
+      "personnelSource": "通过公务员考试或选调。",
+      "personnelPromotion": "实行公务员职务与职级并行制度。",
+      "fundingSource": "中央财政拨款。",
+      "responsibilities": [
+        "党的组织建设",
+        "干部队伍建设",
+        "人才工作",
+        "党员教育管理"
+      ],
+      "publicUnderstanding": "中组部负责党的组织工作。",
+      "subordinates": [
+        "干部一局",
+        "组织二局"
+      ]
+    },
+    {
+      "id": "party-003",
+      "name": "中共中央宣传部",
+      "shortName": "中宣部",
+      "level": "国家级",
+      "category": "党中央机构",
+      "established": "1921年",
+      "website": "www.cac.gov.cn",
+      "description": "中共中央宣传部是党中央主管宣传思想工作的部门。",
+      "personnelSource": "通过公务员考试或选调。",
+      "personnelPromotion": "实行公务员职务与职级并行制度。",
+      "fundingSource": "中央财政拨款。",
+      "responsibilities": [
+        "理论武装",
+        "舆论引导",
+        "精神文明建设",
+        "文化体制改革"
+      ],
+      "publicUnderstanding": "中宣部负责宣传思想工作。",
+      "subordinates": [
+        "理论局",
+        "新闻局"
+      ]
+    },
+    {
+      "id": "party-004",
+      "name": "中共中央统一战线工作部",
+      "shortName": "中央统战部",
+      "level": "国家级",
+      "category": "党中央机构",
+      "established": "1921年",
+      "website": "www.zytzb.gov.cn",
+      "description": "中共中央统一战线工作部是党中央主管统一战线工作的部门。",
+      "personnelSource": "通过公务员考试或选调。",
+      "personnelPromotion": "实行公务员职务与职级并行制度。",
+      "fundingSource": "中央财政拨款。",
+      "responsibilities": [
+        "统一战线工作",
+        "民族工作",
+        "宗教工作",
+        "非公有制经济人士工作"
+      ],
+      "publicUnderstanding": "中央统战部负责统一战线工作。",
+      "subordinates": [
+        "民主党派工作局",
+        "民族工作局"
+      ]
+    },
+    {
+      "id": "party-005",
+      "name": "中共中央政法委员会",
+      "shortName": "中央政法委",
+      "level": "国家级",
+      "category": "党中央机构",
+      "established": "1921年",
+      "website": "www.zfw.gov.cn",
+      "description": "中共中央政法委员会是党中央主管政法工作的部门。",
+      "personnelSource": "通过公务员考试或选调。",
+      "personnelPromotion": "实行公务员职务与职级并行制度。",
+      "fundingSource": "中央财政拨款。",
+      "responsibilities": [
+        "政法工作协调",
+        "社会治安综合治理",
+        "司法体制改革"
+      ],
+      "publicUnderstanding": "中央政法委负责政法工作协调。",
+      "subordinates": [
+        "办公室",
+        "综治一室"
+      ]
+    }
+  ],
+  "legislative": [
+    {
+      "id": "legis-001",
+      "name": "全国人民代表大会常务委员会",
+      "shortName": "全国人大常委会",
+      "level": "国家级",
+      "category": "国家权力机关",
+      "established": "1954年",
+      "website": "www.npc.gov.cn",
+      "description": "全国人民代表大会常务委员会是全国人大的常设机关。",
+      "personnelSource": "委员由全国人大选举产生。",
+      "personnelPromotion": "实行选举制。",
+      "fundingSource": "中央财政拨款。",
+      "responsibilities": [
+        "立法权",
+        "监督权",
+        "决定权",
+        "任免权"
+      ],
+      "publicUnderstanding": "全国人大常委会负责立法和监督工作。",
+      "subordinates": [
+        "办公厅",
+        "法制工作委员会"
+      ]
+    },
+    {
+      "id": "legis-002",
+      "name": "中国人民政治协商会议全国委员会",
+      "shortName": "全国政协",
+      "level": "国家级",
+      "category": "爱国统一战线组织",
+      "established": "1949年",
+      "website": "www.cppcc.gov.cn",
+      "description": "中国人民政治协商会议是中国人民爱国统一战线的组织。",
+      "personnelSource": "委员由协商产生。",
+      "personnelPromotion": "实行协商制。",
+      "fundingSource": "中央财政拨款。",
+      "responsibilities": [
+        "政治协商",
+        "民主监督",
+        "参政议政"
+      ],
+      "publicUnderstanding": "全国政协负责政治协商和参政议政。",
+      "subordinates": [
+        "办公厅",
+        "提案委员会"
+      ]
+    }
+  ],
+  "military": [
+    {
+      "id": "military-001",
+      "name": "中国人民解放军",
+      "shortName": "解放军",
+      "level": "国家级",
+      "category": "国家武装力量",
+      "established": "1927年",
+      "website": "www.mod.gov.cn",
+      "description": "中国人民解放军是中国共产党缔造和领导的人民军队。",
+      "personnelSource": "通过征兵制度招录。",
+      "personnelPromotion": "实行军衔制。",
+      "fundingSource": "中央财政拨款（国防费）。",
+      "responsibilities": [
+        "保卫国家安全",
+        "维护和平",
+        "参加国家建设"
+      ],
+      "publicUnderstanding": "解放军负责保卫国家安全。",
+      "subordinates": [
+        "陆军",
+        "海军",
+        "空军",
+        "火箭军",
+        "战略支援部队"
+      ]
+    },
+    {
+      "id": "military-002",
+      "name": "中国人民武装警察部队",
+      "shortName": "武警",
+      "level": "国家级",
+      "category": "国家武装力量",
+      "established": "1982年",
+      "website": "www.wj.gov.cn",
+      "description": "中国人民武装警察部队是维护国家内部安全的武装力量。",
+      "personnelSource": "通过征兵或选拔。",
+      "personnelPromotion": "实行警衔制。",
+      "fundingSource": "中央财政拨款。",
+      "responsibilities": [
+        "维护国家安全",
+        "处置各类突发事件",
+        "保卫重要目标"
+      ],
+      "publicUnderstanding": "武警负责维护内部安全。",
+      "subordinates": [
+        "执勤部队",
+        "机动部队"
+      ]
+    }
+  ],
+  "coordination": [
+    {
+      "id": "coord-001",
+      "name": "国务院食品安全委员会",
+      "shortName": "食安委",
+      "level": "国家级",
+      "category": "国务院议事协调机构",
+      "established": "2010年",
+      "website": "",
+      "description": "国务院食品安全委员会是国务院议事协调机构，负责食品安全工作。",
+      "personnelSource": "由相关部委负责人组成。",
+      "personnelPromotion": "实行委员会制。",
+      "fundingSource": "中央财政拨款。",
+      "responsibilities": [
+        "统筹协调食品安全工作",
+        "研究解决食品安全重大问题"
+      ],
+      "publicUnderstanding": "食安委负责食品安全工作协调。",
+      "subordinates": [
+        "办公室"
+      ]
+    },
+    {
+      "id": "coord-002",
+      "name": "国务院安全生产委员会",
+      "shortName": "安委会",
+      "level": "国家级",
+      "category": "国务院议事协调机构",
+      "established": "2003年",
+      "website": "",
+      "description": "国务院安全生产委员会是国务院议事协调机构，负责安全生产工作。",
+      "personnelSource": "由相关部委负责人组成。",
+      "personnelPromotion": "实行委员会制。",
+      "fundingSource": "中央财政拨款。",
+      "responsibilities": [
+        "统筹协调安全生产工作",
+        "研究解决安全生产重大问题"
+      ],
+      "publicUnderstanding": "安委会负责安全生产工作协调。",
+      "subordinates": [
+        "办公室"
+      ]
+    },
+    {
+      "id": "coord-003",
+      "name": "国务院防治艾滋病工作委员会",
+      "shortName": "防艾委",
+      "level": "国家级",
+      "category": "国务院议事协调机构",
+      "established": "2004年",
+      "website": "",
+      "description": "国务院防治艾滋病工作委员会是国务院议事协调机构。",
+      "personnelSource": "由相关部委负责人组成。",
+      "personnelPromotion": "实行委员会制。",
+      "fundingSource": "中央财政拨款。",
+      "responsibilities": [
+        "统筹协调艾滋病防治工作"
+      ],
+      "publicUnderstanding": "防艾委负责艾滋病防治协调。",
+      "subordinates": [
+        "办公室"
+      ]
+    },
+    {
+      "id": "coord-004",
+      "name": "国务院残疾人工作委员会",
+      "shortName": "残工委",
+      "level": "国家级",
+      "category": "国务院议事协调机构",
+      "established": "1993年",
+      "website": "",
+      "description": "国务院残疾人工作委员会是国务院议事协调机构。",
+      "personnelSource": "由相关部委负责人组成。",
+      "personnelPromotion": "实行委员会制。",
+      "fundingSource": "中央财政拨款。",
+      "responsibilities": [
+        "统筹协调残疾人工作"
+      ],
+      "publicUnderstanding": "残工委负责残疾人工作协调。",
+      "subordinates": [
+        "办公室"
+      ]
+    }
+  ],
+  "institution": [
+    {
+      "id": "inst-001",
+      "name": "新华通讯社",
+      "shortName": "新华社",
+      "level": "国家级",
+      "category": "国务院直属事业单位",
+      "established": "1931年",
+      "website": "www.xinhuanet.com",
+      "description": "新华通讯社是国务院直属事业单位，是中国国家通讯社。",
+      "personnelSource": "通过招聘或公务员考试。",
+      "personnelPromotion": "实行专业技术职称制度。",
+      "fundingSource": "中央财政拨款和自有收入。",
+      "responsibilities": [
+        "新闻采编",
+        "新闻发布",
+        "对外新闻交流"
+      ],
+      "publicUnderstanding": "新华社负责新闻报道。",
+      "subordinates": [
+        "国内新闻编辑部",
+        "国际新闻编辑部"
+      ]
+    },
+    {
+      "id": "inst-002",
+      "name": "中国科学院",
+      "shortName": "中科院",
+      "level": "国家级",
+      "category": "国务院直属事业单位",
+      "established": "1949年",
+      "website": "www.cas.ac.cn",
+      "description": "中国科学院是国务院直属事业单位，是中国最高学术机构。",
+      "personnelSource": "通过招聘科研人员。",
+      "personnelPromotion": "实行专业技术职称制度。",
+      "fundingSource": "中央财政拨款和科研经费。",
+      "responsibilities": [
+        "科学研究",
+        "人才培养",
+        "学术交流"
+      ],
+      "publicUnderstanding": "中科院负责科学研究。",
+      "subordinates": [
+        "数学与系统科学研究院",
+        "物理研究所"
+      ]
+    },
+    {
+      "id": "inst-003",
+      "name": "中国社会科学院",
+      "shortName": "社科院",
+      "level": "国家级",
+      "category": "国务院直属事业单位",
+      "established": "1977年",
+      "website": "www.cass.ac.cn",
+      "description": "中国社会科学院是国务院直属事业单位，是中国哲学社会科学最高研究机构。",
+      "personnelSource": "通过招聘研究人员。",
+      "personnelPromotion": "实行专业技术职称制度。",
+      "fundingSource": "中央财政拨款和科研经费。",
+      "responsibilities": [
+        "哲学社会科学研究",
+        "人才培养",
+        "学术交流"
+      ],
+      "publicUnderstanding": "社科院负责哲学社会科学研究。",
+      "subordinates": [
+        "文学研究所",
+        "哲学研究所"
+      ]
+    },
+    {
+      "id": "inst-004",
+      "name": "中国工程院",
+      "shortName": "工程院",
+      "level": "国家级",
+      "category": "国务院直属事业单位",
+      "established": "1994年",
+      "website": "www.cae.ac.cn",
+      "description": "中国工程院是国务院直属事业单位，是中国工程科技界最高荣誉性机构。",
+      "personnelSource": "院士评选。",
+      "personnelPromotion": "实行院士制。",
+      "fundingSource": "中央财政拨款。",
+      "responsibilities": [
+        "工程科技研究",
+        "院士评选",
+        "咨询决策"
+      ],
+      "publicUnderstanding": "工程院负责工程科技研究。",
+      "subordinates": [
+        "办公厅"
+      ]
+    },
+    {
+      "id": "inst-005",
+      "name": "中国气象局",
+      "shortName": "气象局",
+      "level": "国家级",
+      "category": "国务院直属事业单位",
+      "established": "1949年",
+      "website": "www.cma.gov.cn",
+      "description": "中国气象局是国务院直属事业单位，负责气象工作。",
+      "personnelSource": "通过公务员考试或事业编制招聘。",
+      "personnelPromotion": "实行专业技术职称制度。",
+      "fundingSource": "中央财政拨款。",
+      "responsibilities": [
+        "气象监测预报",
+        "气象服务",
+        "人工影响天气"
+      ],
+      "publicUnderstanding": "气象局负责气象工作。",
+      "subordinates": [
+        "天气预报室",
+        "气象探测中心"
+      ]
+    },
+    {
+      "id": "inst-006",
+      "name": "中国地震局",
+      "shortName": "地震局",
+      "level": "国家级",
+      "category": "国务院直属事业单位",
+      "established": "1971年",
+      "website": "www.cea.gov.cn",
+      "description": "中国地震局是国务院直属事业单位，负责地震工作。",
+      "personnelSource": "通过公务员考试或事业编制招聘。",
+      "personnelPromotion": "实行专业技术职称制度。",
+      "fundingSource": "中央财政拨款。",
+      "responsibilities": [
+        "地震监测预报",
+        "地震灾害防御",
+        "应急救援"
+      ],
+      "publicUnderstanding": "地震局负责地震工作。",
+      "subordinates": [
+        "监测预报司",
+        "震害防御司"
+      ]
+    },
+    {
+      "id": "inst-007",
+      "name": "国家行政学院",
+      "shortName": "行政学院",
+      "level": "国家级",
+      "category": "国务院直属事业单位",
+      "established": "1994年",
+      "website": "www.nsa.gov.cn",
+      "description": "国家行政学院是国务院直属事业单位，负责公务员培训。",
+      "personnelSource": "通过招聘教师或公务员考试。",
+      "personnelPromotion": "实行专业技术职称制度。",
+      "fundingSource": "中央财政拨款。",
+      "responsibilities": [
+        "公务员培训",
+        "行政科学研究",
+        "咨询决策"
+      ],
+      "publicUnderstanding": "行政学院负责公务员培训。",
+      "subordinates": [
+        "培训部",
+        "科研部"
+      ]
+    },
+    {
+      "id": "inst-008",
+      "name": "中央广播电视总台",
+      "shortName": "央广总台",
+      "level": "国家级",
+      "category": "国务院直属事业单位",
+      "established": "2018年",
+      "website": "www.cctv.com",
+      "description": "中央广播电视总台是国务院直属事业单位，负责广播电视节目制作播出。",
+      "personnelSource": "通过招聘或公务员考试。",
+      "personnelPromotion": "实行专业技术职称制度。",
+      "fundingSource": "中央财政拨款和广告收入。",
+      "responsibilities": [
+        "广播电视节目制作",
+        "新闻报道",
+        "对外宣传"
+      ],
+      "publicUnderstanding": "央广总台负责广播电视节目。",
+      "subordinates": [
+        "中央电视台",
+        "中央人民广播电台"
+      ]
+    }
+  ],
+  "financial_regulation": [
+    {
+      "id": "fin-001",
+      "name": "国家金融监督管理总局",
+      "shortName": "金融监管总局",
+      "level": "国家级",
+      "category": "国务院直属机构",
+      "established": "2023年",
+      "website": "www.cbirc.gov.cn",
+      "description": "国家金融监督管理总局是国务院直属机构，负责金融监管工作。",
+      "personnelSource": "通过公务员考试招录。",
+      "personnelPromotion": "实行公务员职务与职级并行制度。",
+      "fundingSource": "中央财政拨款。",
+      "responsibilities": [
+        "银行保险业监管",
+        "金融消费者权益保护",
+        "金融风险处置"
+      ],
+      "publicUnderstanding": "金融监管总局负责金融监管。",
+      "subordinates": [
+        "银行监管司",
+        "保险监管司"
+      ]
+    },
+    {
+      "id": "fin-002",
+      "name": "中国证券监督管理委员会",
+      "shortName": "证监会",
+      "level": "国家级",
+      "category": "国务院直属机构",
+      "established": "1992年",
+      "website": "www.csrc.gov.cn",
+      "description": "中国证券监督管理委员会是国务院直属机构，负责证券期货监管。",
+      "personnelSource": "通过公务员考试招录。",
+      "personnelPromotion": "实行公务员职务与职级并行制度。",
+      "fundingSource": "中央财政拨款。",
+      "responsibilities": [
+        "证券期货市场监管",
+        "上市公司监管",
+        "中介机构监管"
+      ],
+      "publicUnderstanding": "证监会负责证券期货监管。",
+      "subordinates": [
+        "发行监管部",
+        "市场监管部"
+      ]
+    },
+    {
+      "id": "fin-003",
+      "name": "国家社会保险基金理事会",
+      "shortName": "社保基金会",
+      "level": "国家级",
+      "category": "国务院直属机构",
+      "established": "2000年",
+      "website": "www.ssf.gov.cn",
+      "description": "国家社会保险基金理事会是国务院直属机构，负责管理社会保障基金。",
+      "personnelSource": "通过公务员考试或选调。",
+      "personnelPromotion": "实行公务员职务与职级并行制度。",
+      "fundingSource": "基金投资收益。",
+      "responsibilities": [
+        "社会保障基金管理",
+        "投资运营",
+        "风险防控"
+      ],
+      "publicUnderstanding": "社保基金会负责社会保障基金管理。",
+      "subordinates": [
+        "基金财务部",
+        "投资部"
+      ]
+    }
+  ],
+  "office_agency": [
+    {
+      "id": "office-001",
+      "name": "国务院港澳事务办公室",
+      "shortName": "港澳办",
+      "level": "国家级",
+      "category": "国务院办事机构",
+      "established": "1978年",
+      "website": "www.hmo.gov.cn",
+      "description": "国务院港澳事务办公室是国务院办事机构，负责港澳事务。",
+      "personnelSource": "通过公务员考试招录。",
+      "personnelPromotion": "实行公务员职务与职级并行制度。",
+      "fundingSource": "中央财政拨款。",
+      "responsibilities": [
+        "一国两制方针贯彻落实",
+        "港澳政策研究",
+        "协调港澳事务"
+      ],
+      "publicUnderstanding": "港澳办负责港澳事务。",
+      "subordinates": [
+        "综合司",
+        "联络司"
+      ]
+    },
+    {
+      "id": "office-002",
+      "name": "国务院台湾事务办公室",
+      "shortName": "国台办",
+      "level": "国家级",
+      "category": "国务院办事机构",
+      "established": "1978年",
+      "website": "www.gwytb.gov.cn",
+      "description": "国务院台湾事务办公室是国务院办事机构，负责台湾事务。",
+      "personnelSource": "通过公务员考试招录。",
+      "personnelPromotion": "实行公务员职务与职级并行制度。",
+      "fundingSource": "中央财政拨款。",
+      "responsibilities": [
+        "对台方针政策贯彻落实",
+        "两岸关系研究",
+        "协调台胞事务"
+      ],
+      "publicUnderstanding": "国台办负责台湾事务。",
+      "subordinates": [
+        "综合局",
+        "交流局"
+      ]
+    },
+    {
+      "id": "office-003",
+      "name": "国务院新闻办公室",
+      "shortName": "国新办",
+      "level": "国家级",
+      "category": "国务院办事机构",
+      "established": "1991年",
+      "website": "www.scio.gov.cn",
+      "description": "国务院新闻办公室是国务院办事机构，负责新闻发布和对外宣传。",
+      "personnelSource": "通过公务员考试招录。",
+      "personnelPromotion": "实行公务员职务与职级并行制度。",
+      "fundingSource": "中央财政拨款。",
+      "responsibilities": [
+        "新闻发布",
+        "对外宣传",
+        "政府信息公开"
+      ],
+      "publicUnderstanding": "国新办负责新闻发布工作。",
+      "subordinates": [
+        "新闻局",
+        "对外新闻局"
+      ]
+    },
+    {
+      "id": "office-004",
+      "name": "国务院研究室",
+      "shortName": "国务院研究室",
+      "level": "国家级",
+      "category": "国务院办事机构",
+      "established": "1988年",
+      "website": "www.gov.cn",
+      "description": "国务院研究室是国务院办事机构，负责政策研究和文稿起草。",
+      "personnelSource": "通过公务员考试或选调。",
+      "personnelPromotion": "实行公务员职务与职级并行制度。",
+      "fundingSource": "中央财政拨款。",
+      "responsibilities": [
+        "政策研究",
+        "文稿起草",
+        "咨询决策"
+      ],
+      "publicUnderstanding": "国务院研究室负责政策研究。",
+      "subordinates": [
+        "宏观经济研究司",
+        "社会研究司"
+      ]
+    },
+    {
+      "id": "office-005",
+      "name": "国家互联网信息办公室",
+      "shortName": "国家网信办",
+      "level": "国家级",
+      "category": "国务院办事机构",
+      "established": "2011年",
+      "website": "www.cac.gov.cn",
+      "description": "国家互联网信息办公室是国务院办事机构，负责互联网信息管理。",
+      "personnelSource": "通过公务员考试招录。",
+      "personnelPromotion": "实行公务员职务与职级并行制度。",
+      "fundingSource": "中央财政拨款。",
+      "responsibilities": [
+        "互联网信息内容管理",
+        "网络安全",
+        "信息化发展"
+      ],
+      "publicUnderstanding": "国家网信办负责互联网信息管理。",
+      "subordinates": [
+        "网络综合协调局",
+        "网络执法与监督局"
+      ]
+    }
+  ],
+  "mass_organization": [
+    {
+      "id": "mass-001",
+      "name": "中华全国总工会",
+      "shortName": "全国总工会",
+      "level": "国家级",
+      "category": "群众团体",
+      "established": "1925年",
+      "website": "www.acftu.org",
+      "description": "中华全国总工会是中国共产党领导的中国工人阶级的群众组织。",
+      "personnelSource": "通过公务员考试或选调。",
+      "personnelPromotion": "实行公务员职务与职级并行制度。",
+      "fundingSource": "会费和财政拨款。",
+      "responsibilities": [
+        "维护职工合法权益",
+        "组织职工参与企业管理",
+        "职工教育培训"
+      ],
+      "publicUnderstanding": "全国总工会负责工会工作。",
+      "subordinates": [
+        "办公厅",
+        "保障工作部"
+      ]
+    },
+    {
+      "id": "mass-002",
+      "name": "中国共产主义青年团中央委员会",
+      "shortName": "共青团中央",
+      "level": "国家级",
+      "category": "群众团体",
+      "established": "1922年",
+      "website": "www.gqt.org.cn",
+      "description": "中国共产主义青年团是中国共产党领导的先进青年的群众组织。",
+      "personnelSource": "通过公务员考试或选调。",
+      "personnelPromotion": "实行公务员职务与职级并行制度。",
+      "fundingSource": "财政拨款。",
+      "responsibilities": [
+        "青年思想政治工作",
+        "青年组织建设",
+        "青年志愿服务"
+      ],
+      "publicUnderstanding": "共青团负责青年工作。",
+      "subordinates": [
+        "办公厅",
+        "组织部"
+      ]
+    },
+    {
+      "id": "mass-003",
+      "name": "中华全国妇女联合会",
+      "shortName": "全国妇联",
+      "level": "国家级",
+      "category": "群众团体",
+      "established": "1949年",
+      "website": "www.women.org.cn",
+      "description": "中华全国妇女联合会是中国共产党领导的为妇女群众服务的群众组织。",
+      "personnelSource": "通过公务员考试或选调。",
+      "personnelPromotion": "实行公务员职务与职级并行制度。",
+      "fundingSource": "财政拨款。",
+      "responsibilities": [
+        "维护妇女权益",
+        "促进妇女发展",
+        "家庭教育指导"
+      ],
+      "publicUnderstanding": "全国妇联负责妇女工作。",
+      "subordinates": [
+        "办公厅",
+        "权益部"
+      ]
+    },
+    {
+      "id": "mass-004",
+      "name": "中国科学技术协会",
+      "shortName": "中国科协",
+      "level": "国家级",
+      "category": "群众团体",
+      "established": "1958年",
+      "website": "www.cast.org.cn",
+      "description": "中国科学技术协会是中国共产党领导下的人民团体，是科技工作者的群众组织。",
+      "personnelSource": "通过公务员考试或选调。",
+      "personnelPromotion": "实行公务员职务与职级并行制度。",
+      "fundingSource": "财政拨款。",
+      "responsibilities": [
+        "学术交流",
+        "科普工作",
+        "人才举荐"
+      ],
+      "publicUnderstanding": "中国科协负责科技工作。",
+      "subordinates": [
+        "办公厅",
+        "学会学术部"
+      ]
+    },
+    {
+      "id": "mass-005",
+      "name": "中华全国归国华侨联合会",
+      "shortName": "全国侨联",
+      "level": "国家级",
+      "category": "群众团体",
+      "established": "1956年",
+      "website": "www.chinaql.org",
+      "description": "中华全国归国华侨联合会是中国共产党领导下团结归侨侨眷的群众组织。",
+      "personnelSource": "通过公务员考试或选调。",
+      "personnelPromotion": "实行公务员职务与职级并行制度。",
+      "fundingSource": "财政拨款。",
+      "responsibilities": [
+        "团结归侨侨眷",
+        "海外华人华侨联络",
+        "侨胞服务"
+      ],
+      "publicUnderstanding": "全国侨联负责侨务工作。",
+      "subordinates": [
+        "办公厅",
+        "联谊联络部"
+      ]
+    },
+    {
+      "id": "mass-006",
+      "name": "中国文学艺术界联合会",
+      "shortName": "中国文联",
+      "level": "国家级",
+      "category": "群众团体",
+      "established": "1949年",
+      "website": "www.cflac.org.cn",
+      "description": "中国文学艺术界联合会是中国共产党领导下的人民团体，是文艺工作者的群众组织。",
+      "personnelSource": "通过公务员考试或选调。",
+      "personnelPromotion": "实行公务员职务与职级并行制度。",
+      "fundingSource": "财政拨款。",
+      "responsibilities": [
+        "文艺创作指导",
+        "文艺评论",
+        "文艺交流"
+      ],
+      "publicUnderstanding": "中国文联负责文艺工作。",
+      "subordinates": [
+        "办公厅",
+        "国内联络部"
+      ]
+    },
+    {
+      "id": "mass-007",
+      "name": "中国作家协会",
+      "shortName": "中国作协",
+      "level": "国家级",
+      "category": "群众团体",
+      "established": "1949年",
+      "website": "www.chinawriter.com.cn",
+      "description": "中国作家协会是中国共产党领导下的人民团体，是作家自愿结合的群众组织。",
+      "personnelSource": "通过公务员考试或选调。",
+      "personnelPromotion": "实行公务员职务与职级并行制度。",
+      "fundingSource": "财政拨款。",
+      "responsibilities": [
+        "文学创作指导",
+        "文学评论",
+        "作家培训"
+      ],
+      "publicUnderstanding": "中国作协负责作家工作。",
+      "subordinates": [
+        "办公厅",
+        "创作研究部"
+      ]
+    },
+    {
+      "id": "mass-008",
+      "name": "中国残疾人联合会",
+      "shortName": "中国残联",
+      "level": "国家级",
+      "category": "群众团体",
+      "established": "1988年",
+      "website": "www.cdpf.org.cn",
+      "description": "中国残疾人联合会是中国共产党领导下为残疾人服务的群众组织。",
+      "personnelSource": "通过公务员考试或选调。",
+      "personnelPromotion": "实行公务员职务与职级并行制度。",
+      "fundingSource": "财政拨款。",
+      "responsibilities": [
+        "残疾人权益维护",
+        "残疾人康复",
+        "残疾人教育就业"
+      ],
+      "publicUnderstanding": "中国残联负责残疾人工作。",
+      "subordinates": [
+        "办公厅",
+        "康复部"
+      ]
+    }
+  ],
+  "central_enterprise": [
+    {
+      "id": "ce-001",
+      "name": "中国石油天然气集团有限公司",
+      "shortName": "中国石油",
+      "level": "国家级",
+      "category": "中央企业",
+      "established": "1988年",
+      "website": "www.cnpc.com.cn",
+      "description": "中国石油天然气集团有限公司是特大型石油石化企业集团。",
+      "personnelSource": "通过校园招聘或社会招聘。",
+      "personnelPromotion": "实行企业人事制度。",
+      "fundingSource": "企业经营收入。",
+      "responsibilities": [
+        "油气勘探开发",
+        "炼油化工",
+        "油气销售"
+      ],
+      "publicUnderstanding": "中国石油负责油气资源开发。",
+      "subordinates": [
+        "大庆油田",
+        "长庆油田"
+      ]
+    },
+    {
+      "id": "ce-002",
+      "name": "中国石油化工集团有限公司",
+      "shortName": "中国石化",
+      "level": "国家级",
+      "category": "中央企业",
+      "established": "1998年",
+      "website": "www.sinopec.com.cn",
+      "description": "中国石油化工集团有限公司是特大型石油化工企业集团。",
+      "personnelSource": "通过校园招聘或社会招聘。",
+      "personnelPromotion": "实行企业人事制度。",
+      "fundingSource": "企业经营收入。",
+      "responsibilities": [
+        "石油炼制",
+        "化工生产",
+        "产品销售"
+      ],
+      "publicUnderstanding": "中国石化负责石油化工。",
+      "subordinates": [
+        "燕山石化",
+        "扬子石化"
+      ]
+    },
+    {
+      "id": "ce-003",
+      "name": "中国建筑集团有限公司",
+      "shortName": "中国建筑",
+      "level": "国家级",
+      "category": "中央企业",
+      "established": "1982年",
+      "website": "www.cscec.com.cn",
+      "description": "中国建筑集团有限公司是特大型建筑企业集团。",
+      "personnelSource": "通过校园招聘或社会招聘。",
+      "personnelPromotion": "实行企业人事制度。",
+      "fundingSource": "企业经营收入。",
+      "responsibilities": [
+        "房屋建筑",
+        "基础设施建设",
+        "房地产开发"
+      ],
+      "publicUnderstanding": "中国建筑负责工程建设。",
+      "subordinates": [
+        "中建一局",
+        "中建二局"
+      ]
+    },
+    {
+      "id": "ce-004",
+      "name": "中国移动通信集团有限公司",
+      "shortName": "中国移动",
+      "level": "国家级",
+      "category": "中央企业",
+      "established": "2000年",
+      "website": "www.chinamobile.com",
+      "description": "中国移动通信集团有限公司是特大型电信企业。",
+      "personnelSource": "通过校园招聘或社会招聘。",
+      "personnelPromotion": "实行企业人事制度。",
+      "fundingSource": "企业经营收入。",
+      "responsibilities": [
+        "移动通信服务",
+        "网络建设",
+        "信息化服务"
+      ],
+      "publicUnderstanding": "中国移动负责移动通信。",
+      "subordinates": [
+        "中国移动研究院",
+        "各省公司"
+      ]
+    },
+    {
+      "id": "ce-005",
+      "name": "中国联合网络通信集团有限公司",
+      "shortName": "中国联通",
+      "level": "国家级",
+      "category": "中央企业",
+      "established": "1994年",
+      "website": "www.chinaunicom.com.cn",
+      "description": "中国联合网络通信集团有限公司是特大型电信企业。",
+      "personnelSource": "通过校园招聘或社会招聘。",
+      "personnelPromotion": "实行企业人事制度。",
+      "fundingSource": "企业经营收入。",
+      "responsibilities": [
+        "移动通信服务",
+        "宽带互联网",
+        "云计算大数据"
+      ],
+      "publicUnderstanding": "中国联通负责电信服务。",
+      "subordinates": [
+        "中国联通研究院"
+      ]
+    },
+    {
+      "id": "ce-006",
+      "name": "中国电信集团有限公司",
+      "shortName": "中国电信",
+      "level": "国家级",
+      "category": "中央企业",
+      "established": "2000年",
+      "website": "www.chinatelecom.com.cn",
+      "description": "中国电信集团有限公司是特大型电信企业。",
+      "personnelSource": "通过校园招聘或社会招聘。",
+      "personnelPromotion": "实行企业人事制度。",
+      "fundingSource": "企业经营收入。",
+      "responsibilities": [
+        "移动通信服务",
+        "卫星通信",
+        "信息化应用"
+      ],
+      "publicUnderstanding": "中国电信负责电信服务。",
+      "subordinates": [
+        "中国电信研究院"
+      ]
+    },
+    {
+      "id": "ce-007",
+      "name": "中国第一汽车集团有限公司",
+      "shortName": "一汽集团",
+      "level": "国家级",
+      "category": "中央企业",
+      "established": "1953年",
+      "website": "www.faw.com.cn",
+      "description": "中国第一汽车集团有限公司是特大型汽车制造企业。",
+      "personnelSource": "通过校园招聘或社会招聘。",
+      "personnelPromotion": "实行企业人事制度。",
+      "fundingSource": "企业经营收入。",
+      "responsibilities": [
+        "汽车研发",
+        "汽车制造",
+        "汽车销售"
+      ],
+      "publicUnderstanding": "一汽负责汽车制造。",
+      "subordinates": [
+        "红旗事业部",
+        "解放事业部"
+      ]
+    },
+    {
+      "id": "ce-008",
+      "name": "中国航空工业集团有限公司",
+      "shortName": "航空工业集团",
+      "level": "国家级",
+      "category": "中央企业",
+      "established": "2008年",
+      "website": "www.avic.com.cn",
+      "description": "中国航空工业集团有限公司是特大型航空工业企业。",
+      "personnelSource": "通过校园招聘或社会招聘。",
+      "personnelPromotion": "实行企业人事制度。",
+      "fundingSource": "企业经营收入。",
+      "responsibilities": [
+        "航空器研发",
+        "航空器制造",
+        "航空技术服务"
+      ],
+      "publicUnderstanding": "航空工业集团负责航空工业。",
+      "subordinates": [
+        "沈飞",
+        "成飞"
+      ]
+    },
+    {
+      "id": "ce-009",
+      "name": "中国船舶集团有限公司",
+      "shortName": "中国船舶",
+      "level": "国家级",
+      "category": "中央企业",
+      "established": "2019年",
+      "website": "www.csic.com.cn",
+      "description": "中国船舶集团有限公司是特大型船舶工业企业。",
+      "personnelSource": "通过校园招聘或社会招聘。",
+      "personnelPromotion": "实行企业人事制度。",
+      "fundingSource": "企业经营收入。",
+      "responsibilities": [
+        "船舶研发",
+        "船舶制造",
+        "海洋工程"
+      ],
+      "publicUnderstanding": "中国船舶负责船舶制造。",
+      "subordinates": [
+        "江南造船",
+        "沪东中华"
+      ]
+    },
+    {
+      "id": "ce-010",
+      "name": "中国国家铁路集团有限公司",
+      "shortName": "国铁集团",
+      "level": "国家级",
+      "category": "中央企业",
+      "established": "2013年",
+      "website": "www.china-railway.com.cn",
+      "description": "中国国家铁路集团有限公司是经国务院批准成立的特大型铁路运输企业。",
+      "personnelSource": "通过校园招聘或社会招聘。",
+      "personnelPromotion": "实行企业人事制度。",
+      "fundingSource": "企业经营收入。",
+      "responsibilities": [
+        "铁路客货运输",
+        "铁路建设",
+        "铁路设备制造"
+      ],
+      "publicUnderstanding": "国铁集团负责铁路运营。",
+      "subordinates": [
+        "各铁路局"
+      ]
+    }
+  ],
+  "provincial_dept": [
+    {
+      "id": "pd-001",
+      "name": "广东省发展和改革委员会",
+      "shortName": "广东省发展改革委",
+      "level": "省级",
+      "category": "省级政府部门",
+      "established": "1950年",
+      "website": "www.gddrc.gov.cn",
+      "description": "广东省发展和改革委员会是广东省政府组成部门，负责发展改革工作。",
+      "personnelSource": "通过公务员考试招录。",
+      "personnelPromotion": "实行公务员职务与职级并行制度。",
+      "fundingSource": "地方财政拨款。",
+      "responsibilities": [
+        "发展规划",
+        "投资管理",
+        "价格管理"
+      ],
+      "publicUnderstanding": "广东省发展改革委负责发展规划。",
+      "subordinates": [
+        "办公室",
+        "规划处"
+      ]
+    },
+    {
+      "id": "pd-002",
+      "name": "广东省教育厅",
+      "shortName": "广东省教育厅",
+      "level": "省级",
+      "category": "省级政府部门",
+      "established": "1950年",
+      "website": "edu.gd.gov.cn",
+      "description": "广东省教育厅是广东省政府组成部门，负责教育工作。",
+      "personnelSource": "通过公务员考试招录。",
+      "personnelPromotion": "实行公务员职务与职级并行制度。",
+      "fundingSource": "地方财政拨款。",
+      "responsibilities": [
+        "教育发展规划",
+        "学校管理",
+        "教师管理"
+      ],
+      "publicUnderstanding": "广东省教育厅负责教育工作。",
+      "subordinates": [
+        "办公室",
+        "基础教育处"
+      ]
+    },
+    {
+      "id": "pd-003",
+      "name": "广东省公安厅",
+      "shortName": "广东省公安厅",
+      "level": "省级",
+      "category": "省级政府部门",
+      "established": "1949年",
+      "website": "www.gdga.gov.cn",
+      "description": "广东省公安厅是广东省政府组成部门，负责公安工作。",
+      "personnelSource": "通过公务员考试招录人民警察。",
+      "personnelPromotion": "实行警察警衔制度。",
+      "fundingSource": "地方财政拨款。",
+      "responsibilities": [
+        "治安管理",
+        "刑事侦查",
+        "交通管理"
+      ],
+      "publicUnderstanding": "广东省公安厅负责公安工作。",
+      "subordinates": [
+        "治安警察总队",
+        "刑事警察总队"
+      ]
+    },
+    {
+      "id": "pd-004",
+      "name": "浙江省发展和改革委员会",
+      "shortName": "浙江省发展改革委",
+      "level": "省级",
+      "category": "省级政府部门",
+      "established": "1950年",
+      "website": "fzggw.zj.gov.cn",
+      "description": "浙江省发展和改革委员会是浙江省政府组成部门。",
+      "personnelSource": "通过公务员考试招录。",
+      "personnelPromotion": "实行公务员职务与职级并行制度。",
+      "fundingSource": "地方财政拨款。",
+      "responsibilities": [
+        "发展规划",
+        "投资管理"
+      ],
+      "publicUnderstanding": "负责发展规划。",
+      "subordinates": [
+        "办公室",
+        "规划处"
+      ]
+    },
+    {
+      "id": "pd-005",
+      "name": "江苏省交通运输厅",
+      "shortName": "江苏省交通厅",
+      "level": "省级",
+      "category": "省级政府部门",
+      "established": "1950年",
+      "website": "jtyst.jiangsu.gov.cn",
+      "description": "江苏省交通运输厅是江苏省政府组成部门。",
+      "personnelSource": "通过公务员考试招录。",
+      "personnelPromotion": "实行公务员职务与职级并行制度。",
+      "fundingSource": "地方财政拨款。",
+      "responsibilities": [
+        "交通运输管理",
+        "公路管理",
+        "港航管理"
+      ],
+      "publicUnderstanding": "负责交通运输管理。",
+      "subordinates": [
+        "公路事业发展中心"
+      ]
+    }
+  ],
+  "provincial_dept2": [
+    {
+      "id": "pd2-001",
+      "name": "北京市教育委员会",
+      "shortName": "北京市教委",
+      "level": "省级",
+      "category": "省级政府部门",
+      "established": "1949年",
+      "website": "jw.beijing.gov.cn",
+      "description": "北京市教育委员会是北京市政府组成部门，负责教育工作。",
+      "personnelSource": "通过公务员考试招录。",
+      "personnelPromotion": "实行公务员职务与职级并行制度。",
+      "fundingSource": "地方财政拨款。",
+      "responsibilities": [
+        "教育发展规划",
+        "学校管理"
+      ],
+      "publicUnderstanding": "负责教育工作。",
+      "subordinates": [
+        "办公室",
+        "基教一处"
+      ]
+    },
+    {
+      "id": "pd2-002",
+      "name": "上海市教育委员会",
+      "shortName": "上海市教委",
+      "level": "省级",
+      "category": "省级政府部门",
+      "established": "1949年",
+      "website": "edu.sh.gov.cn",
+      "description": "上海市教育委员会是上海市政府组成部门。",
+      "personnelSource": "通过公务员考试招录。",
+      "personnelPromotion": "实行公务员职务与职级并行制度。",
+      "fundingSource": "地方财政拨款。",
+      "responsibilities": [
+        "教育发展规划",
+        "学校管理"
+      ],
+      "publicUnderstanding": "负责教育工作。",
+      "subordinates": [
+        "办公室"
+      ]
+    },
+    {
+      "id": "pd2-003",
+      "name": "四川省卫生健康委员会",
+      "shortName": "四川省卫健委",
+      "level": "省级",
+      "category": "省级政府部门",
+      "established": "2018年",
+      "website": "wsjkw.sc.gov.cn",
+      "description": "四川省卫生健康委员会是四川省政府组成部门。",
+      "personnelSource": "通过公务员考试招录。",
+      "personnelPromotion": "实行公务员职务与职级并行制度。",
+      "fundingSource": "地方财政拨款。",
+      "responsibilities": [
+        "卫生健康管理",
+        "医疗服务监管"
+      ],
+      "publicUnderstanding": "负责卫生健康工作。",
+      "subordinates": [
+        "办公室"
+      ]
+    }
+  ],
+  "court_procuratorate": [
+    {
+      "id": "cp-001",
+      "name": "北京市高级人民法院",
+      "shortName": "北京高院",
+      "level": "省级",
+      "category": "省级法院",
+      "established": "1949年",
+      "website": "bjgy.chinacourt.gov.cn",
+      "description": "北京市高级人民法院是北京市的最高审判机关。",
+      "personnelSource": "法官通过公务员考试和司法考试招录。",
+      "personnelPromotion": "法官实行法官员额制。",
+      "fundingSource": "地方财政拨款。",
+      "responsibilities": [
+        "审理案件",
+        "监督指导",
+        "司法解释"
+      ],
+      "publicUnderstanding": "负责审判工作。",
+      "subordinates": [
+        "刑事审判庭"
+      ]
+    },
+    {
+      "id": "cp-002",
+      "name": "上海市高级人民法院",
+      "shortName": "上海高院",
+      "level": "省级",
+      "category": "省级法院",
+      "established": "1949年",
+      "website": "shgy.chinacourt.gov.cn",
+      "description": "上海市高级人民法院是上海市的最高审判机关。",
+      "personnelSource": "法官通过公务员考试和司法考试招录。",
+      "personnelPromotion": "法官实行法官员额制。",
+      "fundingSource": "地方财政拨款。",
+      "responsibilities": [
+        "审理案件",
+        "监督指导"
+      ],
+      "publicUnderstanding": "负责审判工作。",
+      "subordinates": [
+        "刑事审判庭"
+      ]
+    },
+    {
+      "id": "cp-003",
+      "name": "广东省高级人民法院",
+      "shortName": "广东高院",
+      "level": "省级",
+      "category": "省级法院",
+      "established": "1949年",
+      "website": "gdcourt.gov.cn",
+      "description": "广东省高级人民法院是广东省的最高审判机关。",
+      "personnelSource": "法官通过公务员考试和司法考试招录。",
+      "personnelPromotion": "法官实行法官员额制。",
+      "fundingSource": "地方财政拨款。",
+      "responsibilities": [
+        "审理案件",
+        "监督指导"
+      ],
+      "publicUnderstanding": "负责审判工作。",
+      "subordinates": [
+        "刑事审判庭"
+      ]
+    },
+    {
+      "id": "cp-004",
+      "name": "北京市人民检察院",
+      "shortName": "北京检察院",
+      "level": "省级",
+      "category": "省级检察院",
+      "established": "1949年",
+      "website": "www.bj.prosecutor.gov.cn",
+      "description": "北京市人民检察院是北京市的最高检察机关。",
+      "personnelSource": "检察官通过公务员考试和司法考试招录。",
+      "personnelPromotion": "检察官实行员额制。",
+      "fundingSource": "地方财政拨款。",
+      "responsibilities": [
+        "公诉",
+        "侦查监督",
+        "审判监督"
+      ],
+      "publicUnderstanding": "负责检察工作。",
+      "subordinates": [
+        "公诉部"
+      ]
+    },
+    {
+      "id": "cp-005",
+      "name": "上海市人民检察院",
+      "shortName": "上海检察院",
+      "level": "省级",
+      "category": "省级检察院",
+      "established": "1949年",
+      "website": "www.sh.prosecutor.gov.cn",
+      "description": "上海市人民检察院是上海市的最高检察机关。",
+      "personnelSource": "检察官通过公务员考试和司法考试招录。",
+      "personnelPromotion": "检察官实行员额制。",
+      "fundingSource": "地方财政拨款。",
+      "responsibilities": [
+        "公诉",
+        "侦查监督"
+      ],
+      "publicUnderstanding": "负责检察工作。",
+      "subordinates": [
+        "公诉部"
+      ]
+    },
+    {
+      "id": "cp-006",
+      "name": "广东省人民检察院",
+      "shortName": "广东检察院",
+      "level": "省级",
+      "category": "省级检察院",
+      "established": "1949年",
+      "website": "www.gd.jcy.gov.cn",
+      "description": "广东省人民检察院是广东省的最高检察机关。",
+      "personnelSource": "检察官通过公务员考试和司法考试招录。",
+      "personnelPromotion": "检察官实行员额制。",
+      "fundingSource": "地方财政拨款。",
+      "responsibilities": [
+        "公诉",
+        "侦查监督"
+      ],
+      "publicUnderstanding": "负责检察工作。",
+      "subordinates": [
+        "公诉部"
+      ]
+    }
+  ],
+  "municipal_dept": [
+    {
+      "id": "md-001",
+      "name": "广州市发展和改革委员会",
+      "shortName": "广州市发展改革委",
+      "level": "市级",
+      "category": "市级政府部门",
+      "established": "1949年",
+      "website": "fgw.gz.gov.cn",
+      "description": "广州市发展和改革委员会是广州市政府组成部门。",
+      "personnelSource": "通过公务员考试招录。",
+      "personnelPromotion": "实行公务员职务与职级并行制度。",
+      "fundingSource": "地方财政拨款。",
+      "responsibilities": [
+        "发展规划",
+        "投资管理"
+      ],
+      "publicUnderstanding": "负责发展规划。",
+      "subordinates": [
+        "办公室"
+      ]
+    },
+    {
+      "id": "md-002",
+      "name": "深圳市教育局",
+      "shortName": "深圳市教育局",
+      "level": "市级",
+      "category": "市级政府部门",
+      "established": "1979年",
+      "website": "szeb.sz.gov.cn",
+      "description": "深圳市教育局是深圳政府组成部门。",
+      "personnelSource": "通过公务员考试招录。",
+      "personnelPromotion": "实行公务员职务与职级并行制度。",
+      "fundingSource": "地方财政拨款。",
+      "responsibilities": [
+        "教育管理"
+      ],
+      "publicUnderstanding": "负责教育工作。",
+      "subordinates": [
+        "办公室"
+      ]
+    },
+    {
+      "id": "md-003",
+      "name": "杭州市交通运输局",
+      "shortName": "杭州市交通局",
+      "level": "市级",
+      "category": "市级政府部门",
+      "established": "1949年",
+      "website": "jtys.hangzhou.gov.cn",
+      "description": "杭州市交通运输局是杭州政府组成部门。",
+      "personnelSource": "通过公务员考试招录。",
+      "personnelPromotion": "实行公务员职务与职级并行制度。",
+      "fundingSource": "地方财政拨款。",
+      "responsibilities": [
+        "交通运输管理"
+      ],
+      "publicUnderstanding": "负责交通运输管理。",
+      "subordinates": [
+        "办公室"
+      ]
+    },
+    {
+      "id": "md-004",
+      "name": "成都市公安局",
+      "shortName": "成都市公安局",
+      "level": "市级",
+      "category": "市级政府部门",
+      "established": "1949年",
+      "website": "www.cdga.gov.cn",
+      "description": "成都市公安局是市政府组成部门，负责公安工作。",
+      "personnelSource": "通过公务员考试招录人民警察。",
+      "personnelPromotion": "实行警察警衔制度。",
+      "fundingSource": "地方财政拨款。",
+      "responsibilities": [
+        "治安管理",
+        "刑事侦查"
+      ],
+      "publicUnderstanding": "负责公安工作。",
+      "subordinates": [
+        "治安管理支队"
+      ]
+    }
+  ],
+  "democratic_party": [
+    {
+      "id": "dp-001",
+      "name": "中国国民党革命委员会中央委员会",
+      "shortName": "民革中央",
+      "level": "国家级",
+      "category": "民主党派",
+      "established": "1948年",
+      "website": "www.minge.gov.cn",
+      "description": "中国国民党革命委员会是中国八大民主党派之一，是致力于建设中国特色社会主义的政党。",
+      "personnelSource": "党员发展。",
+      "personnelPromotion": "党内选举。",
+      "fundingSource": "财政拨款和党费。",
+      "responsibilities": [
+        "参政议政",
+        "民主监督",
+        "社会服务"
+      ],
+      "publicUnderstanding": "民革负责参政议政。",
+      "subordinates": [
+        "组织部",
+        "宣传部"
+      ]
+    },
+    {
+      "id": "dp-002",
+      "name": "中国民主同盟中央委员会",
+      "shortName": "民盟中央",
+      "level": "国家级",
+      "category": "民主党派",
+      "established": "1941年",
+      "website": "www.mmzy.org.cn",
+      "description": "中国民主同盟是中国八大民主党派之一，主要由中上层知识分子组成。",
+      "personnelSource": "盟员发展。",
+      "personnelPromotion": "党内选举。",
+      "fundingSource": "财政拨款和盟费。",
+      "responsibilities": [
+        "参政议政",
+        "民主监督"
+      ],
+      "publicUnderstanding": "民盟负责参政议政。",
+      "subordinates": [
+        "组织部"
+      ]
+    },
+    {
+      "id": "dp-003",
+      "name": "中国民主建国会中央委员会",
+      "shortName": "民建中央",
+      "level": "国家级",
+      "category": "民主党派",
+      "established": "1945年",
+      "website": "www.cndca.org.cn",
+      "description": "中国民主建国会是中国八大民主党派之一，主要由经济界人士组成。",
+      "personnelSource": "会员发展。",
+      "personnelPromotion": "党内选举。",
+      "fundingSource": "财政拨款和会费。",
+      "responsibilities": [
+        "参政议政",
+        "经济服务"
+      ],
+      "publicUnderstanding": "民建负责参政议政。",
+      "subordinates": [
+        "组织部"
+      ]
+    },
+    {
+      "id": "dp-004",
+      "name": "中国民主促进会中央委员会",
+      "shortName": "民进中央",
+      "level": "国家级",
+      "category": "民主党派",
+      "established": "1945年",
+      "website": "www.civsociety.com",
+      "description": "中国民主促进会是中国八大民主党派之一，主要由教育文化出版界人士组成。",
+      "personnelSource": "会员发展。",
+      "personnelPromotion": "党内选举。",
+      "fundingSource": "财政拨款和会费。",
+      "responsibilities": [
+        "参政议政",
+        "教育服务"
+      ],
+      "publicUnderstanding": "民进负责参政议政。",
+      "subordinates": [
+        "组织部"
+      ]
+    },
+    {
+      "id": "dp-005",
+      "name": "中国农工民主党中央委员会",
+      "shortName": "农工党中央",
+      "level": "国家级",
+      "category": "民主党派",
+      "established": "1930年",
+      "website": "www.ngd.org.cn",
+      "description": "中国农工民主党是中国八大民主党派之一，主要由医药卫生界人士组成。",
+      "personnelSource": "党员发展。",
+      "personnelPromotion": "党内选举。",
+      "fundingSource": "财政拨款和党费。",
+      "responsibilities": [
+        "参政议政",
+        "医疗卫生服务"
+      ],
+      "publicUnderstanding": "农工党负责参政议政。",
+      "subordinates": [
+        "组织部"
+      ]
+    },
+    {
+      "id": "dp-006",
+      "name": "中国致公党中央委员会",
+      "shortName": "致公党中央",
+      "level": "国家级",
+      "category": "民主党派",
+      "established": "1925年",
+      "website": "www.zg.org.cn",
+      "description": "中国致公党是中国八大民主党派之一，主要由归侨侨眷和海外留学人员组成。",
+      "personnelSource": "党员发展。",
+      "personnelPromotion": "党内选举。",
+      "fundingSource": "财政拨款和党费。",
+      "responsibilities": [
+        "参政议政",
+        "侨务服务"
+      ],
+      "publicUnderstanding": "致公党负责参政议政。",
+      "subordinates": [
+        "组织部"
+      ]
+    },
+    {
+      "id": "dp-007",
+      "name": "九三学社中央委员会",
+      "shortName": "九三学社中央",
+      "level": "国家级",
+      "category": "民主党派",
+      "established": "1945年",
+      "website": "www.93.gov.cn",
+      "description": "九三学社是中国八大民主党派之一，主要由科学技术界高、中级知识分子组成。",
+      "personnelSource": "社员发展。",
+      "personnelPromotion": "社内选举。",
+      "fundingSource": "财政拨款和社费。",
+      "responsibilities": [
+        "参政议政",
+        "科技服务"
+      ],
+      "publicUnderstanding": "九三学社负责参政议政。",
+      "subordinates": [
+        "组织部"
+      ]
+    },
+    {
+      "id": "dp-008",
+      "name": "台湾民主自治同盟中央委员会",
+      "shortName": "台盟中央",
+      "level": "国家级",
+      "category": "民主党派",
+      "established": "1947年",
+      "website": "www.taimeng.org.cn",
+      "description": "台湾民主自治同盟是中国八大民主党派之一，由台湾省籍人士组成。",
+      "personnelSource": "盟员发展。",
+      "personnelPromotion": "党内选举。",
+      "fundingSource": "财政拨款和盟费。",
+      "responsibilities": [
+        "参政议政",
+        "促进祖国统一"
+      ],
+      "publicUnderstanding": "台盟负责参政议政。",
+      "subordinates": [
+        "组织部"
+      ]
+    }
+  ],
+  "financial_institution": [
+    {
+      "id": "fi-001",
+      "name": "中国银行保险监督管理委员会",
+      "shortName": "银保监会",
+      "level": "国家级",
+      "category": "金融监管机构(已合并)",
+      "established": "2018年",
+      "website": "www.cbirc.gov.cn",
+      "description": "中国银行保险监督管理委员会负责银行保险业监管（已并入金融监管总局）。",
+      "personnelSource": "通过公务员考试招录。",
+      "personnelPromotion": "实行公务员职务与职级并行制度。",
+      "fundingSource": "中央财政拨款。",
+      "responsibilities": [
+        "银行监管",
+        "保险监管"
+      ],
+      "publicUnderstanding": "负责金融监管。",
+      "subordinates": [
+        "银行监管部"
+      ]
+    },
+    {
+      "id": "fi-002",
+      "name": "中国工商银行",
+      "shortName": "工商银行",
+      "level": "国家级",
+      "category": "中央金融企业",
+      "established": "1984年",
+      "website": "www.icbc.com.cn",
+      "description": "中国工商银行是大型国有商业银行。",
+      "personnelSource": "通过校园招聘或社会招聘。",
+      "personnelPromotion": "实行企业人事制度。",
+      "fundingSource": "企业经营收入。",
+      "responsibilities": [
+        "存贷款业务",
+        "金融服务"
+      ],
+      "publicUnderstanding": "负责银行业务。",
+      "subordinates": [
+        "各省市分行"
+      ]
+    },
+    {
+      "id": "fi-003",
+      "name": "中国建设银行",
+      "shortName": "建设银行",
+      "level": "国家级",
+      "category": "中央金融企业",
+      "established": "1954年",
+      "website": "www.ccb.com",
+      "description": "中国建设银行是大型国有商业银行。",
+      "personnelSource": "通过校园招聘或社会招聘。",
+      "personnelPromotion": "实行企业人事制度。",
+      "fundingSource": "企业经营收入。",
+      "responsibilities": [
+        "存贷款业务",
+        "金融服务"
+      ],
+      "publicUnderstanding": "负责银行业务。",
+      "subordinates": [
+        "各省市分行"
+      ]
+    },
+    {
+      "id": "fi-004",
+      "name": "中国农业银行",
+      "shortName": "农业银行",
+      "level": "国家级",
+      "category": "中央金融企业",
+      "established": "1951年",
+      "website": "www.abchina.com",
+      "description": "中国农业银行是大型国有商业银行。",
+      "personnelSource": "通过校园招聘或社会招聘。",
+      "personnelPromotion": "实行企业人事制度。",
+      "fundingSource": "企业经营收入。",
+      "responsibilities": [
+        "存贷款业务",
+        "农村金融服务"
+      ],
+      "publicUnderstanding": "负责银行业务。",
+      "subordinates": [
+        "各省市分行"
+      ]
+    },
+    {
+      "id": "fi-005",
+      "name": "中国交通银行",
+      "shortName": "交通银行",
+      "level": "国家级",
+      "category": "中央金融企业",
+      "established": "1908年",
+      "website": "www.bankcomm.com",
+      "description": "交通银行是大型国有商业银行。",
+      "personnelSource": "通过校园招聘或社会招聘。",
+      "personnelPromotion": "实行企业人事制度。",
+      "fundingSource": "企业经营收入。",
+      "responsibilities": [
+        "存贷款业务",
+        "金融服务"
+      ],
+      "publicUnderstanding": "负责银行业务。",
+      "subordinates": [
+        "各省市分行"
+      ]
+    },
+    {
+      "id": "fi-006",
+      "name": "中国邮政储蓄银行",
+      "shortName": "邮储银行",
+      "level": "国家级",
+      "category": "中央金融企业",
+      "established": "2007年",
+      "website": "www.psbc.com",
+      "description": "中国邮政储蓄银行是大型国有商业银行。",
+      "personnelSource": "通过校园招聘或社会招聘。",
+      "personnelPromotion": "实行企业人事制度。",
+      "fundingSource": "企业经营收入。",
+      "responsibilities": [
+        "存贷款业务",
+        "普惠金融"
+      ],
+      "publicUnderstanding": "负责银行业务。",
+      "subordinates": [
+        "各省市分行"
+      ]
+    },
+    {
+      "id": "fi-007",
+      "name": "中国民生银行",
+      "shortName": "民生银行",
+      "level": "国家级",
+      "category": "股份制商业银行",
+      "established": "1996年",
+      "website": "www.cmbc.com.cn",
+      "description": "中国民生银行是股份制商业银行。",
+      "personnelSource": "通过校园招聘或社会招聘。",
+      "personnelPromotion": "实行企业人事制度。",
+      "fundingSource": "企业经营收入。",
+      "responsibilities": [
+        "存贷款业务",
+        "金融服务"
+      ],
+      "publicUnderstanding": "负责银行业务。",
+      "subordinates": [
+        "各省市分行"
+      ]
+    },
+    {
+      "id": "fi-008",
+      "name": "招商银行",
+      "shortName": "招商银行",
+      "level": "国家级",
+      "category": "股份制商业银行",
+      "established": "1987年",
+      "website": "www.cmbchina.com",
+      "description": "招商银行是股份制商业银行。",
+      "personnelSource": "通过校园招聘或社会招聘。",
+      "personnelPromotion": "实行企业人事制度。",
+      "fundingSource": "企业经营收入。",
+      "responsibilities": [
+        "存贷款业务",
+        "零售金融"
+      ],
+      "publicUnderstanding": "负责银行业务。",
+      "subordinates": [
+        "各省市分行"
+      ]
+    },
+    {
+      "id": "fi-009",
+      "name": "中国人寿保险（集团）公司",
+      "shortName": "中国人寿",
+      "level": "国家级",
+      "category": "中央金融企业",
+      "established": "1949年",
+      "website": "www.chinalife.com.cn",
+      "description": "中国人寿保险（集团）公司是大型国有保险集团。",
+      "personnelSource": "通过校园招聘或社会招聘。",
+      "personnelPromotion": "实行企业人事制度。",
+      "fundingSource": "企业经营收入。",
+      "responsibilities": [
+        "人寿保险",
+        "资产管理"
+      ],
+      "publicUnderstanding": "负责保险业务。",
+      "subordinates": [
+        "中国人寿保险股份公司"
+      ]
+    },
+    {
+      "id": "fi-010",
+      "name": "中国太平保险集团有限责任公司",
+      "shortName": "中国太平",
+      "level": "国家级",
+      "category": "中央金融企业",
+      "established": "1929年",
+      "website": "www.cntaiping.com",
+      "description": "中国太平保险集团是大型国有保险集团。",
+      "personnelSource": "通过校园招聘或社会招聘。",
+      "personnelPromotion": "实行企业人事制度。",
+      "fundingSource": "企业经营收入。",
+      "responsibilities": [
+        "保险业务",
+        "资产管理"
+      ],
+      "publicUnderstanding": "负责保险业务。",
+      "subordinates": [
+        "太平人寿"
+      ]
+    }
+  ],
+  "central_enterprise2": [
+    {
+      "id": "ce2-001",
+      "name": "国家电网有限公司",
+      "shortName": "国家电网",
+      "level": "国家级",
+      "category": "中央企业",
+      "established": "2002年",
+      "website": "www.sgcc.com.cn",
+      "description": "国家电网有限公司是特大型电网企业。",
+      "personnelSource": "通过校园招聘或社会招聘。",
+      "personnelPromotion": "实行企业人事制度。",
+      "fundingSource": "企业经营收入。",
+      "responsibilities": [
+        "电网建设",
+        "电力供应"
+      ],
+      "publicUnderstanding": "负责电网运营。",
+      "subordinates": [
+        "各省市电力公司"
+      ]
+    },
+    {
+      "id": "ce2-002",
+      "name": "中国南方电网有限责任公司",
+      "shortName": "南方电网",
+      "level": "国家级",
+      "category": "中央企业",
+      "established": "2002年",
+      "website": "www.csg.cn",
+      "description": "中国南方电网有限责任公司是特大型电网企业。",
+      "personnelSource": "通过校园招聘或社会招聘。",
+      "personnelPromotion": "实行企业人事制度。",
+      "fundingSource": "企业经营收入。",
+      "responsibilities": [
+        "电网建设",
+        "电力供应"
+      ],
+      "publicUnderstanding": "负责电网运营。",
+      "subordinates": [
+        "各省电网公司"
+      ]
+    },
+    {
+      "id": "ce2-003",
+      "name": "中国华能集团有限公司",
+      "shortName": "华能集团",
+      "level": "国家级",
+      "category": "中央企业",
+      "established": "1989年",
+      "website": "www.chng.com.cn",
+      "description": "中国华能集团有限公司是大型电力企业。",
+      "personnelSource": "通过校园招聘或社会招聘。",
+      "personnelPromotion": "实行企业人事制度。",
+      "fundingSource": "企业经营收入。",
+      "responsibilities": [
+        "电力生产",
+        "电力销售"
+      ],
+      "publicUnderstanding": "负责电力生产。",
+      "subordinates": [
+        "各发电公司"
+      ]
+    },
+    {
+      "id": "ce2-004",
+      "name": "中国大唐集团有限公司",
+      "shortName": "大唐集团",
+      "level": "国家级",
+      "category": "中央企业",
+      "established": "2002年",
+      "website": "www.china-cdt.com",
+      "description": "中国大唐集团有限公司是大型电力企业。",
+      "personnelSource": "通过校园招聘或社会招聘。",
+      "personnelPromotion": "实行企业人事制度。",
+      "fundingSource": "企业经营收入。",
+      "responsibilities": [
+        "电力生产"
+      ],
+      "publicUnderstanding": "负责电力生产。",
+      "subordinates": [
+        "各发电公司"
+      ]
+    },
+    {
+      "id": "ce2-005",
+      "name": "中国华电集团有限公司",
+      "shortName": "华电集团",
+      "level": "国家级",
+      "category": "中央企业",
+      "established": "2002年",
+      "website": "www.chd.com.cn",
+      "description": "中国华电集团有限公司是大型电力企业。",
+      "personnelSource": "通过校园招聘或社会招聘。",
+      "personnelPromotion": "实行企业人事制度。",
+      "fundingSource": "企业经营收入。",
+      "responsibilities": [
+        "电力生产"
+      ],
+      "publicUnderstanding": "负责电力生产。",
+      "subordinates": [
+        "各发电公司"
+      ]
+    },
+    {
+      "id": "ce2-006",
+      "name": "国家能源投资集团有限责任公司",
+      "shortName": "国家能源集团",
+      "level": "国家级",
+      "category": "中央企业",
+      "established": "2017年",
+      "website": "www.ceic.com",
+      "description": "国家能源投资集团有限责任公司是大型能源企业。",
+      "personnelSource": "通过校园招聘或社会招聘。",
+      "personnelPromotion": "实行企业人事制度。",
+      "fundingSource": "企业经营收入。",
+      "responsibilities": [
+        "煤炭生产",
+        "电力生产"
+      ],
+      "publicUnderstanding": "负责能源生产。",
+      "subordinates": [
+        "神东煤炭"
+      ]
+    },
+    {
+      "id": "ce2-007",
+      "name": "中国电力建设集团有限公司",
+      "shortName": "中国电建",
+      "level": "国家级",
+      "category": "中央企业",
+      "established": "2011年",
+      "website": "www.powerchina.cn",
+      "description": "中国电力建设集团有限公司是大型电力建设企业。",
+      "personnelSource": "通过校园招聘或社会招聘。",
+      "personnelPromotion": "实行企业人事制度。",
+      "fundingSource": "企业经营收入。",
+      "responsibilities": [
+        "电力建设",
+        "基础设施投资"
+      ],
+      "publicUnderstanding": "负责电力建设。",
+      "subordinates": [
+        "各工程局"
+      ]
+    },
+    {
+      "id": "ce2-008",
+      "name": "中国能源建设集团有限公司",
+      "shortName": "中国能建",
+      "level": "国家级",
+      "category": "中央企业",
+      "established": "2011年",
+      "website": "www.ceec.net.cn",
+      "description": "中国能源建设集团有限公司是大型能源建设企业。",
+      "personnelSource": "通过校园招聘或社会招聘。",
+      "personnelPromotion": "实行企业人事制度。",
+      "fundingSource": "企业经营收入。",
+      "responsibilities": [
+        "能源建设",
+        "工程承包"
+      ],
+      "publicUnderstanding": "负责能源建设。",
+      "subordinates": [
+        "各设计院"
+      ]
+    },
+    {
+      "id": "ce2-009",
+      "name": "中国中铁股份有限公司",
+      "shortName": "中国中铁",
+      "level": "国家级",
+      "category": "中央企业",
+      "established": "2007年",
+      "website": "www.crec.cn",
+      "description": "中国中铁股份有限公司是大型铁路建设企业。",
+      "personnelSource": "通过校园招聘或社会招聘。",
+      "personnelPromotion": "实行企业人事制度。",
+      "fundingSource": "企业经营收入。",
+      "responsibilities": [
+        "铁路建设",
+        "基础设施投资"
+      ],
+      "publicUnderstanding": "负责铁路建设。",
+      "subordinates": [
+        "各工程局"
+      ]
+    },
+    {
+      "id": "ce2-010",
+      "name": "中国铁建股份有限公司",
+      "shortName": "中国铁建",
+      "level": "国家级",
+      "category": "中央企业",
+      "established": "2007年",
+      "website": "www.crcc.cn",
+      "description": "中国铁建股份有限公司是大型铁路建设企业。",
+      "personnelSource": "通过校园招聘或社会招聘。",
+      "personnelPromotion": "实行企业人事制度。",
+      "fundingSource": "企业经营收入。",
+      "responsibilities": [
+        "铁路建设",
+        "基础设施投资"
+      ],
+      "publicUnderstanding": "负责铁路建设。",
+      "subordinates": [
+        "各工程局"
+      ]
+    },
+    {
+      "id": "ce2-011",
+      "name": "中国建筑材料集团有限公司",
+      "shortName": "中国建材集团",
+      "level": "国家级",
+      "category": "中央企业",
+      "established": "1984年",
+      "website": "www.cnbm.com.cn",
+      "description": "中国建筑材料集团有限公司是大型建材企业。",
+      "personnelSource": "通过校园招聘或社会招聘。",
+      "personnelPromotion": "实行企业人事制度。",
+      "fundingSource": "企业经营收入。",
+      "responsibilities": [
+        "建材生产",
+        "工程服务"
+      ],
+      "publicUnderstanding": "负责建材生产。",
+      "subordinates": [
+        "各水泥公司"
+      ]
+    },
+    {
+      "id": "ce2-012",
+      "name": "中国中化控股有限责任公司",
+      "shortName": "中国中化",
+      "level": "国家级",
+      "category": "中央企业",
+      "established": "1950年",
+      "website": "www.sinchem.com",
+      "description": "中国中化控股有限责任公司是大型化工企业。",
+      "personnelSource": "通过校园招聘或社会招聘。",
+      "personnelPromotion": "实行企业人事制度。",
+      "fundingSource": "企业经营收入。",
+      "responsibilities": [
+        "化工生产",
+        "能源业务"
+      ],
+      "publicUnderstanding": "负责化工生产。",
+      "subordinates": [
+        "各化工企业"
+      ]
+    },
+    {
+      "id": "ce2-013",
+      "name": "中国远洋海运集团有限公司",
+      "shortName": "中远海运",
+      "level": "国家级",
+      "category": "中央企业",
+      "established": "2016年",
+      "website": "www.coscoshipping.com",
+      "description": "中国远洋海运集团有限公司是大型航运企业。",
+      "personnelSource": "通过校园招聘或社会招聘。",
+      "personnelPromotion": "实行企业人事制度。",
+      "fundingSource": "企业经营收入。",
+      "responsibilities": [
+        "海运服务",
+        "港口投资"
+      ],
+      "publicUnderstanding": "负责海运服务。",
+      "subordinates": [
+        "中远集运"
+      ]
+    },
+    {
+      "id": "ce2-014",
+      "name": "中国航空集团公司",
+      "shortName": "中航集团",
+      "level": "国家级",
+      "category": "中央企业",
+      "established": "1988年",
+      "website": "www.airchina.com.cn",
+      "description": "中国航空集团有限公司是大型航空运输企业。",
+      "personnelSource": "通过校园招聘或社会招聘。",
+      "personnelPromotion": "实行企业人事制度。",
+      "fundingSource": "企业经营收入。",
+      "responsibilities": [
+        "航空运输",
+        "航空服务"
+      ],
+      "publicUnderstanding": "负责航空运输。",
+      "subordinates": [
+        "国航股份"
+      ]
+    },
+    {
+      "id": "ce2-015",
+      "name": "中国东方航空集团有限公司",
+      "shortName": "东航集团",
+      "level": "国家级",
+      "category": "中央企业",
+      "established": "1988年",
+      "website": "www.ceair.com",
+      "description": "中国东方航空集团有限公司是大型航空运输企业。",
+      "personnelSource": "通过校园招聘或社会招聘。",
+      "personnelPromotion": "实行企业人事制度。",
+      "fundingSource": "企业经营收入。",
+      "responsibilities": [
+        "航空运输"
+      ],
+      "publicUnderstanding": "负责航空运输。",
+      "subordinates": [
+        "东航股份"
+      ]
+    },
+    {
+      "id": "ce2-016",
+      "name": "中国南方航空集团有限公司",
+      "shortName": "南航集团",
+      "level": "国家级",
+      "category": "中央企业",
+      "established": "1988年",
+      "website": "www.csair.com",
+      "description": "中国南方航空集团有限公司是大型航空运输企业。",
+      "personnelSource": "通过校园招聘或社会招聘。",
+      "personnelPromotion": "实行企业人事制度。",
+      "fundingSource": "企业经营收入。",
+      "responsibilities": [
+        "航空运输"
+      ],
+      "publicUnderstanding": "负责航空运输。",
+      "subordinates": [
+        "南航股份"
+      ]
+    }
   ]
 }
