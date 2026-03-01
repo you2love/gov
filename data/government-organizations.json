@@ -5723,5 +5723,2024 @@
         "南航股份"
       ]
     }
+  ],
+  "central_enterprise3": [
+    {
+      "id": "ce3-001",
+      "name": "中国通用技术（集团）控股有限责任公司",
+      "shortName": "中国通用技术",
+      "level": "国家级",
+      "category": "中央企业",
+      "established": "1998年",
+      "website": "www.genertec.com.cn",
+      "description": "中国通用技术（集团）是大型通用技术集团。",
+      "personnelSource": "通过校园招聘或社会招聘。",
+      "personnelPromotion": "实行企业人事制度。",
+      "fundingSource": "企业经营收入。",
+      "responsibilities": [
+        "装备制造",
+        "贸易服务"
+      ],
+      "publicUnderstanding": "负责通用技术业务。",
+      "subordinates": [
+        "各分公司"
+      ]
+    },
+    {
+      "id": "ce3-002",
+      "name": "中国核工业集团有限公司",
+      "shortName": "中核集团",
+      "level": "国家级",
+      "category": "中央企业",
+      "established": "1955年",
+      "website": "www.cnnc.com.cn",
+      "description": "中国核工业集团有限公司是大型核工业集团。",
+      "personnelSource": "通过校园招聘或社会招聘。",
+      "personnelPromotion": "实行企业人事制度。",
+      "fundingSource": "企业经营收入。",
+      "responsibilities": [
+        "核电建设",
+        "核技术应用"
+      ],
+      "publicUnderstanding": "负责核工业发展。",
+      "subordinates": [
+        "中国核电"
+      ]
+    },
+    {
+      "id": "ce3-003",
+      "name": "中国核建设集团股份有限公司",
+      "shortName": "中国核建",
+      "level": "国家级",
+      "category": "中央企业",
+      "established": "2010年",
+      "website": "www.cncc.cn",
+      "description": "中国核建设集团是大型核电建设企业。",
+      "personnelSource": "通过校园招聘或社会招聘。",
+      "personnelPromotion": "实行企业人事制度。",
+      "fundingSource": "企业经营收入。",
+      "responsibilities": [
+        "核电工程建设"
+      ],
+      "publicUnderstanding": "负责核电建设。",
+      "subordinates": [
+        "各工程公司"
+      ]
+    },
+    {
+      "id": "ce3-004",
+      "name": "中国航天科工集团有限公司",
+      "shortName": "航天科工",
+      "level": "国家级",
+      "category": "中央企业",
+      "established": "1999年",
+      "website": "www.casic.com.cn",
+      "description": "中国航天科工集团有限公司是大型航天防务企业。",
+      "personnelSource": "通过校园招聘或社会招聘。",
+      "personnelPromotion": "实行企业人事制度。",
+      "fundingSource": "企业经营收入。",
+      "responsibilities": [
+        "航天防务",
+        "信息技术"
+      ],
+      "publicUnderstanding": "负责航天防务。",
+      "subordinates": [
+        "各研究院"
+      ]
+    },
+    {
+      "id": "ce3-005",
+      "name": "中国航天科技集团有限公司",
+      "shortName": "航天科技",
+      "level": "国家级",
+      "category": "中央企业",
+      "established": "1999年",
+      "website": "www.spacechina.com",
+      "description": "中国航天科技集团有限公司是大型航天科技企业。",
+      "personnelSource": "通过校园招聘或社会招聘。",
+      "personnelPromotion": "实行企业人事制度。",
+      "fundingSource": "企业经营收入。",
+      "responsibilities": [
+        "航天科研",
+        "卫星发射"
+      ],
+      "publicUnderstanding": "负责航天科技。",
+      "subordinates": [
+        "各研究院"
+      ]
+    },
+    {
+      "id": "ce3-006",
+      "name": "中国电子科技集团有限公司",
+      "shortName": "中国电科",
+      "level": "国家级",
+      "category": "中央企业",
+      "established": "2002年",
+      "website": "www.cetc.com.cn",
+      "description": "中国电子科技集团有限公司是大型电子科技企业。",
+      "personnelSource": "通过校园招聘或社会招聘。",
+      "personnelPromotion": "实行企业人事制度。",
+      "fundingSource": "企业经营收入。",
+      "responsibilities": [
+        "电子信息技术",
+        "军工电子"
+      ],
+      "publicUnderstanding": "负责电子科技。",
+      "subordinates": [
+        "各研究院"
+      ]
+    },
+    {
+      "id": "ce3-007",
+      "name": "中国电子信息产业集团有限公司",
+      "shortName": "中国电子",
+      "level": "国家级",
+      "category": "中央企业",
+      "established": "1989年",
+      "website": "www.cec.com.cn",
+      "description": "中国电子信息产业集团有限公司是大型电子信息企业。",
+      "personnelSource": "通过校园招聘或社会招聘。",
+      "personnelPromotion": "实行企业人事制度。",
+      "fundingSource": "企业经营收入。",
+      "responsibilities": [
+        "电子信息制造",
+        "软件服务"
+      ],
+      "publicUnderstanding": "负责电子信息。",
+      "subordinates": [
+        "各子公司"
+      ]
+    },
+    {
+      "id": "ce3-008",
+      "name": "中国机械工业集团有限公司",
+      "shortName": "国机集团",
+      "level": "国家级",
+      "category": "中央企业",
+      "established": "1997年",
+      "website": "www.sinomach.com.cn",
+      "description": "中国机械工业集团有限公司是大型机械工业集团。",
+      "personnelSource": "通过校园招聘或社会招聘。",
+      "personnelPromotion": "实行企业人事制度。",
+      "fundingSource": "企业经营收入。",
+      "responsibilities": [
+        "机械装备制造",
+        "工程承包"
+      ],
+      "publicUnderstanding": "负责机械工业。",
+      "subordinates": [
+        "各企业"
+      ]
+    },
+    {
+      "id": "ce3-009",
+      "name": "中国中车集团有限公司",
+      "shortName": "中国中车",
+      "level": "国家级",
+      "category": "中央企业",
+      "established": "2015年",
+      "website": "www.crrcgc.cc",
+      "description": "中国中车集团有限公司是大型轨道交通装备企业。",
+      "personnelSource": "通过校园招聘或社会招聘。",
+      "personnelPromotion": "实行企业人事制度。",
+      "fundingSource": "企业经营收入。",
+      "responsibilities": [
+        "轨道交通装备制造"
+      ],
+      "publicUnderstanding": "负责轨道交通装备。",
+      "subordinates": [
+        "各铁路机车车辆企业"
+      ]
+    },
+    {
+      "id": "ce3-010",
+      "name": "中国机械科学研究总院集团有限公司",
+      "shortName": "机械总院",
+      "level": "国家级",
+      "category": "中央企业",
+      "established": "1956年",
+      "website": "www.cam.com.cn",
+      "description": "中国机械科学研究总院是大型机械科研集团。",
+      "personnelSource": "通过校园招聘或社会招聘。",
+      "personnelPromotion": "实行企业人事制度。",
+      "fundingSource": "企业经营收入。",
+      "responsibilities": [
+        "机械科学研究"
+      ],
+      "publicUnderstanding": "负责机械科研。",
+      "subordinates": [
+        "各研究所"
+      ]
+    },
+    {
+      "id": "ce3-011",
+      "name": "中国有研科技集团有限公司",
+      "shortName": "有研集团",
+      "level": "国家级",
+      "category": "中央企业",
+      "established": "1952年",
+      "website": "www.grinm.com",
+      "description": "中国有研科技集团有限公司是大型有色金属科研企业。",
+      "personnelSource": "通过校园招聘或社会招聘。",
+      "personnelPromotion": "实行企业人事制度。",
+      "fundingSource": "企业经营收入。",
+      "responsibilities": [
+        "有色金属研发"
+      ],
+      "publicUnderstanding": "负责有色金属研发。",
+      "subordinates": [
+        "各研究院"
+      ]
+    },
+    {
+      "id": "ce3-012",
+      "name": "中国中钢集团有限公司",
+      "shortName": "中钢集团",
+      "level": "国家级",
+      "category": "中央企业",
+      "established": "1993年",
+      "website": "www.sinosteel.com",
+      "description": "中国中钢集团有限公司是大型钢铁贸易企业。",
+      "personnelSource": "通过校园招聘或社会招聘。",
+      "personnelPromotion": "实行企业人事制度。",
+      "fundingSource": "企业经营收入。",
+      "responsibilities": [
+        "钢铁贸易",
+        "矿业投资"
+      ],
+      "publicUnderstanding": "负责钢铁贸易。",
+      "subordinates": [
+        "各子公司"
+      ]
+    },
+    {
+      "id": "ce3-013",
+      "name": "中国钢研科技集团有限公司",
+      "shortName": "钢研集团",
+      "level": "国家级",
+      "category": "中央企业",
+      "established": "2006年",
+      "website": "www.cisri.cn",
+      "description": "中国钢研科技集团有限公司是大型钢铁冶金科研企业。",
+      "personnelSource": "通过校园招聘或社会招聘。",
+      "personnelPromotion": "实行企业人事制度。",
+      "fundingSource": "企业经营收入。",
+      "responsibilities": [
+        "钢铁冶金研发"
+      ],
+      "publicUnderstanding": "负责钢铁冶金研发。",
+      "subordinates": [
+        "各研究所"
+      ]
+    },
+    {
+      "id": "ce3-014",
+      "name": "中国化工集团有限公司",
+      "shortName": "中国化工",
+      "level": "国家级",
+      "category": "中央企业",
+      "established": "2004年",
+      "website": "www.chemchina.com.cn",
+      "description": "中国化工集团有限公司是大型化工企业。",
+      "personnelSource": "通过校园招聘或社会招聘。",
+      "personnelPromotion": "实行企业人事制度。",
+      "fundingSource": "企业经营收入。",
+      "responsibilities": [
+        "化工生产",
+        "农化服务"
+      ],
+      "publicUnderstanding": "负责化工业务。",
+      "subordinates": [
+        "各化工企业"
+      ]
+    },
+    {
+      "id": "ce3-015",
+      "name": "中国化学工程集团有限公司",
+      "shortName": "中国化学",
+      "level": "国家级",
+      "category": "中央企业",
+      "established": "2005年",
+      "website": "www.cncec.com.cn",
+      "description": "中国化学工程集团有限公司是大型化工工程企业。",
+      "personnelSource": "通过校园招聘或社会招聘。",
+      "personnelPromotion": "实行企业人事制度。",
+      "fundingSource": "企业经营收入。",
+      "responsibilities": [
+        "化工工程承包"
+      ],
+      "publicUnderstanding": "负责化工工程。",
+      "subordinates": [
+        "各工程公司"
+      ]
+    },
+    {
+      "id": "ce3-016",
+      "name": "中国盐业集团有限公司",
+      "shortName": "中盐集团",
+      "level": "国家级",
+      "category": "中央企业",
+      "established": "1950年",
+      "website": "www.chinasalt.com.cn",
+      "description": "中国盐业集团有限公司是大型盐业企业。",
+      "personnelSource": "通过校园招聘或社会招聘。",
+      "personnelPromotion": "实行企业人事制度。",
+      "fundingSource": "企业经营收入。",
+      "responsibilities": [
+        "盐业生产",
+        "盐业销售"
+      ],
+      "publicUnderstanding": "负责盐业业务。",
+      "subordinates": [
+        "各盐业公司"
+      ]
+    },
+    {
+      "id": "ce3-017",
+      "name": "中国有色矿业集团有限公司",
+      "shortName": "中国有色集团",
+      "level": "国家级",
+      "category": "中央企业",
+      "established": "1983年",
+      "website": "www.cnmc.com.cn",
+      "description": "中国有色矿业集团有限公司是大型有色矿业企业。",
+      "personnelSource": "通过校园招聘或社会招聘。",
+      "personnelPromotion": "实行企业人事制度。",
+      "fundingSource": "企业经营收入。",
+      "responsibilities": [
+        "有色金属矿业开发"
+      ],
+      "publicUnderstanding": "负责有色矿业。",
+      "subordinates": [
+        "各矿业公司"
+      ]
+    },
+    {
+      "id": "ce3-018",
+      "name": "中国稀土集团有限公司",
+      "shortName": "中国稀土集团",
+      "level": "国家级",
+      "category": "中央企业",
+      "established": "2021年",
+      "website": "www.rareearth.com.cn",
+      "description": "中国稀土集团有限公司是大型稀土企业。",
+      "personnelSource": "通过校园招聘或社会招聘。",
+      "personnelPromotion": "实行企业人事制度。",
+      "fundingSource": "企业经营收入。",
+      "responsibilities": [
+        "稀土资源开发"
+      ],
+      "publicUnderstanding": "负责稀土业务。",
+      "subordinates": [
+        "各稀土企业"
+      ]
+    },
+    {
+      "id": "ce3-019",
+      "name": "中国安能建设集团有限公司",
+      "shortName": "中国安能",
+      "level": "国家级",
+      "category": "中央企业",
+      "established": "1981年",
+      "website": "www.china-an.cn",
+      "description": "中国安能建设集团有限公司是大型工程建设企业。",
+      "personnelSource": "通过校园招聘或社会招聘。",
+      "personnelPromotion": "实行企业人事制度。",
+      "fundingSource": "企业经营收入。",
+      "responsibilities": [
+        "工程建设",
+        "应急救援"
+      ],
+      "publicUnderstanding": "负责工程建设。",
+      "subordinates": [
+        "各工程公司"
+      ]
+    },
+    {
+      "id": "ce3-020",
+      "name": "中国冶金地质总局",
+      "shortName": "冶金地质总局",
+      "level": "国家级",
+      "category": "中央企业",
+      "established": "1952年",
+      "website": "www.cmgb.org.cn",
+      "description": "中国冶金地质总局是大型冶金地质勘查企业。",
+      "personnelSource": "通过校园招聘或社会招聘。",
+      "personnelPromotion": "实行企业人事制度。",
+      "fundingSource": "企业经营收入。",
+      "responsibilities": [
+        "地质勘查"
+      ],
+      "publicUnderstanding": "负责地质勘查。",
+      "subordinates": [
+        "各勘查局"
+      ]
+    }
+  ],
+  "court_procuratorate2": [
+    {
+      "id": "cp2-001",
+      "name": "浙江省高级人民法院",
+      "shortName": "浙江高院",
+      "level": "省级",
+      "category": "省级法院",
+      "established": "1949年",
+      "website": "www.zjcourt.gov.cn",
+      "description": "浙江省高级人民法院是浙江省的最高审判机关。",
+      "personnelSource": "法官通过公务员考试和司法考试招录。",
+      "personnelPromotion": "法官实行法官员额制。",
+      "fundingSource": "地方财政拨款。",
+      "responsibilities": [
+        "审理案件",
+        "监督指导"
+      ],
+      "publicUnderstanding": "负责审判工作。",
+      "subordinates": [
+        "刑事审判庭"
+      ]
+    },
+    {
+      "id": "cp2-002",
+      "name": "江苏省高级人民法院",
+      "shortName": "江苏高院",
+      "level": "省级",
+      "category": "省级法院",
+      "established": "1949年",
+      "website": "www.jsfy.gov.cn",
+      "description": "江苏省高级人民法院是江苏省的最高审判机关。",
+      "personnelSource": "法官通过公务员考试和司法考试招录。",
+      "personnelPromotion": "法官实行法官员额制。",
+      "fundingSource": "地方财政拨款。",
+      "responsibilities": [
+        "审理案件"
+      ],
+      "publicUnderstanding": "负责审判工作。",
+      "subordinates": [
+        "刑事审判庭"
+      ]
+    },
+    {
+      "id": "cp2-003",
+      "name": "山东省高级人民法院",
+      "shortName": "山东高院",
+      "level": "省级",
+      "category": "省级法院",
+      "established": "1949年",
+      "website": "www.sdcourt.gov.cn",
+      "description": "山东省高级人民法院是山东省的最高审判机关。",
+      "personnelSource": "法官通过公务员考试和司法考试招录。",
+      "personnelPromotion": "法官实行法官员额制。",
+      "fundingSource": "地方财政拨款。",
+      "responsibilities": [
+        "审理案件"
+      ],
+      "publicUnderstanding": "负责审判工作。",
+      "subordinates": [
+        "刑事审判庭"
+      ]
+    },
+    {
+      "id": "cp2-004",
+      "name": "河南省高级人民法院",
+      "shortName": "河南高院",
+      "level": "省级",
+      "category": "省级法院",
+      "established": "1949年",
+      "website": "www.hncourt.gov.cn",
+      "description": "河南省高级人民法院是河南省的最高审判机关。",
+      "personnelSource": "法官通过公务员考试和司法考试招录。",
+      "personnelPromotion": "法官实行法官员额制。",
+      "fundingSource": "地方财政拨款。",
+      "responsibilities": [
+        "审理案件"
+      ],
+      "publicUnderstanding": "负责审判工作。",
+      "subordinates": [
+        "刑事审判庭"
+      ]
+    },
+    {
+      "id": "cp2-005",
+      "name": "四川省高级人民法院",
+      "shortName": "四川高院",
+      "level": "省级",
+      "category": "省级法院",
+      "established": "1949年",
+      "website": "www.scfy.gov.cn",
+      "description": "四川省高级人民法院是四川省的最高审判机关。",
+      "personnelSource": "法官通过公务员考试和司法考试招录。",
+      "personnelPromotion": "法官实行法官员额制。",
+      "fundingSource": "地方财政拨款。",
+      "responsibilities": [
+        "审理案件"
+      ],
+      "publicUnderstanding": "负责审判工作。",
+      "subordinates": [
+        "刑事审判庭"
+      ]
+    },
+    {
+      "id": "cp2-006",
+      "name": "湖北省高级人民法院",
+      "shortName": "湖北高院",
+      "level": "省级",
+      "category": "省级法院",
+      "established": "1949年",
+      "website": "www.hbfy.gov.cn",
+      "description": "湖北省高级人民法院是湖北省的最高审判机关。",
+      "personnelSource": "法官通过公务员考试和司法考试招录。",
+      "personnelPromotion": "法官实行法官员额制。",
+      "fundingSource": "地方财政拨款。",
+      "responsibilities": [
+        "审理案件"
+      ],
+      "publicUnderstanding": "负责审判工作。",
+      "subordinates": [
+        "刑事审判庭"
+      ]
+    },
+    {
+      "id": "cp2-007",
+      "name": "湖南省高级人民法院",
+      "shortName": "湖南高院",
+      "level": "省级",
+      "category": "省级法院",
+      "established": "1949年",
+      "website": "www.hncourt.gov.cn",
+      "description": "湖南省高级人民法院是湖南省的最高审判机关。",
+      "personnelSource": "法官通过公务员考试和司法考试招录。",
+      "personnelPromotion": "法官实行法官员额制。",
+      "fundingSource": "地方财政拨款。",
+      "responsibilities": [
+        "审理案件"
+      ],
+      "publicUnderstanding": "负责审判工作。",
+      "subordinates": [
+        "刑事审判庭"
+      ]
+    },
+    {
+      "id": "cp2-008",
+      "name": "河北省高级人民法院",
+      "shortName": "河北高院",
+      "level": "省级",
+      "category": "省级法院",
+      "established": "1949年",
+      "website": "www.hebeicourt.gov.cn",
+      "description": "河北省高级人民法院是河北省的最高审判机关。",
+      "personnelSource": "法官通过公务员考试和司法考试招录。",
+      "personnelPromotion": "法官实行法官员额制。",
+      "fundingSource": "地方财政拨款。",
+      "responsibilities": [
+        "审理案件"
+      ],
+      "publicUnderstanding": "负责审判工作。",
+      "subordinates": [
+        "刑事审判庭"
+      ]
+    },
+    {
+      "id": "cp2-009",
+      "name": "浙江省人民检察院",
+      "shortName": "浙江检察院",
+      "level": "省级",
+      "category": "省级检察院",
+      "established": "1949年",
+      "website": "www.zjjcy.gov.cn",
+      "description": "浙江省人民检察院是浙江省的最高检察机关。",
+      "personnelSource": "检察官通过公务员考试和司法考试招录。",
+      "personnelPromotion": "检察官实行员额制。",
+      "fundingSource": "地方财政拨款。",
+      "responsibilities": [
+        "公诉",
+        "侦查监督"
+      ],
+      "publicUnderstanding": "负责检察工作。",
+      "subordinates": [
+        "公诉部"
+      ]
+    },
+    {
+      "id": "cp2-010",
+      "name": "江苏省人民检察院",
+      "shortName": "江苏检察院",
+      "level": "省级",
+      "category": "省级检察院",
+      "established": "1949年",
+      "website": "www.jsjcy.gov.cn",
+      "description": "江苏省人民检察院是江苏省的最高检察机关。",
+      "personnelSource": "检察官通过公务员考试和司法考试招录。",
+      "personnelPromotion": "检察官实行员额制。",
+      "fundingSource": "地方财政拨款。",
+      "responsibilities": [
+        "公诉"
+      ],
+      "publicUnderstanding": "负责检察工作。",
+      "subordinates": [
+        "公诉部"
+      ]
+    },
+    {
+      "id": "cp2-011",
+      "name": "山东省人民检察院",
+      "shortName": "山东检察院",
+      "level": "省级",
+      "category": "省级检察院",
+      "established": "1949年",
+      "website": "www.sdjcy.gov.cn",
+      "description": "山东省人民检察院是山东省的最高检察机关。",
+      "personnelSource": "检察官通过公务员考试和司法考试招录。",
+      "personnelPromotion": "检察官实行员额制。",
+      "fundingSource": "地方财政拨款。",
+      "responsibilities": [
+        "公诉"
+      ],
+      "publicUnderstanding": "负责检察工作。",
+      "subordinates": [
+        "公诉部"
+      ]
+    },
+    {
+      "id": "cp2-012",
+      "name": "河南省人民检察院",
+      "shortName": "河南检察院",
+      "level": "省级",
+      "category": "省级检察院",
+      "established": "1949年",
+      "website": "www.ha.jcy.gov.cn",
+      "description": "河南省人民检察院是河南省的最高检察机关。",
+      "personnelSource": "检察官通过公务员考试和司法考试招录。",
+      "personnelPromotion": "检察官实行员额制。",
+      "fundingSource": "地方财政拨款。",
+      "responsibilities": [
+        "公诉"
+      ],
+      "publicUnderstanding": "负责检察工作。",
+      "subordinates": [
+        "公诉部"
+      ]
+    }
+  ],
+  "court_procuratorate3": [
+    {
+      "id": "cp3-001",
+      "name": "广州市中级人民法院",
+      "shortName": "广州中院",
+      "level": "市级",
+      "category": "市级法院",
+      "established": "1949年",
+      "website": "www.gzcourt.gov.cn",
+      "description": "广州市中级人民法院是广州市的审判机关。",
+      "personnelSource": "法官通过公务员考试和司法考试招录。",
+      "personnelPromotion": "法官实行法官员额制。",
+      "fundingSource": "地方财政拨款。",
+      "responsibilities": [
+        "审理案件"
+      ],
+      "publicUnderstanding": "负责审判工作。",
+      "subordinates": [
+        "刑事审判庭"
+      ]
+    },
+    {
+      "id": "cp3-002",
+      "name": "深圳市中级人民法院",
+      "shortName": "深圳中院",
+      "level": "市级",
+      "category": "市级法院",
+      "established": "1979年",
+      "website": "www.szcourt.gov.cn",
+      "description": "深圳市中级人民法院是深圳市的审判机关。",
+      "personnelSource": "法官通过公务员考试和司法考试招录。",
+      "personnelPromotion": "法官实行法官员额制。",
+      "fundingSource": "地方财政拨款。",
+      "responsibilities": [
+        "审理案件"
+      ],
+      "publicUnderstanding": "负责审判工作。",
+      "subordinates": [
+        "刑事审判庭"
+      ]
+    },
+    {
+      "id": "cp3-003",
+      "name": "杭州市中级人民法院",
+      "shortName": "杭州中院",
+      "level": "市级",
+      "category": "市级法院",
+      "established": "1949年",
+      "website": "www.hzhcourt.gov.cn",
+      "description": "杭州市中级人民法院是杭州的审判机关。",
+      "personnelSource": "法官通过公务员考试和司法考试招录。",
+      "personnelPromotion": "法官实行法官员额制。",
+      "fundingSource": "地方财政拨款。",
+      "responsibilities": [
+        "审理案件"
+      ],
+      "publicUnderstanding": "负责审判工作。",
+      "subordinates": [
+        "刑事审判庭"
+      ]
+    },
+    {
+      "id": "cp3-004",
+      "name": "成都市中级人民法院",
+      "shortName": "成都中院",
+      "level": "市级",
+      "category": "市级法院",
+      "established": "1949年",
+      "website": "www.cdfy.gov.cn",
+      "description": "成都市中级人民法院是成都的审判机关。",
+      "personnelSource": "法官通过公务员考试和司法考试招录。",
+      "personnelPromotion": "法官实行法官员额制。",
+      "fundingSource": "地方财政拨款。",
+      "responsibilities": [
+        "审理案件"
+      ],
+      "publicUnderstanding": "负责审判工作。",
+      "subordinates": [
+        "刑事审判庭"
+      ]
+    },
+    {
+      "id": "cp3-005",
+      "name": "武汉市中级人民法院",
+      "shortName": "武汉中院",
+      "level": "市级",
+      "category": "市级法院",
+      "established": "1949年",
+      "website": "www.whcourt.gov.cn",
+      "description": "武汉市中级人民法院是武汉的审判机关。",
+      "personnelSource": "法官通过公务员考试和司法考试招录。",
+      "personnelPromotion": "法官实行法官员额制。",
+      "fundingSource": "地方财政拨款。",
+      "responsibilities": [
+        "审理案件"
+      ],
+      "publicUnderstanding": "负责审判工作。",
+      "subordinates": [
+        "刑事审判庭"
+      ]
+    },
+    {
+      "id": "cp3-006",
+      "name": "南京市中级人民法院",
+      "shortName": "南京中院",
+      "level": "市级",
+      "category": "市级法院",
+      "established": "1949年",
+      "website": "www.njfy.gov.cn",
+      "description": "南京市中级人民法院是南京的审判机关。",
+      "personnelSource": "法官通过公务员考试和司法考试招录。",
+      "personnelPromotion": "法官实行法官员额制。",
+      "fundingSource": "地方财政拨款。",
+      "responsibilities": [
+        "审理案件"
+      ],
+      "publicUnderstanding": "负责审判工作。",
+      "subordinates": [
+        "刑事审判庭"
+      ]
+    },
+    {
+      "id": "cp3-007",
+      "name": "西安市中级人民法院",
+      "shortName": "西安中院",
+      "level": "市级",
+      "category": "市级法院",
+      "established": "1949年",
+      "website": "www.xazfw.gov.cn",
+      "description": "西安市中级人民法院是西安的审判机关。",
+      "personnelSource": "法官通过公务员考试和司法考试招录。",
+      "personnelPromotion": "法官实行法官员额制。",
+      "fundingSource": "地方财政拨款。",
+      "responsibilities": [
+        "审理案件"
+      ],
+      "publicUnderstanding": "负责审判工作。",
+      "subordinates": [
+        "刑事审判庭"
+      ]
+    },
+    {
+      "id": "cp3-008",
+      "name": "广州市人民检察院",
+      "shortName": "广州检察院",
+      "level": "市级",
+      "category": "市级检察院",
+      "established": "1949年",
+      "website": "www.gz.gov.cn",
+      "description": "广州市人民检察院是广州的检察机关。",
+      "personnelSource": "检察官通过公务员考试和司法考试招录。",
+      "personnelPromotion": "检察官实行员额制。",
+      "fundingSource": "地方财政拨款。",
+      "responsibilities": [
+        "公诉"
+      ],
+      "publicUnderstanding": "负责检察工作。",
+      "subordinates": [
+        "公诉部"
+      ]
+    },
+    {
+      "id": "cp3-009",
+      "name": "深圳市人民检察院",
+      "shortName": "深圳检察院",
+      "level": "市级",
+      "category": "市级检察院",
+      "established": "1979年",
+      "website": "www.sz.gov.cn",
+      "description": "深圳市人民检察院是深圳的检察机关。",
+      "personnelSource": "检察官通过公务员考试和司法考试招录。",
+      "personnelPromotion": "检察官实行员额制。",
+      "fundingSource": "地方财政拨款。",
+      "responsibilities": [
+        "公诉"
+      ],
+      "publicUnderstanding": "负责检察工作。",
+      "subordinates": [
+        "公诉部"
+      ]
+    },
+    {
+      "id": "cp3-010",
+      "name": "杭州市人民检察院",
+      "shortName": "杭州检察院",
+      "level": "市级",
+      "category": "市级检察院",
+      "established": "1949年",
+      "website": "www.hz.gov.cn",
+      "description": "杭州市人民检察院是杭州的检察机关。",
+      "personnelSource": "检察官通过公务员考试和司法考试招录。",
+      "personnelPromotion": "检察官实行员额制。",
+      "fundingSource": "地方财政拨款。",
+      "responsibilities": [
+        "公诉"
+      ],
+      "publicUnderstanding": "负责检察工作。",
+      "subordinates": [
+        "公诉部"
+      ]
+    }
+  ],
+  "financial_institution2": [
+    {
+      "id": "fi2-001",
+      "name": "中国光大银行",
+      "shortName": "光大银行",
+      "level": "国家级",
+      "category": "股份制商业银行",
+      "established": "1992年",
+      "website": "www.cebbank.com",
+      "description": "中国光大银行是股份制商业银行。",
+      "personnelSource": "通过校园招聘或社会招聘。",
+      "personnelPromotion": "实行企业人事制度。",
+      "fundingSource": "企业经营收入。",
+      "responsibilities": [
+        "存贷款业务"
+      ],
+      "publicUnderstanding": "负责银行业务。",
+      "subordinates": [
+        "各省市分行"
+      ]
+    },
+    {
+      "id": "fi2-002",
+      "name": "华夏银行",
+      "shortName": "华夏银行",
+      "level": "国家级",
+      "category": "股份制商业银行",
+      "established": "1992年",
+      "website": "www.hxb.com.cn",
+      "description": "华夏银行是股份制商业银行。",
+      "personnelSource": "通过校园招聘或社会招聘。",
+      "personnelPromotion": "实行企业人事制度。",
+      "fundingSource": "企业经营收入。",
+      "responsibilities": [
+        "存贷款业务"
+      ],
+      "publicUnderstanding": "负责银行业务。",
+      "subordinates": [
+        "各省市分行"
+      ]
+    },
+    {
+      "id": "fi2-003",
+      "name": "中国民生银行",
+      "shortName": "民生银行",
+      "level": "国家级",
+      "category": "股份制商业银行",
+      "established": "1996年",
+      "website": "www.cmbc.com.cn",
+      "description": "中国民生银行是股份制商业银行。",
+      "personnelSource": "通过校园招聘或社会招聘。",
+      "personnelPromotion": "实行企业人事制度。",
+      "fundingSource": "企业经营收入。",
+      "responsibilities": [
+        "存贷款业务"
+      ],
+      "publicUnderstanding": "负责银行业务。",
+      "subordinates": [
+        "各省市分行"
+      ]
+    },
+    {
+      "id": "fi2-004",
+      "name": "广发银行股份有限公司",
+      "shortName": "广发银行",
+      "level": "国家级",
+      "category": "股份制商业银行",
+      "established": "1988年",
+      "website": "www.cgbchina.com.cn",
+      "description": "广发银行是股份制商业银行。",
+      "personnelSource": "通过校园招聘或社会招聘。",
+      "personnelPromotion": "实行企业人事制度。",
+      "fundingSource": "企业经营收入。",
+      "responsibilities": [
+        "存贷款业务"
+      ],
+      "publicUnderstanding": "负责银行业务。",
+      "subordinates": [
+        "各省市分行"
+      ]
+    },
+    {
+      "id": "fi2-005",
+      "name": "上海浦东发展银行",
+      "shortName": "浦发银行",
+      "level": "国家级",
+      "category": "股份制商业银行",
+      "established": "1992年",
+      "website": "www.spdb.com.cn",
+      "description": "上海浦东发展银行是股份制商业银行。",
+      "personnelSource": "通过校园招聘或社会招聘。",
+      "personnelPromotion": "实行企业人事制度。",
+      "fundingSource": "企业经营收入。",
+      "responsibilities": [
+        "存贷款业务"
+      ],
+      "publicUnderstanding": "负责银行业务。",
+      "subordinates": [
+        "各省市分行"
+      ]
+    },
+    {
+      "id": "fi2-006",
+      "name": "兴业银行股份有限公司",
+      "shortName": "兴业银行",
+      "level": "国家级",
+      "category": "股份制商业银行",
+      "established": "1988年",
+      "website": "www.cib.com.cn",
+      "description": "兴业银行是股份制商业银行。",
+      "personnelSource": "通过校园招聘或社会招聘。",
+      "personnelPromotion": "实行企业人事制度。",
+      "fundingSource": "企业经营收入。",
+      "responsibilities": [
+        "存贷款业务"
+      ],
+      "publicUnderstanding": "负责银行业务。",
+      "subordinates": [
+        "各省市分行"
+      ]
+    },
+    {
+      "id": "fi2-007",
+      "name": "中信银行股份有限公司",
+      "shortName": "中信银行",
+      "level": "国家级",
+      "category": "股份制商业银行",
+      "established": "1987年",
+      "website": "www.citicbank.com",
+      "description": "中信银行是股份制商业银行。",
+      "personnelSource": "通过校园招聘或社会招聘。",
+      "personnelPromotion": "实行企业人事制度。",
+      "fundingSource": "企业经营收入。",
+      "responsibilities": [
+        "存贷款业务"
+      ],
+      "publicUnderstanding": "负责银行业务。",
+      "subordinates": [
+        "各省市分行"
+      ]
+    },
+    {
+      "id": "fi2-008",
+      "name": "平安银行股份有限公司",
+      "shortName": "平安银行",
+      "level": "国家级",
+      "category": "股份制商业银行",
+      "established": "1987年",
+      "website": "www.bank.pingan.com",
+      "description": "平安银行是股份制商业银行。",
+      "personnelSource": "通过校园招聘或社会招聘。",
+      "personnelPromotion": "实行企业人事制度。",
+      "fundingSource": "企业经营收入。",
+      "responsibilities": [
+        "存贷款业务"
+      ],
+      "publicUnderstanding": "负责银行业务。",
+      "subordinates": [
+        "各省市分行"
+      ]
+    },
+    {
+      "id": "fi2-009",
+      "name": "浙商银行股份有限公司",
+      "shortName": "浙商银行",
+      "level": "国家级",
+      "category": "股份制商业银行",
+      "established": "2004年",
+      "website": "www.czbank.com",
+      "description": "浙商银行是股份制商业银行。",
+      "personnelSource": "通过校园招聘或社会招聘。",
+      "personnelPromotion": "实行企业人事制度。",
+      "fundingSource": "企业经营收入。",
+      "responsibilities": [
+        "存贷款业务"
+      ],
+      "publicUnderstanding": "负责银行业务。",
+      "subordinates": [
+        "各省市分行"
+      ]
+    },
+    {
+      "id": "fi2-010",
+      "name": "恒丰银行股份有限公司",
+      "shortName": "恒丰银行",
+      "level": "国家级",
+      "category": "股份制商业银行",
+      "established": "2003年",
+      "website": "www.hfbank.com.cn",
+      "description": "恒丰银行是股份制商业银行。",
+      "personnelSource": "通过校园招聘或社会招聘。",
+      "personnelPromotion": "实行企业人事制度。",
+      "fundingSource": "企业经营收入。",
+      "responsibilities": [
+        "存贷款业务"
+      ],
+      "publicUnderstanding": "负责银行业务。",
+      "subordinates": [
+        "各省市分行"
+      ]
+    },
+    {
+      "id": "fi2-011",
+      "name": "中国人民财产保险股份有限公司",
+      "shortName": "人保财险",
+      "level": "国家级",
+      "category": "中央金融企业",
+      "established": "1949年",
+      "website": "www.picc.com.cn",
+      "description": "中国人民财产保险股份有限公司是大型财产保险公司。",
+      "personnelSource": "通过校园招聘或社会招聘。",
+      "personnelPromotion": "实行企业人事制度。",
+      "fundingSource": "企业经营收入。",
+      "responsibilities": [
+        "财产保险"
+      ],
+      "publicUnderstanding": "负责财产保险业务。",
+      "subordinates": [
+        "各省市分公司"
+      ]
+    },
+    {
+      "id": "fi2-012",
+      "name": "中国人寿保险股份有限公司",
+      "shortName": "中国人寿",
+      "level": "国家级",
+      "category": "中央金融企业",
+      "established": "1949年",
+      "website": "www.e-chinalife.com",
+      "description": "中国人寿保险股份有限公司是大型人寿保险公司。",
+      "personnelSource": "通过校园招聘或社会招聘。",
+      "personnelPromotion": "实行企业人事制度。",
+      "fundingSource": "企业经营收入。",
+      "responsibilities": [
+        "人寿保险"
+      ],
+      "publicUnderstanding": "负责人寿保险业务。",
+      "subordinates": [
+        "各省市分公司"
+      ]
+    },
+    {
+      "id": "fi2-013",
+      "name": "中国平安保险（集团）股份有限公司",
+      "shortName": "中国平安",
+      "level": "国家级",
+      "category": "股份制金融企业",
+      "established": "1988年",
+      "website": "www.pingan.com",
+      "description": "中国平安保险是大型综合金融集团。",
+      "personnelSource": "通过校园招聘或社会招聘。",
+      "personnelPromotion": "实行企业人事制度。",
+      "fundingSource": "企业经营收入。",
+      "responsibilities": [
+        "保险业务",
+        "银行业务"
+      ],
+      "publicUnderstanding": "负责综合金融业务。",
+      "subordinates": [
+        "平安银行",
+        "平安保险"
+      ]
+    },
+    {
+      "id": "fi2-014",
+      "name": "中国太平洋保险（集团）股份有限公司",
+      "shortName": "中国太保",
+      "level": "国家级",
+      "category": "中央金融企业",
+      "established": "1991年",
+      "website": "www.cpic.com.cn",
+      "description": "中国太平洋保险是大型保险集团。",
+      "personnelSource": "通过校园招聘或社会招聘。",
+      "personnelPromotion": "实行企业人事制度。",
+      "fundingSource": "企业经营收入。",
+      "responsibilities": [
+        "保险业务"
+      ],
+      "publicUnderstanding": "负责保险业务。",
+      "subordinates": [
+        "各省市分公司"
+      ]
+    },
+    {
+      "id": "fi2-015",
+      "name": "新华人寿保险股份有限公司",
+      "shortName": "新华保险",
+      "level": "国家级",
+      "category": "中央金融企业",
+      "established": "1996年",
+      "website": "www.newchinalife.com",
+      "description": "新华人寿保险是大型人寿保险公司。",
+      "personnelSource": "通过校园招聘或社会招聘。",
+      "personnelPromotion": "实行企业人事制度。",
+      "fundingSource": "企业经营收入。",
+      "responsibilities": [
+        "人寿保险"
+      ],
+      "publicUnderstanding": "负责人寿保险业务。",
+      "subordinates": [
+        "各省市分公司"
+      ]
+    },
+    {
+      "id": "fi2-016",
+      "name": "中国信达资产管理股份有限公司",
+      "shortName": "中国信达",
+      "level": "国家级",
+      "category": "金融资产管理公司",
+      "established": "1999年",
+      "website": "www.cinda.com.cn",
+      "description": "中国信达资产管理公司是金融资产管理公司。",
+      "personnelSource": "通过校园招聘或社会招聘。",
+      "personnelPromotion": "实行企业人事制度。",
+      "fundingSource": "企业经营收入。",
+      "responsibilities": [
+        "资产处置"
+      ],
+      "publicUnderstanding": "负责资产管理。",
+      "subordinates": [
+        "各分公司"
+      ]
+    },
+    {
+      "id": "fi2-017",
+      "name": "中国华融资产管理股份有限公司",
+      "shortName": "中国华融",
+      "level": "国家级",
+      "category": "金融资产管理公司",
+      "established": "1999年",
+      "website": "www.chamc.com.cn",
+      "description": "中国华融资产管理公司是金融资产管理公司。",
+      "personnelSource": "通过校园招聘或社会招聘。",
+      "personnelPromotion": "实行企业人事制度。",
+      "fundingSource": "企业经营收入。",
+      "responsibilities": [
+        "资产处置"
+      ],
+      "publicUnderstanding": "负责资产管理。",
+      "subordinates": [
+        "各分公司"
+      ]
+    },
+    {
+      "id": "fi2-018",
+      "name": "中国长城资产管理股份有限公司",
+      "shortName": "中国长城",
+      "level": "国家级",
+      "category": "金融资产管理公司",
+      "established": "1999年",
+      "website": "www.gwamc.com",
+      "description": "中国长城资产管理公司是金融资产管理公司。",
+      "personnelSource": "通过校园招聘或社会招聘。",
+      "personnelPromotion": "实行企业人事制度。",
+      "fundingSource": "企业经营收入。",
+      "responsibilities": [
+        "资产处置"
+      ],
+      "publicUnderstanding": "负责资产管理。",
+      "subordinates": [
+        "各分公司"
+      ]
+    },
+    {
+      "id": "fi2-019",
+      "name": "中国东方资产管理股份有限公司",
+      "shortName": "中国东方",
+      "level": "国家级",
+      "category": "金融资产管理公司",
+      "established": "1999年",
+      "website": "www.coamc.com.cn",
+      "description": "中国东方资产管理公司是金融资产管理公司。",
+      "personnelSource": "通过校园招聘或社会招聘。",
+      "personnelPromotion": "实行企业人事制度。",
+      "fundingSource": "企业经营收入。",
+      "responsibilities": [
+        "资产处置"
+      ],
+      "publicUnderstanding": "负责资产管理。",
+      "subordinates": [
+        "各分公司"
+      ]
+    },
+    {
+      "id": "fi2-020",
+      "name": "中国出口信用保险公司",
+      "shortName": "中国信保",
+      "level": "国家级",
+      "category": "政策性金融机构",
+      "established": "2001年",
+      "website": "www.sinosure.com.cn",
+      "description": "中国出口信用保险公司是政策性信用保险公司。",
+      "personnelSource": "通过校园招聘或社会招聘。",
+      "personnelPromotion": "实行企业人事制度。",
+      "fundingSource": "政策性亏损财政补贴。",
+      "responsibilities": [
+        "出口信用保险"
+      ],
+      "publicUnderstanding": "负责出口信用保险。",
+      "subordinates": [
+        "各分支机构"
+      ]
+    }
+  ],
+  "research_institution": [
+    {
+      "id": "ri-001",
+      "name": "中国农业科学院",
+      "shortName": "农科院",
+      "level": "国家级",
+      "category": "科研院所",
+      "established": "1957年",
+      "website": "www.caas.cn",
+      "description": "中国农业科学院是国家级农业科研机构。",
+      "personnelSource": "通过招聘科研人员。",
+      "personnelPromotion": "实行专业技术职称制度。",
+      "fundingSource": "中央财政拨款和科研经费。",
+      "responsibilities": [
+        "农业科学研究",
+        "农业技术推广"
+      ],
+      "publicUnderstanding": "负责农业科研。",
+      "subordinates": [
+        "作物研究所"
+      ]
+    },
+    {
+      "id": "ri-002",
+      "name": "中国医学科学院",
+      "shortName": "医科院",
+      "level": "国家级",
+      "category": "科研院所",
+      "established": "1956年",
+      "website": "www.cams.ac.cn",
+      "description": "中国医学科学院是国家级医学科研机构。",
+      "personnelSource": "通过招聘科研人员。",
+      "personnelPromotion": "实行专业技术职称制度。",
+      "fundingSource": "中央财政拨款和科研经费。",
+      "responsibilities": [
+        "医学研究",
+        "人才培养"
+      ],
+      "publicUnderstanding": "负责医学科研。",
+      "subordinates": [
+        "基础医学研究所"
+      ]
+    },
+    {
+      "id": "ri-003",
+      "name": "中国水利水电科学研究院",
+      "shortName": "水科院",
+      "level": "国家级",
+      "category": "科研院所",
+      "established": "1958年",
+      "website": "www.iwhr.com",
+      "description": "中国水利水电科学研究院是国家级水利科研机构。",
+      "personnelSource": "通过招聘科研人员。",
+      "personnelPromotion": "实行专业技术职称制度。",
+      "fundingSource": "中央财政拨款和科研经费。",
+      "responsibilities": [
+        "水利水电研究"
+      ],
+      "publicUnderstanding": "负责水利科研。",
+      "subordinates": [
+        "水资源研究所"
+      ]
+    },
+    {
+      "id": "ri-004",
+      "name": "中国建筑科学研究院有限公司",
+      "shortName": "建科院",
+      "level": "国家级",
+      "category": "科研院所",
+      "established": "1953年",
+      "website": "www.cabr.com",
+      "description": "中国建筑科学研究院是国家级建筑科研机构。",
+      "personnelSource": "通过招聘科研人员。",
+      "personnelPromotion": "实行专业技术职称制度。",
+      "fundingSource": "中央财政拨款和科研经费。",
+      "responsibilities": [
+        "建筑科学研究"
+      ],
+      "publicUnderstanding": "负责建筑科研。",
+      "subordinates": [
+        "建筑设计院"
+      ]
+    },
+    {
+      "id": "ri-005",
+      "name": "中国电力科学研究院有限公司",
+      "shortName": "电科院",
+      "level": "国家级",
+      "category": "科研院所",
+      "established": "1951年",
+      "website": "www.epri.sgcc.com.cn",
+      "description": "中国电力科学研究院是国家级电力科研机构。",
+      "personnelSource": "通过招聘科研人员。",
+      "personnelPromotion": "实行专业技术职称制度。",
+      "fundingSource": "中央财政拨款和科研经费。",
+      "responsibilities": [
+        "电力科学研究"
+      ],
+      "publicUnderstanding": "负责电力科研。",
+      "subordinates": [
+        "高电压研究所"
+      ]
+    }
+  ],
+  "university": [
+    {
+      "id": "uni-001",
+      "name": "北京大学",
+      "shortName": "北大",
+      "level": "国家级",
+      "category": "教育部直属高校",
+      "established": "1898年",
+      "website": "www.pku.edu.cn",
+      "description": "北京大学是教育部直属全国重点大学。",
+      "personnelSource": "通过高考招录。",
+      "personnelPromotion": "实行教师职称评审制度。",
+      "fundingSource": "中央财政拨款和事业收入。",
+      "responsibilities": [
+        "人才培养",
+        "科学研究"
+      ],
+      "publicUnderstanding": "负责高等教育。",
+      "subordinates": [
+        "各学院"
+      ]
+    },
+    {
+      "id": "uni-002",
+      "name": "清华大学",
+      "shortName": "清华",
+      "level": "国家级",
+      "category": "教育部直属高校",
+      "established": "1911年",
+      "website": "www.tsinghua.edu.cn",
+      "description": "清华大学是教育部直属全国重点大学。",
+      "personnelSource": "通过高考招录。",
+      "personnelPromotion": "实行教师职称评审制度。",
+      "fundingSource": "中央财政拨款和事业收入。",
+      "responsibilities": [
+        "人才培养",
+        "科学研究"
+      ],
+      "publicUnderstanding": "负责高等教育。",
+      "subordinates": [
+        "各学院"
+      ]
+    },
+    {
+      "id": "uni-003",
+      "name": "复旦大学",
+      "shortName": "复旦",
+      "level": "国家级",
+      "category": "教育部直属高校",
+      "established": "1905年",
+      "website": "www.fudan.edu.cn",
+      "description": "复旦大学是教育部直属全国重点大学。",
+      "personnelSource": "通过高考招录。",
+      "personnelPromotion": "实行教师职称评审制度。",
+      "fundingSource": "中央财政拨款和事业收入。",
+      "responsibilities": [
+        "人才培养",
+        "科学研究"
+      ],
+      "publicUnderstanding": "负责高等教育。",
+      "subordinates": [
+        "各学院"
+      ]
+    },
+    {
+      "id": "uni-004",
+      "name": "上海交通大学",
+      "shortName": "上交大",
+      "level": "国家级",
+      "category": "教育部直属高校",
+      "established": "1896年",
+      "website": "www.sjtu.edu.cn",
+      "description": "上海交通大学是教育部直属全国重点大学。",
+      "personnelSource": "通过高考招录。",
+      "personnelPromotion": "实行教师职称评审制度。",
+      "fundingSource": "中央财政拨款和事业收入。",
+      "responsibilities": [
+        "人才培养",
+        "科学研究"
+      ],
+      "publicUnderstanding": "负责高等教育。",
+      "subordinates": [
+        "各学院"
+      ]
+    },
+    {
+      "id": "uni-005",
+      "name": "浙江大学",
+      "shortName": "浙大",
+      "level": "国家级",
+      "category": "教育部直属高校",
+      "established": "1897年",
+      "website": "www.zju.edu.cn",
+      "description": "浙江大学是教育部直属全国重点大学。",
+      "personnelSource": "通过高考招录。",
+      "personnelPromotion": "实行教师职称评审制度。",
+      "fundingSource": "中央财政拨款和事业收入。",
+      "responsibilities": [
+        "人才培养",
+        "科学研究"
+      ],
+      "publicUnderstanding": "负责高等教育。",
+      "subordinates": [
+        "各学院"
+      ]
+    },
+    {
+      "id": "uni-006",
+      "name": "南京大学",
+      "shortName": "南大",
+      "level": "国家级",
+      "category": "教育部直属高校",
+      "established": "1902年",
+      "website": "www.nju.edu.cn",
+      "description": "南京大学是教育部直属全国重点大学。",
+      "personnelSource": "通过高考招录。",
+      "personnelPromotion": "实行教师职称评审制度。",
+      "fundingSource": "中央财政拨款和事业收入。",
+      "responsibilities": [
+        "人才培养",
+        "科学研究"
+      ],
+      "publicUnderstanding": "负责高等教育。",
+      "subordinates": [
+        "各学院"
+      ]
+    },
+    {
+      "id": "uni-007",
+      "name": "中国科学技术大学",
+      "shortName": "中科大",
+      "level": "国家级",
+      "category": "中科院直属高校",
+      "established": "1958年",
+      "website": "www.ustc.edu.cn",
+      "description": "中国科学技术大学是中科院直属全国重点大学。",
+      "personnelSource": "通过高考招录。",
+      "personnelPromotion": "实行教师职称评审制度。",
+      "fundingSource": "中央财政拨款和事业收入。",
+      "responsibilities": [
+        "人才培养",
+        "科学研究"
+      ],
+      "publicUnderstanding": "负责高等教育。",
+      "subordinates": [
+        "各学院"
+      ]
+    },
+    {
+      "id": "uni-008",
+      "name": "华中科技大学",
+      "shortName": "华科大",
+      "level": "国家级",
+      "category": "教育部直属高校",
+      "established": "1952年",
+      "website": "www.hust.edu.cn",
+      "description": "华中科技大学是教育部直属全国重点大学。",
+      "personnelSource": "通过高考招录。",
+      "personnelPromotion": "实行教师职称评审制度。",
+      "fundingSource": "中央财政拨款和事业收入。",
+      "responsibilities": [
+        "人才培养",
+        "科学研究"
+      ],
+      "publicUnderstanding": "负责高等教育。",
+      "subordinates": [
+        "各学院"
+      ]
+    },
+    {
+      "id": "uni-009",
+      "name": "西安交通大学",
+      "shortName": "西安交大",
+      "level": "国家级",
+      "category": "教育部直属高校",
+      "established": "1896年",
+      "website": "www.xjtu.edu.cn",
+      "description": "西安交通大学是教育部直属全国重点大学。",
+      "personnelSource": "通过高考招录。",
+      "personnelPromotion": "实行教师职称评审制度。",
+      "fundingSource": "中央财政拨款和事业收入。",
+      "responsibilities": [
+        "人才培养",
+        "科学研究"
+      ],
+      "publicUnderstanding": "负责高等教育。",
+      "subordinates": [
+        "各学院"
+      ]
+    },
+    {
+      "id": "uni-010",
+      "name": "哈尔滨工业大学",
+      "shortName": "哈工大",
+      "level": "国家级",
+      "category": "工业和信息化部直属高校",
+      "established": "1920年",
+      "website": "www.hit.edu.cn",
+      "description": "哈尔滨工业大学是工业和信息化部直属全国重点大学。",
+      "personnelSource": "通过高考招录。",
+      "personnelPromotion": "实行教师职称评审制度。",
+      "fundingSource": "中央财政拨款和事业收入。",
+      "responsibilities": [
+        "人才培养",
+        "科学研究"
+      ],
+      "publicUnderstanding": "负责高等教育。",
+      "subordinates": [
+        "各学院"
+      ]
+    }
+  ],
+  "hospital": [
+    {
+      "id": "hosp-001",
+      "name": "北京协和医院",
+      "shortName": "协和医院",
+      "level": "国家级",
+      "category": "公立医院",
+      "established": "1921年",
+      "website": "www.pumch.cn",
+      "description": "北京协和医院是国家卫生健康委直属医院。",
+      "personnelSource": "通过招聘医务人员。",
+      "personnelPromotion": "实行医务人员职称评审制度。",
+      "fundingSource": "中央财政拨款和医疗收入。",
+      "responsibilities": [
+        "医疗服务",
+        "医学教学",
+        "医学科研"
+      ],
+      "publicUnderstanding": "负责医疗服务。",
+      "subordinates": [
+        "各科室"
+      ]
+    },
+    {
+      "id": "hosp-002",
+      "name": "四川大学华西医院",
+      "shortName": "华西医院",
+      "level": "国家级",
+      "category": "公立医院",
+      "established": "1892年",
+      "website": "www.wchscu.cn",
+      "description": "四川大学华西医院是四川大学附属医院。",
+      "personnelSource": "通过招聘医务人员。",
+      "personnelPromotion": "实行医务人员职称评审制度。",
+      "fundingSource": "地方财政拨款和医疗收入。",
+      "responsibilities": [
+        "医疗服务",
+        "医学教学",
+        "医学科研"
+      ],
+      "publicUnderstanding": "负责医疗服务。",
+      "subordinates": [
+        "各科室"
+      ]
+    },
+    {
+      "id": "hosp-003",
+      "name": "复旦大学附属中山医院",
+      "shortName": "中山医院",
+      "level": "国家级",
+      "category": "公立医院",
+      "established": "1936年",
+      "website": "www.zs-hospital.sh.cn",
+      "description": "复旦大学附属中山医院是复旦大学附属医院。",
+      "personnelSource": "通过招聘医务人员。",
+      "personnelPromotion": "实行医务人员职称评审制度。",
+      "fundingSource": "地方财政拨款和医疗收入。",
+      "responsibilities": [
+        "医疗服务",
+        "医学教学"
+      ],
+      "publicUnderstanding": "负责医疗服务。",
+      "subordinates": [
+        "各科室"
+      ]
+    },
+    {
+      "id": "hosp-004",
+      "name": "上海交通大学医学院附属瑞金医院",
+      "shortName": "瑞金医院",
+      "level": "国家级",
+      "category": "公立医院",
+      "established": "1907年",
+      "website": "www.rjh.com.cn",
+      "description": "上海交通大学医学院附属瑞金医院是上海交通大学医学院附属医院。",
+      "personnelSource": "通过招聘医务人员。",
+      "personnelPromotion": "实行医务人员职称评审制度。",
+      "fundingSource": "地方财政拨款和医疗收入。",
+      "responsibilities": [
+        "医疗服务",
+        "医学教学"
+      ],
+      "publicUnderstanding": "负责医疗服务。",
+      "subordinates": [
+        "各科室"
+      ]
+    },
+    {
+      "id": "hosp-005",
+      "name": "中国人民解放军总医院",
+      "shortName": "301医院",
+      "level": "国家级",
+      "category": "军队医院",
+      "established": "1953年",
+      "website": "www.301hospital.cn",
+      "description": "中国人民解放军总医院是军队三级甲等医院。",
+      "personnelSource": "通过招聘医务人员。",
+      "personnelPromotion": "实行医务人员职称评审制度。",
+      "fundingSource": "军队经费。",
+      "responsibilities": [
+        "医疗服务",
+        "医学教学"
+      ],
+      "publicUnderstanding": "负责医疗服务。",
+      "subordinates": [
+        "各科室"
+      ]
+    }
+  ],
+  "religious": [
+    {
+      "id": "rel-001",
+      "name": "中国佛教协会",
+      "shortName": "佛教协会",
+      "level": "国家级",
+      "category": "宗教团体",
+      "established": "1953年",
+      "website": "www.chinabuddhism.com.cn",
+      "description": "中国佛教协会是中国佛教徒的全国性爱国团体。",
+      "personnelSource": "通过佛教协会会员大会选举。",
+      "personnelPromotion": "实行选举制。",
+      "fundingSource": "自筹经费。",
+      "responsibilities": [
+        "团结佛教徒",
+        "开展佛教活动"
+      ],
+      "publicUnderstanding": "负责佛教事务。",
+      "subordinates": [
+        "各地分会"
+      ]
+    },
+    {
+      "id": "rel-002",
+      "name": "中国道教协会",
+      "shortName": "道教协会",
+      "level": "国家级",
+      "category": "宗教团体",
+      "established": "1957年",
+      "website": "www.chinesetaoism.com.cn",
+      "description": "中国道教协会是中国道教徒的全国性爱国团体。",
+      "personnelSource": "通过道协协会会员大会选举。",
+      "personnelPromotion": "实行选举制。",
+      "fundingSource": "自筹经费。",
+      "responsibilities": [
+        "团结道教徒",
+        "开展道教活动"
+      ],
+      "publicUnderstanding": "负责道教事务。",
+      "subordinates": [
+        "各地分会"
+      ]
+    },
+    {
+      "id": "rel-003",
+      "name": "中国伊斯兰教协会",
+      "shortName": "伊协",
+      "level": "国家级",
+      "category": "宗教团体",
+      "established": "1953年",
+      "website": "www.cism.net.cn",
+      "description": "中国伊斯兰教协会是中国伊斯兰教信徒的全国性爱国团体。",
+      "personnelSource": "通过协会会员大会选举。",
+      "personnelPromotion": "实行选举制。",
+      "fundingSource": "自筹经费。",
+      "responsibilities": [
+        "团结伊斯兰信徒",
+        "开展伊斯兰教活动"
+      ],
+      "publicUnderstanding": "负责伊斯兰教事务。",
+      "subordinates": [
+        "各地分会"
+      ]
+    },
+    {
+      "id": "rel-004",
+      "name": "中国天主教爱国会",
+      "shortName": "天主教爱国会",
+      "level": "国家级",
+      "category": "宗教团体",
+      "established": "1957年",
+      "website": "www.catholic-patriot.org.cn",
+      "description": "中国天主教爱国会是天主教徒的全国性爱国团体。",
+      "personnelSource": "通过会员大会选举。",
+      "personnelPromotion": "实行选举制。",
+      "fundingSource": "自筹经费。",
+      "responsibilities": [
+        "团结天主教徒"
+      ],
+      "publicUnderstanding": "负责天主教事务。",
+      "subordinates": [
+        "各地分会"
+      ]
+    },
+    {
+      "id": "rel-005",
+      "name": "中国基督教三自爱国运动委员会",
+      "shortName": "三自爱国会",
+      "level": "国家级",
+      "category": "宗教团体",
+      "established": "1950年",
+      "website": "www.ccctspm.org",
+      "description": "中国基督教三自爱国运动委员会是中国基督教的全国性爱国团体。",
+      "personnelSource": "通过会员大会选举。",
+      "personnelPromotion": "实行选举制。",
+      "fundingSource": "自筹经费。",
+      "responsibilities": [
+        "团结基督教徒"
+      ],
+      "publicUnderstanding": "负责基督教事务。",
+      "subordinates": [
+        "各地分会"
+      ]
+    }
+  ],
+  "industry_association": [
+    {
+      "id": "ia-001",
+      "name": "中国汽车工业协会",
+      "shortName": "中汽协",
+      "level": "国家级",
+      "category": "行业协会",
+      "established": "1987年",
+      "website": "www.caam.org.cn",
+      "description": "中国汽车工业协会是汽车行业全国性自律组织。",
+      "personnelSource": "通过协会会员大会选举。",
+      "personnelPromotion": "实行选举制。",
+      "fundingSource": "会费收入。",
+      "responsibilities": [
+        "行业自律",
+        "行业协调"
+      ],
+      "publicUnderstanding": "负责汽车行业协调。",
+      "subordinates": [
+        "各分支机构"
+      ]
+    },
+    {
+      "id": "ia-002",
+      "name": "中国钢铁工业协会",
+      "shortName": "中钢协",
+      "level": "国家级",
+      "category": "行业协会",
+      "established": "1999年",
+      "website": "www.chinasteel.org.cn",
+      "description": "中国钢铁工业协会是钢铁行业全国性自律组织。",
+      "personnelSource": "通过协会会员大会选举。",
+      "personnelPromotion": "实行选举制。",
+      "fundingSource": "会费收入。",
+      "responsibilities": [
+        "行业自律",
+        "行业协调"
+      ],
+      "publicUnderstanding": "负责钢铁行业协调。",
+      "subordinates": [
+        "各分支机构"
+      ]
+    },
+    {
+      "id": "ia-003",
+      "name": "中国石油和化学工业联合会",
+      "shortName": "石化联合会",
+      "level": "国家级",
+      "category": "行业协会",
+      "established": "2001年",
+      "website": "www.cpcia.org.cn",
+      "description": "中国石油和化学工业联合会是化工行业全国性自律组织。",
+      "personnelSource": "通过协会会员大会选举。",
+      "personnelPromotion": "实行选举制。",
+      "fundingSource": "会费收入。",
+      "responsibilities": [
+        "行业自律"
+      ],
+      "publicUnderstanding": "负责化工行业协调。",
+      "subordinates": [
+        "各分支机构"
+      ]
+    },
+    {
+      "id": "ia-004",
+      "name": "中国建筑材料联合会",
+      "shortName": "建材联合会",
+      "level": "国家级",
+      "category": "行业协会",
+      "established": "1985年",
+      "website": "www.cbmf.org",
+      "description": "中国建筑材料联合会是建材行业全国性自律组织。",
+      "personnelSource": "通过协会会员大会选举。",
+      "personnelPromotion": "实行选举制。",
+      "fundingSource": "会费收入。",
+      "responsibilities": [
+        "行业自律"
+      ],
+      "publicUnderstanding": "负责建材行业协调。",
+      "subordinates": [
+        "各分支机构"
+      ]
+    },
+    {
+      "id": "ia-005",
+      "name": "中国电力企业联合会",
+      "shortName": "中电联",
+      "level": "国家级",
+      "category": "行业协会",
+      "established": "1988年",
+      "website": "www.cec.org.cn",
+      "description": "中国电力企业联合会是电力行业全国性自律组织。",
+      "personnelSource": "通过协会会员大会选举。",
+      "personnelPromotion": "实行选举制。",
+      "fundingSource": "会费收入。",
+      "responsibilities": [
+        "行业自律"
+      ],
+      "publicUnderstanding": "负责电力行业协调。",
+      "subordinates": [
+        "各分支机构"
+      ]
+    }
+  ],
+  "court_procuratorate4": [
+    {
+      "id": "cp4-001",
+      "name": "辽宁省高级人民法院",
+      "shortName": "辽宁高院",
+      "level": "省级",
+      "category": "省级法院",
+      "established": "1949年",
+      "website": "www.lnfy.gov.cn",
+      "description": "辽宁省高级人民法院是辽宁省的最高审判机关。",
+      "personnelSource": "法官通过公务员考试和司法考试招录。",
+      "personnelPromotion": "法官实行法官员额制。",
+      "fundingSource": "地方财政拨款。",
+      "responsibilities": [
+        "审理案件"
+      ],
+      "publicUnderstanding": "负责审判工作。",
+      "subordinates": [
+        "刑事审判庭"
+      ]
+    },
+    {
+      "id": "cp4-002",
+      "name": "吉林省高级人民法院",
+      "shortName": "吉林高院",
+      "level": "省级",
+      "category": "省级法院",
+      "established": "1949年",
+      "website": "www.jlfy.gov.cn",
+      "description": "吉林省高级人民法院是吉林省的最高审判机关。",
+      "personnelSource": "法官通过公务员考试和司法考试招录。",
+      "personnelPromotion": "法官实行法官员额制。",
+      "fundingSource": "地方财政拨款。",
+      "responsibilities": [
+        "审理案件"
+      ],
+      "publicUnderstanding": "负责审判工作。",
+      "subordinates": [
+        "刑事审判庭"
+      ]
+    },
+    {
+      "id": "cp4-003",
+      "name": "黑龙江省高级人民法院",
+      "shortName": "黑龙江高院",
+      "level": "省级",
+      "category": "省级法院",
+      "established": "1949年",
+      "website": "www.hljcourt.gov.cn",
+      "description": "黑龙江省高级人民法院是黑龙江省的最高审判机关。",
+      "personnelSource": "法官通过公务员考试和司法考试招录。",
+      "personnelPromotion": "法官实行法官员额制。",
+      "fundingSource": "地方财政拨款。",
+      "responsibilities": [
+        "审理案件"
+      ],
+      "publicUnderstanding": "负责审判工作。",
+      "subordinates": [
+        "刑事审判庭"
+      ]
+    },
+    {
+      "id": "cp4-004",
+      "name": "安徽省高级人民法院",
+      "shortName": "安徽高院",
+      "level": "省级",
+      "category": "省级法院",
+      "established": "1949年",
+      "website": "www.ahcourt.gov.cn",
+      "description": "安徽省高级人民法院是安徽省的最高审判机关。",
+      "personnelSource": "法官通过公务员考试和司法考试招录。",
+      "personnelPromotion": "法官实行法官员额制。",
+      "fundingSource": "地方财政拨款。",
+      "responsibilities": [
+        "审理案件"
+      ],
+      "publicUnderstanding": "负责审判工作。",
+      "subordinates": [
+        "刑事审判庭"
+      ]
+    },
+    {
+      "id": "cp4-005",
+      "name": "福建省高级人民法院",
+      "shortName": "福建高院",
+      "level": "省级",
+      "category": "省级法院",
+      "established": "1949年",
+      "website": "www.fjcourt.gov.cn",
+      "description": "福建省高级人民法院是福建省的最高审判机关。",
+      "personnelSource": "法官通过公务员考试和司法考试招录。",
+      "personnelPromotion": "法官实行法官员额制。",
+      "fundingSource": "地方财政拨款。",
+      "responsibilities": [
+        "审理案件"
+      ],
+      "publicUnderstanding": "负责审判工作。",
+      "subordinates": [
+        "刑事审判庭"
+      ]
+    },
+    {
+      "id": "cp4-006",
+      "name": "江西省高级人民法院",
+      "shortName": "江西高院",
+      "level": "省级",
+      "category": "省级法院",
+      "established": "1949年",
+      "website": "www.jxfy.gov.cn",
+      "description": "江西省高级人民法院是江西省的最高审判机关。",
+      "personnelSource": "法官通过公务员考试和司法考试招录。",
+      "personnelPromotion": "法官实行法官员额制。",
+      "fundingSource": "地方财政拨款。",
+      "responsibilities": [
+        "审理案件"
+      ],
+      "publicUnderstanding": "负责审判工作。",
+      "subordinates": [
+        "刑事审判庭"
+      ]
+    }
   ]
 }
