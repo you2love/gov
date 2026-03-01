@@ -7742,5 +7742,1501 @@
         "刑事审判庭"
       ]
     }
+  ],
+  "provincial_procuratorate": [
+    {
+      "id": "pp-001",
+      "name": "辽宁省人民检察院",
+      "shortName": "辽宁检察院",
+      "level": "省级",
+      "category": "省级检察院",
+      "established": "1949年",
+      "website": "www.ln.jcy.gov.cn",
+      "description": "辽宁省人民检察院是辽宁省的最高检察机关。",
+      "personnelSource": "检察官通过公务员考试和司法考试招录。",
+      "personnelPromotion": "检察官实行员额制。",
+      "fundingSource": "地方财政拨款。",
+      "responsibilities": [
+        "公诉",
+        "侦查监督"
+      ],
+      "publicUnderstanding": "负责检察工作。",
+      "subordinates": [
+        "公诉部门"
+      ]
+    },
+    {
+      "id": "pp-002",
+      "name": "吉林省人民检察院",
+      "shortName": "吉林检察院",
+      "level": "省级",
+      "category": "省级检察院",
+      "established": "1949年",
+      "website": "www.jl.jcy.gov.cn",
+      "description": "吉林省人民检察院是吉林省的最高检察机关。",
+      "personnelSource": "检察官通过公务员考试和司法考试招录。",
+      "personnelPromotion": "检察官实行员额制。",
+      "fundingSource": "地方财政拨款。",
+      "responsibilities": [
+        "公诉",
+        "侦查监督"
+      ],
+      "publicUnderstanding": "负责检察工作。",
+      "subordinates": [
+        "公诉部门"
+      ]
+    },
+    {
+      "id": "pp-003",
+      "name": "黑龙江省人民检察院",
+      "shortName": "黑龙江检察院",
+      "level": "省级",
+      "category": "省级检察院",
+      "established": "1949年",
+      "website": "www.hljjcy.gov.cn",
+      "description": "黑龙江省人民检察院是黑龙江省的最高检察机关。",
+      "personnelSource": "检察官通过公务员考试和司法考试招录。",
+      "personnelPromotion": "检察官实行员额制。",
+      "fundingSource": "地方财政拨款。",
+      "responsibilities": [
+        "公诉",
+        "侦查监督"
+      ],
+      "publicUnderstanding": "负责检察工作。",
+      "subordinates": [
+        "公诉部门"
+      ]
+    },
+    {
+      "id": "pp-004",
+      "name": "安徽省人民检察院",
+      "shortName": "安徽检察院",
+      "level": "省级",
+      "category": "省级检察院",
+      "established": "1949年",
+      "website": "www.ah.jcy.gov.cn",
+      "description": "安徽省人民检察院是安徽省的最高检察机关。",
+      "personnelSource": "检察官通过公务员考试和司法考试招录。",
+      "personnelPromotion": "检察官实行员额制。",
+      "fundingSource": "地方财政拨款。",
+      "responsibilities": [
+        "公诉",
+        "侦查监督"
+      ],
+      "publicUnderstanding": "负责检察工作。",
+      "subordinates": [
+        "公诉部门"
+      ]
+    },
+    {
+      "id": "pp-005",
+      "name": "福建省人民检察院",
+      "shortName": "福建检察院",
+      "level": "省级",
+      "category": "省级检察院",
+      "established": "1949年",
+      "website": "www.fj.jcy.gov.cn",
+      "description": "福建省人民检察院是福建省的最高检察机关。",
+      "personnelSource": "检察官通过公务员考试和司法考试招录。",
+      "personnelPromotion": "检察官实行员额制。",
+      "fundingSource": "地方财政拨款。",
+      "responsibilities": [
+        "公诉",
+        "侦查监督"
+      ],
+      "publicUnderstanding": "负责检察工作。",
+      "subordinates": [
+        "公诉部门"
+      ]
+    },
+    {
+      "id": "pp-006",
+      "name": "江西省人民检察院",
+      "shortName": "江西检察院",
+      "level": "省级",
+      "category": "省级检察院",
+      "established": "1949年",
+      "website": "www.jx.jcy.gov.cn",
+      "description": "江西省人民检察院是江西省的最高检察机关。",
+      "personnelSource": "检察官通过公务员考试和司法考试招录。",
+      "personnelPromotion": "检察官实行员额制。",
+      "fundingSource": "地方财政拨款。",
+      "responsibilities": [
+        "公诉",
+        "侦查监督"
+      ],
+      "publicUnderstanding": "负责检察工作。",
+      "subordinates": [
+        "公诉部门"
+      ]
+    }
+  ],
+  "municipal_procuratorate": [
+    {
+      "id": "mp-001",
+      "name": "广州市人民检察院",
+      "shortName": "广州检察院",
+      "level": "市级",
+      "category": "市级检察院",
+      "established": "1949年",
+      "website": "www.gzjcy.gov.cn",
+      "description": "广州市人民检察院是广州的检察机关。",
+      "personnelSource": "检察官通过公务员考试和司法考试招录。",
+      "personnelPromotion": "检察官实行员额制。",
+      "fundingSource": "地方财政拨款。",
+      "responsibilities": [
+        "公诉",
+        "侦查监督"
+      ],
+      "publicUnderstanding": "负责检察工作。",
+      "subordinates": [
+        "公诉部门"
+      ]
+    },
+    {
+      "id": "mp-002",
+      "name": "深圳市人民检察院",
+      "shortName": "深圳检察院",
+      "level": "市级",
+      "category": "市级检察院",
+      "established": "1979年",
+      "website": "www.sz.jcy.gov.cn",
+      "description": "深圳市人民检察院是深圳的检察机关。",
+      "personnelSource": "检察官通过公务员考试和司法考试招录。",
+      "personnelPromotion": "检察官实行员额制。",
+      "fundingSource": "地方财政拨款。",
+      "responsibilities": [
+        "公诉",
+        "侦查监督"
+      ],
+      "publicUnderstanding": "负责检察工作。",
+      "subordinates": [
+        "公诉部门"
+      ]
+    },
+    {
+      "id": "mp-003",
+      "name": "杭州市人民检察院",
+      "shortName": "杭州检察院",
+      "level": "市级",
+      "category": "市级检察院",
+      "established": "1949年",
+      "website": "www.hz.jcy.gov.cn",
+      "description": "杭州市人民检察院是杭州的检察机关。",
+      "personnelSource": "检察官通过公务员考试和司法考试招录。",
+      "personnelPromotion": "检察官实行员额制。",
+      "fundingSource": "地方财政拨款。",
+      "responsibilities": [
+        "公诉",
+        "侦查监督"
+      ],
+      "publicUnderstanding": "负责检察工作。",
+      "subordinates": [
+        "公诉部门"
+      ]
+    },
+    {
+      "id": "mp-004",
+      "name": "成都市人民检察院",
+      "shortName": "成都检察院",
+      "level": "市级",
+      "category": "市级检察院",
+      "established": "1949年",
+      "website": "www.cd.jcy.gov.cn",
+      "description": "成都市人民检察院是成都的检察机关。",
+      "personnelSource": "检察官通过公务员考试和司法考试招录。",
+      "personnelPromotion": "检察官实行员额制。",
+      "fundingSource": "地方财政拨款。",
+      "responsibilities": [
+        "公诉",
+        "侦查监督"
+      ],
+      "publicUnderstanding": "负责检察工作。",
+      "subordinates": [
+        "公诉部门"
+      ]
+    },
+    {
+      "id": "mp-005",
+      "name": "武汉市人民检察院",
+      "shortName": "武汉检察院",
+      "level": "市级",
+      "category": "市级检察院",
+      "established": "1949年",
+      "website": "www.wh.jcy.gov.cn",
+      "description": "武汉市人民检察院是武汉的检察机关。",
+      "personnelSource": "检察官通过公务员考试和司法考试招录。",
+      "personnelPromotion": "检察官实行员额制。",
+      "fundingSource": "地方财政拨款。",
+      "responsibilities": [
+        "公诉",
+        "侦查监督"
+      ],
+      "publicUnderstanding": "负责检察工作。",
+      "subordinates": [
+        "公诉部门"
+      ]
+    },
+    {
+      "id": "mp-006",
+      "name": "南京市人民检察院",
+      "shortName": "南京检察院",
+      "level": "市级",
+      "category": "市级检察院",
+      "established": "1949年",
+      "website": "www.nj.jcy.gov.cn",
+      "description": "南京市人民检察院是南京的检察机关。",
+      "personnelSource": "检察官通过公务员考试和司法考试招录。",
+      "personnelPromotion": "检察官实行员额制。",
+      "fundingSource": "地方财政拨款。",
+      "responsibilities": [
+        "公诉",
+        "侦查监督"
+      ],
+      "publicUnderstanding": "负责检察工作。",
+      "subordinates": [
+        "公诉部门"
+      ]
+    }
+  ],
+  "provincial_dept3": [
+    {
+      "id": "pd3-001",
+      "name": "山东省教育厅",
+      "shortName": "山东省教育厅",
+      "level": "省级",
+      "category": "省级政府部门",
+      "established": "1949年",
+      "website": "www.sdedu.gov.cn",
+      "description": "山东省教育厅是山东省政府组成部门，负责教育工作。",
+      "personnelSource": "通过公务员考试招录。",
+      "personnelPromotion": "实行公务员职务与职级并行制度。",
+      "fundingSource": "地方财政拨款。",
+      "responsibilities": [
+        "教育管理"
+      ],
+      "publicUnderstanding": "负责教育工作。",
+      "subordinates": [
+        "办公室"
+      ]
+    },
+    {
+      "id": "pd3-002",
+      "name": "河南省教育厅",
+      "shortName": "河南省教育厅",
+      "level": "省级",
+      "category": "省级政府部门",
+      "established": "1949年",
+      "website": "www.haedu.gov.cn",
+      "description": "河南省教育厅是河南省政府组成部门。",
+      "personnelSource": "通过公务员考试招录。",
+      "personnelPromotion": "实行公务员职务与职级并行制度。",
+      "fundingSource": "地方财政拨款。",
+      "responsibilities": [
+        "教育管理"
+      ],
+      "publicUnderstanding": "负责教育工作。",
+      "subordinates": [
+        "办公室"
+      ]
+    },
+    {
+      "id": "pd3-003",
+      "name": "四川省教育厅",
+      "shortName": "四川省教育厅",
+      "level": "省级",
+      "category": "省级政府部门",
+      "established": "1949年",
+      "website": "www.scedu.gov.cn",
+      "description": "四川省教育厅是四川省政府组成部门。",
+      "personnelSource": "通过公务员考试招录。",
+      "personnelPromotion": "实行公务员职务与职级并行制度。",
+      "fundingSource": "地方财政拨款。",
+      "responsibilities": [
+        "教育管理"
+      ],
+      "publicUnderstanding": "负责教育工作。",
+      "subordinates": [
+        "办公室"
+      ]
+    },
+    {
+      "id": "pd3-004",
+      "name": "湖北省教育厅",
+      "shortName": "湖北省教育厅",
+      "level": "省级",
+      "category": "省级政府部门",
+      "established": "1949年",
+      "website": "www.hbe.gov.cn",
+      "description": "湖北省教育厅是湖北省政府组成部门。",
+      "personnelSource": "通过公务员考试招录。",
+      "personnelPromotion": "实行公务员职务与职级并行制度。",
+      "fundingSource": "地方财政拨款。",
+      "responsibilities": [
+        "教育管理"
+      ],
+      "publicUnderstanding": "负责教育工作。",
+      "subordinates": [
+        "办公室"
+      ]
+    },
+    {
+      "id": "pd3-005",
+      "name": "湖南省教育厅",
+      "shortName": "湖南省教育厅",
+      "level": "省级",
+      "category": "省级政府部门",
+      "established": "1949年",
+      "website": "www.hnedu.gov.cn",
+      "description": "湖南省教育厅是湖南省政府组成部门。",
+      "personnelSource": "通过公务员考试招录。",
+      "personnelPromotion": "实行公务员职务与职级并行制度。",
+      "fundingSource": "地方财政拨款。",
+      "responsibilities": [
+        "教育管理"
+      ],
+      "publicUnderstanding": "负责教育工作。",
+      "subordinates": [
+        "办公室"
+      ]
+    },
+    {
+      "id": "pd3-006",
+      "name": "河北省公安厅",
+      "shortName": "河北省公安厅",
+      "level": "省级",
+      "category": "省级政府部门",
+      "established": "1949年",
+      "website": "www.hebga.gov.cn",
+      "description": "河北省公安厅是河北省政府组成部门，负责公安工作。",
+      "personnelSource": "通过公务员考试招录人民警察。",
+      "personnelPromotion": "实行警察警衔制度。",
+      "fundingSource": "地方财政拨款。",
+      "responsibilities": [
+        "治安管理"
+      ],
+      "publicUnderstanding": "负责公安工作。",
+      "subordinates": [
+        "治安警察总队"
+      ]
+    },
+    {
+      "id": "pd3-007",
+      "name": "辽宁省公安厅",
+      "shortName": "辽宁省公安厅",
+      "level": "省级",
+      "category": "省级政府部门",
+      "established": "1949年",
+      "website": "www.lnga.gov.cn",
+      "description": "辽宁省公安厅是辽宁省政府组成部门。",
+      "personnelSource": "通过公务员考试招录人民警察。",
+      "personnelPromotion": "实行警察警衔制度。",
+      "fundingSource": "地方财政拨款。",
+      "responsibilities": [
+        "治安管理"
+      ],
+      "publicUnderstanding": "负责公安工作。",
+      "subordinates": [
+        "治安警察总队"
+      ]
+    },
+    {
+      "id": "pd3-008",
+      "name": "江苏省公安厅",
+      "shortName": "江苏省公安厅",
+      "level": "省级",
+      "category": "省级政府部门",
+      "established": "1949年",
+      "website": "www.jsga.gov.cn",
+      "description": "江苏省公安厅是江苏省政府组成部门。",
+      "personnelSource": "通过公务员考试招录人民警察。",
+      "personnelPromotion": "实行警察警衔制度。",
+      "fundingSource": "地方财政拨款。",
+      "responsibilities": [
+        "治安管理"
+      ],
+      "publicUnderstanding": "负责公安工作。",
+      "subordinates": [
+        "治安警察总队"
+      ]
+    },
+    {
+      "id": "pd3-009",
+      "name": "浙江省公安厅",
+      "shortName": "浙江省公安厅",
+      "level": "省级",
+      "category": "省级政府部门",
+      "established": "1949年",
+      "website": "www.zjsgat.gov.cn",
+      "description": "浙江省公安厅是浙江省政府组成部门。",
+      "personnelSource": "通过公务员考试招录人民警察。",
+      "personnelPromotion": "实行警察警衔制度。",
+      "fundingSource": "地方财政拨款。",
+      "responsibilities": [
+        "治安管理"
+      ],
+      "publicUnderstanding": "负责公安工作。",
+      "subordinates": [
+        "治安警察总队"
+      ]
+    },
+    {
+      "id": "pd3-010",
+      "name": "广东省公安厅",
+      "shortName": "广东省公安厅",
+      "level": "省级",
+      "category": "省级政府部门",
+      "established": "1949年",
+      "website": "www.gdga.gov.cn",
+      "description": "广东省公安厅是广东省政府组成部门。",
+      "personnelSource": "通过公务员考试招录人民警察。",
+      "personnelPromotion": "实行警察警衔制度。",
+      "fundingSource": "地方财政拨款。",
+      "responsibilities": [
+        "治安管理"
+      ],
+      "publicUnderstanding": "负责公安工作。",
+      "subordinates": [
+        "治安警察总队"
+      ]
+    }
+  ],
+  "municipal_dept2": [
+    {
+      "id": "md2-001",
+      "name": "南京市教育局",
+      "shortName": "南京市教育局",
+      "level": "市级",
+      "category": "市级政府部门",
+      "established": "1949年",
+      "website": "www.njedu.gov.cn",
+      "description": "南京市教育局是南京市政府组成部门。",
+      "personnelSource": "通过公务员考试招录。",
+      "personnelPromotion": "实行公务员职务与职级并行制度。",
+      "fundingSource": "地方财政拨款。",
+      "responsibilities": [
+        "教育管理"
+      ],
+      "publicUnderstanding": "负责教育工作。",
+      "subordinates": [
+        "办公室"
+      ]
+    },
+    {
+      "id": "md2-002",
+      "name": "西安市教育局",
+      "shortName": "西安市教育局",
+      "level": "市级",
+      "category": "市级政府部门",
+      "established": "1949年",
+      "website": "www.xaedu.gov.cn",
+      "description": "西安市教育局是西安市政府组成部门。",
+      "personnelSource": "通过公务员考试招录。",
+      "personnelPromotion": "实行公务员职务与职级并行制度。",
+      "fundingSource": "地方财政拨款。",
+      "responsibilities": [
+        "教育管理"
+      ],
+      "publicUnderstanding": "负责教育工作。",
+      "subordinates": [
+        "办公室"
+      ]
+    },
+    {
+      "id": "md2-003",
+      "name": "武汉市教育局",
+      "shortName": "武汉市教育局",
+      "level": "市级",
+      "category": "市级政府部门",
+      "established": "1949年",
+      "website": "www.whjyj.gov.cn",
+      "description": "武汉市教育局是武汉市政府组成部门。",
+      "personnelSource": "通过公务员考试招录。",
+      "personnelPromotion": "实行公务员职务与职级并行制度。",
+      "fundingSource": "地方财政拨款。",
+      "responsibilities": [
+        "教育管理"
+      ],
+      "publicUnderstanding": "负责教育工作。",
+      "subordinates": [
+        "办公室"
+      ]
+    },
+    {
+      "id": "md2-004",
+      "name": "南京市公安局",
+      "shortName": "南京市公安局",
+      "level": "市级",
+      "category": "市级政府部门",
+      "established": "1949年",
+      "website": "www.njga.gov.cn",
+      "description": "南京市公安局是南京市政府组成部门，负责公安工作。",
+      "personnelSource": "通过公务员考试招录人民警察。",
+      "personnelPromotion": "实行警察警衔制度。",
+      "fundingSource": "地方财政拨款。",
+      "responsibilities": [
+        "治安管理"
+      ],
+      "publicUnderstanding": "负责公安工作。",
+      "subordinates": [
+        "治安警察支队"
+      ]
+    },
+    {
+      "id": "md2-005",
+      "name": "西安市公安局",
+      "shortName": "西安市公安局",
+      "level": "市级",
+      "category": "市级政府部门",
+      "established": "1949年",
+      "website": "www.xa.gov.cn",
+      "description": "西安市公安局是西安市政府组成部门。",
+      "personnelSource": "通过公务员考试招录人民警察。",
+      "personnelPromotion": "实行警察警衔制度。",
+      "fundingSource": "地方财政拨款。",
+      "responsibilities": [
+        "治安管理"
+      ],
+      "publicUnderstanding": "负责公安工作。",
+      "subordinates": [
+        "治安警察支队"
+      ]
+    }
+  ],
+  "university2": [
+    {
+      "id": "uni2-001",
+      "name": "中国人民大学",
+      "shortName": "人大",
+      "level": "国家级",
+      "category": "教育部直属高校",
+      "established": "1937年",
+      "website": "www.ruc.edu.cn",
+      "description": "中国人民大学是教育部直属全国重点大学。",
+      "personnelSource": "通过高考招录。",
+      "personnelPromotion": "实行教师职称评审制度。",
+      "fundingSource": "中央财政拨款和事业收入。",
+      "responsibilities": [
+        "人才培养",
+        "科学研究"
+      ],
+      "publicUnderstanding": "负责高等教育。",
+      "subordinates": [
+        "各学院"
+      ]
+    },
+    {
+      "id": "uni2-002",
+      "name": "中山大学",
+      "shortName": "中大",
+      "level": "国家级",
+      "category": "教育部直属高校",
+      "established": "1924年",
+      "website": "www.sysu.edu.cn",
+      "description": "中山大学是教育部直属全国重点大学。",
+      "personnelSource": "通过高考招录。",
+      "personnelPromotion": "实行教师职称评审制度。",
+      "fundingSource": "中央财政拨款和事业收入。",
+      "responsibilities": [
+        "人才培养",
+        "科学研究"
+      ],
+      "publicUnderstanding": "负责高等教育。",
+      "subordinates": [
+        "各学院"
+      ]
+    },
+    {
+      "id": "uni2-003",
+      "name": "武汉大学",
+      "shortName": "武大",
+      "level": "国家级",
+      "category": "教育部直属高校",
+      "established": "1893年",
+      "website": "www.whu.edu.cn",
+      "description": "武汉大学是教育部直属全国重点大学。",
+      "personnelSource": "通过高考招录。",
+      "personnelPromotion": "实行教师职称评审制度。",
+      "fundingSource": "中央财政拨款和事业收入。",
+      "responsibilities": [
+        "人才培养",
+        "科学研究"
+      ],
+      "publicUnderstanding": "负责高等教育。",
+      "subordinates": [
+        "各学院"
+      ]
+    },
+    {
+      "id": "uni2-004",
+      "name": "四川大学",
+      "shortName": "川大",
+      "level": "国家级",
+      "category": "教育部直属高校",
+      "established": "1896年",
+      "website": "www.scu.edu.cn",
+      "description": "四川大学是教育部直属全国重点大学。",
+      "personnelSource": "通过高考招录。",
+      "personnelPromotion": "实行教师职称评审制度。",
+      "fundingSource": "中央财政拨款和事业收入。",
+      "responsibilities": [
+        "人才培养",
+        "科学研究"
+      ],
+      "publicUnderstanding": "负责高等教育。",
+      "subordinates": [
+        "各学院"
+      ]
+    },
+    {
+      "id": "uni2-005",
+      "name": "同济大学",
+      "shortName": "同济",
+      "level": "国家级",
+      "category": "教育部直属高校",
+      "established": "1907年",
+      "website": "www.tongji.edu.cn",
+      "description": "同济大学是教育部直属全国重点大学。",
+      "personnelSource": "通过高考招录。",
+      "personnelPromotion": "实行教师职称评审制度。",
+      "fundingSource": "中央财政拨款和事业收入。",
+      "responsibilities": [
+        "人才培养",
+        "科学研究"
+      ],
+      "publicUnderstanding": "负责高等教育。",
+      "subordinates": [
+        "各学院"
+      ]
+    },
+    {
+      "id": "uni2-006",
+      "name": "天津大学",
+      "shortName": "天大",
+      "level": "国家级",
+      "category": "教育部直属高校",
+      "established": "1895年",
+      "website": "www.tju.edu.cn",
+      "description": "天津大学是教育部直属全国重点大学。",
+      "personnelSource": "通过高考招录。",
+      "personnelPromotion": "实行教师职称评审制度。",
+      "fundingSource": "中央财政拨款和事业收入。",
+      "responsibilities": [
+        "人才培养",
+        "科学研究"
+      ],
+      "publicUnderstanding": "负责高等教育。",
+      "subordinates": [
+        "各学院"
+      ]
+    },
+    {
+      "id": "uni2-007",
+      "name": "东南大学",
+      "shortName": "东大",
+      "level": "国家级",
+      "category": "教育部直属高校",
+      "established": "1902年",
+      "website": "www.seu.edu.cn",
+      "description": "东南大学是教育部直属全国重点大学。",
+      "personnelSource": "通过高考招录。",
+      "personnelPromotion": "实行教师职称评审制度。",
+      "fundingSource": "中央财政拨款和事业收入。",
+      "responsibilities": [
+        "人才培养",
+        "科学研究"
+      ],
+      "publicUnderstanding": "负责高等教育。",
+      "subordinates": [
+        "各学院"
+      ]
+    },
+    {
+      "id": "uni2-008",
+      "name": "北京航空航天大学",
+      "shortName": "北航",
+      "level": "国家级",
+      "category": "工业和信息化部直属高校",
+      "established": "1952年",
+      "website": "www.buaa.edu.cn",
+      "description": "北京航空航天大学是工业和信息化部直属全国重点大学。",
+      "personnelSource": "通过高考招录。",
+      "personnelPromotion": "实行教师职称评审制度。",
+      "fundingSource": "中央财政拨款和事业收入。",
+      "responsibilities": [
+        "人才培养",
+        "科学研究"
+      ],
+      "publicUnderstanding": "负责高等教育。",
+      "subordinates": [
+        "各学院"
+      ]
+    },
+    {
+      "id": "uni2-009",
+      "name": "北京理工大学",
+      "shortName": "北理工",
+      "level": "国家级",
+      "category": "工业和信息化部直属高校",
+      "established": "1940年",
+      "website": "www.bit.edu.cn",
+      "description": "北京理工大学是工业和信息化部直属全国重点大学。",
+      "personnelSource": "通过高考招录。",
+      "personnelPromotion": "实行教师职称评审制度。",
+      "fundingSource": "中央财政拨款和事业收入。",
+      "responsibilities": [
+        "人才培养",
+        "科学研究"
+      ],
+      "publicUnderstanding": "负责高等教育。",
+      "subordinates": [
+        "各学院"
+      ]
+    },
+    {
+      "id": "uni2-010",
+      "name": "西北工业大学",
+      "shortName": "西工大",
+      "level": "国家级",
+      "category": "工业和信息化部直属高校",
+      "established": "1938年",
+      "website": "www.nwpu.edu.cn",
+      "description": "西北工业大学是工业和信息化部直属全国重点大学。",
+      "personnelSource": "通过高考招录。",
+      "personnelPromotion": "实行教师职称评审制度。",
+      "fundingSource": "中央财政拨款和事业收入。",
+      "responsibilities": [
+        "人才培养",
+        "科学研究"
+      ],
+      "publicUnderstanding": "负责高等教育。",
+      "subordinates": [
+        "各学院"
+      ]
+    }
+  ],
+  "hospital2": [
+    {
+      "id": "hosp2-001",
+      "name": "中日友好医院",
+      "shortName": "中日医院",
+      "level": "国家级",
+      "category": "公立医院",
+      "established": "1984年",
+      "website": "www.zryhyy.com.cn",
+      "description": "中日友好医院是国家卫生健康委直属医院。",
+      "personnelSource": "通过招聘医务人员。",
+      "personnelPromotion": "实行医务人员职称评审制度。",
+      "fundingSource": "中央财政拨款和医疗收入。",
+      "responsibilities": [
+        "医疗服务"
+      ],
+      "publicUnderstanding": "负责医疗服务。",
+      "subordinates": [
+        "各科室"
+      ]
+    },
+    {
+      "id": "hosp2-002",
+      "name": "北京大学第一医院",
+      "shortName": "北大医院",
+      "level": "国家级",
+      "category": "公立医院",
+      "established": "1915年",
+      "website": "www.bddyyy.com.cn",
+      "description": "北京大学第一医院是北京大学附属医院。",
+      "personnelSource": "通过招聘医务人员。",
+      "personnelPromotion": "实行医务人员职称评审制度。",
+      "fundingSource": "地方财政拨款和医疗收入。",
+      "responsibilities": [
+        "医疗服务"
+      ],
+      "publicUnderstanding": "负责医疗服务。",
+      "subordinates": [
+        "各科室"
+      ]
+    },
+    {
+      "id": "hosp2-003",
+      "name": "北京大学第三医院",
+      "shortName": "北医三院",
+      "level": "国家级",
+      "category": "公立医院",
+      "established": "1958年",
+      "website": "www.by3.cn",
+      "description": "北京大学第三医院是北京大学附属医院。",
+      "personnelSource": "通过招聘医务人员。",
+      "personnelPromotion": "实行医务人员职称评审制度。",
+      "fundingSource": "地方财政拨款和医疗收入。",
+      "responsibilities": [
+        "医疗服务"
+      ],
+      "publicUnderstanding": "负责医疗服务。",
+      "subordinates": [
+        "各科室"
+      ]
+    },
+    {
+      "id": "hosp2-004",
+      "name": "复旦大学附属华山医院",
+      "shortName": "华山医院",
+      "level": "国家级",
+      "category": "公立医院",
+      "established": "1904年",
+      "website": "www.huashan.org.cn",
+      "description": "复旦大学附属华山医院是复旦大学附属医院。",
+      "personnelSource": "通过招聘医务人员。",
+      "personnelPromotion": "实行医务人员职称评审制度。",
+      "fundingSource": "地方财政拨款和医疗收入。",
+      "responsibilities": [
+        "医疗服务"
+      ],
+      "publicUnderstanding": "负责医疗服务。",
+      "subordinates": [
+        "各科室"
+      ]
+    },
+    {
+      "id": "hosp2-005",
+      "name": "中山大学附属第一医院",
+      "shortName": "中山一院",
+      "level": "国家级",
+      "category": "公立医院",
+      "established": "1910年",
+      "website": "www.gzsums.net",
+      "description": "中山大学附属第一医院是中山大学附属医院。",
+      "personnelSource": "通过招聘医务人员。",
+      "personnelPromotion": "实行医务人员职称评审制度。",
+      "fundingSource": "地方财政拨款和医疗收入。",
+      "responsibilities": [
+        "医疗服务"
+      ],
+      "publicUnderstanding": "负责医疗服务。",
+      "subordinates": [
+        "各科室"
+      ]
+    }
+  ],
+  "university3": [
+    {
+      "id": "uni3-001",
+      "name": "南开大学",
+      "shortName": "南开",
+      "level": "国家级",
+      "category": "教育部直属高校",
+      "established": "1919年",
+      "website": "www.nankai.edu.cn",
+      "description": "南开大学是教育部直属全国重点大学。",
+      "personnelSource": "通过高考招录。",
+      "personnelPromotion": "实行教师职称评审制度。",
+      "fundingSource": "中央财政拨款和事业收入。",
+      "responsibilities": [
+        "人才培养",
+        "科学研究"
+      ],
+      "publicUnderstanding": "负责高等教育。",
+      "subordinates": [
+        "各学院"
+      ]
+    },
+    {
+      "id": "uni3-002",
+      "name": "厦门大学",
+      "shortName": "厦大",
+      "level": "国家级",
+      "category": "教育部直属高校",
+      "established": "1921年",
+      "website": "www.xmu.edu.cn",
+      "description": "厦门大学是教育部直属全国重点大学。",
+      "personnelSource": "通过高考招录。",
+      "personnelPromotion": "实行教师职称评审制度。",
+      "fundingSource": "中央财政拨款和事业收入。",
+      "responsibilities": [
+        "人才培养",
+        "科学研究"
+      ],
+      "publicUnderstanding": "负责高等教育。",
+      "subordinates": [
+        "各学院"
+      ]
+    },
+    {
+      "id": "uni3-003",
+      "name": "山东大学",
+      "shortName": "山大",
+      "level": "国家级",
+      "category": "教育部直属高校",
+      "established": "1901年",
+      "website": "www.sdu.edu.cn",
+      "description": "山东大学是教育部直属全国重点大学。",
+      "personnelSource": "通过高考招录。",
+      "personnelPromotion": "实行教师职称评审制度。",
+      "fundingSource": "中央财政拨款和事业收入。",
+      "responsibilities": [
+        "人才培养",
+        "科学研究"
+      ],
+      "publicUnderstanding": "负责高等教育。",
+      "subordinates": [
+        "各学院"
+      ]
+    },
+    {
+      "id": "uni3-004",
+      "name": "中南大学",
+      "shortName": "中南",
+      "level": "国家级",
+      "category": "教育部直属高校",
+      "established": "2000年",
+      "website": "www.csu.edu.cn",
+      "description": "中南大学是教育部直属全国重点大学。",
+      "personnelSource": "通过高考招录。",
+      "personnelPromotion": "实行教师职称评审制度。",
+      "fundingSource": "中央财政拨款和事业收入。",
+      "responsibilities": [
+        "人才培养",
+        "科学研究"
+      ],
+      "publicUnderstanding": "负责高等教育。",
+      "subordinates": [
+        "各学院"
+      ]
+    },
+    {
+      "id": "uni3-005",
+      "name": "湖南大学",
+      "shortName": "湖大",
+      "level": "国家级",
+      "category": "教育部直属高校",
+      "established": "1926年",
+      "website": "www.hnu.edu.cn",
+      "description": "湖南大学是教育部直属全国重点大学。",
+      "personnelSource": "通过高考招录。",
+      "personnelPromotion": "实行教师职称评审制度。",
+      "fundingSource": "中央财政拨款和事业收入。",
+      "responsibilities": [
+        "人才培养",
+        "科学研究"
+      ],
+      "publicUnderstanding": "负责高等教育。",
+      "subordinates": [
+        "各学院"
+      ]
+    },
+    {
+      "id": "uni3-006",
+      "name": "重庆大学",
+      "shortName": "重大",
+      "level": "国家级",
+      "category": "教育部直属高校",
+      "established": "1929年",
+      "website": "www.cqu.edu.cn",
+      "description": "重庆大学是教育部直属全国重点大学。",
+      "personnelSource": "通过高考招录。",
+      "personnelPromotion": "实行教师职称评审制度。",
+      "fundingSource": "中央财政拨款和事业收入。",
+      "responsibilities": [
+        "人才培养",
+        "科学研究"
+      ],
+      "publicUnderstanding": "负责高等教育。",
+      "subordinates": [
+        "各学院"
+      ]
+    },
+    {
+      "id": "uni3-007",
+      "name": "大连理工大学",
+      "shortName": "大工",
+      "level": "国家级",
+      "category": "教育部直属高校",
+      "established": "1949年",
+      "website": "www.dlut.edu.cn",
+      "description": "大连理工大学是教育部直属全国重点大学。",
+      "personnelSource": "通过高考招录。",
+      "personnelPromotion": "实行教师职称评审制度。",
+      "fundingSource": "中央财政拨款和事业收入。",
+      "responsibilities": [
+        "人才培养",
+        "科学研究"
+      ],
+      "publicUnderstanding": "负责高等教育。",
+      "subordinates": [
+        "各学院"
+      ]
+    },
+    {
+      "id": "uni3-008",
+      "name": "华南理工大学",
+      "shortName": "华工",
+      "level": "国家级",
+      "category": "教育部直属高校",
+      "established": "1952年",
+      "website": "www.scut.edu.cn",
+      "description": "华南理工大学是教育部直属全国重点大学。",
+      "personnelSource": "通过高考招录。",
+      "personnelPromotion": "实行教师职称评审制度。",
+      "fundingSource": "中央财政拨款和事业收入。",
+      "responsibilities": [
+        "人才培养",
+        "科学研究"
+      ],
+      "publicUnderstanding": "负责高等教育。",
+      "subordinates": [
+        "各学院"
+      ]
+    },
+    {
+      "id": "uni3-009",
+      "name": "电子科技大学",
+      "shortName": "电子科大",
+      "level": "国家级",
+      "category": "教育部直属高校",
+      "established": "1956年",
+      "website": "www.uestc.edu.cn",
+      "description": "电子科技大学是教育部直属全国重点大学。",
+      "personnelSource": "通过高考招录。",
+      "personnelPromotion": "实行教师职称评审制度。",
+      "fundingSource": "中央财政拨款和事业收入。",
+      "responsibilities": [
+        "人才培养",
+        "科学研究"
+      ],
+      "publicUnderstanding": "负责高等教育。",
+      "subordinates": [
+        "各学院"
+      ]
+    },
+    {
+      "id": "uni3-010",
+      "name": "南京航空航天大学",
+      "shortName": "南航",
+      "level": "国家级",
+      "category": "工业和信息化部直属高校",
+      "established": "1952年",
+      "website": "www.nuaa.edu.cn",
+      "description": "南京航空航天大学是工业和信息化部直属全国重点大学。",
+      "personnelSource": "通过高考招录。",
+      "personnelPromotion": "实行教师职称评审制度。",
+      "fundingSource": "中央财政拨款和事业收入。",
+      "responsibilities": [
+        "人才培养",
+        "科学研究"
+      ],
+      "publicUnderstanding": "负责高等教育。",
+      "subordinates": [
+        "各学院"
+      ]
+    }
+  ],
+  "provincial_health": [
+    {
+      "id": "ph-001",
+      "name": "广东省卫生健康委员会",
+      "shortName": "广东省卫健委",
+      "level": "省级",
+      "category": "省级政府部门",
+      "established": "2018年",
+      "website": "wsjkw.gd.gov.cn",
+      "description": "广东省卫生健康委员会是广东省政府组成部门。",
+      "personnelSource": "通过公务员考试招录。",
+      "personnelPromotion": "实行公务员职务与职级并行制度。",
+      "fundingSource": "地方财政拨款。",
+      "responsibilities": [
+        "卫生健康管理"
+      ],
+      "publicUnderstanding": "负责卫生健康工作。",
+      "subordinates": [
+        "办公室"
+      ]
+    },
+    {
+      "id": "ph-002",
+      "name": "浙江省卫生健康委员会",
+      "shortName": "浙江省卫健委",
+      "level": "省级",
+      "category": "省级政府部门",
+      "established": "2018年",
+      "website": "wsjkw.zj.gov.cn",
+      "description": "浙江省卫生健康委员会是浙江省政府组成部门。",
+      "personnelSource": "通过公务员考试招录。",
+      "personnelPromotion": "实行公务员职务与职级并行制度。",
+      "fundingSource": "地方财政拨款。",
+      "responsibilities": [
+        "卫生健康管理"
+      ],
+      "publicUnderstanding": "负责卫生健康工作。",
+      "subordinates": [
+        "办公室"
+      ]
+    },
+    {
+      "id": "ph-003",
+      "name": "江苏省卫生健康委员会",
+      "shortName": "江苏省卫健委",
+      "level": "省级",
+      "category": "省级政府部门",
+      "established": "2018年",
+      "website": "wjw.jiangsu.gov.cn",
+      "description": "江苏省卫生健康委员会是江苏省政府组成部门。",
+      "personnelSource": "通过公务员考试招录。",
+      "personnelPromotion": "实行公务员职务与职级并行制度。",
+      "fundingSource": "地方财政拨款。",
+      "responsibilities": [
+        "卫生健康管理"
+      ],
+      "publicUnderstanding": "负责卫生健康工作。",
+      "subordinates": [
+        "办公室"
+      ]
+    },
+    {
+      "id": "ph-004",
+      "name": "北京市卫生健康委员会",
+      "shortName": "北京市卫健委",
+      "level": "省级",
+      "category": "省级政府部门",
+      "established": "2018年",
+      "website": "wjw.beijing.gov.cn",
+      "description": "北京市卫生健康委员会是北京市政府组成部门。",
+      "personnelSource": "通过公务员考试招录。",
+      "personnelPromotion": "实行公务员职务与职级并行制度。",
+      "fundingSource": "地方财政拨款。",
+      "responsibilities": [
+        "卫生健康管理"
+      ],
+      "publicUnderstanding": "负责卫生健康工作。",
+      "subordinates": [
+        "办公室"
+      ]
+    },
+    {
+      "id": "ph-005",
+      "name": "上海市卫生健康委员会",
+      "shortName": "上海市卫健委",
+      "level": "省级",
+      "category": "省级政府部门",
+      "established": "2018年",
+      "website": "wsjkw.sh.gov.cn",
+      "description": "上海市卫生健康委员会是上海市政府组成部门。",
+      "personnelSource": "通过公务员考试招录。",
+      "personnelPromotion": "实行公务员职务与职级并行制度。",
+      "fundingSource": "地方财政拨款。",
+      "responsibilities": [
+        "卫生健康管理"
+      ],
+      "publicUnderstanding": "负责卫生健康工作。",
+      "subordinates": [
+        "办公室"
+      ]
+    }
+  ],
+  "provincial_medical_insurance": [
+    {
+      "id": "pmi-001",
+      "name": "广东省医疗保障局",
+      "shortName": "广东省医保局",
+      "level": "省级",
+      "category": "省级政府部门",
+      "established": "2018年",
+      "website": "hsa.gd.gov.cn",
+      "description": "广东省医疗保障局是广东省政府组成部门。",
+      "personnelSource": "通过公务员考试招录。",
+      "personnelPromotion": "实行公务员职务与职级并行制度。",
+      "fundingSource": "地方财政拨款。",
+      "responsibilities": [
+        "医疗保险管理"
+      ],
+      "publicUnderstanding": "负责医疗保障工作。",
+      "subordinates": [
+        "办公室"
+      ]
+    },
+    {
+      "id": "pmi-002",
+      "name": "浙江省医疗保障局",
+      "shortName": "浙江省医保局",
+      "level": "省级",
+      "category": "省级政府部门",
+      "established": "2018年",
+      "website": "ybj.zj.gov.cn",
+      "description": "浙江省医疗保障局是浙江省政府组成部门。",
+      "personnelSource": "通过公务员考试招录。",
+      "personnelPromotion": "实行公务员职务与职级并行制度。",
+      "fundingSource": "地方财政拨款。",
+      "responsibilities": [
+        "医疗保险管理"
+      ],
+      "publicUnderstanding": "负责医疗保障工作。",
+      "subordinates": [
+        "办公室"
+      ]
+    },
+    {
+      "id": "pmi-003",
+      "name": "江苏省医疗保障局",
+      "shortName": "江苏省医保局",
+      "level": "省级",
+      "category": "省级政府部门",
+      "established": "2018年",
+      "website": "ybj.jiangsu.gov.cn",
+      "description": "江苏省医疗保障局是江苏省政府组成部门。",
+      "personnelSource": "通过公务员考试招录。",
+      "personnelPromotion": "实行公务员职务与职级并行制度。",
+      "fundingSource": "地方财政拨款。",
+      "responsibilities": [
+        "医疗保险管理"
+      ],
+      "publicUnderstanding": "负责医疗保障工作。",
+      "subordinates": [
+        "办公室"
+      ]
+    }
+  ],
+  "provincial_emergency": [
+    {
+      "id": "pem-001",
+      "name": "广东省应急管理厅",
+      "shortName": "广东省应急厅",
+      "level": "省级",
+      "category": "省级政府部门",
+      "established": "2018年",
+      "website": "yjt.gd.gov.cn",
+      "description": "广东省应急管理厅是广东省政府组成部门。",
+      "personnelSource": "通过公务员考试招录。",
+      "personnelPromotion": "实行公务员职务与职级并行制度。",
+      "fundingSource": "地方财政拨款。",
+      "responsibilities": [
+        "应急管理"
+      ],
+      "publicUnderstanding": "负责应急管理工作。",
+      "subordinates": [
+        "办公室"
+      ]
+    },
+    {
+      "id": "pem-002",
+      "name": "浙江省应急管理厅",
+      "shortName": "浙江省应急厅",
+      "level": "省级",
+      "category": "省级政府部门",
+      "established": "2018年",
+      "website": "yjt.zj.gov.cn",
+      "description": "浙江省应急管理厅是浙江省政府组成部门。",
+      "personnelSource": "通过公务员考试招录。",
+      "personnelPromotion": "实行公务员职务与职级并行制度。",
+      "fundingSource": "地方财政拨款。",
+      "responsibilities": [
+        "应急管理"
+      ],
+      "publicUnderstanding": "负责应急管理工作。",
+      "subordinates": [
+        "办公室"
+      ]
+    },
+    {
+      "id": "pem-003",
+      "name": "江苏省应急管理厅",
+      "shortName": "江苏省应急厅",
+      "level": "省级",
+      "category": "省级政府部门",
+      "established": "2018年",
+      "website": "yjt.jiangsu.gov.cn",
+      "description": "江苏省应急管理厅是江苏省政府组成部门。",
+      "personnelSource": "通过公务员考试招录。",
+      "personnelPromotion": "实行公务员职务与职级并行制度。",
+      "fundingSource": "地方财政拨款。",
+      "responsibilities": [
+        "应急管理"
+      ],
+      "publicUnderstanding": "负责应急管理工作。",
+      "subordinates": [
+        "办公室"
+      ]
+    },
+    {
+      "id": "pem-004",
+      "name": "山东省应急管理厅",
+      "shortName": "山东省应急厅",
+      "level": "省级",
+      "category": "省级政府部门",
+      "established": "2018年",
+      "website": "yjt.sd.gov.cn",
+      "description": "山东省应急管理厅是山东省政府组成部门。",
+      "personnelSource": "通过公务员考试招录。",
+      "personnelPromotion": "实行公务员职务与职级并行制度。",
+      "fundingSource": "地方财政拨款。",
+      "responsibilities": [
+        "应急管理"
+      ],
+      "publicUnderstanding": "负责应急管理工作。",
+      "subordinates": [
+        "办公室"
+      ]
+    }
+  ],
+  "provincial_market": [
+    {
+      "id": "pm-001",
+      "name": "广东省市场监督管理局",
+      "shortName": "广东省市场监管局",
+      "level": "省级",
+      "category": "省级政府部门",
+      "established": "2018年",
+      "website": "amr.gd.gov.cn",
+      "description": "广东省市场监督管理局是广东省政府组成部门。",
+      "personnelSource": "通过公务员考试招录。",
+      "personnelPromotion": "实行公务员职务与职级并行制度。",
+      "fundingSource": "地方财政拨款。",
+      "responsibilities": [
+        "市场监管"
+      ],
+      "publicUnderstanding": "负责市场监督管理工作。",
+      "subordinates": [
+        "办公室"
+      ]
+    },
+    {
+      "id": "pm-002",
+      "name": "浙江省市场监督管理局",
+      "shortName": "浙江省市场监管局",
+      "level": "省级",
+      "category": "省级政府部门",
+      "established": "2018年",
+      "website": "zjamr.zj.gov.cn",
+      "description": "浙江省市场监督管理局是浙江省政府组成部门。",
+      "personnelSource": "通过公务员考试招录。",
+      "personnelPromotion": "实行公务员职务与职级并行制度。",
+      "fundingSource": "地方财政拨款。",
+      "responsibilities": [
+        "市场监管"
+      ],
+      "publicUnderstanding": "负责市场监督管理工作。",
+      "subordinates": [
+        "办公室"
+      ]
+    },
+    {
+      "id": "pm-003",
+      "name": "江苏省市场监督管理局",
+      "shortName": "江苏省市场监管局",
+      "level": "省级",
+      "category": "省级政府部门",
+      "established": "2018年",
+      "website": "jszj.gov.cn",
+      "description": "江苏省市场监督管理局是江苏省政府组成部门。",
+      "personnelSource": "通过公务员考试招录。",
+      "personnelPromotion": "实行公务员职务与职级并行制度。",
+      "fundingSource": "地方财政拨款。",
+      "responsibilities": [
+        "市场监管"
+      ],
+      "publicUnderstanding": "负责市场监督管理工作。",
+      "subordinates": [
+        "办公室"
+      ]
+    },
+    {
+      "id": "pm-004",
+      "name": "北京市市场监督管理局",
+      "shortName": "北京市市场监管局",
+      "level": "省级",
+      "category": "省级政府部门",
+      "established": "2018年",
+      "website": "scjgj.beijing.gov.cn",
+      "description": "北京市市场监督管理局是北京市政府组成部门。",
+      "personnelSource": "通过公务员考试招录。",
+      "personnelPromotion": "实行公务员职务与职级并行制度。",
+      "fundingSource": "地方财政拨款。",
+      "responsibilities": [
+        "市场监管"
+      ],
+      "publicUnderstanding": "负责市场监督管理工作。",
+      "subordinates": [
+        "办公室"
+      ]
+    }
+  ],
+  "provincial_ecology": [
+    {
+      "id": "pec-001",
+      "name": "广东省生态环境厅",
+      "shortName": "广东省生态环境厅",
+      "level": "省级",
+      "category": "省级政府部门",
+      "established": "2018年",
+      "website": "gdee.gd.gov.cn",
+      "description": "广东省生态环境厅是广东省政府组成部门。",
+      "personnelSource": "通过公务员考试招录。",
+      "personnelPromotion": "实行公务员职务与职级并行制度。",
+      "fundingSource": "地方财政拨款。",
+      "responsibilities": [
+        "生态环境管理"
+      ],
+      "publicUnderstanding": "负责生态环境管理工作。",
+      "subordinates": [
+        "办公室"
+      ]
+    },
+    {
+      "id": "pec-002",
+      "name": "浙江省生态环境厅",
+      "shortName": "浙江省生态环境厅",
+      "level": "省级",
+      "category": "省级政府部门",
+      "established": "2018年",
+      "website": "zsthjt.zj.gov.cn",
+      "description": "浙江省生态环境厅是浙江省政府组成部门。",
+      "personnelSource": "通过公务员考试招录。",
+      "personnelPromotion": "实行公务员职务与职级并行制度。",
+      "fundingSource": "地方财政拨款。",
+      "responsibilities": [
+        "生态环境管理"
+      ],
+      "publicUnderstanding": "负责生态环境管理工作。",
+      "subordinates": [
+        "办公室"
+      ]
+    },
+    {
+      "id": "pec-003",
+      "name": "江苏省生态环境厅",
+      "shortName": "江苏省生态环境厅",
+      "level": "省级",
+      "category": "省级政府部门",
+      "established": "2018年",
+      "website": "hbt.jiangsu.gov.cn",
+      "description": "江苏省生态环境厅是江苏省政府组成部门。",
+      "personnelSource": "通过公务员考试招录。",
+      "personnelPromotion": "实行公务员职务与职级并行制度。",
+      "fundingSource": "地方财政拨款。",
+      "responsibilities": [
+        "生态环境管理"
+      ],
+      "publicUnderstanding": "负责生态环境管理工作。",
+      "subordinates": [
+        "办公室"
+      ]
+    },
+    {
+      "id": "pec-004",
+      "name": "山东省生态环境厅",
+      "shortName": "山东省生态环境厅",
+      "level": "省级",
+      "category": "省级政府部门",
+      "established": "2018年",
+      "website": "sdei.gov.cn",
+      "description": "山东省生态环境厅是山东省政府组成部门。",
+      "personnelSource": "通过公务员考试招录。",
+      "personnelPromotion": "实行公务员职务与职级并行制度。",
+      "fundingSource": "地方财政拨款。",
+      "responsibilities": [
+        "生态环境管理"
+      ],
+      "publicUnderstanding": "负责生态环境管理工作。",
+      "subordinates": [
+        "办公室"
+      ]
+    }
   ]
 }
