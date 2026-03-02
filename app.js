@@ -1,3 +1,12 @@
+// 行政层级配置
+const ADMIN_LEVELS = {
+    central: { name: '国家级（中央）', color: '#667eea', order: 0 },
+    province: { name: '省级政府', color: '#764ba2', order: 1 },
+    municipal: { name: '市级政府', color: '#f093fb', order: 2 },
+    district: { name: '区县级政府', color: '#4facfe', order: 3 },
+    township: { name: '街道/乡镇', color: '#43e97b', order: 4 }
+};
+
 // 政府机构数据（从HTML中获取）
 let governmentData = window.governmentData || {};
 
@@ -91,10 +100,11 @@ function setupMobileMenu() {
 
 // 渲染政府机构卡片
 function renderGovernmentOrganizations() {
-    renderOrganizationsByLevel('national', 'national-orgs');
-    renderOrganizationsByLevel('provincial', 'provincial-orgs');
+    renderOrganizationsByLevel('central', 'central-orgs');
+    renderOrganizationsByLevel('province', 'provincial-orgs');
     renderOrganizationsByLevel('municipal', 'municipal-orgs');
     renderOrganizationsByLevel('district', 'district-orgs');
+    renderOrganizationsByLevel('township', 'township-orgs');
 }
 
 // 根据层级渲染机构
@@ -108,43 +118,37 @@ function renderOrganizationsByLevel(level, containerId) {
     let html = '';
 
     organizations.forEach(org => {
-        html += createOrganizationCard(org);
+        html += createOrganizationCard(org, level);
     });
 
     container.innerHTML = html;
 }
 
 // 创建机构卡片HTML
-function createOrganizationCard(org) {
-    const levelColors = {
-        '国家级': 'bg-primary',
-        '省级': 'bg-success',
-        '副省级': 'bg-info',
-        '区县级': 'bg-warning'
-    };
-
-    const levelColor = levelColors[org.level] || 'bg-secondary';
+function createOrganizationCard(org, level) {
+    const levelInfo = ADMIN_LEVELS[level] || { name: '未知层级', color: '#666' };
+    const levelColor = levelInfo.color;
 
     return `
         <div class="col-md-6 col-lg-4 mb-4">
             <div class="card org-card" data-org-id="${org.id}">
-                <div class="card-header ${levelColor}">
-                    <span class="badge bg-light text-dark me-2">${org.level}</span>
-                    ${org.shortName}
+                <div class="card-header" style="background: linear-gradient(135deg, ${levelColor}, ${adjustColor(levelColor, -30)});">
+                    <span class="badge bg-light text-dark me-2">${levelInfo.name}</span>
+                    ${org.shortName || ''}
                 </div>
                 <div class="card-body">
                     <h5 class="card-title">${org.name}</h5>
                     <p class="card-text">${org.description}</p>
                     <div class="mb-2">
                         <span class="badge bg-info">
-                            <i class="bi bi-building"></i> ${org.category}
+                            <i class="bi bi-building"></i> ${org.category || ''}
                         </span>
                         <span class="badge bg-secondary">
-                            <i class="bi bi-calendar"></i> ${org.established}
+                            <i class="bi bi-calendar"></i> ${org.established || ''}
                         </span>
                     </div>
                     <small class="text-muted">
-                        <i class="bi bi-globe"></i> ${org.website}
+                        <i class="bi bi-globe"></i> ${org.website || ''}
                     </small>
                 </div>
                 <div class="card-footer bg-white">
@@ -308,10 +312,15 @@ function searchOrganizations(searchTerm) {
     displaySearchResults(results, searchTerm);
 }
 
+// 工具函数：调整颜色亮度
+function adjustColor(color, amount) {
+    return color;
+}
+
 // 显示搜索结果
 function displaySearchResults(results, searchTerm) {
-    const sections = ['national', 'provincial', 'municipal', 'district'];
-    const containerIds = ['national-orgs', 'provincial-orgs', 'municipal-orgs', 'district-orgs'];
+    const levels = ['central', 'province', 'municipal', 'district', 'township'];
+    const containerIds = ['central-orgs', 'provincial-orgs', 'municipal-orgs', 'district-orgs', 'township-orgs'];
 
     // 清空所有容器
     containerIds.forEach(id => {
@@ -339,10 +348,11 @@ function displaySearchResults(results, searchTerm) {
 
     // 按层级分组显示结果
     const groupedResults = {
-        national: [],
-        provincial: [],
+        central: [],
+        province: [],
         municipal: [],
-        district: []
+        district: [],
+        township: []
     };
 
     results.forEach(result => {
@@ -352,12 +362,12 @@ function displaySearchResults(results, searchTerm) {
     });
 
     // 渲染每个层级的结果
-    sections.forEach((section, index) => {
+    levels.forEach((level, index) => {
         const container = document.getElementById(containerIds[index]);
-        if (container && groupedResults[section].length > 0) {
+        if (container && groupedResults[level].length > 0) {
             let html = '';
-            groupedResults[section].forEach(org => {
-                html += createOrganizationCard(org);
+            groupedResults[level].forEach(org => {
+                html += createOrganizationCard(org, level);
             });
             container.innerHTML = html;
         }
@@ -380,8 +390,8 @@ function displaySearchResults(results, searchTerm) {
 
 // 显示错误信息
 function showError(message) {
-    const sections = ['national-orgs', 'provincial-orgs', 'municipal-orgs', 'district-orgs'];
-    sections.forEach(id => {
+    const containerIds = ['central-orgs', 'provincial-orgs', 'municipal-orgs', 'district-orgs', 'township-orgs'];
+    containerIds.forEach(id => {
         const container = document.getElementById(id);
         if (container) {
             container.innerHTML = `

@@ -11,86 +11,67 @@
     <aside class="sidebar">
         <div class="sidebar-header">
             <h2>政府机关</h2>
-            <p>按地域层级浏览</p>
+            <p>按行政层级浏览</p>
         </div>
         <nav class="tree-nav">
             <ul class="tree-root">
-                <!-- 国家级机关 -->
+                <!-- 国家级（中央） -->
                 <li class="tree-node">
-                    <a href="#national" class="tree-node-header" data-level="national">
+                    <a href="#central" class="tree-node-header" data-level="central">
                         <span class="tree-toggle">▶</span>
-                        <span class="tree-label">国家级机关</span>
+                        <span class="tree-label">🏛️ 国家级（中央）</span>
                     </a>
                     <ul class="tree-children">
                         <li class="tree-node">
-                            <a href="gov-pages/national-depts.html" class="tree-node-header">
+                            <a href="gov-pages/party-ccao.html" class="tree-node-header" data-level="org">
+                                <span class="tree-label">党中央机关</span>
+                            </a>
+                            <ul class="tree-children">
+                                <li class="tree-node"><a href="gov-pages/party-ccao.html">中共中央办公厅</a></li>
+                                <li class="tree-node"><a href="gov-pages/party-org.html">中共中央组织部</a></li>
+                                <li class="tree-node"><a href="gov-pages/party-propaganda.html">中共中央宣传部</a></li>
+                                <li class="tree-node"><a href="gov-pages/party-united-front.html">中共中央统战部</a></li>
+                                <li class="tree-node"><a href="gov-pages/party-discipline.html">中央纪委国家监委</a></li>
+                            </ul>
+                        </li>
+                        <li class="tree-node">
+                            <a href="gov-pages/central-npc.html" class="tree-node-header" data-level="org">
+                                <span class="tree-label">国家权力机关</span>
+                            </a>
+                            <ul class="tree-children">
+                                <li class="tree-node"><a href="gov-pages/central-npc.html">全国人民代表大会</a></li>
+                                <li class="tree-node"><a href="gov-pages/central-npc-standing.html">全国人大常委会</a></li>
+                            </ul>
+                        </li>
+                        <li class="tree-node">
+                            <a href="gov-pages/central-cppcc.html" class="tree-node-header" data-level="org">
+                                <span class="tree-label">政协机关</span>
+                            </a>
+                            <ul class="tree-children">
+                                <li class="tree-node"><a href="gov-pages/central-cppcc.html">全国政协</a></li>
+                            </ul>
+                        </li>
+                        <li class="tree-node">
+                            <a href="#national" class="tree-node-header" data-level="org">
+                                <span class="tree-toggle">▶</span>
                                 <span class="tree-label">国务院部委</span>
                             </a>
-                        </li>
-                    </ul>
-                </li>
-
-                <!-- 中央直属机关 -->
-                <li class="tree-node">
-                    <a href="#central" class="tree-node-header" data-level="national">
-                        <span class="tree-toggle">▶</span>
-                        <span class="tree-label">中央直属机关</span>
-                    </a>
-                    <ul class="tree-children">
-                        <li class="tree-node">
-                            <a href="gov-pages/central-npc.html" class="tree-node-header">
-                                <span class="tree-label">全国人大常委会</span>
-                            </a>
+                            <ul class="tree-children">
+                                <li class="tree-node"><a href="gov-pages/national-depts.html">国务院部委（28个）</a></li>
+                                <li class="tree-node"><a href="gov-pages/national-minzhengbu.html">民政部</a></li>
+                                <li class="tree-node"><a href="gov-pages/national-jiaotongbu.html">交通运输部</a></li>
+                                <li class="tree-node"><a href="gov-pages/national-gonganju.html">公安部</a></li>
+                                <li class="tree-node"><a href="gov-pages/national-caizhengbu.html">财政部</a></li>
+                            </ul>
                         </li>
                         <li class="tree-node">
-                            <a href="gov-pages/central-cppcc.html" class="tree-node-header">
-                                <span class="tree-label">全国政协</span>
+                            <a href="gov-pages/central-supreme-court.html" class="tree-node-header" data-level="org">
+                                <span class="tree-label">司法机关</span>
                             </a>
-                        </li>
-                        <li class="tree-node">
-                            <a href="gov-pages/central-supreme-court.html" class="tree-node-header">
-                                <span class="tree-label">最高人民法院</span>
-                            </a>
-                        </li>
-                        <li class="tree-node">
-                            <a href="gov-pages/central-supreme-prosecutor.html" class="tree-node-header">
-                                <span class="tree-label">最高人民检察院</span>
-                            </a>
-                        </li>
-                    </ul>
-                </li>
-
-                <!-- 党的机关 -->
-                <li class="tree-node">
-                    <a href="#party" class="tree-node-header" data-level="national">
-                        <span class="tree-toggle">▶</span>
-                        <span class="tree-label">党的机关</span>
-                    </a>
-                    <ul class="tree-children">
-                        <li class="tree-node">
-                            <a href="gov-pages/party-ccao.html" class="tree-node-header">
-                                <span class="tree-label">中共中央办公厅</span>
-                            </a>
-                        </li>
-                        <li class="tree-node">
-                            <a href="gov-pages/party-org.html" class="tree-node-header">
-                                <span class="tree-label">中共中央组织部</span>
-                            </a>
-                        </li>
-                        <li class="tree-node">
-                            <a href="gov-pages/party-propaganda.html" class="tree-node-header">
-                                <span class="tree-label">中共中央宣传部</span>
-                            </a>
-                        </li>
-                        <li class="tree-node">
-                            <a href="gov-pages/party-united-front.html" class="tree-node-header">
-                                <span class="tree-label">中共中央统战部</span>
-                            </a>
-                        </li>
-                        <li class="tree-node">
-                            <a href="gov-pages/party-discipline.html" class="tree-node-header">
-                                <span class="tree-label">中央纪委国家监委</span>
-                            </a>
+                            <ul class="tree-children">
+                                <li class="tree-node"><a href="gov-pages/central-supreme-court.html">最高人民法院</a></li>
+                                <li class="tree-node"><a href="gov-pages/central-supreme-prosecutor.html">最高人民检察院</a></li>
+                            </ul>
                         </li>
                     </ul>
                 </li>
@@ -99,18 +80,19 @@
                 <li class="tree-node">
                     <a href="#provincial" class="tree-node-header" data-level="province">
                         <span class="tree-toggle">▶</span>
-                        <span class="tree-label">省级政府</span>
+                        <span class="tree-label">🌟 省级政府</span>
                     </a>
                     <ul class="tree-children">
                         <!-- 北京市 -->
                         <li class="tree-node">
                             <a href="gov-pages/beijing-depts.html" class="tree-node-header" data-level="province">
                                 <span class="tree-toggle">▶</span>
-                                <span class="tree-label">北京市</span>
+                                <span class="tree-label">北京市（直辖市）</span>
                             </a>
                             <ul class="tree-children">
                                 <li class="tree-node">
-                                    <a href="gov-pages/beijing.html" class="tree-node-header" data-level="city">
+                                    <a href="gov-pages/beijing.html" class="tree-node-header" data-level="municipal">
+                                        <span class="tree-toggle">▶</span>
                                         <span class="tree-label">北京市</span>
                                     </a>
                                     <ul class="tree-children">
@@ -154,11 +136,12 @@
                         <li class="tree-node">
                             <a href="gov-pages/shanghai-depts.html" class="tree-node-header" data-level="province">
                                 <span class="tree-toggle">▶</span>
-                                <span class="tree-label">上海市</span>
+                                <span class="tree-label">上海市（直辖市）</span>
                             </a>
                             <ul class="tree-children">
                                 <li class="tree-node">
-                                    <a href="gov-pages/shanghai.html" class="tree-node-header" data-level="city">
+                                    <a href="gov-pages/shanghai.html" class="tree-node-header" data-level="municipal">
+                                        <span class="tree-toggle">▶</span>
                                         <span class="tree-label">上海市</span>
                                     </a>
                                     <ul class="tree-children">
@@ -183,16 +166,6 @@
                                                 <li class="tree-node"><a href="gov-pages/shanghai-huangpu-nanjingdonglu.html">南京东路街道</a></li>
                                             </ul>
                                         </li>
-                                        <li class="tree-node">
-                                            <a href="gov-pages/shanghai-jingan.html" class="tree-node-header" data-level="district">
-                                                <span class="tree-toggle">▶</span>
-                                                <span class="tree-label">静安区</span>
-                                            </a>
-                                            <ul class="tree-children">
-                                                <li class="tree-node"><a href="gov-pages/shanghai-jingan-jingansi.html">静安寺街道</a></li>
-                                                <li class="tree-node"><a href="gov-pages/shanghai-jingan-jiangninglu.html">江宁路街道</a></li>
-                                            </ul>
-                                        </li>
                                     </ul>
                                 </li>
                             </ul>
@@ -206,9 +179,9 @@
                             </a>
                             <ul class="tree-children">
                                 <li class="tree-node">
-                                    <a href="gov-pages/guangdong-shenzhen.html" class="tree-node-header" data-level="city">
+                                    <a href="gov-pages/guangdong-shenzhen.html" class="tree-node-header" data-level="municipal">
                                         <span class="tree-toggle">▶</span>
-                                        <span class="tree-label">深圳市</span>
+                                        <span class="tree-label">深圳市（副省级）</span>
                                     </a>
                                     <ul class="tree-children">
                                         <li class="tree-node">
@@ -232,22 +205,12 @@
                                                 <li class="tree-node"><a href="gov-pages/guangdong-shenzhen-futian-shatou.html">沙头街道</a></li>
                                             </ul>
                                         </li>
-                                        <li class="tree-node">
-                                            <a href="gov-pages/guangdong-shenzhen-luohu.html" class="tree-node-header" data-level="district">
-                                                <span class="tree-toggle">▶</span>
-                                                <span class="tree-label">罗湖区</span>
-                                            </a>
-                                            <ul class="tree-children">
-                                                <li class="tree-node"><a href="gov-pages/guangdong-shenzhen-luohu-guiyuan.html">桂园街道</a></li>
-                                                <li class="tree-node"><a href="gov-pages/guangdong-shenzhen-luohu-dongmen.html">东门街道</a></li>
-                                            </ul>
-                                        </li>
                                     </ul>
                                 </li>
                                 <li class="tree-node">
-                                    <a href="gov-pages/guangdong-guangzhou.html" class="tree-node-header" data-level="city">
+                                    <a href="gov-pages/guangdong-guangzhou.html" class="tree-node-header" data-level="municipal">
                                         <span class="tree-toggle">▶</span>
-                                        <span class="tree-label">广州市</span>
+                                        <span class="tree-label">广州市（副省级）</span>
                                     </a>
                                     <ul class="tree-children">
                                         <li class="tree-node">
@@ -283,8 +246,21 @@
                             </a>
                             <ul class="tree-children">
                                 <li class="tree-node">
-                                    <a href="gov-pages/zhejiang.html" class="tree-node-header" data-level="city">
+                                    <a href="gov-pages/zhejiang.html" class="tree-node-header" data-level="municipal">
+                                        <span class="tree-toggle">▶</span>
                                         <span class="tree-label">杭州市</span>
+                                    </a>
+                                    <ul class="tree-children">
+                                        <li class="tree-node">
+                                            <a href="gov-pages/zhejiang-xihu.html" class="tree-node-header" data-level="district">
+                                                <span class="tree-label">西湖区</span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="tree-node">
+                                    <a href="gov-pages/zhejiang-ningbo.html" class="tree-node-header" data-level="municipal">
+                                        <span class="tree-label">宁波市（计划单列市）</span>
                                     </a>
                                 </li>
                             </ul>
@@ -298,8 +274,13 @@
                             </a>
                             <ul class="tree-children">
                                 <li class="tree-node">
-                                    <a href="gov-pages/jiangsu.html" class="tree-node-header" data-level="city">
+                                    <a href="gov-pages/jiangsu.html" class="tree-node-header" data-level="municipal">
                                         <span class="tree-label">南京市</span>
+                                    </a>
+                                </li>
+                                <li class="tree-node">
+                                    <a href="gov-pages/jiangsu-suzhou.html" class="tree-node-header" data-level="municipal">
+                                        <span class="tree-label">苏州市</span>
                                     </a>
                                 </li>
                             </ul>
@@ -313,8 +294,13 @@
                             </a>
                             <ul class="tree-children">
                                 <li class="tree-node">
-                                    <a href="gov-pages/shandong.html" class="tree-node-header" data-level="city">
+                                    <a href="gov-pages/shandong.html" class="tree-node-header" data-level="municipal">
                                         <span class="tree-label">济南市</span>
+                                    </a>
+                                </li>
+                                <li class="tree-node">
+                                    <a href="gov-pages/shandong-qingdao.html" class="tree-node-header" data-level="municipal">
+                                        <span class="tree-label">青岛市（计划单列市）</span>
                                     </a>
                                 </li>
                             </ul>
@@ -328,7 +314,7 @@
                             </a>
                             <ul class="tree-children">
                                 <li class="tree-node">
-                                    <a href="gov-pages/sichuan.html" class="tree-node-header" data-level="city">
+                                    <a href="gov-pages/sichuan.html" class="tree-node-header" data-level="municipal">
                                         <span class="tree-label">成都市</span>
                                     </a>
                                 </li>
@@ -343,7 +329,7 @@
                             </a>
                             <ul class="tree-children">
                                 <li class="tree-node">
-                                    <a href="gov-pages/hubei.html" class="tree-node-header" data-level="city">
+                                    <a href="gov-pages/hubei.html" class="tree-node-header" data-level="municipal">
                                         <span class="tree-label">武汉市</span>
                                     </a>
                                 </li>
@@ -358,7 +344,7 @@
                             </a>
                             <ul class="tree-children">
                                 <li class="tree-node">
-                                    <a href="gov-pages/hunan.html" class="tree-node-header" data-level="city">
+                                    <a href="gov-pages/hunan.html" class="tree-node-header" data-level="municipal">
                                         <span class="tree-label">长沙市</span>
                                     </a>
                                 </li>
@@ -373,49 +359,56 @@
                             </a>
                             <ul class="tree-children">
                                 <li class="tree-node">
-                                    <a href="gov-pages/henan.html" class="tree-node-header" data-level="city">
+                                    <a href="gov-pages/henan.html" class="tree-node-header" data-level="municipal">
                                         <span class="tree-label">郑州市</span>
                                     </a>
                                 </li>
                             </ul>
                         </li>
 
-                        <!-- 河北省 -->
+                        <!-- 更多省份... -->
                         <li class="tree-node">
                             <a href="gov-pages/hebei-depts.html" class="tree-node-header" data-level="province">
-                                <span class="tree-toggle">▶</span>
                                 <span class="tree-label">河北省</span>
                             </a>
-                            <ul class="tree-children">
-                                <li class="tree-node">
-                                    <a href="gov-pages/hebei.html" class="tree-node-header" data-level="city">
-                                        <span class="tree-label">石家庄市</span>
-                                    </a>
-                                </li>
-                            </ul>
                         </li>
-
-                        <!-- 福建省 -->
                         <li class="tree-node">
                             <a href="gov-pages/fujian-depts.html" class="tree-node-header" data-level="province">
-                                <span class="tree-toggle">▶</span>
                                 <span class="tree-label">福建省</span>
                             </a>
-                            <ul class="tree-children">
-                                <li class="tree-node">
-                                    <a href="gov-pages/fujian.html" class="tree-node-header" data-level="city">
-                                        <span class="tree-label">福州市</span>
-                                    </a>
-                                </li>
-                            </ul>
+                        </li>
+                        <li class="tree-node">
+                            <a href="gov-pages/anhui-depts.html" class="tree-node-header" data-level="province">
+                                <span class="tree-label">安徽省</span>
+                            </a>
+                        </li>
+                        <li class="tree-node">
+                            <a href="gov-pages/shaanxi-depts.html" class="tree-node-header" data-level="province">
+                                <span class="tree-label">陕西省</span>
+                            </a>
+                        </li>
+                        <li class="tree-node">
+                            <a href="gov-pages/liaoning-depts.html" class="tree-node-header" data-level="province">
+                                <span class="tree-label">辽宁省</span>
+                            </a>
+                        </li>
+                        <li class="tree-node">
+                            <a href="gov-pages/jilin-depts.html" class="tree-node-header" data-level="province">
+                                <span class="tree-label">吉林省</span>
+                            </a>
+                        </li>
+                        <li class="tree-node">
+                            <a href="gov-pages/heilongjiang-depts.html" class="tree-node-header" data-level="province">
+                                <span class="tree-label">黑龙江省</span>
+                            </a>
                         </li>
                     </ul>
                 </li>
 
-                <!-- 省份统计 -->
+                <!-- 层级统计 -->
                 <li class="tree-node">
-                    <a href="gov-pages/province-stats.html" class="tree-node-header">
-                        <span class="tree-label">📊 省份统计</span>
+                    <a href="gov-pages/hierarchy-stats.html" class="tree-node-header">
+                        <span class="tree-label">📊 行政层级统计</span>
                     </a>
                 </li>
             </ul>
@@ -426,17 +419,52 @@
     <header class="hero-section">
         <div class="container text-center">
             <h1>中国政府机关单位介绍</h1>
-            <p>全面了解中国政府体系、机构职能、人员管理与公众服务</p>
+            <p>按行政层级展示：中国政府体系、机构职能、人员管理与公众服务</p>
         </div>
     </header>
 
     <!-- 主要内容 -->
     <main class="main-content">
         <div class="content-wrapper">
-        <!-- 介绍部分 -->
+        <!-- 行政层级介绍 -->
         <section class="intro-section">
-            <h2>网站介绍</h2>
-            <p>本网站旨在为公众提供全面、准确的中国政府机关单位信息，帮助社会各界更好地理解政府体系运作。每个政府单位的介绍都包含以下关键信息：</p>
+            <h2>中国行政层级体系</h2>
+            <p>中国政府的组织结构按照行政层级划分为五个级别，形成完整的上下级隶属关系：</p>
+            
+            <div class="hierarchy-diagram">
+                <div class="level-item level-central">
+                    <span class="level-icon">🏛️</span>
+                    <strong>国家级（中央）</strong>
+                    <small>党中央、全国人大、政协、国务院</small>
+                </div>
+                <div class="level-arrow">↓</div>
+                <div class="level-item level-province">
+                    <span class="level-icon">🌟</span>
+                    <strong>省级政府</strong>
+                    <small>省、自治区、直辖市</small>
+                </div>
+                <div class="level-arrow">↓</div>
+                <div class="level-item level-municipal">
+                    <span class="level-icon">🏙️</span>
+                    <strong>市级政府</strong>
+                    <small>地级市、计划单列市</small>
+                </div>
+                <div class="level-arrow">↓</div>
+                <div class="level-item level-district">
+                    <span class="level-icon">🏘️</span>
+                    <strong>区县级政府</strong>
+                    <small>区、县、县级市</small>
+                </div>
+                <div class="level-arrow">↓</div>
+                <div class="level-item level-township">
+                    <span class="level-icon">🏠</span>
+                    <strong>街道/乡镇</strong>
+                    <small>街道办事处、乡镇政府</small>
+                </div>
+            </div>
+
+            <h3 style="margin-top: 30px;">网站介绍</h3>
+            <p>每个政府单位的介绍都包含以下关键信息：</p>
             <ul>
                 <li><strong>人员来源</strong> - 公务员招录渠道和选拔机制，2026年重点引进人工智能、数字经济、低空经济等领域人才</li>
                 <li><strong>人员升迁</strong> - 晋升路径和考核机制，2026年全面实施数字化治理能力考核</li>
@@ -448,9 +476,10 @@
             <p style="margin-top: 20px;"><strong>2026年最新数据：</strong>截至2025年12月，我国互联网普及率突破80%，数字经济核心产业增加值占GDP比重提升至10.5%，生成式人工智能用户规模达6.02亿人，5G基站达483.8万座。</p>
         </section>
 
-        <!-- 国家级机关 -->
-        <section id="national" class="gov-section">
-            <h2>国家级机关</h2>
+        <!-- 国家级（中央） -->
+        <section id="central" class="gov-section">
+            <h2>🏛️ 国家级（中央）</h2>
+            <p>国家级机关包括党中央、全国人民代表大会、国家政协、国务院及最高人民法院、最高人民检察院等。</p>
 
             <!-- 国务院 -->
             <div class="org-detail">
