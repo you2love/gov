@@ -65,77 +65,14 @@
     </style>
 </head>
 <body>
-    <aside class="sidebar">
-        <div class="sidebar-header">
-            <h2>党的机关</h2>
-            <p>按机构类型浏览</p>
-        </div>
-        <nav class="tree-nav">
-            <ul class="tree-root">
-                <li class="tree-node">
-                    <a href="central-npc.html" class="tree-node-header" data-level="central">
-                        <span class="tree-toggle">▶</span>
-                        <span class="tree-label">中央直属机关</span>
-                    </a>
-                </li>
-                <li class="tree-node">
-                    <a href="party-ccao.html" class="tree-node-header" data-level="party">
-                        <span class="tree-toggle">▶</span>
-                        <span class="tree-label">中共中央办公厅</span>
-                    </a>
-                </li>
-                <li class="tree-node">
-                    <a href="party-org.html" class="tree-node-header" data-level="party">
-                        <span class="tree-toggle">▶</span>
-                        <span class="tree-label">中共中央组织部</span>
-                    </a>
-                </li>
-                <li class="tree-node">
-                    <a href="party-propaganda.html" class="tree-node-header" data-level="party">
-                        <span class="tree-toggle">▶</span>
-                        <span class="tree-label">中共中央宣传部</span>
-                    </a>
-                </li>
-                <li class="tree-node">
-                    <a href="party-united-front.html" class="tree-node-header" data-level="party">
-                        <span class="tree-toggle">▶</span>
-                        <span class="tree-label">中共中央统战部</span>
-                    </a>
-                </li>
-                <li class="tree-node">
-                    <a href="party-discipline.html" class="tree-node-header active" data-level="party">
-                        <span class="tree-toggle rotated">▶</span>
-                        <span class="tree-label">中央纪委国家监委</span>
-                    </a>
-                    <ul class="tree-children expanded">
-                        <li class="tree-node">
-                            <a href="#process" class="tree-node-header">
-                                <span class="tree-label">监督执纪</span>
-                            </a>
-                        </li>
-                        <li class="tree-node">
-                            <a href="#stats" class="tree-node-header">
-                                <span class="tree-label">反腐数据</span>
-                            </a>
-                        </li>
-                        <li class="tree-node">
-                            <a href="#reform" class="tree-node-header">
-                                <span class="tree-label">监察体制改革</span>
-                            </a>
-                        </li>
-                    </ul>
-                </li>
-            </ul>
-        </nav>
-    </aside>
-
-    <main class="main-content">
+<div id="sidebar-container"></div>
+<script src="../app.js" defer></script>
+<main class="main-content" style="margin-left: var(--sidebar-width);">
         <div class="content-wrapper">
             <header class="hero-section">
                 <h1>中央纪委国家监委</h1>
                 <p>党内监督和国家监察专责机关</p>
             </header>
-
             <section class="gov-section">
                 <div class="org-detail">
                     <div class="org-header">
@@ -146,7 +83,6 @@
                     </div>
                 </div>
             </section>
-
             <!-- 监督执纪流程 -->
             <section id="process" class="gov-section">
                 <h2>🔍 监督执纪工作流程</h2>
@@ -172,7 +108,6 @@
                     </div>
                 </div>
             </section>
-
             <!-- 反腐统计数据 -->
             <section id="stats" class="gov-section">
                 <h2>📊 反腐败工作数据 (2025)</h2>
@@ -213,7 +148,6 @@
                     </tbody>
                 </table>
             </section>
-
             <!-- 监察体制改革 -->
             <section id="reform" class="gov-section">
                 <h2>🏛️ 监察体制改革体系</h2>
@@ -245,7 +179,6 @@
                     </div>
                 </div>
             </section>
-
             <!-- 智慧纪检监察 -->
             <section class="gov-section">
                 <h2>💻 智慧纪检监察 (2026)</h2>
@@ -268,13 +201,10 @@
                     </div>
                 </div>
             </section>
-
             <div class="back-to-home">
                 <a href="../index.html" class="btn-back">← 返回首页</a>
             </div>
         </div>
     </main>
-
-    <script src="../app.js"></script>
 </body>
 </html>

@@ -16,80 +16,14 @@
     </style>
 </head>
 <body>
-    <aside class="sidebar">
-        <div class="sidebar-header">
-            <h2>政府机关</h2>
-            <p>按地域层级浏览</p>
-        </div>
-        <nav class="tree-nav">
-            <ul class="tree-root">
-                <li class="tree-node">
-                    <a href="../index.html#national" class="tree-node-header">国家级机关</a>
-                </li>
-                <li class="tree-node">
-                    <a href="#provincial" class="tree-node-header" data-level="province">
-                        <span class="tree-toggle rotated">▶</span>
-                        <span class="tree-label">省级政府</span>
-                    </a>
-                    <ul class="tree-children expanded">
-                        <li class="tree-node"><a href="beijing-depts.html">北京市</a></li>
-                        <li class="tree-node"><a href="shanghai-depts.html">上海市</a></li>
-                        <li class="tree-node"><a href="guangdong-depts.html">广东省</a></li>
-                        <li class="tree-node"><a href="zhejiang-depts.html">浙江省</a></li>
-                        <li class="tree-node"><a href="jiangsu-depts.html">江苏省</a></li>
-                        <li class="tree-node"><a href="shandong-depts.html">山东省</a></li>
-                        <li class="tree-node"><a href="sichuan-depts.html">四川省</a></li>
-                        <li class="tree-node"><a href="hubei-depts.html">湖北省</a></li>
-                        <li class="tree-node"><a href="hunan-depts.html">湖南省</a></li>
-                        <li class="tree-node"><a href="henan-depts.html">河南省</a></li>
-                        <li class="tree-node">
-                            <a href="hebei-depts.html" class="tree-node-header active">
-                                <span class="tree-toggle rotated">▶</span>
-                                <span class="tree-label">河北省</span>
-                            </a>
-                            <ul class="tree-children expanded">
-                                <li class="tree-node"><a href="#economy">机构概览</a></li>
-                                <li class="tree-node"><a href="#economy">经济发展</a></li>
-                                <li class="tree-node"><a href="#social">社会民生</a></li>
-                                <li class="tree-node"><a href="#resources">自然资源</a></li>
-                                <li class="tree-node"><a href="#coordination">京津冀协同</a></li>
-                                <li class="tree-node"><strong>—— 政府机构 ——</strong></li>
-                                <li class="tree-node"><a href="hebei-fagai.html">发展和改革委员会</a></li>
-                                <li class="tree-node"><a href="hebei-jiaoyut.html">教育厅</a></li>
-                                <li class="tree-node"><a href="hebei-kexuejishut.html">科学技术厅</a></li>
-                                <li class="tree-node"><a href="hebei-gongyeting.html">工业和信息化厅</a></li>
-                                <li class="tree-node"><a href="hebei-minzhengting.html">民政厅</a></li>
-                                <li class="tree-node"><a href="hebei-sifat.html">司法厅</a></li>
-                                <li class="tree-node"><a href="hebei-renshet.html">人力资源和社会保障厅</a></li>
-                                <li class="tree-node"><a href="hebei-zirant.html">自然资源厅</a></li>
-                                <li class="tree-node"><a href="hebei-shengtaiju.html">生态环境厅</a></li>
-                                <li class="tree-node"><a href="hebei-zhubanting.html">住房和城乡建设厅</a></li>
-                                <li class="tree-node"><a href="hebei-jiaotongting.html">交通运输厅</a></li>
-                                <li class="tree-node"><a href="hebei-shuilit.html">水利厅</a></li>
-                                <li class="tree-node"><a href="hebei-nongyeting.html">农业农村厅</a></li>
-                                <li class="tree-node"><a href="hebei-shangwuting.html">商务厅</a></li>
-                                <li class="tree-node"><a href="hebei-wenhualvyou.html">文化和旅游厅</a></li>
-                                <li class="tree-node"><a href="hebei-weijianhui.html">卫生健康委员会</a></li>
-                                <li class="tree-node"><a href="hebei-yingjiguanli.html">应急管理厅</a></li>
-                                <li class="tree-node"><a href="hebei-shichangjiandu.html">市场监督管理局</a></li>
-                                <li class="tree-node"><a href="hebei-caizhengting.html">财政厅</a></li>
-                                <li class="tree-node"><a href="hebei-gonganju.html">公安厅</a></li>
-                            </ul>
-                        </li>
-                        <li class="tree-node"><a href="fujian-depts.html">福建省</a></li>
-                    </ul>
-                </li>
-            </ul>
-        </nav>
-    </aside>
-
-    <main class="main-content">
+<div id="sidebar-container"></div>
+<script src="../app.js" defer></script>
+<main class="main-content" style="margin-left: var(--sidebar-width);">
         <div class="content-wrapper">
             <header class="hero-section">
                 <h1>河北省人民政府下属机构</h1>
                 <p>省级政府 · 省政府组成部门</p>
             </header>
-
             <section id="overview" class="gov-section">
                 <h2>📊 河北省基本情况</h2>
                 <div class="stat-row">
@@ -111,7 +45,6 @@
                     </div>
                 </div>
             </section>
-
             <section id="economy" class="gov-section">
                 <h2>💰 经济部门</h2>
                 <div class="dept-grid">
@@ -151,7 +84,6 @@
                     </div>
                 </div>
             </section>
-
             <section id="social" class="gov-section">
                 <h2>👥 社会民生部门</h2>
                 <div class="dept-grid">
@@ -192,7 +124,6 @@
                     </div>
                 </div>
             </section>
-
             <section id="resources" class="gov-section">
                 <h2>🌿 自然资源部门</h2>
                 <div class="dept-grid">
@@ -253,7 +184,6 @@
                     </div>
                 </div>
             </section>
-
             <section id="culture" class="gov-section">
                 <h2>🎭 文化旅游部门</h2>
                 <div class="dept-grid">
@@ -266,7 +196,6 @@
                     </div>
                 </div>
             </section>
-
             <section id="coordination" class="gov-section">
                 <h2>🌐 京津冀协同发展</h2>
                 <div class="dept-grid">
@@ -298,13 +227,10 @@
                     </div>
                 </div>
             </section>
-
             <div class="back-to-home">
                 <a href="../index.html" class="btn-back">← 返回首页</a>
             </div>
         </div>
     </main>
-
-    <script src="../app.js"></script>
 </body>
 </html>

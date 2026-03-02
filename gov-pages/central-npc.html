@@ -128,100 +128,14 @@
     </style>
 </head>
 <body>
-    <aside class="sidebar">
-        <div class="sidebar-header">
-            <h2>中央直属机关</h2>
-            <p>按机构类型浏览</p>
-        </div>
-        <nav class="tree-nav">
-            <ul class="tree-root">
-                <li class="tree-node">
-                    <a href="central-npc.html" class="tree-node-header active" data-level="central">
-                        <span class="tree-toggle rotated">▶</span>
-                        <span class="tree-label">全国人大常委会</span>
-                    </a>
-                    <ul class="tree-children expanded">
-                        <li class="tree-node">
-                            <a href="#structure" class="tree-node-header">
-                                <span class="tree-label">组织架构</span>
-                            </a>
-                        </li>
-                        <li class="tree-node">
-                            <a href="#personnel" class="tree-node-header">
-                                <span class="tree-label">人员管理</span>
-                            </a>
-                        </li>
-                        <li class="tree-node">
-                            <a href="#finance" class="tree-node-header">
-                                <span class="tree-label">经费来源</span>
-                            </a>
-                        </li>
-                        <li class="tree-node">
-                            <a href="#history" class="tree-node-header">
-                                <span class="tree-label">历史沿革</span>
-                            </a>
-                        </li>
-                    </ul>
-                </li>
-                <li class="tree-node">
-                    <a href="central-cppcc.html" class="tree-node-header" data-level="central">
-                        <span class="tree-toggle">▶</span>
-                        <span class="tree-label">全国政协</span>
-                    </a>
-                </li>
-                <li class="tree-node">
-                    <a href="central-supreme-court.html" class="tree-node-header" data-level="central">
-                        <span class="tree-toggle">▶</span>
-                        <span class="tree-label">最高人民法院</span>
-                    </a>
-                </li>
-                <li class="tree-node">
-                    <a href="central-supreme-prosecutor.html" class="tree-node-header" data-level="central">
-                        <span class="tree-toggle">▶</span>
-                        <span class="tree-label">最高人民检察院</span>
-                    </a>
-                </li>
-                <li class="tree-node">
-                    <a href="party-ccao.html" class="tree-node-header" data-level="party">
-                        <span class="tree-toggle">▶</span>
-                        <span class="tree-label">中共中央办公厅</span>
-                    </a>
-                </li>
-                <li class="tree-node">
-                    <a href="party-org.html" class="tree-node-header" data-level="party">
-                        <span class="tree-toggle">▶</span>
-                        <span class="tree-label">中共中央组织部</span>
-                    </a>
-                </li>
-                <li class="tree-node">
-                    <a href="party-propaganda.html" class="tree-node-header" data-level="party">
-                        <span class="tree-toggle">▶</span>
-                        <span class="tree-label">中共中央宣传部</span>
-                    </a>
-                </li>
-                <li class="tree-node">
-                    <a href="party-united-front.html" class="tree-node-header" data-level="party">
-                        <span class="tree-toggle">▶</span>
-                        <span class="tree-label">中共中央统战部</span>
-                    </a>
-                </li>
-                <li class="tree-node">
-                    <a href="party-discipline.html" class="tree-node-header" data-level="party">
-                        <span class="tree-toggle">▶</span>
-                        <span class="tree-label">中央纪委国家监委</span>
-                    </a>
-                </li>
-            </ul>
-        </nav>
-    </aside>
-
-    <main class="main-content">
+<div id="sidebar-container"></div>
+<script src="../app.js" defer></script>
+<main class="main-content" style="margin-left: var(--sidebar-width);">
         <div class="content-wrapper">
             <header class="hero-section">
                 <h1>全国人民代表大会常务委员会</h1>
                 <p>国家立法机关 · 中央直属机关</p>
             </header>
-
             <section class="gov-section">
                 <div class="org-detail">
                     <div class="org-header">
@@ -232,7 +146,6 @@
                     </div>
                 </div>
             </section>
-
             <!-- 组织架构树图 -->
             <section id="structure" class="gov-section">
                 <h2>🏛️ 组织架构树图</h2>
@@ -312,7 +225,6 @@
                     </div>
                 </div>
             </section>
-
             <!-- 人员管理表格 -->
             <section id="personnel" class="gov-section">
                 <h2>👥 人员管理表格</h2>
@@ -353,7 +265,6 @@
                     </tbody>
                 </table>
             </section>
-
             <!-- 经费数据卡片 -->
             <section id="finance" class="gov-section">
                 <h2>💰 经费来源与预算</h2>
@@ -384,7 +295,6 @@
                     </div>
                 </div>
             </section>
-
             <!-- 历史沿革时间线 -->
             <section id="history" class="gov-section">
                 <h2>📜 历史沿革时间线</h2>
@@ -425,13 +335,10 @@
                     </div>
                 </div>
             </section>
-
             <div class="back-to-home">
                 <a href="../index.html" class="btn-back">← 返回首页</a>
             </div>
         </div>
     </main>
-
-    <script src="../app.js"></script>
 </body>
 </html>

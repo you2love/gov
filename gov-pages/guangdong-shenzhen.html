@@ -7,112 +7,17 @@
     <link rel="stylesheet" href="../styles.css">
 </head>
 <body>
+<div id="sidebar-container"></div>
+<script src="../app.js" defer></script>
     <!-- 左侧树形导航侧边栏 -->
-    <aside class="sidebar">
-        <div class="sidebar-header">
-            <h2>政府机关</h2>
-            <p>按地域层级浏览</p>
-        </div>
-        <nav class="tree-nav">
-            <ul class="tree-root">
-                <!-- 省级 -->
-                <li class="tree-node">
-                    <a href="../index.html" class="tree-node-header" data-level="province">
-                        <span class="tree-toggle">▶</span>
-                        <span class="tree-label">北京市</span>
-                    </a>
-                </li>
-
-                <!-- 省级 -->
-                <li class="tree-node">
-                    <a href="../index.html" class="tree-node-header" data-level="province">
-                        <span class="tree-toggle">▶</span>
-                        <span class="tree-label">上海市</span>
-                    </a>
-                </li>
-
-                <!-- 省级 -->
-                <li class="tree-node">
-                    <a href="guangdong.html" class="tree-node-header active" data-level="province">
-                        <span class="tree-toggle rotated">▶</span>
-                        <span class="tree-label">广东省</span>
-                    </a>
-                    <ul class="tree-children expanded">
-                        <!-- 市级 -->
-                        <li class="tree-node">
-                            <a href="guangdong-shenzhen.html" class="tree-node-header active" data-level="city">
-                                <span class="tree-toggle rotated">▶</span>
-                                <span class="tree-label">深圳市</span>
-                            </a>
-                            <ul class="tree-children expanded">
-                                <!-- 区县级 -->
-                                <li class="tree-node">
-                                    <a href="guangdong-shenzhen-nanshan.html" class="tree-node-header" data-level="district">
-                                        <span class="tree-toggle">▶</span>
-                                        <span class="tree-label">南山区</span>
-                                    </a>
-                                    <ul class="tree-children">
-                                        <!-- 乡级 -->
-                                        <li class="tree-node">
-                                            <a href="guangdong-shenzhen-nanshan-yuehai.html" class="tree-node-header" data-level="township">
-                                                <span class="tree-label">粤海街道</span>
-                                            </a>
-                                        </li>
-                                        <li class="tree-node">
-                                            <a href="guangdong-shenzhen-nanshan-nanshan.html" class="tree-node-header" data-level="township">
-                                                <span class="tree-label">南山街道</span>
-                                            </a>
-                                        </li>
-                                        <li class="tree-node">
-                                            <a href="guangdong-shenzhen-nanshan-xili.html" class="tree-node-header" data-level="township">
-                                                <span class="tree-label">西丽街道</span>
-                                            </a>
-                                        </li>
-                                    </ul>
-                                </li>
-                                <li class="tree-node">
-                                    <a href="guangdong-shenzhen-futian.html" class="tree-node-header" data-level="district">
-                                        <span class="tree-toggle">▶</span>
-                                        <span class="tree-label">福田区</span>
-                                    </a>
-                                </li>
-                                <li class="tree-node">
-                                    <a href="guangdong-shenzhen-luohu.html" class="tree-node-header" data-level="district">
-                                        <span class="tree-toggle">▶</span>
-                                        <span class="tree-label">罗湖区</span>
-                                    </a>
-                                </li>
-                            </ul>
-                        </li>
-                        <li class="tree-node">
-                            <a href="guangdong-guangzhou.html" class="tree-node-header" data-level="city">
-                                <span class="tree-toggle">▶</span>
-                                <span class="tree-label">广州市</span>
-                            </a>
-                        </li>
-                    </ul>
-                </li>
-
-                <!-- 省级 -->
-                <li class="tree-node">
-                    <a href="../index.html" class="tree-node-header" data-level="province">
-                        <span class="tree-toggle">▶</span>
-                        <span class="tree-label">浙江省</span>
-                    </a>
-                </li>
-            </ul>
-        </nav>
-    </aside>
-
-    <!-- 主要内容 -->
-    <main class="main-content">
+<!-- 主要内容 -->
+    <main class="main-content" style="margin-left: var(--sidebar-width);">
         <div class="content-wrapper">
             <!-- 头部横幅 -->
             <header class="hero-section">
                 <h1>深圳市人民政府</h1>
                 <p>副省级政府 · 地方行政机关</p>
             </header>
-
             <!-- 机构详情 -->
             <section class="gov-section">
                 <div class="org-detail">
@@ -125,13 +30,10 @@
                     <div class="org-info">
                     <h4>人员来源</h4>
                     <p>深圳市公务员通过深圳市公务员考试招录。面向全国招录优秀人才，特别是科技、金融、法律等领域。2026年大力引进人工智能、区块链、量子科技、低空经济等前沿领域人才。海外人才引进政策优惠。实施新质生产力人才专项引进计划。</p>
-                    
                     <h4>人员升迁</h4>
                     <p>实行公务员职级并行制度。作为经济特区，创新能力强，晋升机制灵活。2026年全面升级创新能力和数字化成果考核，智慧城市运营能力成为重要指标。国际化人才晋升通道畅通。</p>
-                    
                     <h4>资金来源</h4>
                     <p>深圳市财政预算拨款。深圳财政实力雄厚，人均财政收入全国领先。2026年科技创新和智慧城市建设投入占比达55%。率先实施零基预算改革试点。数字经济核心产业规模位居全国前列。</p>
-
                         <h4>下属机构（33个）</h4>
                         <p>深圳市政府下设33个组成部门和直属机构：</p>
                         <ul>
@@ -173,14 +75,11 @@
                     </div>
                 </div>
             </section>
-
             <!-- 返回首页 -->
             <div class="back-to-home">
                 <a href="../index.html" class="btn-back">← 返回首页</a>
             </div>
         </div>
     </main>
-
-    <script src="../app.js"></script>
 </body>
 </html>

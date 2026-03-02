@@ -52,77 +52,14 @@
     </style>
 </head>
 <body>
-    <aside class="sidebar">
-        <div class="sidebar-header">
-            <h2>党的机关</h2>
-            <p>按机构类型浏览</p>
-        </div>
-        <nav class="tree-nav">
-            <ul class="tree-root">
-                <li class="tree-node">
-                    <a href="central-npc.html" class="tree-node-header" data-level="central">
-                        <span class="tree-toggle">▶</span>
-                        <span class="tree-label">中央直属机关</span>
-                    </a>
-                </li>
-                <li class="tree-node">
-                    <a href="party-ccao.html" class="tree-node-header" data-level="party">
-                        <span class="tree-toggle">▶</span>
-                        <span class="tree-label">中共中央办公厅</span>
-                    </a>
-                </li>
-                <li class="tree-node">
-                    <a href="party-org.html" class="tree-node-header" data-level="party">
-                        <span class="tree-toggle">▶</span>
-                        <span class="tree-label">中共中央组织部</span>
-                    </a>
-                </li>
-                <li class="tree-node">
-                    <a href="party-propaganda.html" class="tree-node-header active" data-level="party">
-                        <span class="tree-toggle rotated">▶</span>
-                        <span class="tree-label">中共中央宣传部</span>
-                    </a>
-                    <ul class="tree-children expanded">
-                        <li class="tree-node">
-                            <a href="#work" class="tree-node-header">
-                                <span class="tree-label">宣传工作</span>
-                            </a>
-                        </li>
-                        <li class="tree-node">
-                            <a href="#media" class="tree-node-header">
-                                <span class="tree-label">媒体矩阵</span>
-                            </a>
-                        </li>
-                        <li class="tree-node">
-                            <a href="#culture" class="tree-node-header">
-                                <span class="tree-label">文化建设</span>
-                            </a>
-                        </li>
-                    </ul>
-                </li>
-                <li class="tree-node">
-                    <a href="party-united-front.html" class="tree-node-header" data-level="party">
-                        <span class="tree-toggle">▶</span>
-                        <span class="tree-label">中共中央统战部</span>
-                    </a>
-                </li>
-                <li class="tree-node">
-                    <a href="party-discipline.html" class="tree-node-header" data-level="party">
-                        <span class="tree-toggle">▶</span>
-                        <span class="tree-label">中央纪委国家监委</span>
-                    </a>
-                </li>
-            </ul>
-        </nav>
-    </aside>
-
-    <main class="main-content">
+<div id="sidebar-container"></div>
+<script src="../app.js" defer></script>
+<main class="main-content" style="margin-left: var(--sidebar-width);">
         <div class="content-wrapper">
             <header class="hero-section">
                 <h1>中共中央宣传部</h1>
                 <p>党中央主管意识形态工作和宣传思想文化工作的职能部门</p>
             </header>
-
             <section class="gov-section">
                 <div class="org-detail">
                     <div class="org-header">
@@ -133,7 +70,6 @@
                     </div>
                 </div>
             </section>
-
             <!-- 重点工作雷达图 -->
             <section id="work" class="gov-section">
                 <h2>📡 重点工作领域</h2>
@@ -164,7 +100,6 @@
                     </div>
                 </div>
             </section>
-
             <!-- 媒体矩阵表格 -->
             <section id="media" class="gov-section">
                 <h2>📺 主流媒体矩阵</h2>
@@ -205,7 +140,6 @@
                     </tbody>
                 </table>
             </section>
-
             <!-- 文化建设 -->
             <section id="culture" class="gov-section">
                 <h2>🎨 文化建设重点</h2>
@@ -228,13 +162,10 @@
                     </div>
                 </div>
             </section>
-
             <div class="back-to-home">
                 <a href="../index.html" class="btn-back">← 返回首页</a>
             </div>
         </div>
     </main>
-
-    <script src="../app.js"></script>
 </body>
 </html>

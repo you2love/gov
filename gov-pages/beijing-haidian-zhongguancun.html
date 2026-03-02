@@ -7,70 +7,17 @@
     <link rel="stylesheet" href="../styles.css">
 </head>
 <body>
+<div id="sidebar-container"></div>
+<script src="../app.js" defer></script>
     <!-- 左侧树形导航侧边栏 -->
-    <aside class="sidebar">
-        <div class="sidebar-header">
-            <h2>政府机关</h2>
-            <p>按地域层级浏览</p>
-        </div>
-        <nav class="tree-nav">
-            <ul class="tree-root">
-                <!-- 省级 -->
-                <li class="tree-node">
-                    <a href="../index.html" class="tree-node-header active" data-level="province">
-                        <span class="tree-toggle rotated">▶</span>
-                        <span class="tree-label">北京市</span>
-                    </a>
-                    <ul class="tree-children expanded">
-                        <!-- 市级 -->
-                        <li class="tree-node">
-                            <a href="../index.html" class="tree-node-header active" data-level="city">
-                                <span class="tree-toggle rotated">▶</span>
-                                <span class="tree-label">北京市</span>
-                            </a>
-                            <ul class="tree-children expanded">
-                                <!-- 区县级 -->
-                                <li class="tree-node">
-                                    <a href="beijing-haidian.html" class="tree-node-header active" data-level="district">
-                                        <span class="tree-toggle rotated">▶</span>
-                                        <span class="tree-label">海淀区</span>
-                                    </a>
-                                    <ul class="tree-children expanded">
-                                        <!-- 乡级 -->
-                                        <li class="tree-node">
-                                            <a href="beijing-haidian-zhongguancun.html" class="tree-node-header active" data-level="township">
-                                                <span class="tree-label">中关村街道</span>
-                                            </a>
-                                        </li>
-                                        <li class="tree-node">
-                                            <a href="beijing-haidian-qinghuayuan.html" class="tree-node-header" data-level="township">
-                                                <span class="tree-label">清华园街道</span>
-                                            </a>
-                                        </li>
-                                        <li class="tree-node">
-                                            <a href="beijing-haidian-yanyuan.html" class="tree-node-header" data-level="township">
-                                                <span class="tree-label">燕园街道</span>
-                                            </a>
-                                        </li>
-                                    </ul>
-                                </li>
-                            </ul>
-                        </li>
-                    </ul>
-                </li>
-            </ul>
-        </nav>
-    </aside>
-
-    <!-- 主要内容 -->
-    <main class="main-content">
+<!-- 主要内容 -->
+    <main class="main-content" style="margin-left: var(--sidebar-width);">
         <div class="content-wrapper">
             <!-- 头部横幅 -->
             <header class="hero-section">
                 <h1>中关村街道办事处</h1>
                 <p>乡级政府 · 基层行政机关</p>
             </header>
-
             <!-- 机构详情 -->
             <section class="gov-section">
                 <div class="org-detail">
@@ -83,13 +30,10 @@
                     <div class="org-info">
                         <h4>人员来源</h4>
                         <p>街道办事处工作人员通过北京市公务员考试招录，也通过社区工作者招聘等方式选拔。2026年重点引进社区治理、智慧社区建设、基层公共服务等专业人才。部分岗位从优秀社区工作者中选拔。</p>
-
                         <h4>人员升迁</h4>
                         <p>实行公务员职级并行制度。从科员、副科、正科逐级晋升。2026年增加基层治理能力和社区服务考核。优秀社区工作者可通过专项招录进入公务员队伍。</p>
-
                         <h4>资金来源</h4>
                         <p>海淀区财政预算拨款，街道经费列入区级财政预算。2026年智慧社区建设和基层治理创新投入占比增加。</p>
-
                         <h4>下属机构</h4>
                         <p>中关村街道办事处下设多个科室和事业单位，负责辖区内的行政管理和公共服务工作：</p>
                         <ul>
@@ -107,14 +51,11 @@
                     </div>
                 </div>
             </section>
-
             <!-- 返回首页 -->
             <div class="back-to-home">
                 <a href="../index.html" class="btn-back">← 返回首页</a>
             </div>
         </div>
     </main>
-
-    <script src="../app.js"></script>
 </body>
 </html>

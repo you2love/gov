@@ -7,216 +7,17 @@
     <link rel="stylesheet" href="../styles.css">
 </head>
 <body>
+<div id="sidebar-container"></div>
+<script src="../app.js" defer></script>
     <!-- 左侧树形导航侧边栏 -->
-    <aside class="sidebar">
-        <div class="sidebar-header">
-            <h2>政府机关</h2>
-            <p>按地域层级浏览</p>
-        </div>
-        <nav class="tree-nav">
-            <ul class="tree-root">
-                <!-- 省级 -->
-                <li class="tree-node">
-                    <a href="../index.html" class="tree-node-header" data-level="province">
-                        <span class="tree-toggle">▶</span>
-                        <span class="tree-label">北京市</span>
-                    </a>
-                </li>
-
-                <!-- 省级 -->
-                <li class="tree-node">
-                    <a href="../index.html" class="tree-node-header" data-level="province">
-                        <span class="tree-toggle">▶</span>
-                        <span class="tree-label">上海市</span>
-                    </a>
-                </li>
-
-                <!-- 省级 -->
-                <li class="tree-node">
-                    <a href="guangdong.html" class="tree-node-header active" data-level="province">
-                        <span class="tree-toggle rotated">▶</span>
-                        <span class="tree-label">广东省</span>
-                    </a>
-                    <ul class="tree-children expanded">
-                        <li class="tree-node">
-                            <a href="guangdong-depts.html" class="tree-node-header" data-level="dept">
-                                <span class="tree-toggle rotated">▶</span>
-                                <span class="tree-label">省政府下属机构</span>
-                            </a>
-                            <ul class="tree-children expanded">
-                                <li class="tree-node"><a href="guangdong-fagai.html">发展和改革委员会</a></li>
-                                <li class="tree-node"><a href="guangdong-kexuejishut.html">科学技术厅</a></li>
-                                <li class="tree-node"><a href="guangdong-gongyeting.html">工业和信息化厅</a></li>
-                                <li class="tree-node"><a href="guangdong-minzong.html">民族宗教事务委员会</a></li>
-                                <li class="tree-node"><a href="guangdong-gonganju.html">公安厅</a></li>
-                                <li class="tree-node"><a href="guangdong-minzhengt.html">民政厅</a></li>
-                                <li class="tree-node"><a href="guangdong-sifat.html">司法厅</a></li>
-                                <li class="tree-node"><a href="guangdong-caizhengting.html">财政厅</a></li>
-                                <li class="tree-node"><a href="guangdong-renshet.html">人力资源和社会保障厅</a></li>
-                                <li class="tree-node"><a href="guangdong-zirant.html">自然资源厅</a></li>
-                                <li class="tree-node"><a href="guangdong-shengtaiju.html">生态环境厅</a></li>
-                                <li class="tree-node"><a href="guangdong-zhujiant.html">住房和城乡建设厅</a></li>
-                                <li class="tree-node"><a href="guangdong-jiaotongting.html">交通运输厅</a></li>
-                                <li class="tree-node"><a href="guangdong-shuilit.html">水利厅</a></li>
-                                <li class="tree-node"><a href="guangdong-nongyeting.html">农业农村厅</a></li>
-                                <li class="tree-node"><a href="guangdong-shangwuting.html">商务厅</a></li>
-                                <li class="tree-node"><a href="guangdong-wenhualvyou.html">文化和旅游厅</a></li>
-                                <li class="tree-node"><a href="guangdong-weijianhui.html">卫生健康委员会</a></li>
-                                <li class="tree-node"><a href="guangdong-tuixjun.html">退役军人事务厅</a></li>
-                                <li class="tree-node"><a href="guangdong-yingjiguanli.html">应急管理厅</a></li>
-                                <li class="tree-node"><a href="guangdong-shenjit.html">审计厅</a></li>
-                                <li class="tree-node"><a href="guangdong-guozijian.html">国有资产监督管理委员会</a></li>
-                                <li class="tree-node"><a href="guangdong-shichangjiandu.html">市场监督管理局</a></li>
-                                <li class="tree-node"><a href="guangdong-guangbo.html">广播电视局</a></li>
-                                <li class="tree-node"><a href="guangdong-tiyuj.html">体育局</a></li>
-                                <li class="tree-node"><a href="guangdong-tongjij.html">统计局</a></li>
-                                <li class="tree-node"><a href="guangdong-yiliaobaozhang.html">医疗保障局</a></li>
-                                <li class="tree-node"><a href="guangdong-jinrongjiandu.html">地方金融监督管理局</a></li>
-                                <li class="tree-node"><a href="guangdong-zhengwufuwu.html">政务服务数据管理局</a></li>
-                                <li class="tree-node"><a href="guangdong-xinfaj.html">信访局</a></li>
-                                <li class="tree-node"><a href="guangdong-dawanqu.html">粤港澳大湾区建设办公室</a></li>
-                                <li class="tree-node"><a href="guangdong-shuzwanqu.html">数字湾区建设办公室</a></li>
-                            </ul>
-                        </li>
-                        <!-- 市级 -->
-                        <li class="tree-node">
-                            <a href="guangdong-shenzhen.html" class="tree-node-header" data-level="city">
-                                <span class="tree-toggle">▶</span>
-                                <span class="tree-label">深圳市</span>
-                            </a>
-                            <ul class="tree-children">
-                                <!-- 区县级 -->
-                                <li class="tree-node">
-                                    <a href="guangdong-shenzhen-nanshan.html" class="tree-node-header" data-level="district">
-                                        <span class="tree-toggle">▶</span>
-                                        <span class="tree-label">南山区</span>
-                                    </a>
-                                    <ul class="tree-children">
-                                        <!-- 乡级 -->
-                                        <li class="tree-node">
-                                            <a href="guangdong-shenzhen-nanshan-yuehai.html" class="tree-node-header" data-level="township">
-                                                <span class="tree-label">粤海街道</span>
-                                            </a>
-                                        </li>
-                                        <li class="tree-node">
-                                            <a href="guangdong-shenzhen-nanshan-nanshan.html" class="tree-node-header" data-level="township">
-                                                <span class="tree-label">南山街道</span>
-                                            </a>
-                                        </li>
-                                        <li class="tree-node">
-                                            <a href="guangdong-shenzhen-nanshan-xili.html" class="tree-node-header" data-level="township">
-                                                <span class="tree-label">西丽街道</span>
-                                            </a>
-                                        </li>
-                                    </ul>
-                                </li>
-                                <li class="tree-node">
-                                    <a href="guangdong-shenzhen-futian.html" class="tree-node-header" data-level="district">
-                                        <span class="tree-toggle">▶</span>
-                                        <span class="tree-label">福田区</span>
-                                    </a>
-                                    <ul class="tree-children">
-                                        <li class="tree-node">
-                                            <a href="guangdong-shenzhen-futian-huaqiangbei.html" class="tree-node-header" data-level="township">
-                                                <span class="tree-label">华强北街道</span>
-                                            </a>
-                                        </li>
-                                        <li class="tree-node">
-                                            <a href="guangdong-shenzhen-futian-shatou.html" class="tree-node-header" data-level="township">
-                                                <span class="tree-label">沙头街道</span>
-                                            </a>
-                                        </li>
-                                    </ul>
-                                </li>
-                                <li class="tree-node">
-                                    <a href="guangdong-shenzhen-luohu.html" class="tree-node-header" data-level="district">
-                                        <span class="tree-toggle">▶</span>
-                                        <span class="tree-label">罗湖区</span>
-                                    </a>
-                                    <ul class="tree-children">
-                                        <li class="tree-node">
-                                            <a href="guangdong-shenzhen-luohu-guiyuan.html" class="tree-node-header" data-level="township">
-                                                <span class="tree-label">桂园街道</span>
-                                            </a>
-                                        </li>
-                                        <li class="tree-node">
-                                            <a href="guangdong-shenzhen-luohu-dongmen.html" class="tree-node-header" data-level="township">
-                                                <span class="tree-label">东门街道</span>
-                                            </a>
-                                        </li>
-                                    </ul>
-                                </li>
-                            </ul>
-                        </li>
-                        <li class="tree-node">
-                            <a href="guangdong-guangzhou.html" class="tree-node-header" data-level="city">
-                                <span class="tree-toggle">▶</span>
-                                <span class="tree-label">广州市</span>
-                            </a>
-                            <ul class="tree-children">
-                                <!-- 区县级 -->
-                                <li class="tree-node">
-                                    <a href="guangdong-guangzhou-tianhe.html" class="tree-node-header" data-level="district">
-                                        <span class="tree-toggle">▶</span>
-                                        <span class="tree-label">天河区</span>
-                                    </a>
-                                    <ul class="tree-children">
-                                        <!-- 乡级 -->
-                                        <li class="tree-node">
-                                            <a href="guangdong-guangzhou-tianhe-tianyuan.html" class="tree-node-header" data-level="township">
-                                                <span class="tree-label">天园街道</span>
-                                            </a>
-                                        </li>
-                                        <li class="tree-node">
-                                            <a href="guangdong-guangzhou-tianhe-linhe.html" class="tree-node-header" data-level="township">
-                                                <span class="tree-label">林和街道</span>
-                                            </a>
-                                        </li>
-                                    </ul>
-                                </li>
-                                <li class="tree-node">
-                                    <a href="guangdong-guangzhou-yuexiu.html" class="tree-node-header" data-level="district">
-                                        <span class="tree-toggle">▶</span>
-                                        <span class="tree-label">越秀区</span>
-                                    </a>
-                                    <ul class="tree-children">
-                                        <li class="tree-node">
-                                            <a href="guangdong-guangzhou-yuexiu-beijing.html" class="tree-node-header" data-level="township">
-                                                <span class="tree-label">北京街道</span>
-                                            </a>
-                                        </li>
-                                        <li class="tree-node">
-                                            <a href="guangdong-guangzhou-yuexiu-dongfeng.html" class="tree-node-header" data-level="township">
-                                                <span class="tree-label">东风街道</span>
-                                            </a>
-                                        </li>
-                                    </ul>
-                                </li>
-                            </ul>
-                        </li>
-                    </ul>
-                </li>
-
-                <!-- 省级 -->
-                <li class="tree-node">
-                    <a href="../index.html" class="tree-node-header" data-level="province">
-                        <span class="tree-toggle">▶</span>
-                        <span class="tree-label">浙江省</span>
-                    </a>
-                </li>
-            </ul>
-        </nav>
-    </aside>
-
-    <!-- 主要内容 -->
-    <main class="main-content">
+<!-- 主要内容 -->
+    <main class="main-content" style="margin-left: var(--sidebar-width);">
         <div class="content-wrapper">
             <!-- 头部横幅 -->
             <header class="hero-section">
                 <h1>广东省人民政府</h1>
                 <p>省级政府 · 地方行政机关</p>
             </header>
-
             <!-- 机构详情 -->
             <section class="gov-section">
                 <div class="org-detail">
@@ -229,13 +30,10 @@
                     <div class="org-info">
                         <h4>人员来源</h4>
                         <p>广东省公务员通过广东省公务员考试招录。面向全国招录，特别是经济发达地区。2026年重点引进港澳台人才、海外人才以及数字经济、人工智能等领域人才。港澳台人才、海外人才引进政策优惠。</p>
-
                         <h4>人员升迁</h4>
                         <p>实行公务员职级并行制度。经济发达地区晋升机会多，待遇好。2026年增加粤港澳合作和数字化管理考核。珠三角地区竞争激烈。</p>
-
                         <h4>资金来源</h4>
                         <p>广东省财政预算拨款。作为经济第一大省，财政收入规模全国领先。2026年粤港澳大湾区建设和数字化转型投入占比达45%。</p>
-
                         <h4>下属机构（33个）</h4>
                         <p>广东省政府下设33个组成部门和直属机构：</p>
                         <ul>
@@ -277,14 +75,11 @@
                     </div>
                 </div>
             </section>
-
             <!-- 返回首页 -->
             <div class="back-to-home">
                 <a href="../index.html" class="btn-back">← 返回首页</a>
             </div>
         </div>
     </main>
-
-    <script src="../app.js"></script>
 </body>
 </html>

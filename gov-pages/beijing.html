@@ -7,130 +7,17 @@
     <link rel="stylesheet" href="../styles.css">
 </head>
 <body>
+<div id="sidebar-container"></div>
+<script src="../app.js" defer></script>
     <!-- 左侧树形导航侧边栏 -->
-    <aside class="sidebar">
-        <div class="sidebar-header">
-            <h2>政府机关</h2>
-            <p>按地域层级浏览</p>
-        </div>
-        <nav class="tree-nav">
-            <ul class="tree-root">
-                <!-- 省级 -->
-                <li class="tree-node">
-                    <a href="beijing.html" class="tree-node-header active" data-level="province">
-                        <span class="tree-toggle rotated">▶</span>
-                        <span class="tree-label">北京市</span>
-                    </a>
-                    <ul class="tree-children expanded">
-                        <!-- 市级 -->
-                        <li class="tree-node">
-                            <a href="beijing.html" class="tree-node-header active" data-level="city">
-                                <span class="tree-toggle rotated">▶</span>
-                                <span class="tree-label">北京市</span>
-                            </a>
-                            <ul class="tree-children expanded">
-                                <!-- 区县级 -->
-                                <li class="tree-node">
-                                    <a href="beijing-haidian.html" class="tree-node-header" data-level="district">
-                                        <span class="tree-toggle">▶</span>
-                                        <span class="tree-label">海淀区</span>
-                                    </a>
-                                    <ul class="tree-children">
-                                        <!-- 乡级 -->
-                                        <li class="tree-node">
-                                            <a href="beijing-haidian-zhongguancun.html" class="tree-node-header" data-level="township">
-                                                <span class="tree-label">中关村街道</span>
-                                            </a>
-                                        </li>
-                                        <li class="tree-node">
-                                            <a href="beijing-haidian-qinghuayuan.html" class="tree-node-header" data-level="township">
-                                                <span class="tree-label">清华园街道</span>
-                                            </a>
-                                        </li>
-                                        <li class="tree-node">
-                                            <a href="beijing-haidian-yanyuan.html" class="tree-node-header" data-level="township">
-                                                <span class="tree-label">燕园街道</span>
-                                            </a>
-                                        </li>
-                                    </ul>
-                                </li>
-                                <li class="tree-node">
-                                    <a href="beijing-chaoyang.html" class="tree-node-header" data-level="district">
-                                        <span class="tree-toggle">▶</span>
-                                        <span class="tree-label">朝阳区</span>
-                                    </a>
-                                    <ul class="tree-children">
-                                        <li class="tree-node">
-                                            <a href="beijing-chaoyang-jianguomenwai.html" class="tree-node-header" data-level="township">
-                                                <span class="tree-label">建国门外街道</span>
-                                            </a>
-                                        </li>
-                                        <li class="tree-node">
-                                            <a href="beijing-chaoyang-chaowai.html" class="tree-node-header" data-level="township">
-                                                <span class="tree-label">朝外街道</span>
-                                            </a>
-                                        </li>
-                                    </ul>
-                                </li>
-                                <li class="tree-node">
-                                    <a href="beijing-dongcheng.html" class="tree-node-header" data-level="district">
-                                        <span class="tree-toggle">▶</span>
-                                        <span class="tree-label">东城区</span>
-                                    </a>
-                                    <ul class="tree-children">
-                                        <li class="tree-node">
-                                            <a href="beijing-dongcheng-donghuamen.html" class="tree-node-header" data-level="township">
-                                                <span class="tree-label">东华门街道</span>
-                                            </a>
-                                        </li>
-                                        <li class="tree-node">
-                                            <a href="beijing-dongcheng-jingshan.html" class="tree-node-header" data-level="township">
-                                                <span class="tree-label">景山街道</span>
-                                            </a>
-                                        </li>
-                                    </ul>
-                                </li>
-                            </ul>
-                        </li>
-                    </ul>
-                </li>
-
-                <!-- 省级 -->
-                <li class="tree-node">
-                    <a href="../index.html" class="tree-node-header" data-level="province">
-                        <span class="tree-toggle">▶</span>
-                        <span class="tree-label">上海市</span>
-                    </a>
-                </li>
-
-                <!-- 省级 -->
-                <li class="tree-node">
-                    <a href="../index.html" class="tree-node-header" data-level="province">
-                        <span class="tree-toggle">▶</span>
-                        <span class="tree-label">广东省</span>
-                    </a>
-                </li>
-
-                <!-- 省级 -->
-                <li class="tree-node">
-                    <a href="../index.html" class="tree-node-header" data-level="province">
-                        <span class="tree-toggle">▶</span>
-                        <span class="tree-label">浙江省</span>
-                    </a>
-                </li>
-            </ul>
-        </nav>
-    </aside>
-
-    <!-- 主要内容 -->
-    <main class="main-content">
+<!-- 主要内容 -->
+    <main class="main-content" style="margin-left: var(--sidebar-width);">
         <div class="content-wrapper">
             <!-- 头部横幅 -->
             <header class="hero-section">
                 <h1>北京市人民政府</h1>
                 <p>省级政府 · 地方行政机关</p>
             </header>
-
             <!-- 机构详情 -->
             <section class="gov-section">
                 <div class="org-detail">
@@ -143,13 +30,10 @@
                     <div class="org-info">
                         <h4>人员来源</h4>
                         <p>北京市公务员通过北京市公务员考试招录。工作人员面向全国高校毕业生、社会在职人员。2026年重点引进人工智能、量子计算、生物医药等前沿领域人才。部分岗位从中央单位、区县选拔。</p>
-
                         <h4>人员升迁</h4>
                         <p>实行公务员职级并行制度。从科员到处长、局长、副市长、市长、市委书记逐级晋升。2026年增加数字化治理能力考核。北京公务员待遇较高，竞争激烈。</p>
-
                         <h4>资金来源</h4>
                         <p>北京市财政预算拨款，经费来源包括税收、非税收入等。作为直辖市，财政自主权较大。2026年数字经济和智慧城市建设投入占比达35%。</p>
-
                         <h4>下属机构（35个）</h4>
                         <p>北京市政府下设35个组成部门和直属机构：</p>
                         <ul>
@@ -193,14 +77,11 @@
                     </div>
                 </div>
             </section>
-
             <!-- 返回首页 -->
             <div class="back-to-home">
                 <a href="../index.html" class="btn-back">← 返回首页</a>
             </div>
         </div>
     </main>
-
-    <script src="../app.js"></script>
 </body>
 </html>

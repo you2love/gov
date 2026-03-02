@@ -7,19 +7,79 @@ const ADMIN_LEVELS = {
     township: { name: '街道/乡镇', color: '#43e97b', order: 4 }
 };
 
-// 政府机构数据（从HTML中获取）
-let governmentData = window.governmentData || {};
+// 动态加载导航栏
+async function loadSidebar() {
+    const container = document.getElementById('sidebar-container');
+    if (!container) return;
+    
+    try {
+        // 获取当前页面的深度来确定正确的路径
+        const pathname = window.location.pathname;
+        let navPath, prefix;
+        
+        if (pathname.includes('/gov-pages/') || pathname.includes('/govjiang-shengt-pages/')) {
+            // 子页面在gov-pages或类似目录
+            navPath = '../nav-sidebar.html';
+            prefix = ''; // 子页面使用相对路径
+        } else {
+            // 根目录页面
+            navPath = 'nav-sidebar.html';
+            prefix = 'gov-pages/'; // 根页面需要添加gov-pages前缀
+        }
+        
+        const response = await fetch(navPath);
+        if (!response.ok) throw new Error('Failed to load navigation');
+        
+        let html = await response.text();
+        
+        // 如果是根目录页面，添加gov-pages/前缀到所有链接
+        if (prefix) {
+            html = html.replace(/href="(?!http|https|#|mailto)([^"]+)"/g, (match, p1) => {
+                // 跳过已包含gov-pages的链接、../链接、#锚点和index.html
+                if (p1.startsWith('gov-pages/') || p1.startsWith('../') || 
+                    p1.startsWith('#') || p1 === 'index.html' || p1.includes('#')) {
+                    return match;
+                }
+                return `href="${prefix}${p1}"`;
+            });
+        }
+        
+        container.innerHTML = html;
+        
+        // 初始化树形导航
+        setupTreeNavigation();
+        
+        // 设置移动端菜单
+        setupMobileMenu();
+    } catch (error) {
+        console.error('Error loading navigation:', error);
+        // 如果加载失败，使用内联导航（备用）
+        container.innerHTML = getInlineNavigation();
+        setupTreeNavigation();
+        setupMobileMenu();
+    }
+}
 
 // 页面加载完成后初始化
-document.addEventListener('DOMContentLoaded', function() {
+document.addEventListener('DOMContentLoaded', async function() {
+    // 加载导航栏
+    await loadSidebar();
+    
+    // 延迟确保导航栏已渲染
+    setTimeout(() => {
+        const sidebar = document.querySelector('.sidebar');
+        const mainContent = document.querySelector('.main-content');
+        if (mainContent && sidebar) {
+            mainContent.style.marginLeft = 'var(--sidebar-width)';
+        }
+    }, 100);
+    
     if (Object.keys(governmentData).length > 0) {
         renderGovernmentOrganizations();
     } else {
         showError('政府机构数据未加载，请刷新页面重试。');
     }
     setupEventListeners();
-    setupTreeNavigation();
-    setupMobileMenu();
 });
 
 // 设置树形导航功能

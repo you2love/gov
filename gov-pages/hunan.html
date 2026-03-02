@@ -7,96 +7,14 @@
     <link rel="stylesheet" href="../styles.css">
 </head>
 <body>
-    <aside class="sidebar">
-        <div class="sidebar-header">
-            <h2>政府机关</h2>
-            <p>按地域层级浏览</p>
-        </div>
-        <nav class="tree-nav">
-            <ul class="tree-root">
-                <li class="tree-node">
-                    <a href="../index.html" class="tree-node-header" data-level="province">
-                        <span class="tree-toggle">▶</span>
-                        <span class="tree-label">北京市</span>
-                    </a>
-                </li>
-                <li class="tree-node">
-                    <a href="../index.html" class="tree-node-header" data-level="province">
-                        <span class="tree-toggle">▶</span>
-                        <span class="tree-label">上海市</span>
-                    </a>
-                </li>
-                <li class="tree-node">
-                    <a href="../index.html" class="tree-node-header" data-level="province">
-                        <span class="tree-toggle">▶</span>
-                        <span class="tree-label">广东省</span>
-                    </a>
-                </li>
-                <li class="tree-node">
-                    <a href="../index.html" class="tree-node-header" data-level="province">
-                        <span class="tree-toggle">▶</span>
-                        <span class="tree-label">浙江省</span>
-                    </a>
-                </li>
-                <li class="tree-node">
-                    <a href="jiangsu.html" class="tree-node-header" data-level="province">
-                        <span class="tree-toggle">▶</span>
-                        <span class="tree-label">江苏省</span>
-                    </a>
-                </li>
-                <li class="tree-node">
-                    <a href="shandong.html" class="tree-node-header" data-level="province">
-                        <span class="tree-toggle">▶</span>
-                        <span class="tree-label">山东省</span>
-                    </a>
-                </li>
-                <li class="tree-node">
-                    <a href="sichuan.html" class="tree-node-header" data-level="province">
-                        <span class="tree-toggle">▶</span>
-                        <span class="tree-label">四川省</span>
-                    </a>
-                </li>
-                <li class="tree-node">
-                    <a href="hubei.html" class="tree-node-header" data-level="province">
-                        <span class="tree-toggle">▶</span>
-                        <span class="tree-label">湖北省</span>
-                    </a>
-                </li>
-                <li class="tree-node">
-                    <a href="hunan.html" class="tree-node-header active" data-level="province">
-                        <span class="tree-toggle rotated">▶</span>
-                        <span class="tree-label">湖南省</span>
-                    </a>
-                </li>
-                <li class="tree-node">
-                    <a href="henan.html" class="tree-node-header" data-level="province">
-                        <span class="tree-toggle">▶</span>
-                        <span class="tree-label">河南省</span>
-                    </a>
-                </li>
-                <li class="tree-node">
-                    <a href="hebei.html" class="tree-node-header" data-level="province">
-                        <span class="tree-toggle">▶</span>
-                        <span class="tree-label">河北省</span>
-                    </a>
-                </li>
-                <li class="tree-node">
-                    <a href="fujian.html" class="tree-node-header" data-level="province">
-                        <span class="tree-toggle">▶</span>
-                        <span class="tree-label">福建省</span>
-                    </a>
-                </li>
-            </ul>
-        </nav>
-    </aside>
-
-    <main class="main-content">
+<div id="sidebar-container"></div>
+<script src="../app.js" defer></script>
+<main class="main-content" style="margin-left: var(--sidebar-width);">
         <div class="content-wrapper">
             <header class="hero-section">
                 <h1>湖南省人民政府</h1>
                 <p>省级政府 · 地方行政机关</p>
             </header>
-
             <section class="gov-section">
                 <div class="org-detail">
                     <div class="org-header">
@@ -108,13 +26,10 @@
                     <div class="org-info">
                         <h4>人员来源</h4>
                         <p>湖南省公务员通过湖南省公务员考试招录。面向全国招录，重点引进工程机械、轨道交通、人工智能、数字经济等领域人才。2026年重点引进量子科技、自主可控计算产业等前沿领域人才。长株潭都市圈人才吸引力不断增强。</p>
-
                         <h4>人员升迁</h4>
                         <p>实行公务员职级并行制度。先进制造、科技创新相关岗位晋升机会多。2026年全面升级数字化治理和制造业创新能力考核。长株潭都市圈一体化发展能力成为重要指标。</p>
-                        
                         <h4>资金来源</h4>
                         <p>湖南省财政预算拨款。中部省份中经济实力较强。2026年制造业数字化转型和科技创新投入占比达40%。推进零基预算改革试点。数字经济规模持续壮大。</p>
-                        
                         <h4>下属机构（33个）</h4>
                         <p>湖南省政府下设33个组成部门和直属机构：</p>
                         <ul>
@@ -155,13 +70,10 @@
                     </div>
                 </div>
             </section>
-
             <div class="back-to-home">
                 <a href="../index.html" class="btn-back">← 返回首页</a>
             </div>
         </div>
     </main>
-
-    <script src="../app.js"></script>
 </body>
 </html>

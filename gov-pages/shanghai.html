@@ -7,130 +7,17 @@
     <link rel="stylesheet" href="../styles.css">
 </head>
 <body>
+<div id="sidebar-container"></div>
+<script src="../app.js" defer></script>
     <!-- 左侧树形导航侧边栏 -->
-    <aside class="sidebar">
-        <div class="sidebar-header">
-            <h2>政府机关</h2>
-            <p>按地域层级浏览</p>
-        </div>
-        <nav class="tree-nav">
-            <ul class="tree-root">
-                <!-- 省级 -->
-                <li class="tree-node">
-                    <a href="../index.html" class="tree-node-header" data-level="province">
-                        <span class="tree-toggle">▶</span>
-                        <span class="tree-label">北京市</span>
-                    </a>
-                </li>
-
-                <!-- 省级 -->
-                <li class="tree-node">
-                    <a href="shanghai.html" class="tree-node-header active" data-level="province">
-                        <span class="tree-toggle rotated">▶</span>
-                        <span class="tree-label">上海市</span>
-                    </a>
-                    <ul class="tree-children expanded">
-                        <!-- 市级 -->
-                        <li class="tree-node">
-                            <a href="shanghai.html" class="tree-node-header active" data-level="city">
-                                <span class="tree-toggle rotated">▶</span>
-                                <span class="tree-label">上海市</span>
-                            </a>
-                            <ul class="tree-children expanded">
-                                <!-- 区县级 -->
-                                <li class="tree-node">
-                                    <a href="shanghai-pudong.html" class="tree-node-header" data-level="district">
-                                        <span class="tree-toggle">▶</span>
-                                        <span class="tree-label">浦东新区</span>
-                                    </a>
-                                    <ul class="tree-children">
-                                        <!-- 乡级 -->
-                                        <li class="tree-node">
-                                            <a href="shanghai-pudong-lujiazui.html" class="tree-node-header" data-level="township">
-                                                <span class="tree-label">陆家嘴街道</span>
-                                            </a>
-                                        </li>
-                                        <li class="tree-node">
-                                            <a href="shanghai-pudong-weifang.html" class="tree-node-header" data-level="township">
-                                                <span class="tree-label">潍坊新村街道</span>
-                                            </a>
-                                        </li>
-                                        <li class="tree-node">
-                                            <a href="shanghai-pudong-tangqiao.html" class="tree-node-header" data-level="township">
-                                                <span class="tree-label">塘桥街道</span>
-                                            </a>
-                                        </li>
-                                    </ul>
-                                </li>
-                                <li class="tree-node">
-                                    <a href="shanghai-huangpu.html" class="tree-node-header" data-level="district">
-                                        <span class="tree-toggle">▶</span>
-                                        <span class="tree-label">黄浦区</span>
-                                    </a>
-                                    <ul class="tree-children">
-                                        <li class="tree-node">
-                                            <a href="shanghai-huangpu-waitan.html" class="tree-node-header" data-level="township">
-                                                <span class="tree-label">外滩街道</span>
-                                            </a>
-                                        </li>
-                                        <li class="tree-node">
-                                            <a href="shanghai-huangpu-nanjingdonglu.html" class="tree-node-header" data-level="township">
-                                                <span class="tree-label">南京东路街道</span>
-                                            </a>
-                                        </li>
-                                    </ul>
-                                </li>
-                                <li class="tree-node">
-                                    <a href="shanghai-jingan.html" class="tree-node-header" data-level="district">
-                                        <span class="tree-toggle">▶</span>
-                                        <span class="tree-label">静安区</span>
-                                    </a>
-                                    <ul class="tree-children">
-                                        <li class="tree-node">
-                                            <a href="shanghai-jingan-jingansi.html" class="tree-node-header" data-level="township">
-                                                <span class="tree-label">静安寺街道</span>
-                                            </a>
-                                        </li>
-                                        <li class="tree-node">
-                                            <a href="shanghai-jingan-jiangninglu.html" class="tree-node-header" data-level="township">
-                                                <span class="tree-label">江宁路街道</span>
-                                            </a>
-                                        </li>
-                                    </ul>
-                                </li>
-                            </ul>
-                        </li>
-                    </ul>
-                </li>
-
-                <!-- 省级 -->
-                <li class="tree-node">
-                    <a href="../index.html" class="tree-node-header" data-level="province">
-                        <span class="tree-toggle">▶</span>
-                        <span class="tree-label">广东省</span>
-                    </a>
-                </li>
-
-                <!-- 省级 -->
-                <li class="tree-node">
-                    <a href="../index.html" class="tree-node-header" data-level="province">
-                        <span class="tree-toggle">▶</span>
-                        <span class="tree-label">浙江省</span>
-                    </a>
-                </li>
-            </ul>
-        </nav>
-    </aside>
-
-    <!-- 主要内容 -->
-    <main class="main-content">
+<!-- 主要内容 -->
+    <main class="main-content" style="margin-left: var(--sidebar-width);">
         <div class="content-wrapper">
             <!-- 头部横幅 -->
             <header class="hero-section">
                 <h1>上海市人民政府</h1>
                 <p>省级政府 · 地方行政机关</p>
             </header>
-
             <!-- 机构详情 -->
             <section class="gov-section">
                 <div class="org-detail">
@@ -143,13 +30,10 @@
                     <div class="org-info">
                         <h4>人员来源</h4>
                         <p>上海市公务员通过上海市公务员考试招录。重点招录金融、贸易、法律、管理类专业人才。2026年大力引进国际金融科技、数字贸易、人工智能等领域人才。国际人才引进力度大。</p>
-
                         <h4>人员升迁</h4>
                         <p>实行公务员职级并行制度。晋升竞争激烈，要求高。2026年增加国际化能力和数字化管理考核。国际化人才晋升通道畅通。</p>
-
                         <h4>资金来源</h4>
                         <p>上海市财政预算拨款。作为国际金融中心，财政收入规模大，财力雄厚。2026年数字化转型和自贸区建设投入占比达40%。</p>
-
                         <h4>下属机构（32个）</h4>
                         <p>上海市政府下设32个组成部门和直属机构：</p>
                         <ul>
@@ -189,14 +73,11 @@
                     </div>
                 </div>
             </section>
-
             <!-- 返回首页 -->
             <div class="back-to-home">
                 <a href="../index.html" class="btn-back">← 返回首页</a>
             </div>
         </div>
     </main>
-
-    <script src="../app.js"></script>
 </body>
 </html>

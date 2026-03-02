@@ -7,82 +7,17 @@
     <link rel="stylesheet" href="../styles.css">
 </head>
 <body>
+<div id="sidebar-container"></div>
+<script src="../app.js" defer></script>
     <!-- 左侧树形导航侧边栏 -->
-    <aside class="sidebar">
-        <div class="sidebar-header">
-            <h2>政府机关</h2>
-            <p>按地域层级浏览</p>
-        </div>
-        <nav class="tree-nav">
-            <ul class="tree-root">
-                <!-- 省级 -->
-                <li class="tree-node">
-                    <a href="../index.html" class="tree-node-header active" data-level="province">
-                        <span class="tree-toggle rotated">▶</span>
-                        <span class="tree-label">北京市</span>
-                    </a>
-                    <ul class="tree-children expanded">
-                        <!-- 市级 -->
-                        <li class="tree-node">
-                            <a href="../index.html" class="tree-node-header active" data-level="city">
-                                <span class="tree-toggle rotated">▶</span>
-                                <span class="tree-label">北京市</span>
-                            </a>
-                            <ul class="tree-children expanded">
-                                <!-- 区县级 -->
-                                <li class="tree-node">
-                                    <a href="beijing-haidian.html" class="tree-node-header active" data-level="district">
-                                        <span class="tree-toggle rotated">▶</span>
-                                        <span class="tree-label">海淀区</span>
-                                    </a>
-                                    <ul class="tree-children expanded">
-                                        <!-- 乡级 -->
-                                        <li class="tree-node">
-                                            <a href="beijing-haidian-zhongguancun.html" class="tree-node-header" data-level="township">
-                                                <span class="tree-label">中关村街道</span>
-                                            </a>
-                                        </li>
-                                        <li class="tree-node">
-                                            <a href="beijing-haidian-qinghuayuan.html" class="tree-node-header" data-level="township">
-                                                <span class="tree-label">清华园街道</span>
-                                            </a>
-                                        </li>
-                                        <li class="tree-node">
-                                            <a href="beijing-haidian-yanyuan.html" class="tree-node-header" data-level="township">
-                                                <span class="tree-label">燕园街道</span>
-                                            </a>
-                                        </li>
-                                    </ul>
-                                </li>
-                                <li class="tree-node">
-                                    <a href="beijing-chaoyang.html" class="tree-node-header" data-level="district">
-                                        <span class="tree-toggle">▶</span>
-                                        <span class="tree-label">朝阳区</span>
-                                    </a>
-                                </li>
-                                <li class="tree-node">
-                                    <a href="beijing-dongcheng.html" class="tree-node-header" data-level="district">
-                                        <span class="tree-toggle">▶</span>
-                                        <span class="tree-label">东城区</span>
-                                    </a>
-                                </li>
-                            </ul>
-                        </li>
-                    </ul>
-                </li>
-            </ul>
-        </nav>
-    </aside>
-
-    <!-- 主要内容 -->
-    <main class="main-content">
+<!-- 主要内容 -->
+    <main class="main-content" style="margin-left: var(--sidebar-width);">
         <div class="content-wrapper">
             <!-- 头部横幅 -->
             <header class="hero-section">
                 <h1>北京市海淀区政府</h1>
                 <p>区县级政府 · 地方行政机关</p>
             </header>
-
             <!-- 机构详情 -->
             <section class="gov-section">
                 <div class="org-detail">
@@ -95,13 +30,10 @@
                     <div class="org-info">
                     <h4>人员来源</h4>
                     <p>海淀区公务员通过北京市公务员考试招录。面向全国招录，特别是高学历人才。2026年重点引进人工智能、量子科技、生物医药、低空经济等前沿领域博士、博士后。高校毕业生就业首选区之一。实施科技人才专项引进计划。</p>
-                    
                     <h4>人员升迁</h4>
                     <p>实行公务员职级并行制度。教育、科技相关岗位晋升机会多。2026年全面升级科技创新和产学研合作考核，数字化治理能力成为重要指标。高学历人才晋升优势明显。</p>
-                    
                     <h4>资金来源</h4>
                     <p海淀区财政预算拨款。作为教育科技中心，财政收入稳定增长。2026年科技创新和人工智能产业投入占比达60%。率先推进零基预算改革试点，提升财政资金使用效益。中关村科学城建设加速推进。</p>
-
                         <h4>下属机构（34个）</h4>
                         <p>海淀区政府下设34个组成部门和直属机构：</p>
                         <ul>
@@ -140,14 +72,11 @@
                     </div>
                 </div>
             </section>
-
             <!-- 返回首页 -->
             <div class="back-to-home">
                 <a href="../index.html" class="btn-back">← 返回首页</a>
             </div>
         </div>
     </main>
-
-    <script src="../app.js"></script>
 </body>
 </html>

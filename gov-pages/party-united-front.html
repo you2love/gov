@@ -54,77 +54,14 @@
     </style>
 </head>
 <body>
-    <aside class="sidebar">
-        <div class="sidebar-header">
-            <h2>党的机关</h2>
-            <p>按机构类型浏览</p>
-        </div>
-        <nav class="tree-nav">
-            <ul class="tree-root">
-                <li class="tree-node">
-                    <a href="central-npc.html" class="tree-node-header" data-level="central">
-                        <span class="tree-toggle">▶</span>
-                        <span class="tree-label">中央直属机关</span>
-                    </a>
-                </li>
-                <li class="tree-node">
-                    <a href="party-ccao.html" class="tree-node-header" data-level="party">
-                        <span class="tree-toggle">▶</span>
-                        <span class="tree-label">中共中央办公厅</span>
-                    </a>
-                </li>
-                <li class="tree-node">
-                    <a href="party-org.html" class="tree-node-header" data-level="party">
-                        <span class="tree-toggle">▶</span>
-                        <span class="tree-label">中共中央组织部</span>
-                    </a>
-                </li>
-                <li class="tree-node">
-                    <a href="party-propaganda.html" class="tree-node-header" data-level="party">
-                        <span class="tree-toggle">▶</span>
-                        <span class="tree-label">中共中央宣传部</span>
-                    </a>
-                </li>
-                <li class="tree-node">
-                    <a href="party-united-front.html" class="tree-node-header active" data-level="party">
-                        <span class="tree-toggle rotated">▶</span>
-                        <span class="tree-label">中共中央统战部</span>
-                    </a>
-                    <ul class="tree-children expanded">
-                        <li class="tree-node">
-                            <a href="#scope" class="tree-node-header">
-                                <span class="tree-label">工作范围</span>
-                            </a>
-                        </li>
-                        <li class="tree-node">
-                            <a href="#democratic" class="tree-node-header">
-                                <span class="tree-label">民主党派</span>
-                            </a>
-                        </li>
-                        <li class="tree-node">
-                            <a href="#overseas" class="tree-node-header">
-                                <span class="tree-label">港澳台海外</span>
-                            </a>
-                        </li>
-                    </ul>
-                </li>
-                <li class="tree-node">
-                    <a href="party-discipline.html" class="tree-node-header" data-level="party">
-                        <span class="tree-toggle">▶</span>
-                        <span class="tree-label">中央纪委国家监委</span>
-                    </a>
-                </li>
-            </ul>
-        </nav>
-    </aside>
-
-    <main class="main-content">
+<div id="sidebar-container"></div>
+<script src="../app.js" defer></script>
+<main class="main-content" style="margin-left: var(--sidebar-width);">
         <div class="content-wrapper">
             <header class="hero-section">
                 <h1>中共中央统战部</h1>
                 <p>党中央主管统一战线工作的职能部门</p>
             </header>
-
             <section class="gov-section">
                 <div class="org-detail">
                     <div class="org-header">
@@ -135,7 +72,6 @@
                     </div>
                 </div>
             </section>
-
             <!-- 统一战线工作范围 -->
             <section id="scope" class="gov-section">
                 <h2>🔄 统一战线工作流程</h2>
@@ -161,7 +97,6 @@
                     </div>
                 </div>
             </section>
-
             <!-- 统一战线构成 -->
             <section id="democratic" class="gov-section">
                 <h2>🏛️ 统一战线构成</h2>
@@ -200,7 +135,6 @@
                     </div>
                 </div>
             </section>
-
             <!-- 2026年重点工作 -->
             <section id="overseas" class="gov-section">
                 <h2>🌏 2026年重点工作</h2>
@@ -227,13 +161,10 @@
                     </div>
                 </div>
             </section>
-
             <div class="back-to-home">
                 <a href="../index.html" class="btn-back">← 返回首页</a>
             </div>
         </div>
     </main>
-
-    <script src="../app.js"></script>
 </body>
 </html>

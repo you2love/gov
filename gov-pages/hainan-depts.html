@@ -12,61 +12,14 @@
     </style>
 </head>
 <body>
-    <aside class="sidebar">
-        <div class="sidebar-header">
-            <h2>政府机关</h2>
-            <p>按地域层级浏览</p>
-        </div>
-        <nav class="tree-nav">
-            <ul class="tree-root">
-                <li class="tree-node">
-                    <a href="../index.html#national" class="tree-node-header">国家级机关</a>
-                </li>
-                <li class="tree-node">
-                    <a href="#provincial" class="tree-node-header" data-level="province">
-                        <span class="tree-toggle rotated">▶</span>
-                        <span class="tree-label">省级政府</span>
-                    </a>
-                    <ul class="tree-children expanded">
-                        <li class="tree-node"><a href="beijing-depts.html">北京市</a></li>
-                        <li class="tree-node"><a href="shanghai-depts.html">上海市</a></li>
-                        <li class="tree-node"><a href="guangdong-depts.html">广东省</a></li>
-                        <li class="tree-node"><a href="zhejiang-depts.html">浙江省</a></li>
-                        <li class="tree-node"><a href="jiangsu-depts.html">江苏省</a></li>
-                        <li class="tree-node"><a href="shandong-depts.html">山东省</a></li>
-                        <li class="tree-node"><a href="sichuan-depts.html">四川省</a></li>
-                        <li class="tree-node"><a href="hubei-depts.html">湖北省</a></li>
-                        <li class="tree-node"><a href="hunan-depts.html">湖南省</a></li>
-                        <li class="tree-node"><a href="henan-depts.html">河南省</a></li>
-                        <li class="tree-node"><a href="hebei-depts.html">河北省</a></li>
-                        <li class="tree-node"><a href="fujian-depts.html">福建省</a></li>
-                        <li class="tree-node">
-                            <a href="hainan-depts.html" class="tree-node-header active">
-                                <span class="tree-toggle rotated">▶</span>
-                                <span class="tree-label">海南省</span>
-                            </a>
-                            <ul class="tree-children expanded">
-                                <li class="tree-node"><a href="#overview">机构概览</a></li>
-                            </ul>
-                        </li>
-                        <li class="tree-node"><a href="neimenggu-depts.html">内蒙古</a></li>
-                        <li class="tree-node"><a href="guangxi-depts.html">广西</a></li>
-                        <li class="tree-node"><a href="xizang-depts.html">西藏</a></li>
-                        <li class="tree-node"><a href="ningxia-depts.html">宁夏</a></li>
-                        <li class="tree-node"><a href="xinjiang-depts.html">新疆</a></li>
-                    </ul>
-                </li>
-            </ul>
-        </nav>
-    </aside>
-
-    <main class="main-content">
+<div id="sidebar-container"></div>
+<script src="../app.js" defer></script>
+<main class="main-content" style="margin-left: var(--sidebar-width);">
         <div class="content-wrapper">
             <header class="hero-section">
                 <h1>海南省人民政府下属机构</h1>
                 <p>省级政府 · 省政府组成部门</p>
             </header>
-
             <section id="overview" class="gov-section">
                 <h2>📊 海南省基本情况</h2>
                 <div class="stat-row">
@@ -88,13 +41,10 @@
                     </div>
                 </div>
             </section>
-
             <div class="back-to-home">
                 <a href="../index.html" class="btn-back">← 返回首页</a>
             </div>
         </div>
     </main>
-
-    <script src="../app.js"></script>
 </body>
 </html>
